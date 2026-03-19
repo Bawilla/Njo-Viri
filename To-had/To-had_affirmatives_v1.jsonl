@@ -1,0 +1,78 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_tense_to_have",
+  "description": "This file defines the past tense forms of the verb 'to have' in Njo Viri (Balanda). Past possession, obligation, and states are expressed using the verbs 'akabi' and 'akati'.",
+  "rules": {
+    "general_principle": {
+      "statement": "Balanda expresses the past tense meaning of 'had' using two distinct verbs: 'akabi' for past physical possession or obligation, and 'akati' for past non-physical states or conditions."
+    },
+
+    "akabi": {
+      "base_form": "abi",
+      "past_form": "akabi",
+      "meaning": "had (physical possession or obligation in the past)",
+      "semantic_scope": [
+        "past physical possessions",
+        "past roles or jobs",
+        "past obligation or necessity"
+      ],
+      "structure": "Akabi + Subject + no + Noun / Verb phrase",
+      "constraints": [
+        "Used only for concrete or physical possession in the past",
+        "Used to express past obligation (had to)",
+        "Not used for feelings or bodily states"
+      ],
+      "examples": [
+        "Akabi ne no tamma",
+        "Akabi ni no kese",
+        "Akabi ndi no ayai",
+        "Akabi Uku no nde"
+      ]
+    },
+
+    "akati": {
+      "base_form": "ati",
+      "past_form": "akati",
+      "meaning": "had (non-physical states or conditions in the past)",
+      "semantic_scope": [
+        "past feelings or sensations",
+        "past illness or bodily conditions",
+        "past states or qualities"
+      ],
+      "structure": "Akati + Subject + no + State / Condition",
+      "constraints": [
+        "Used only for non-physical or abstract states",
+        "Cannot be used for physical possession",
+        "Commonly used for hunger, pain, sickness, emotions, and conditions"
+      ],
+      "examples": [
+        "Akati ne no goho",
+        "Akati ni no kumuru",
+        "Akati ŋo no veti"
+      ]
+    },
+
+    "copula_usage": {
+      "rule": "Both 'akabi' and 'akati' require the copula 'no' to link the subject with the possessed item or state.",
+      "note": "The copula remains 'no' in these past-have constructions."
+    },
+
+    "tense_consistency": {
+      "rule": "Past tense is encoded in the verb 'akabi' or 'akati', not in the copula or the noun."
+    },
+
+    "error_constraints": [
+      "Do not use 'akabi' for feelings or sickness",
+      "Do not use 'akati' for physical objects or jobs",
+      "Do not omit the copula 'no'",
+      "Do not interchange 'akabi' and 'akati'"
+    ],
+
+    "model_behavior_guidelines": {
+      "treat_akabi_and_akati_as_distinct_verbs": true,
+      "preserve_semantic_split": true,
+      "enforce_copula_no": true,
+      "map_to_english_had_contextually": true
+    }
+  }
+}

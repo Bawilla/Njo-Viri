@@ -1,0 +1,100 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_perfect_negation",
+  "description": "This file defines negation in the Past Perfect tense in Njo Viri (Balanda). Negation is formed by keeping the past perfect prefix 'taa-' on the verb and adding the sentence-final negation marker 'gba'.",
+  "rules": {
+    "general_principle": {
+      "statement": "Past perfect negation in Balanda is formed by adding the negation marker 'gba' at the end of a past perfect clause. The verbal prefix 'taa-' remains unchanged."
+    },
+
+    "negative_structure": {
+      "structure": "Subject + taa-Verb + (Object / Complement) + gba",
+      "constraints": [
+        "The prefix 'taa-' must remain attached to the verb",
+        "'gba' must appear sentence-final",
+        "No auxiliary verbs are introduced"
+      ]
+    },
+
+    "preposition_behavior": {
+      "rule": "All prepositions remain unchanged under negation.",
+      "examples": [
+        "gbi famvara gba",
+        "ti vili gba"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not remove 'taa-' in negation",
+      "Do not place 'gba' before the verb",
+      "Do not add 'no' or 'noka'",
+      "Do not alter prepositions in negative clauses"
+    ],
+
+    "model_behavior_guidelines": {
+      "preserve_affirmative_structure": true,
+      "append_gba_sentence_final": true,
+      "do_not_modify_prepositions": true
+    }
+  }
+}
+
+
+[
+  {"balanda":"Ne taaja se gba","english":"I had not eaten fish"},
+  {"balanda":"Ne taanzü ngo gba","english":"I had not drunk water"},
+  {"balanda":"Ne taateli gbi famvara gba","english":"I had not slept in the bed"},
+  {"balanda":"Ne taayai gba","english":"I had not gone"},
+  {"balanda":"Ne taadhii ba gba","english":"I had not come home"},
+  {"balanda":"Ne taanonö gbi difo gba","english":"I had not walked in the compound"},
+  {"balanda":"Ni taanangele zanga gba","english":"She had not run fast"},
+  {"balanda":"Uku taamande gbi njü gba","english":"Uku had not worked in the garden"},
+  {"balanda":"Ne taamoliki gbi difo gba","english":"I had not played in the compound"},
+  {"balanda":"Ne taaloro bura gba","english":"I had not watched the cat"},
+
+  {"balanda":"Ne taavele Balanda gba","english":"I had not spoken Balanda"},
+  {"balanda":"Ne taasudi kavoso gba","english":"I had not written words"},
+  {"balanda":"Ne taadheke kitabu gba","english":"I had not read a book"},
+  {"balanda":"Ne taateri dha gba","english":"I had not thought about it"},
+  {"balanda":"Ne taaŋiyi dha gba","english":"I had not known it"},
+  {"balanda":"Ne taawe ndi gba","english":"I had not asked them"},
+  {"balanda":"Ne taavele zi ndi gba","english":"I had not told them"},
+  {"balanda":"Ne taakeye ndi gba","english":"I had not called them"},
+
+  {"balanda":"Ne taamerego ŋo gba","english":"I had not loved you"},
+  {"balanda":"Ne taamaguku ti dha gba","english":"I had not feared it"},
+  {"balanda":"Ne taasogo dha gba","english":"I had not hated it"},
+  {"balanda":"Ni taariki dha gba","english":"She had not surprised him"},
+  {"balanda":"Ne taadovee gba","english":"I had not seemed so"},
+
+  {"balanda":"Ne taayele tamma gba","english":"I had not tied the shoe"},
+  {"balanda":"Ne taadi kalla gba","english":"I had not cut the pot"},
+  {"balanda":"Ne taatele njokoji gba","english":"I had not pulled the door"},
+  {"balanda":"Ne taaturu songo gba","english":"I had not pushed the box"},
+  {"balanda":"Ne taasoko tamma gba","english":"I had not washed the shoe"},
+  {"balanda":"Ne taakuru kau gba","english":"I had not hidden the beads"},
+
+  {"balanda":"Ne taangö tiyi gba","english":"I had not built a house"},
+  {"balanda":"Ne taasuru voso gba","english":"I had not created words"},
+  {"balanda":"Ne taagiri voso gba","english":"I had not changed the words"},
+  {"balanda":"Ne taakara njokoji gba","english":"I had not turned the door"},
+  {"balanda":"Ne taatoko ti vili gba","english":"I had not added money"},
+  {"balanda":"Ne taakefo balanda gba","english":"I had not described Balanda"},
+
+  {"balanda":"Ne taakonu ndi gba","english":"I had not helped them"},
+  {"balanda":"Ne taandugu mira gba","english":"I had not initiated the project"},
+  {"balanda":"Ne taamaforo ti mira gba","english":"I had not contributed to the project"},
+  {"balanda":"Ne taasarwa kumere gba","english":"I had not separated the trash"},
+  {"balanda":"Ne taakiri tidina gba","english":"I had not upheld the law"},
+
+  {"balanda":"Ne taaduru ngo gba","english":"I had not wanted water"},
+  {"balanda":"Ne taaze vili gba","english":"I had not given money"},
+  {"balanda":"Ne taadhe vili gba","english":"I had not found money"},
+  {"balanda":"Ne taamele vongu gba","english":"I had not tried the cloth"},
+  {"balanda":"Ne taasi ba gba","english":"I had not left home"},
+  {"balanda":"Ne taalu gba","english":"I had not arrived"},
+  {"balanda":"Ne taafagi mva gba","english":"I had not sharpened the knife"},
+  {"balanda":"Ne taadewe kakpodu gba","english":"I had not imitated adults"},
+  {"balanda":"Ne taabita mira gba","english":"I had not started the project"},
+  {"balanda":"Ne taateta gba","english":"I had not fallen"}
+]

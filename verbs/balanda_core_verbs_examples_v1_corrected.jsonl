@@ -1,0 +1,251 @@
+{
+  "instruction_type": "derivation_rule",
+  "grammar_name": "balanda_infinitive_to_finite_mapping",
+  "description": "This file demonstrates how Balanda infinitive verbs (A-VERB) are converted into finite present-tense sentence forms. The infinitive prefix 'A-' is removed and replaced with appropriate tense, aspect, negation, or question markers.",
+  "rules": {
+    "base_principle": "Infinitive verbs (A-VERB) cannot appear directly in sentences. To form a sentence, the prefix 'A-' must be removed and replaced by finite morphology.",
+    "present_simple": {
+      "structure": "Subject + VERB + Object/Complement",
+      "rule": "Remove the infinitive prefix 'A-' and use the bare verb",
+      "example": {
+        "infinitive": "Aja",
+        "finite": "Ne ja nza"
+      }
+    },
+    "present_continuous": {
+      "structure": "Subject + no + ti-VERB + Object/Complement",
+      "rule": "Remove 'A-', prefix the verb with 'ti-', and insert the copular marker 'no'",
+      "example": {
+        "infinitive": "Aja",
+        "finite": "Ne no tija nza"
+      }
+    },
+    "negation": {
+      "structure": "Subject + VERB + Object/Complement + gba",
+      "rule": "Use the bare verb and add the negation marker 'gba' at the end of the clause",
+      "example": {
+        "infinitive": "Aja",
+        "finite": "Ne ja nza gba"
+      }
+    },
+    "question": {
+      "structure": "Subject + VERB + Object/Complement + we?",
+      "rule": "Questions are formed by adding the sentence-final question particle 'we?' with no word order change",
+      "example": {
+        "infinitive": "Aja",
+        "finite": "Ne ja nza we?"
+      }
+    },
+    "constraints": [
+      "The prefix 'A-' must always be removed in finite clauses",
+      "Infinitives must not appear with tense, aspect, or modal markers",
+      "ti- is used only in continuous aspect",
+      "no marks present continuous aspect",
+      "gba marks negation and must appear clause-finally",
+      "we? marks questions and must appear at the end of the sentence",
+      "No inversion or auxiliary movement occurs in questions"
+    ]
+  }
+}
+
+
+
+{"instruction":"Present simple example","input":"Aja","output":"Ne ja nza"}
+{"instruction":"Present continuous example","input":"Aja","output":"Ne no tija nza"}
+{"instruction":"Negative example","input":"Aja","output":"Ne ja nza gba"}
+{"instruction":"Question example","input":"Aja","output":"Ne ja nza we?"}
+
+{"instruction":"Present simple example","input":"Ajü","output":"Ne jü njü"}
+{"instruction":"Present continuous example","input":"Ajü","output":"Ne no tijü njü"}
+{"instruction":"Negative example","input":"Ajü","output":"Ne jü njü gba"}
+{"instruction":"Question example","input":"Ajü","output":"Ne jü njü we?"}
+
+{"instruction":"Present simple example","input":"Ateli","output":"Ni teli ta doo"}
+{"instruction":"Present continuous example","input":"Ateli","output":"Ni no titeli ta doo"}
+{"instruction":"Negative example","input":"Ateli","output":"Ni teli ta doo gba"}
+{"instruction":"Question example","input":"Ateli","output":"Ni teli ta doo we?"}
+
+{"instruction":"Present simple example","input":"Ayai","output":"Ne yai a Wau"}
+{"instruction":"Present continuous example","input":"Ayai","output":"Ne no tiyai a Wau"}
+{"instruction":"Negative example","input":"Ayai","output":"Ne yai a Wau gba"}
+{"instruction":"Question example","input":"Ayai","output":"Ne yai a Wau we?"}
+
+{"instruction":"Present simple example","input":"Adhii","output":"Ni dhii baa"}
+{"instruction":"Present continuous example","input":"Adhii","output":"Ni no tadhii baa"}
+{"instruction":"Negative example","input":"Adhii","output":"Ni dhii baa gba"}
+{"instruction":"Question example","input":"Adhii","output":"Ni dhii baa we?"}
+
+{"instruction":"Present simple example","input":"Anonö","output":"Ne nonö gbi gbata"}
+{"instruction":"Present continuous example","input":"Anonö","output":"Ne no tinonö gbi gbata"}
+{"instruction":"Negative example","input":"Anonö","output":"Ne nonö gbi gbata gba"}
+{"instruction":"Question example","input":"Anonö","output":"Ne nonö gbi gbata we?"}
+
+{"instruction":"Present simple example","input":"Amande","output":"Ni mande gbi njü"}
+{"instruction":"Present continuous example","input":"Amande","output":"Ni no timande gbi njü"}
+{"instruction":"Negative example","input":"Amande","output":"Ni mande gbi njü gba"}
+{"instruction":"Question example","input":"Amande","output":"Ni mande gbi njü we?"}
+
+{"instruction":"Present simple example","input":"Amoliki","output":"Ndi moliki gbi difo"}
+{"instruction":"Present continuous example","input":"Amoliki","output":"Ndi no timoliki gbi difo"}
+{"instruction":"Negative example","input":"Amoliki","output":"Ndi moliki gbi difo gba"}
+{"instruction":"Question example","input":"Amoliki","output":"Ndi moliki gbi difo we?"}
+
+{"instruction":"Present simple example","input":"Amerego","output":"Ne merego ŋo"}
+{"instruction":"Present continuous example","input":"Amerego","output":"Ne no timerego ŋo"}
+{"instruction":"Negative example","input":"Amerego","output":"Ne merego ŋo gba"}
+{"instruction":"Question example","input":"Amerego","output":"Ne merego ŋo we?"}
+
+{"instruction":"Present simple example","input":"Aŋiyi","output":"Ne ŋiyi ndi"}
+{"instruction":"Present continuous example","input":"Aŋiyi","output":"Ne no tiŋiyi ndi"}
+{"instruction":"Negative example","input":"Aŋiyi","output":"Ne ŋiyi ndi gba"}
+{"instruction":"Question example","input":"Aŋiyi","output":"Ne ŋiyi ndi we?"}
+
+{"instruction":"Present simple example","input":"Ateri","output":"Ne teri"}
+{"instruction":"Present continuous example","input":"Ateri","output":"Ne no titeri"}
+{"instruction":"Negative example","input":"Ateri","output":"Ne teri gba"}
+{"instruction":"Question example","input":"Ateri","output":"Ne teri we?"}
+
+{"instruction":"Present simple example","input":"Awe","output":"Ne we ŋo"}
+{"instruction":"Present continuous example","input":"Awe","output":"Ne no tiwe ŋo"}
+{"instruction":"Negative example","input":"Awe","output":"Ne we ŋo gba"}
+{"instruction":"Question example","input":"Awe","output":"Ne we ŋo we?"}
+
+{"instruction":"Present simple example","input":"Avele","output":"Ne vele bihiyi"}
+{"instruction":"Present continuous example","input":"Avele","output":"Ne no tivele bihiyi"}
+{"instruction":"Negative example","input":"Avele","output":"Ne vele bihiyi gba"}
+{"instruction":"Question example","input":"Avele","output":"Ne vele bihiyi we?"}
+
+{"instruction":"Present simple example","input":"Abaha","output":"Ne baha ŋo"}
+{"instruction":"Present continuous example","input":"Abaha","output":"Ne no tibaha ŋo"}
+{"instruction":"Negative example","input":"Abaha","output":"Ne baha ŋo gba"}
+{"instruction":"Question example","input":"Abaha","output":"Ne baha ŋo we?"}
+
+{"instruction":"Present simple example","input":"Asüsü","output":"Ne süsü ngo"}
+{"instruction":"Present continuous example","input":"Asüsü","output":"Ne no tisüsü ngo"}
+{"instruction":"Negative example","input":"Asüsü","output":"Ne süsü ngo gba"}
+{"instruction":"Question example","input":"Asüsü","output":"Ne süsü ngo we?"}
+
+{"instruction":"Present simple example","input":"Asudi","output":"Ne sudi kitab"}
+{"instruction":"Present continuous example","input":"Asudi","output":"Ne no tisudi kitab"}
+{"instruction":"Negative example","input":"Asudi","output":"Ne sudi kitab gba"}
+{"instruction":"Question example","input":"Asudi","output":"Ne sudi kitab we?"}
+
+{"instruction":"Present simple example","input":"Adheke","output":"Ne dheke kitab"}
+{"instruction":"Present continuous example","input":"Adheke","output":"Ne no tidheke kitab"}
+{"instruction":"Negative example","input":"Adheke","output":"Ne dheke kitab gba"}
+{"instruction":"Question example","input":"Adheke","output":"Ne dheke kitab we?"}
+
+{"instruction":"Present simple example","input":"Asï","output":"Ne sï nza"}
+{"instruction":"Present continuous example","input":"Asï","output":"Ne no tisï nza"}
+{"instruction":"Negative example","input":"Asï","output":"Ne sï nza gba"}
+{"instruction":"Question example","input":"Asï","output":"Ne sï nza we?"}
+
+{"instruction":"Present simple example","input":"Asadi","output":"Ne sadi nza"}
+{"instruction":"Present continuous example","input":"Asadi","output":"Ne no tisadi nza"}
+{"instruction":"Negative example","input":"Asadi","output":"Ne sadi nza gba"}
+{"instruction":"Question example","input":"Asadi","output":"Ne sadi nza we?"}
+
+{"instruction":"Present simple example","input":"Aturu","output":"Ni turu kafa"}
+{"instruction":"Present continuous example","input":"Aturu","output":"Ni no tituru kafa"}
+{"instruction":"Negative example","input":"Aturu","output":"Ni turu kafa gba"}
+{"instruction":"Question example","input":"Aturu","output":"Ni turu kafa we?"}
+
+{"instruction":"Present simple example","input":"Azaka","output":"Ni zaka kafa"}
+{"instruction":"Present continuous example","input":"Azaka","output":"Ni no tizaka kafa"}
+{"instruction":"Negative example","input":"Azaka","output":"Ni zaka kafa gba"}
+{"instruction":"Question example","input":"Azaka","output":"Ni zaka kafa we?"}
+
+{"instruction":"Present simple example","input":"Akara","output":"Ni kara kafa"}
+{"instruction":"Present continuous example","input":"Akara","output":"Ni no tikara kafa"}
+{"instruction":"Negative example","input":"Akara","output":"Ni kara kafa gba"}
+{"instruction":"Question example","input":"Akara","output":"Ni kara kafa we?"}
+
+{"instruction":"Present simple example","input":"Akeye","output":"Ne keye ŋo"}
+{"instruction":"Present continuous example","input":"Akeye","output":"Ne no tikeye ŋo"}
+{"instruction":"Negative example","input":"Akeye","output":"Ne keye ŋo gba"}
+{"instruction":"Question example","input":"Akeye","output":"Ne keye ŋo we?"}
+
+{"instruction":"Present simple example","input":"Awofo","output":"Ndi wofo njofanau"}
+{"instruction":"Present continuous example","input":"Awofo","output":"Ndi no tiwofo njofanau"}
+{"instruction":"Negative example","input":"Awofo","output":"Ndi wofo njofanau gba"}
+{"instruction":"Question example","input":"Awofo","output":"Ndi wofo njofanau we?"}
+
+{"instruction":"Present simple example","input":"Akolo","output":"Ne kolo ŋo"}
+{"instruction":"Present continuous example","input":"Akolo","output":"Ne no tikolo ŋo"}
+{"instruction":"Negative example","input":"Akolo","output":"Ne kolo ŋo gba"}
+{"instruction":"Question example","input":"Akolo","output":"Ne kolo ŋo we?"}
+
+{"instruction":"Present simple example","input":"Amago","output":"Ndi mago"}
+{"instruction":"Present continuous example","input":"Amago","output":"Ndi no timago"}
+{"instruction":"Negative example","input":"Amago","output":"Ndi mago gba"}
+{"instruction":"Question example","input":"Amago","output":"Ndi mago we?"}
+
+{"instruction":"Present simple example","input":"Avanda","output":"Ni vanda baa"}
+{"instruction":"Present continuous example","input":"Avanda","output":"Ni no tivanda baa"}
+{"instruction":"Negative example","input":"Avanda","output":"Ni vanda baa gba"}
+{"instruction":"Question example","input":"Avanda","output":"Ni vanda baa we?"}
+
+{"instruction":"Present simple example","input":"Ateta","output":"Ni teta"}
+{"instruction":"Present continuous example","input":"Ateta","output":"Ni no titeta"}
+{"instruction":"Negative example","input":"Ateta","output":"Ni teta gba"}
+{"instruction":"Question example","input":"Ateta","output":"Ni teta we?"}
+
+{"instruction":"Present simple example","input":"Agiri","output":"Ni giri"}
+{"instruction":"Present continuous example","input":"Agiri","output":"Ni no tigiri"}
+{"instruction":"Negative example","input":"Agiri","output":"Ni giri gba"}
+{"instruction":"Question example","input":"Agiri","output":"Ni giri we?"}
+
+{"instruction":"Present simple example","input":"Avere","output":"Loli vere"}
+{"instruction":"Present continuous example","input":"Avere","output":"Loli no tivere"}
+{"instruction":"Negative example","input":"Avere","output":"Loli vere gba"}
+{"instruction":"Question example","input":"Avere","output":"Loli vere we?"}
+
+{"instruction":"Present simple example","input":"Adeye","output":"Ndi deye"}
+{"instruction":"Present continuous example","input":"Adeye","output":"Ndi no tideye"}
+{"instruction":"Negative example","input":"Adeye","output":"Ndi deye gba"}
+{"instruction":"Question example","input":"Adeye","output":"Ndi deye we?"}
+
+{"instruction":"Present simple example","input":"Arengo","output":"Ni rengo"}
+{"instruction":"Present continuous example","input":"Arengo","output":"Ni no tirengo"}
+{"instruction":"Negative example","input":"Arengo","output":"Ni rengo gba"}
+{"instruction":"Question example","input":"Arengo","output":"Ni rengo we?"}
+
+{"instruction":"Present simple example","input":"Adho","output":"Ni dho"}
+{"instruction":"Present continuous example","input":"Adho","output":"Ni no tidho"}
+{"instruction":"Negative example","input":"Adho","output":"Ni dho gba"}
+{"instruction":"Question example","input":"Adho","output":"Ni dho we?"}
+
+{"instruction":"Present simple example","input":"Ama","output":"Ne ma nde"}
+{"instruction":"Present continuous example","input":"Ama","output":"Ne no tima nde"}
+{"instruction":"Negative example","input":"Ama","output":"Ne ma nde gba"}
+{"instruction":"Question example","input":"Ama","output":"Ne ma nde we?"}
+
+{"instruction":"Present simple example","input":"Awala","output":"Ni wala gbi baa"}
+{"instruction":"Present continuous example","input":"Awala","output":"Ni no tiwala gbi baa"}
+{"instruction":"Negative example","input":"Awala","output":"Ni wala gbi baa gba"}
+{"instruction":"Question example","input":"Awala","output":"Ni wala gbi baa we?"}
+
+{"instruction":"Present simple example","input":"Aduru","output":"Ne duru ngo"}
+{"instruction":"Present continuous example","input":"Aduru","output":"Ne no tiduru ngo"}
+{"instruction":"Negative example","input":"Aduru","output":"Ne duru ngo gba"}
+{"instruction":"Question example","input":"Aduru","output":"Ne duru ngo we?"}
+
+{"instruction":"Present simple example","input":"Adüŋü","output":"Ni düŋü gbi baa"}
+{"instruction":"Present continuous example","input":"Adüŋü","output":"Ni no tidüŋü gbi baa"}
+{"instruction":"Negative example","input":"Adüŋü","output":"Ni düŋü gbi baa gba"}
+{"instruction":"Question example","input":"Adüŋü","output":"Ni düŋü gbi baa we?"}
+
+{"instruction":"Present simple example","input":"Abase","output":"Ni base"}
+{"instruction":"Present continuous example","input":"Abase","output":"Ni no tibase"}
+{"instruction":"Negative example","input":"Abase","output":"Ni base gba"}
+{"instruction":"Question example","input":"Abase","output":"Ni base we?"}
+
+{"instruction":"Present simple example","input":"Adülü","output":"Ni dülu"}
+{"instruction":"Present continuous example","input":"Adülü","output":"Ni no tidülü"}
+{"instruction":"Negative example","input":"Adülü","output":"Ni dülu gba"}
+{"instruction":"Question example","input":"Adülü","output":"Ni dülu we?"}
+
+{"instruction":"Present simple example","input":"Aloro","output":"Ne loro"}
+{"instruction":"Present continuous example","input":"Aloro","output":"Ne no tiloro"}
+{"instruction":"Negative example","input":"Aloro","output":"Ne loro gba"}
+{"instruction":"Question example","input":"Aloro","output":"Ne loro we?"}

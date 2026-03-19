@@ -1,0 +1,77 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_noun_possessor_construction",
+  "description": "This file contains Balanda noun–possessor constructions. Possession is expressed by placing the possessed noun first, followed by the possessive particle 'ngandi', and then the possessor noun or pronoun.",
+  "rules": {
+    "basic_structure": "Possessed Noun + ngandi + Possessor (Noun or Pronoun)",
+    "possessive_particle": "ngandi",
+    "word_order": "Head-first (possessed item precedes possessor)",
+    "possessor_type": [
+      "pronoun",
+      "common noun",
+      "proper noun"
+    ],
+    "possessive_relationship": "Expresses ownership, association, or inherent relation",
+    "tense_interpretation": "Possessive constructions are atemporal and do not encode tense or aspect",
+    "constraints": [
+      "ngandi must always appear between the possessed noun and the possessor",
+      "No copula is used in possessive constructions",
+      "No tense, aspect, or negation markers appear in this construction",
+      "Word order is fixed and must not be inverted",
+      "Plurality and definiteness are inferred from context"
+    ]
+  }
+}
+
+
+
+[
+  {"balanda":"Kafa ngandi ni","english":"His table"},
+  {"balanda":"Garra ngandi ne","english":"My phone"},
+  {"balanda":"Joko ngandi wiki","english":"The child's bag"},
+  {"balanda":"Tiyi ngandi dhako","english":"The man's house"},
+  {"balanda":"Kporo ngandi wilii","english":"The girl's chair"},
+  {"balanda":"Nza ngandi ndi","english":"Their food"},
+  {"balanda":"Kese ngandi ne","english":"My bike"},
+  {"balanda":"Bura ngandi dhako","english":"The man's cat"},
+  {"balanda":"Kitab ngandi wilii","english":"The girl's book"},
+  {"balanda":"Kafa ngandi wutdu","english":"The person's table"},
+  {"balanda":"Joko ngandi niki","english":"The woman's bag"},
+  {"balanda":"Tama ngandi dhako","english":"The man's shoe"},
+  {"balanda":"Vongo ngandi wilii","english":"The girl's cloth"},
+  {"balanda":"Maraya ngandi negu","english":"The market's school"},
+  {"balanda":"Garra ngandi ndi","english":"Their phone"},
+  {"balanda":"Bura ngandi wiki","english":"The child's cat"},
+  {"balanda":"Kese ngandi widako","english":"The boy's bike"},
+  {"balanda":"Nza ngandi niki","english":"The woman's food"},
+  {"balanda":"Tiyi ngandi gbiya","english":"The chief's house"},
+  {"balanda":"Kafa ngandi diktor","english":"The doctor's table"},
+  {"balanda":"Joko ngandi dhako","english":"The man's bag"},
+  {"balanda":"Kitab ngandi wiki","english":"The child's book"},
+  {"balanda":"Kporo ngandi niki","english":"The woman's chair"},
+  {"balanda":"Bura ngandi wilii","english":"The girl's cat"},
+  {"balanda":"Garra ngandi dhako","english":"The man's phone"},
+  {"balanda":"Kese ngandi gbiya","english":"The chief's bike"},
+  {"balanda":"Nza ngandi wiki","english":"The child's food"},
+  {"balanda":"Tama ngandi wilii","english":"The girl's shoe"},
+  {"balanda":"Vongo ngandi dhako","english":"The man's cloth"},
+  {"balanda":"Kafa ngandi gbiya","english":"The chief's table"},
+  {"balanda":"Joko ngandi diktor","english":"The doctor's bag"},
+  {"balanda":"Bura ngandi gbiya","english":"The chief's cat"},
+  {"balanda":"Kese ngandi niki","english":"The woman's bike"},
+  {"balanda":"Kitab ngandi dhako","english":"The man's book"},
+  {"balanda":"Tiyi ngandi niki","english":"The woman's house"},
+  {"balanda":"Garra ngandi wiki","english":"The child's phone"},
+  {"balanda":"Nza ngandi gbiya","english":"The chief's food"},
+  {"balanda":"Kafa ngandi widako","english":"The boy's table"},
+  {"balanda":"Joko ngandi wiki","english":"The child's bag"},
+  {"balanda":"Bura ngandi widako","english":"The boy's cat"},
+  {"balanda":"Kporo ngandi gbiya","english":"The chief's chair"},
+  {"balanda":"Tama ngandi wiki","english":"The child's shoe"},
+  {"balanda":"Vongo ngandi niki","english":"The woman's cloth"},
+  {"balanda":"Kese ngandi diktor","english":"The doctor's bike"},
+  {"balanda":"Kitab ngandi gbiya","english":"The chief's book"},
+  {"balanda":"Garra ngandi niki","english":"The woman's phone"},
+  {"balanda":"Nza ngandi widako","english":"The boy's food"},
+  {"balanda":"Tiyi ngandi wiki","english":"The child's house"}
+]

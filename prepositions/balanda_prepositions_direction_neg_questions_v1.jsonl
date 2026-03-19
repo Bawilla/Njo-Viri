@@ -1,0 +1,157 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_directional_prepositions",
+  "description": "This file defines the system of directional prepositions in Njo Viri (Balanda). Directional meaning is encoded by specific prepositions depending on whether movement is toward an action, a place, a person, an abstract target, or an enclosed space. These prepositions are not interchangeable.",
+  "rules": {
+    "general_principle": {
+      "statement": "Directional movement in Njo Viri is encoded by distinct prepositions that depend on the semantic target of movement rather than only physical direction."
+    },
+
+    "directional_prepositions": {
+      "va": {
+        "function": "verb-to-verb movement",
+        "meaning": "movement toward an action or activity",
+        "structure": "Verb of motion + va + Verb",
+        "constraints": [
+          "va can only connect verbs",
+          "va cannot be used with nouns or locations"
+        ],
+        "examples": [
+          "tiyai va teli (going to sleep)",
+          "kayai va moliki (went to play)"
+        ]
+      },
+
+      "a": {
+        "function": "movement to large locations or destinations",
+        "meaning": "go to a city, country, town, or major place",
+        "structure": "Verb of motion + a + Location",
+        "constraints": [
+          "a is used with large or named destinations",
+          "a may be dropped in casual speech but is grammatically present"
+        ],
+        "examples": [
+          "tiyai a Wau",
+          "leyai a Kenya"
+        ]
+      },
+
+      "ti": {
+        "function": "abstract direction",
+        "meaning": "agreement, addition, alignment, or abstract attachment",
+        "structure": "Verb + ti + Abstract target",
+        "constraints": [
+          "ti does not express physical movement",
+          "ti is used for ideas, agreement, and contribution"
+        ],
+        "examples": [
+          "wunzo ti ay (agree to it)",
+          "toko ti vili (add to the money)"
+        ]
+      },
+
+      "bi": {
+        "function": "movement toward people",
+        "meaning": "go to a person or group of people",
+        "structure": "Verb of motion + bi + Person",
+        "constraints": [
+          "bi must be used when the destination is human",
+          "bi is not used for places or objects"
+        ],
+        "examples": [
+          "tiyai bi diktor",
+          "kayai bi kanvejo-ni"
+        ]
+      },
+
+      "agbi": {
+        "function": "movement into enclosed spaces",
+        "meaning": "go into a contained or enclosed area",
+        "structure": "Verb of motion + agbi + Enclosed space",
+        "constraints": [
+          "agbi implies entering an interior or bounded space",
+          "cannot be used for open destinations"
+        ],
+        "examples": [
+          "tiyai agbi tiyi",
+          "tiyai agbi negu"
+        ]
+      }
+    },
+
+    "negation_and_questions": {
+      "negation": {
+        "marker": "gba",
+        "position": "sentence-final",
+        "rule": "Directional prepositions remain unchanged in negation"
+      },
+      "questions": {
+        "marker": "we?",
+        "position": "sentence-final",
+        "rule": "Directional prepositions remain unchanged in questions"
+      }
+    },
+
+    "error_constraints": [
+      "Do not replace one directional preposition with another",
+      "Do not use 'bi' for locations",
+      "Do not use 'a' for people",
+      "Do not use 'agbi' unless the space is enclosed",
+      "Do not use 'va' with nouns"
+    ],
+
+    "model_behavior_guidelines": {
+      "treat_prepositions_as_semantic": true,
+      "do_not_generalize_direction": true,
+      "preserve_preposition_choice": true
+    }
+  }
+}
+
+
+{"instruction":"Explain the directional preposition va","output":"'va' is used to connect two verbs and expresses movement toward an action or activity."}
+{"instruction":"Explain the directional preposition a","output":"'a' is used for movement to large locations or destinations such as cities or countries. It can be dropped casually in speech."}
+{"instruction":"Explain the directional preposition ti","output":"'ti' expresses abstract direction, such as agreement or addition to something, rather than physical movement."}
+{"instruction":"Explain the directional preposition bi","output":"'bi' is used when movement is directed toward a person or people."}
+{"instruction":"Explain the directional preposition agbi","output":"'agbi' is used to express movement into enclosed or contained spaces."}
+
+{"balanda":"Ne no tiyai va teli gba","english":"I am not going to sleep."}
+{"balanda":"Ni kayai va moliki gba","english":"He did not go to play."}
+{"balanda":"Wiki willa tiyai va zanza","english":"The child is not going to eat."}
+
+{"balanda":"Ne no tiyai va teli we?","english":"Am I going to sleep?"}
+{"balanda":"Ndi kayai va zanza we?","english":"Did they go to eat?"}
+{"balanda":"Uku kandiri va maha rofi deki we?","english":"Has Uku gone to make a wedding?"}
+
+{"balanda":"Ni willa tiyai a Wau","english":"He is not going to Wau."}
+{"balanda":"Ne leyai a Kenya lüve gba","english":"I will not go to Kenya tomorrow."}
+{"balanda":"Kawinjo willa tiyai a Juba","english":"The orphans are not going to Juba."}
+
+{"balanda":"Ni no tiyai a Wau we?","english":"Is he going to Wau?"}
+{"balanda":"Ne leyai a Kenya lüve we?","english":"Will I go to Kenya tomorrow?"}
+{"balanda":"Ndi no tiyai agbi maraya we?","english":"Are they going to the school?"}
+
+{"balanda":"Ne wunzo ti ay gba","english":"I do not agree to it."}
+{"balanda":"Ni toko ti vili gba","english":"He does not add to the money."}
+{"balanda":"Ndi toko ti nde gba","english":"They do not add to the work."}
+
+{"balanda":"Ne wunzo ti ndi we?","english":"Do I agree with them?"}
+{"balanda":"Ni toko ti vili we?","english":"Does he add to the money?"}
+{"balanda":"Ndi toko ti nde we?","english":"Do they add to the work?"}
+
+{"balanda":"Ne willa tiyai bi diktor","english":"I am not going to the doctor."}
+{"balanda":"Wiki kayai bi kanvejo-ni gba","english":"The child did not go to his parents."}
+{"balanda":"Gamara niki willa tiyai bi kakorro wo’o","english":"The old woman is not going to her grandchildren."}
+
+{"balanda":"Ne no tiyai bi diktor we?","english":"Am I going to the doctor?"}
+{"balanda":"Sinda yai bi Ugali we?","english":"Let's go to Ugali?"}
+{"balanda":"Wiki kayai bi kanvejo-ni we?","english":"Did the child go to his parents?"}
+
+{"balanda":"Ne willa tiyai agbi negu","english":"I am not going into the market."}
+{"balanda":"Ndi ma tiyai agbi guru gba","english":"They are not going into the hole."}
+{"balanda":"Wiriba 'na ma tindiri agbi wutata gba","english":"That man is not entering the trap."}
+
+{"balanda":"Ne no tiyai agbi negu we?","english":"Am I going into the market?"}
+{"balanda":"Ndi no tiyai agbi guru we?","english":"Are they going into the hole?"}
+{"balanda":"Wiki no tiyai agbi tiyi we?","english":"Is the child going into the house?"}
+

@@ -1,0 +1,283 @@
+{
+  "instruction_type": "lexical_rule",
+  "grammar_name": "balanda_nouns_people_social",
+  "description": "This file contains core Balanda nouns referring to people, family relations, age groups, and social roles. These nouns function as independent lexical items and serve as subjects, objects, and complements in sentences.",
+  "rules": {
+    "part_of_speech": "noun",
+    "semantic_domain": [
+      "human beings",
+      "family relations",
+      "social roles",
+      "age and status groups"
+    ],
+    "morphology": {
+      "inflection": "none",
+      "gender_marking": "lexical (e.g. dhako = man, niki = woman)",
+      "number_marking": "Plurality is not marked on the noun itself; plural is expressed with ka- or quantifiers"
+    },
+    "syntactic_usage": {
+      "subject": {
+        "example": "Wiki nonve nono (The child can walk)"
+      },
+      "object": {
+        "example": "Ni kolo wiki (He hugs the child)"
+      },
+      "predicate_nominal": {
+        "structure": "NOUN + no + NOUN",
+        "example": "Ni no gbiya (He is a chief)"
+      }
+    },
+    "compatibility_rules": {
+      "adjectives": "Nouns may be modified by adjectives following the noun (NOUN + ADJECTIVE)",
+      "possession": "Nouns may take possessors using 'ngandi' (NOUN + ngandi + POSSESSOR)",
+      "quantifiers": "Nouns may combine with quantity words (e.g. makoti, bihi, kpi)",
+      "questions": "Nouns participate in questions without changing form"
+    },
+    "constraints": [
+      "Nouns do not take tense, aspect, or modality markers",
+      "Nouns are not prefixed with verb markers (A-, ti-, le-)",
+      "Gender distinctions are lexical, not grammatical",
+      "Social role nouns can function both as common nouns and predicate complements",
+      "Do not invent plural suffixes; use ka- or quantifiers instead"
+    ]
+  }
+}
+
+
+
+{"balanda":"wutdu","english":"person"}
+{"balanda":"dako","english":"man"}
+{"balanda":"niki","english":"woman"}
+{"balanda":"wiki","english":"child"}
+{"balanda":"nvejo","english":"parent"}
+{"balanda":"naa","english":"mother"}
+{"balanda":"vuu","english":"father"}
+{"balanda":"wanaa","english":"brother"}
+{"balanda":"janaa","english":"sister"}
+{"balanda":"vakuru","english":"friend"}
+{"balanda":"kpotdu","english":"elder"}
+{"balanda":"faranga","english":"youth"}
+{"balanda":"ülürü","english":"leader"}
+{"balanda":"gbiya","english":"chief"}
+{"balanda":"nvemande","english":"worker"}
+{"balanda":"nvejünjü","english":"farmer"}
+{"balanda":"umvamva","english":"hunter"}
+{"balanda":"ugose","english":"fisherman"}
+{"balanda":"diktor","english":"doctor"}
+{"balanda":"nveku","english":"patient"}
+{"balanda":"nvejïga","english":"healer"}
+{"balanda":"uvanda","english":"guard"}
+{"balanda":"bolis","english":"police"}
+{"balanda":"umgbanga","english":"judge"}
+{"balanda":"nvetu","english":"messenger"}
+{"balanda":"nvenomolo","english":"traveler"}
+{"balanda":"nvewili","english":"guest"}
+{"balanda":"nvemawili","english":"host"}
+{"balanda":"ŋayinze","english":"stranger"}
+{"balanda":"vuru","english":"citizen"}
+{"balanda":"ugbuku","english":"villager"}
+{"balanda":"nako","english":"people"}
+{"balanda":"nvendere","english":"enemy"}
+{"balanda":"nvehe","english":"relative"}
+{"balanda":"güü","english":"ancestor"}
+{"balanda":"körö","english":"descendant"}
+{"balanda":"nawku","english":"widow"}
+{"balanda":"njö","english":"orphan"}
+{"balanda":"akoti","english":"marriage"}
+{"balanda":"roffi wa akoti","english":"wedding"}
+{"balanda":"roffi","english":"ceremony"}
+{"balanda":"tidina","english":"law"}
+{"balanda":"gele","english":"tradition"}
+{"balanda":"tagüü","english":"culture"}
+{"balanda":"njo","english":"language"}
+{"balanda":"njoso","english":"language"}
+{"balanda":"voso","english":"word"}
+{"balanda":"le","english":"name"}
+{"balanda":"takoni","english":"story"}
+{"balanda":"se","english":"song"}
+{"balanda":"lü","english":"dance"}
+{"balanda":"kporo","english":"drum"}
+{"balanda":"koso","english":"voice"}
+{"balanda":"kele","english":"sound"}
+{"balanda":"so","english":"speech"}
+{"balanda":"siggi","english":"message"}
+{"balanda":"kangu","english":"news"}
+{"balanda":"vasugu","english":"information"}
+{"balanda":"fara","english":"idea"}
+{"balanda":"gbinjo","english":"conflict"}
+{"balanda":"yeleso","english":"peace"}
+{"balanda":"gö","english":"war"}
+{"balanda":"magö","english":"fight"}
+{"balanda":"konu","english":"help"}
+{"balanda":"fünji","english":"advice"}
+
+{"balanda":"dirri","english":"body"}
+{"balanda":"mürü","english":"head"}
+{"balanda":"lo","english":"face"}
+{"balanda":"volo","english":"eye"}
+{"balanda":"sü","english":"ear"}
+{"balanda":"ŋo","english":"nose"}
+{"balanda":"njo","english":"mouth"}
+{"balanda":"votï","english":"tooth"}
+{"balanda":"me","english":"tongue"}
+{"balanda":"milli","english":"neck"}
+{"balanda":"vasilbï","english":"shoulder"}
+{"balanda":"lobï","english":"arm"}
+{"balanda":"bï","english":"hand"}
+{"balanda":"vobï","english":"finger"}
+{"balanda":"kürrü","english":"chest"}
+{"balanda":"kafi","english":"back"}
+{"balanda":"yï","english":"stomach"}
+{"balanda":"lehe","english":"heart"}
+{"balanda":"nvele","english":"blood"}
+{"balanda":"bili","english":"bone"}
+{"balanda":"kuhuti","english":"skin"}
+{"balanda":"sehe","english":"hair"}
+{"balanda":"ngbo","english":"leg"}
+{"balanda":"durungbo","english":"knee"}
+{"balanda":"kpaangbo","english":"foot"}
+{"balanda":"gaguvongbo","english":"toe"}
+{"balanda":"kusulu","english":"nail"}
+{"balanda":"nvimuru","english":"brain"}
+{"balanda":"wala","english":"life"}
+{"balanda":"ku","english":"death"}
+{"balanda":"ajondo","english":"birth"}
+{"balanda":"ŋodirri","english":"health"}
+{"balanda":"gogodirri","english":"illness"}
+{"balanda":"gogo","english":"pain"}
+{"balanda":"kaha","english":"wound"}
+{"balanda":"jïgga","english":"medicine"}
+{"balanda":"tüyüke","english":"treatment"}
+{"balanda":"jubtalia","english":"hospital"}
+{"balanda":"gö","english":"hunger"}
+{"balanda":"göngo","english":"thirst"}
+{"balanda":"woti","english":"strength"}
+{"balanda":"fayati","english":"weakness"}
+{"balanda":"li","english":"sleep"}
+{"balanda":"lï","english":"dream"}
+{"balanda":"wöti","english":"rest"}
+{"balanda":"nde","english":"work"}
+{"balanda":"nonvendo","english":"ability"}
+{"balanda":"willimuru","english":"forgetfulness"}
+{"balanda":"ndooti","english":"age"}
+{"balanda":"kpolo","english":"growth"}
+{"balanda":"girri","english":"change"}
+{"balanda":"deyeke","english":"development"}
+{"balanda":"mgbara","english":"luck"}
+{"balanda":"sukumu","english":"destiny"}
+{"balanda":"guku","english":"fear"}
+{"balanda":"soho","english":"courage"}
+
+
+{"balanda":"tü","english":"land"}
+{"balanda":"murutü","english":"earth"}
+{"balanda":"njü","english":"farm"}
+{"balanda":"goti","english":"forest"}
+{"balanda":"nguu","english":"tree"}
+{"balanda":"yabï","english":"branch"}
+{"balanda":"kpaa","english":"leaf"}
+{"balanda":"tatere","english":"root"}
+{"balanda":"wii","english":"flower"}
+{"balanda":"linguu","english":"fruit"}
+{"balanda":"voŋa","english":"seed"}
+{"balanda":"wuu","english":"grass"}
+{"balanda":"nanje","english":"animal"}
+{"balanda":"delle","english":"goat"}
+{"balanda":"voro","english":"dog"}
+{"balanda":"bura","english":"cat"}
+{"balanda":"keseuŋaa","english":"donkey"}
+{"balanda":"nguru","english":"chicken"}
+{"balanda":"nanuu","english":"bird"}
+{"balanda":"valla","english":"egg"}
+{"balanda":"se","english":"fish"}
+{"balanda":"serre","english":"river"}
+{"balanda":"verre","english":"stream"}
+{"balanda":"ngokara","english":"pond"}
+{"balanda":"ngo","english":"water"}
+{"balanda":"muu","english":"rain"}
+{"balanda":"gundiri","english":"wind"}
+{"balanda":"vemuu","english":"cloud"}
+{"balanda":"loli","english":"sky"}
+{"balanda":"li","english":"sun"}
+{"balanda":"fi","english":"moon"}
+{"balanda":"Vosiri","english":"star"}
+{"balanda":"wï","english":"fire"}
+{"balanda":"ngürü","english":"smoke"}
+{"balanda":"vürü","english":"ash"}
+{"balanda":"kpalawï","english":"heat"}
+{"balanda":"sorowo","english":"cold"}
+{"balanda":"taza","english":"shade"}
+{"balanda":"ngbawo","english":"light"}
+{"balanda":"viviliwo","english":"darkness"}
+{"balanda":"jegele","english":"shadow"}
+{"balanda":"sukuruta","english":"hill"}
+{"balanda":"duguluta","english":"valley"}
+{"balanda":"vukuyo","english":"desert"}
+{"balanda":"kuyo","english":"sand"}
+{"balanda":"duu","english":"rock"}
+{"balanda":"dïrï","english":"stone"}
+{"balanda":"guru","english":"hole"}
+{"balanda":"giri","english":"road"}
+{"balanda":"ngurru","english":"path"}
+{"balanda":"tiserre","english":"riverbank"}
+{"balanda":"vetü","english":"mud"}
+{"balanda":"kufulu","english":"dust"}
+{"balanda":"yamo","english":"air"}
+{"balanda":"föö","english":"smell"}
+{"balanda":"wö","english":"time"}
+{"balanda":"liwö","english":"day"}
+{"balanda":"doo","english":"night"}
+{"balanda":"fürüve","english":"morning"}
+{"balanda":"kpatili","english":"afternoon"}
+{"balanda":"yelewo","english":"evening"}
+{"balanda":"ndoo","english":"year"}
+{"balanda":"ngbowö","english":"hour"}
+{"balanda":"nibolo","english":"future"}
+{"balanda":"soni","english":"past"}
+{"balanda":"sorono","english":"present"}
+{"balanda":"wuhu","english":"middle"}
+{"balanda":"suku","english":"end"}
+
+
+{"balanda":"tiyi","english":"house"}
+{"balanda":"baa","english":"home"}
+{"balanda":"vozetde","english":"hut"}
+{"balanda":"njokoji","english":"door"}
+{"balanda":"murutiyi","english":"roof"}
+{"balanda":"sutiyi","english":"wall"}
+{"balanda":"gbata","english":"town"}
+{"balanda":"negu","english":"market"}
+{"balanda":"galla","english":"store"}
+{"balanda":"maraya","english":"school"}
+{"balanda":"kenisa","english":"church"}
+{"balanda":"jubtalia","english":"hospital"}
+{"balanda":"nonvili","english":"vehicle"}
+{"balanda":"turunvili","english":"car"}
+{"balanda":"kese","english":"bicycle"}
+{"balanda":"felenvili","english":"motorcycle"}
+{"balanda":"nvili","english":"engine"}
+{"balanda":"vavura","english":"seat"}
+{"balanda":"kafa","english":"table"}
+{"balanda":"gbatda","english":"bed"}
+{"balanda":"tafi","english":"mat"}
+{"balanda":"vongu","english":"cloth"}
+{"balanda":"tama","english":"shoe"}
+{"balanda":"vonzama","english":"sandal"}
+{"balanda":"joko","english":"bag"}
+{"balanda":"kerre","english":"basket"}
+{"balanda":"fehe","english":"bottle"}
+{"balanda":"garra","english":"cup"}
+{"balanda":"kaze","english":"spoon"}
+{"balanda":"mva","english":"knife"}
+{"balanda":"kalla","english":"pot"}
+{"balanda":"sussu","english":"firewood"}
+{"balanda":"kessi","english":"stove"}
+{"balanda":"yinde","english":"tool"}
+{"balanda":"kango","english":"axe"}
+{"balanda":"wü","english":"rope"}
+{"balanda":"nvuu","english":"net"}
+{"balanda":"tata","english":"trap"}
+{"balanda":"kïssï","english":"lock"}
+{"balanda":"jegele","english":"picture"}
+{"balanda":"gara","english":"bell"}
+{"balanda":"uginda","english":"whistle"}

@@ -1,0 +1,96 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_number_quantity_noun",
+  "description": "This file contains Balanda number and quantity constructions. Number and quantity modify nouns, and plural nouns are formed by prefixing ka- to the noun.",
+  "rules": {
+    "plural_formation": {
+      "marker": "ka-",
+      "structure": "ka + Noun",
+      "function": "Marks plural nouns",
+      "constraints": [
+        "ka- must attach directly to the noun",
+        "Singular nouns appear without ka-",
+        "Plural marking appears on the noun, not on numbers or quantifiers"
+      ]
+    },
+    "numeral_construction": {
+      "structure": "Noun + Numeral (singular) | ka-Noun + Numeral (plural)",
+      "numeral_position": "Numeral follows the noun",
+      "singular_usage": "The numeral 'nzee' (one) is used only with singular nouns",
+      "plural_usage": "Numerals greater than one require ka- on the noun"
+    },
+    "quantity_construction": {
+      "structure": "Quantity + (ka-)Noun | Noun + Quantity",
+      "quantity_types": [
+        "koti (many)",
+        "roko (few)",
+        "bihi (some)",
+        "kpi (all)",
+        "willa (none)",
+        "sutu (much)",
+        "fitti (little)"
+      ],
+      "mass_vs_count": "Mass nouns typically do not take ka-; count nouns do",
+      "word_order_variation": "Some quantities precede the noun, others follow the noun depending on lexical item"
+    },
+    "tense_interpretation": "Number and quantity constructions are atemporal and do not encode tense or aspect",
+    "constraints": [
+      "Numerals do not change form for gender or noun class",
+      "Plurality is encoded only by ka-",
+      "Quantity words do not replace plural marking on count nouns",
+      "No copula or verb is used in pure number/quantity expressions"
+    ]
+  }
+}
+
+
+
+[
+  {"balanda":"Wiki nzee","english":"One child"},
+  {"balanda":"Kawiki soo","english":"Two children"},
+  {"balanda":"Kawiki tau","english":"Three children"},
+  {"balanda":"Kawiki nau","english":"Four children"},
+  {"balanda":"Kawiki voo","english":"Five children"},
+  {"balanda":"Kawiki vonzee","english":"Six children"},
+  {"balanda":"Kawiki vosoo","english":"Seven children"},
+  {"balanda":"Kawiki votau","english":"Eight children"},
+  {"balanda":"Kawiki vonau","english":"Nine children"},
+  {"balanda":"Kawiki bikur","english":"Ten children"},
+  {"balanda":"Bura nzee","english":"One cat"},
+  {"balanda":"Kabura soo","english":"Two cats"},
+  {"balanda":"Kabura tau","english":"Three cats"},
+  {"balanda":"Kabura nau","english":"Four cats"},
+  {"balanda":"Kabura voo","english":"Five cats"},
+  {"balanda":"Dhako nzee","english":"One man"},
+  {"balanda":"Kadhako soo","english":"Two men"},
+  {"balanda":"Kadhako tau","english":"Three men"},
+  {"balanda":"Kadhako nau","english":"Four men"},
+  {"balanda":"Kadhako voo","english":"Five men"},
+  {"balanda":"Sutu nza","english":"Much food"},
+  {"balanda":"Fitti nza","english":"Little food"},
+  {"balanda":"Bihi nza","english":"Some food"},
+  {"balanda":"Nza kpi","english":"All the food"},
+  {"balanda":"Nza willa","english":"No food"},
+  {"balanda":"Koti kawiki","english":"Many children"},
+  {"balanda":"Roko kawiki","english":"Few children"},
+  {"balanda":"Koti kabura","english":"Many cats"},
+  {"balanda":"Roko kabura","english":"Few cats"},
+  {"balanda":"Koti kadhako","english":"Many men"},
+  {"balanda":"Bihi kadhako","english":"Some men"},
+  {"balanda":"Kpi kadhako","english":"All men"},
+  {"balanda":"Koti kavongo","english":"Many clothes"},
+  {"balanda":"Roko kavongo","english":"Few clothes"},
+  {"balanda":"Bihi kavongo","english":"Some clothes"},
+  {"balanda":"Kavongo kpi","english":"All clothes"},
+  {"balanda":"Kafa nzee","english":"One table"},
+  {"balanda":"Kakafa soo","english":"Two tables"},
+  {"balanda":"Kakafa tau","english":"Three tables"},
+  {"balanda":"Koti kakafa","english":"Many tables"},
+  {"balanda":"Roko kakafa","english":"Few tables"},
+  {"balanda":"Garra nzee","english":"One phone"},
+  {"balanda":"Kagarra soo","english":"Two phones"},
+  {"balanda":"Koti kagarra","english":"Many phones"},
+  {"balanda":"Roko kagarra","english":"Few phones"},
+  {"balanda":"Bihi kagarra","english":"Some phones"},
+  {"balanda":"Kagarra kpi","english":"All phones"}
+]

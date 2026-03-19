@@ -1,0 +1,205 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_continuous",
+  "description": "This file contains Balanda past continuous sentences. Past continuous is formed using a past copula plus a present verb form.",
+  "rules": {
+    "affirmative_structure": "S + noka + ti-VERB + (Object/Complement)",
+    "negative_structure": "S + maka + ti-VERB + (Object/Complement) + gba",
+    "question_structure": "(affirmative_or_negative_clause) + we?",
+    "tense": "past",
+    "aspect": "continuous",
+    "copula_affirmative": "noka",
+    "copula_negative": "maka",
+    "verb_form": "ti-VERB (present form retained)",
+    "negation": "gba (clause-final)",
+    "question_particle": "we? (sentence-final)",
+    "constraints": [
+      "No word order change in questions",
+      "ti- must not be removed in negation",
+      "Past time reference is carried only by noka/maka",
+      "gba always appears at the end of the clause",
+      "we? always appears at the very end of the clause"
+    ]
+  }
+}
+
+
+{"balanda":"Ne noka tija nza","english":"I was eating food."}
+{"balanda":"Ne noka tinzü ngo","english":"I was drinking water."}
+{"balanda":"Ni noka titeli","english":"He was sleeping."}
+{"balanda":"Ne noka tiyai a Wau","english":"I was going to Wau."}
+{"balanda":"Ni noka tidhii agbi tiyi","english":"He was coming to the house."}
+{"balanda":"Wiki noka tinono gbi difo","english":"The child was walking in the compound."}
+{"balanda":"Ni noka timande gbi njü","english":"He was working in the garden."}
+{"balanda":"Danda noka timoliki","english":"We were playing."}
+
+{"balanda":"Ne noka timerego ŋo","english":"I was loving you."}
+{"balanda":"Ne noka tiŋiyi sereso","english":"I was knowing the truth."}
+{"balanda":"Ni noka titerii","english":"He was thinking."}
+{"balanda":"Ne noka tiwe ndi","english":"I was asking them."}
+{"balanda":"Ni noka tivele takoni","english":"He was telling a story."}
+{"balanda":"Ne noka tibaha ŋo","english":"I was seeing you."}
+{"balanda":"Ni noka tidhi","english":"He was hearing."}
+
+{"balanda":"Ne noka tisudi kitab","english":"I was writing a book."}
+{"balanda":"Ni noka tidheke kitab","english":"He was reading a book."}
+{"balanda":"Ne noka tisïhï kese","english":"I was buying a bike."}
+{"balanda":"Ni noka tisadi nza","english":"He was selling food."}
+{"balanda":"Ne noka tituru linguu","english":"I was pushing the fruit."}
+{"balanda":"Ni noka tizaka kporo","english":"He was pulling the drum."}
+{"balanda":"Ni noka tikara kafa","english":"He was turning the table."}
+
+{"balanda":"Ne noka tikeye ti ndi","english":"I was calling them."}
+{"balanda":"Danda noka tiwofo takoni","english":"We were discussing the story."}
+{"balanda":"Ni noka tikolo wiki","english":"He was hugging the child."}
+{"balanda":"Ndi noka timago","english":"They were fighting."}
+{"balanda":"Ni noka tivanda wiki","english":"He was protecting the child."}
+
+{"balanda":"Ni noka titeta","english":"He was falling."}
+{"balanda":"Ni noka tigirri","english":"He was changing."}
+{"balanda":"Nguu noka tivere","english":"The tree was darkening."}
+{"balanda":"Maraya noka tideye","english":"The school was developing."}
+{"balanda":"Wiki noka tirengo","english":"The child was maturing."}
+
+{"balanda":"Ni noka tidho gbi tiyi","english":"He was being in the house."}
+{"balanda":"Ne noka tima nde","english":"I was doing the work."}
+{"balanda":"Ne noka tiwala gbi Wau","english":"I was living in Wau."}
+{"balanda":"Ne noka tiduru ngo","english":"I was wanting water."}
+{"balanda":"Ni noka tidüŋü kpendii","english":"He was remaining behind."}
+
+Negations
+
+{"balanda":"Ne maka tija nza gba","english":"I was not eating food."}
+{"balanda":"Ne maka tinzü ngo gba","english":"I was not drinking water."}
+{"balanda":"Ni maka titeli gba","english":"He was not sleeping."}
+{"balanda":"Ne maka tiyai a Wau gba","english":"I was not going to Wau."}
+{"balanda":"Ni maka tidhii agbi tiyi gba","english":"He was not coming to the house."}
+{"balanda":"Wiki maka tinono gbi difo gba","english":"The child was not walking in the compound."}
+{"balanda":"Ni maka timande gbi njü gba","english":"He was not working in the garden."}
+{"balanda":"Danda maka timoliki gba","english":"We were not playing."}
+
+{"balanda":"Ne maka timerego ŋo gba","english":"I was not loving you."}
+{"balanda":"Ne maka tiŋiyi sereso gba","english":"I was not knowing the truth."}
+{"balanda":"Ni maka titerii gba","english":"He was not thinking."}
+{"balanda":"Ne maka tiwe ndi gba","english":"I was not asking them."}
+{"balanda":"Ni maka tivele takoni gba","english":"He was not telling a story."}
+{"balanda":"Ne maka tibaha ŋo gba","english":"I was not seeing you."}
+{"balanda":"Ni maka tidhi gba","english":"He was not hearing."}
+
+{"balanda":"Ne maka tisudi kitab gba","english":"I was not writing a book."}
+{"balanda":"Ni maka tidheke kitab gba","english":"He was not reading a book."}
+{"balanda":"Ne maka tisïhï kese gba","english":"I was not buying a bike."}
+{"balanda":"Ni maka tisadi nza gba","english":"He was not selling food."}
+{"balanda":"Ne maka tituru linguu gba","english":"I was not pushing the fruit."}
+{"balanda":"Ni maka tizaka kporo gba","english":"He was not pulling the drum."}
+{"balanda":"Ni maka tikara kafa gba","english":"He was not turning the table."}
+
+{"balanda":"Ne maka tikeye ti ndi gba","english":"I was not calling them."}
+{"balanda":"Danda maka tiwofo takoni gba","english":"We were not discussing the story."}
+{"balanda":"Ni maka tikolo wiki gba","english":"He was not hugging the child."}
+{"balanda":"Ndi maka timago gba","english":"They were not fighting."}
+{"balanda":"Ni maka tivanda wiki gba","english":"He was not protecting the child."}
+
+{"balanda":"Ni maka titeta gba","english":"He was not falling."}
+{"balanda":"Ni maka tigirri gba","english":"He was not changing."}
+{"balanda":"Nguu maka tivere gba","english":"The tree was not darkening."}
+{"balanda":"Maraya maka tideye gba","english":"The school was not developing."}
+{"balanda":"Wiki maka tirengo gba","english":"The child was not maturing."}
+
+{"balanda":"Ni maka tidho gbi tiyi gba","english":"He was not being in the house."}
+{"balanda":"Ne maka tima nde gba","english":"I was not doing the work."}
+{"balanda":"Ne maka tiwala gbi Wau gba","english":"I was not living in Wau."}
+{"balanda":"Ne maka tiduru ngo gba","english":"I was not wanting water."}
+{"balanda":"Ni maka tidüŋü kpendii gba","english":"He was not remaining behind."}
+
+
+questions
+
+{"balanda":"Ne noka tija nza we?","english":"Was I eating food?"}
+{"balanda":"Ne noka tinzü ngo we?","english":"Was I drinking water?"}
+{"balanda":"Ni noka titeli we?","english":"Was he sleeping?"}
+{"balanda":"Ne noka tiyai a Wau we?","english":"Was I going to Wau?"}
+{"balanda":"Ni noka tidhii agbi tiyi we?","english":"Was he coming to the house?"}
+{"balanda":"Wiki noka tinono gbi difo we?","english":"Was the child walking in the compound?"}
+{"balanda":"Ni noka timande gbi njü we?","english":"Was he working in the garden?"}
+{"balanda":"Danda noka timoliki we?","english":"Were we playing?"}
+
+{"balanda":"Ne noka timerego ŋo we?","english":"Was I loving you?"}
+{"balanda":"Ne noka tiŋiyi sereso we?","english":"Was I knowing the truth?"}
+{"balanda":"Ni noka titerii we?","english":"Was he thinking?"}
+{"balanda":"Ne noka tiwe ndi we?","english":"Was I asking them?"}
+{"balanda":"Ni noka tivele takoni we?","english":"Was he telling a story?"}
+{"balanda":"Ne noka tibaha ŋo we?","english":"Was I seeing you?"}
+{"balanda":"Ni noka tidhi we?","english":"Was he hearing?"}
+
+{"balanda":"Ne noka tisudi kitab we?","english":"Was I writing a book?"}
+{"balanda":"Ni noka tidheke kitab we?","english":"Was he reading a book?"}
+{"balanda":"Ne noka tisïhï kese we?","english":"Was I buying a bike?"}
+{"balanda":"Ni noka tisadi nza we?","english":"Was he selling food?"}
+{"balanda":"Ne noka tituru linguu we?","english":"Was I pushing the fruit?"}
+{"balanda":"Ni noka tizaka kporo we?","english":"Was he pulling the drum?"}
+{"balanda":"Ni noka tikara kafa we?","english":"Was he turning the table?"}
+
+{"balanda":"Ne noka tikeye ti ndi we?","english":"Was I calling them?"}
+{"balanda":"Danda noka tiwofo takoni we?","english":"Were we discussing the story?"}
+{"balanda":"Ni noka tikolo wiki we?","english":"Was he hugging the child?"}
+{"balanda":"Ndi noka timago we?","english":"Were they fighting?"}
+{"balanda":"Ni noka tivanda wiki we?","english":"Was he protecting the child?"}
+
+{"balanda":"Ni noka titeta we?","english":"Was he falling?"}
+{"balanda":"Ni noka tigirri we?","english":"Was he changing?"}
+{"balanda":"Nguu noka tivere we?","english":"Was the tree darkening?"}
+{"balanda":"Maraya noka tideye we?","english":"Was the school developing?"}
+{"balanda":"Wiki noka tirengo we?","english":"Was the child maturing?"}
+
+{"balanda":"Ni noka tidho gbi tiyi we?","english":"Was he being in the house?"}
+{"balanda":"Ne noka tima nde we?","english":"Was I doing the work?"}
+{"balanda":"Ne noka tiwala gbi Wau we?","english":"Was I living in Wau?"}
+{"balanda":"Ne noka tiduru ngo we?","english":"Was I wanting water?"}
+{"balanda":"Ni noka tidüŋü kpendii we?","english":"Was he remaining behind?"}
+
+
+negative questions
+
+{"balanda":"Ne maka tija nza gba we?","english":"Was I not eating food?"}
+{"balanda":"Ne maka tinzü ngo gba we?","english":"Was I not drinking water?"}
+{"balanda":"Ni maka titeli gba we?","english":"Was he not sleeping?"}
+{"balanda":"Ne maka tiyai a Wau gba we?","english":"Was I not going to Wau?"}
+{"balanda":"Ni maka tidhii agbi tiyi gba we?","english":"Was he not coming to the house?"}
+{"balanda":"Wiki maka tinono gbi difo gba we?","english":"Was the child not walking in the compound?"}
+{"balanda":"Ni maka timande gbi njü gba we?","english":"Was he not working in the garden?"}
+{"balanda":"Danda maka timoliki gba we?","english":"Were we not playing?"}
+
+{"balanda":"Ne maka timerego ŋo gba we?","english":"Was I not loving you?"}
+{"balanda":"Ne maka tiŋiyi sereso gba we?","english":"Was I not knowing the truth?"}
+{"balanda":"Ni maka titerii gba we?","english":"Was he not thinking?"}
+{"balanda":"Ne maka tiwe ndi gba we?","english":"Was I not asking them?"}
+{"balanda":"Ni maka tivele takoni gba we?","english":"Was he not telling a story?"}
+{"balanda":"Ne maka tibaha ŋo gba we?","english":"Was I not seeing you?"}
+{"balanda":"Ni maka tidhi gba we?","english":"Was he not hearing?"}
+
+{"balanda":"Ne maka tisudi kitab gba we?","english":"Was I not writing a book?"}
+{"balanda":"Ni maka tidheke kitab gba we?","english":"Was he not reading a book?"}
+{"balanda":"Ne maka tisïhï kese gba we?","english":"Was I not buying a bike?"}
+{"balanda":"Ni maka tisadi nza gba we?","english":"Was he not selling food?"}
+{"balanda":"Ne maka tituru linguu gba we?","english":"Was I not pushing the fruit?"}
+{"balanda":"Ni maka tizaka kporo gba we?","english":"Was he not pulling the drum?"}
+{"balanda":"Ni maka tikara kafa gba we?","english":"Was he not turning the table?"}
+
+{"balanda":"Ne maka tikeye ti ndi gba we?","english":"Was I not calling them?"}
+{"balanda":"Danda maka tiwofo takoni gba we?","english":"Were we not discussing the story?"}
+{"balanda":"Ni maka tikolo wiki gba we?","english":"Was he not hugging the child?"}
+{"balanda":"Ndi maka timago gba we?","english":"Were they not fighting?"}
+{"balanda":"Ni maka tivanda wiki gba we?","english":"Was he not protecting the child?"}
+
+{"balanda":"Ni maka titeta gba we?","english":"Was he not falling?"}
+{"balanda":"Ni maka tigirri gba we?","english":"Was he not changing?"}
+{"balanda":"Nguu maka tivere gba we?","english":"Was the tree not darkening?"}
+{"balanda":"Maraya maka tideye gba we?","english":"Was the school not developing?"}
+{"balanda":"Wiki maka tirengo gba we?","english":"Was the child not maturing?"}
+
+{"balanda":"Ni maka tidho gbi tiyi gba we?","english":"Was he not being in the house?"}
+{"balanda":"Ne maka tima nde gba we?","english":"Was I not doing the work?"}
+{"balanda":"Ne maka tiwala gbi Wau gba we?","english":"Was I not living in Wau?"}
+{"balanda":"Ne maka tiduru ngo gba we?","english":"Was I not wanting water?"}
+{"balanda":"Ni maka tidüŋü kpendii gba we?","english":"Was he not remaining behind?"}

@@ -1,0 +1,153 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_continuous",
+  "description": "This file defines the present continuous tense in Njo Viri (Balanda). The tense expresses actions that are ongoing at the moment of speaking. It is formed using the auxiliary copula 'no' and the verbal prefix 'ti-'.",
+  "rules": {
+    "general_principle": {
+      "statement": "Present continuous tense in Balanda is marked morphologically by the prefix 'ti-' attached to the verb, combined with the copula 'no'. The tense expresses actions currently in progress."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + no + ti-Verb + (Object / Complement)",
+      "description": "Used to express an action happening now.",
+      "examples": [
+        "Ne no tidhe kümü",
+        "Ne no timoliki gbi difo",
+        "Ni no tinangele zanga",
+        "Uku no timande gbi njü",
+        "Ne no timerego ŋo"
+      ]
+    },
+
+    "negation": {
+      "description": "Negation in the present continuous can be formed in two valid ways.",
+      "patterns": {
+        "ma_gba_pattern": {
+          "structure": "Subject + ma + ti-Verb + (Object) + gba",
+          "examples": [
+            "Ne ma timoliki gbi difo gba",
+            "Ni ma tinangele zanga gba",
+            "Afo ma timande gbi njü gba"
+          ]
+        },
+        "willa_pattern": {
+          "structure": "Subject + willa + ti-Verb + (Object)",
+          "examples": [
+            "Ne willa timerego ŋo",
+            "Ndi willa tirunga nveku"
+          ]
+        }
+      }
+    },
+
+    "questions": {
+      "description": "Yes–no questions in the present continuous are formed by adding the question marker 'we?' at the end of the sentence.",
+      "structure": "Affirmative or Negative sentence + we?",
+      "examples": [
+        "Ne no timoliki gbi difo we?",
+        "Uku no timande gbi njü we?",
+        "Ne willa tiduru ngo we?",
+        "Uku willa timele vongu we?"
+      ]
+    },
+
+    "negative_questions": {
+      "description": "Negative present continuous questions retain the same negation strategy and add 'we?' sentence-finally.",
+      "examples": [
+        "Yehe ni willa tiriki dha we?",
+        "Ne willa tiwutduru kese ngande’e ta kavokau we?",
+        "Ni willa tiyele tamma we?"
+      ]
+    },
+
+    "verb_morphology": {
+      "rule": "The prefix 'ti-' must attach directly to the verb root.",
+      "constraints": [
+        "ti- cannot be omitted in present continuous",
+        "bare verbs do not express present continuous meaning"
+      ],
+      "examples": [
+        "timande (working)",
+        "tinangele (running)",
+        "timerego (loving)"
+      ]
+    },
+
+    "sentence_identification": {
+      "affirmative": "Subject + no + ti-Verb",
+      "negative": "Subject + ma + ti-Verb + gba OR Subject + willa + ti-Verb",
+      "question": "Sentence + we?",
+      "negative_question": "Negative sentence + we?"
+    },
+
+    "error_constraints": [
+      "Do not omit the prefix 'ti-' in present continuous",
+      "Do not place 'we?' inside the sentence",
+      "Do not use 'gba' without 'ma'",
+      "Do not combine 'ma' and 'willa' in the same clause",
+      "Do not use bare verb forms for ongoing actions"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_ti_prefix": true,
+      "preserve_word_order": true,
+      "allow_dual_negation_strategies": true,
+      "keep_question_marker_final": true
+    }
+  }
+}
+
+
+
+{"instruction":"Translate from Balanda to English","input":"Ne no tidhe kümü","output":"I am finding wealth"}
+{"instruction":"Translate from Balanda to English","input":"Ne no timoliki gbi difo","output":"I am playing in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tinangele zanga","output":"She is running fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku no timande gbi njü","output":"Uku is working in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Ne no timerego ŋo","output":"I am loving you"}
+
+{"instruction":"Translate from Balanda to English","input":"Ne ma timoliki gbi difo gba","output":"I am not playing in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tikulu munja gba","output":"He is not playing guitar"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tinangele zanga gba","output":"She is not running fast"}
+{"instruction":"Translate from Balanda to English","input":"Afo ma timande gbi njü gba","output":"Afo is not working in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa timerego ŋo","output":"I am not loving you"}
+
+{"instruction":"Translate from Balanda to English","input":"Ne no timoliki gbi difo we?","output":"Am I playing in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tikulu munja we?","output":"Is he playing guitar?"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tinangele zanga we?","output":"Is she running fast?"}
+{"instruction":"Translate from Balanda to English","input":"Uku no timande gbi njü we?","output":"Is Uku working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Ne no timerego ŋo we?","output":"Am I loving you?"}
+
+{"instruction":"Translate from Balanda to English","input":"Yehe ni willa tiriki dha we?","output":"Isn’t his behavior surprising you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiwutduru kese ngande’e ta kavokau we?","output":"Am I not personalizing my bike with beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyele tamma we?","output":"Is she not tying the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Uku willa timele vongu we?","output":"Is Uku not trying the cloth?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiduru ngo we?","output":"Am I not wanting water?"}
+
+{"instruction":"Translate from Balanda to English","input":"Ndi no tikonu nvesani","output":"They are helping the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ne no tileke kafa","output":"I am setting the table"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tisima tiyaya","output":"He is bragging a lot"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tifagi mva","output":"He is sharpening the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande no tidewe kakpodu","output":"Ngande is imitating adults"}
+
+{"instruction":"Translate from Balanda to English","input":"Ndi no tindugu mira","output":"They are initiating the project"}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tirunga nveku","output":"They are not isolating the sick"}
+{"instruction":"Translate from Balanda to English","input":"Ne no tisarawa kumere we?","output":"Am I separating the trash?"}
+{"instruction":"Translate from Balanda to English","input":"Danda willa tikirri tidina we?","output":"Are we not upholding the law?"}
+
+{"instruction":"Explain how present continuous tense is formed in Balanda","output":"Present continuous tense is formed by adding the prefix ti- to the verb. Affirmative structure uses subject + no + ti+verb + object."}
+{"instruction":"Explain negation in present continuous tense in Balanda","output":"Negation is formed by using ma before the ti-verb and gba at the end, or by using willa before the ti-verb."}
+{"instruction":"Explain how questions are formed in present continuous tense in Balanda","output":"Questions are formed by adding we? at the end of the sentence."}
+
+{"instruction":"Identify the sentence type","input":"Ne no timande gbi njü","output":"Affirmative present continuous"}
+{"instruction":"Identify the sentence type","input":"Ne ma timoliki gbi difo gba","output":"Negative present continuous"}
+{"instruction":"Identify the sentence type","input":"Uku no timande gbi njü we?","output":"Present continuous question"}
+{"instruction":"Identify the sentence type","input":"Ne willa tiduru ngo we?","output":"Negative present continuous question"}
+
+{"instruction":"Create an affirmative present continuous sentence in Balanda","output":"Ne no timande gbi njü"}
+{"instruction":"Create a negative present continuous sentence in Balanda","output":"Ni ma tinangele zanga gba"}
+{"instruction":"Create a present continuous question in Balanda","output":"Ne no timerego ŋo we?"}
+{"instruction":"Create a negative present continuous question in Balanda","output":"Uku willa timele vongu we?"}
+
+{"instruction":"Correct the Balanda sentence","input":"Ne no merego ŋo","output":"Incorrect tense. Correct present continuous form: Ne no timerego ŋo."}
+{"instruction":"Correct the Balanda sentence","input":"Ni timande gbi njü gba","output":"Incorrect negation. Correct form: Ni ma timande gbi njü gba."}
+{"instruction":"Correct the question sentence","input":"Ne no timoliki we gbi difo?","output":"Incorrect word order. Correct form: Ne no timoliki gbi difo we?"}

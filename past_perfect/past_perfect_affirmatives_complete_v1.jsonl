@@ -1,0 +1,101 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_perfect",
+  "description": "This file defines the Past Perfect tense in Njo Viri (Balanda). The tense is used to express actions that were completed before another past reference point. It is marked by the prefix 'taa-' attached directly to the verb.",
+  "rules": {
+    "general_principle": {
+      "statement": "Past perfect tense in Balanda is formed by attaching the prefix 'taa-' to the verb. The tense expresses an action that had already been completed in the past."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + taa-Verb + (Object / Complement)",
+      "description": "Used to express a completed action prior to another past event.",
+      "constraints": [
+        "The prefix 'taa-' must attach directly to the verb root",
+        "No auxiliary verb is used",
+        "Word order is fixed"
+      ]
+    },
+
+    "verb_morphology": {
+      "rule": "taa- is a tense prefix, not a separate word.",
+      "examples": [
+        "taadhe (had found)",
+        "taamande (had worked)",
+        "taamerego (had loved)"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not omit the prefix 'taa-'",
+      "Do not insert 'no' or 'noka' in past perfect",
+      "Do not separate 'taa-' from the verb root"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_taa_prefix": true,
+      "preserve_word_order": true,
+      "restrict_to_completed_actions": true
+    }
+  }
+}
+
+
+[
+  {"balanda":"Ne taaja se","english":"I had eaten fish"},
+  {"balanda":"Ne taanzü ngo","english":"I had drunk water"},
+  {"balanda":"Ne taateli gbi famvara","english":"I had slept in the bed"},
+  {"balanda":"Ne taayai","english":"I had gone"},
+  {"balanda":"Ne taadhii ba","english":"I had come home"},
+  {"balanda":"Ne taanonö gbi difo","english":"I had walked in the compound"},
+  {"balanda":"Ni taanangele zanga","english":"She had run fast"},
+  {"balanda":"Uku taamande gbi njü","english":"Uku had worked in the garden"},
+  {"balanda":"Ne taamoliki gbi difo","english":"I had played in the compound"},
+  {"balanda":"Ne taaloro bura","english":"I had watched the cat"},
+
+  {"balanda":"Ne taavele Balanda","english":"I had spoken Balanda"},
+  {"balanda":"Ne taasudi kavoso","english":"I had written words"},
+  {"balanda":"Ne taadheke kitabu","english":"I had read a book"},
+  {"balanda":"Ne taateri dha","english":"I had thought about it"},
+  {"balanda":"Ne taaŋiyi dha","english":"I had known it"},
+  {"balanda":"Ne taawe ndi","english":"I had asked them"},
+  {"balanda":"Ne taavele zi ndi","english":"I had told them"},
+  {"balanda":"Ne taakeye ndi","english":"I had called them"},
+
+  {"balanda":"Ne taamerego ŋo","english":"I had loved you"},
+  {"balanda":"Ne taamaguku ti dha","english":"I had feared it"},
+  {"balanda":"Ne taasogo dha","english":"I had hated it"},
+  {"balanda":"Ni taariki dha","english":"She had surprised him"},
+  {"balanda":"Ne taadovee","english":"I had seemed so"},
+
+  {"balanda":"Ne taayele tamma","english":"I had tied the shoe"},
+  {"balanda":"Ne taadi kalla","english":"I had cut the pot"},
+  {"balanda":"Ne taatele njokoji","english":"I had pulled the door"},
+  {"balanda":"Ne taaturu songo","english":"I had pushed the box"},
+  {"balanda":"Ne taasoko tamma","english":"I had washed the shoe"},
+  {"balanda":"Ne taakuru kau","english":"I had hidden the beads"},
+
+  {"balanda":"Ne taangö tiyi","english":"I had built a house"},
+  {"balanda":"Ne taasuru voso","english":"I had created words"},
+  {"balanda":"Ne taagiri voso","english":"I had changed the words"},
+  {"balanda":"Ne taakara njokoji","english":"I had turned the door"},
+  {"balanda":"Ne taatoko ti vili","english":"I had added money"},
+  {"balanda":"Ne taakefo balanda","english":"I had described Balanda"},
+
+  {"balanda":"Ne taakonu ndi","english":"I had helped them"},
+  {"balanda":"Ne taandugu mira","english":"I had initiated the project"},
+  {"balanda":"Ne taamaforo ti mira","english":"I had contributed to the project"},
+  {"balanda":"Ne taasarwa kumere","english":"I had separated the trash"},
+  {"balanda":"Ne taakiri tidina","english":"I had upheld the law"},
+
+  {"balanda":"Ne taaduru ngo","english":"I had wanted water"},
+  {"balanda":"Ne taaze vili","english":"I had given money"},
+  {"balanda":"Ne taadhe vili","english":"I had found money"},
+  {"balanda":"Ne taamele vongu","english":"I had tried the cloth"},
+  {"balanda":"Ne taasi ba","english":"I had left home"},
+  {"balanda":"Ne taalu","english":"I had arrived"},
+  {"balanda":"Ne taafagi mva","english":"I had sharpened the knife"},
+  {"balanda":"Ne taadewe kakpodu","english":"I had imitated adults"},
+  {"balanda":"Ne taabita mira","english":"I had started the project"},
+  {"balanda":"Ne taateta","english":"I had fallen"}
+]

@@ -1,0 +1,109 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_perfect",
+  "description": "This file defines the Present Perfect tense in Njo Viri (Balanda). The tense expresses actions that have been completed in the past but are relevant at the present moment. It is marked by the particle 'dheki'.",
+  "rules": {
+    "general_principle": {
+      "statement": "Present perfect tense in Balanda is formed using the verb base form followed by the marker 'dheki'. The tense expresses completed actions with present relevance and does not encode a specific past time."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + Verb(base) + (Object / Complement) + dheki",
+      "description": "Used to express an action that has been completed and whose result is relevant now.",
+      "constraints": [
+        "The verb must be in base form",
+        "The marker 'dheki' must appear sentence-final",
+        "No past tense markers are used"
+      ]
+    },
+
+    "semantic_scope": {
+      "functions": [
+        "completed action with present relevance",
+        "life experience",
+        "result-focused completion",
+        "actions without specified past time"
+      ]
+    },
+
+    "aspect_and_tense_rules": {
+      "rule": "Present perfect does not encode tense through verb morphology.",
+      "note": "Temporal reference is inferred from context; 'dheki' encodes present relevance."
+    },
+
+    "error_constraints": [
+      "Do not use past-marked verbs with present perfect",
+      "Do not omit 'dheki'",
+      "Do not combine 'dheki' with 'taa-' or 'noka'",
+      "Do not use present perfect with explicit past time expressions"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_base_verb": true,
+      "require_dheki_marker": true,
+      "preserve_sentence_final_position": true,
+      "map_to_english_present_perfect": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne ja se dheki","english":"I have eaten fish"},
+  {"balanda":"Ni nzü ngo dheki","english":"She has drunk water"},
+  {"balanda":"Danda teli muru famvara dheki","english":"We have slept on the bed"},
+  {"balanda":"Uku yai dheki","english":"Uku has gone"},
+  {"balanda":"Ngande dhii ba dheki","english":"Ngande has come home"},
+
+  {"balanda":"Ndi nonö gbi difo dheki","english":"They have walked in the compound"},
+  {"balanda":"Ni nangele zanga dheki","english":"She has run fast"},
+  {"balanda":"Uku mande gbi njü dheki","english":"Uku has worked in the garden"},
+  {"balanda":"Wiki moliki gbi difo dheki","english":"The child has played in the compound"},
+  {"balanda":"Ne loro voro dheki","english":"I have watched the dog"},
+
+  {"balanda":"Ne vele njo balanda dheki","english":"I have spoken Balanda"},
+  {"balanda":"Wilii sudi kavoso dheki","english":"The girl has written words"},
+  {"balanda":"Ne dheke kitabu dheki","english":"I have read a book"},
+  {"balanda":"Ni teri ay dheki","english":"He has thought about it"},
+  {"balanda":"Ndi ŋiyi ay dheki","english":"They have known it"},
+
+  {"balanda":"Ne we ndi dheki","english":"I have asked them"},
+  {"balanda":"Ngande vele zi ndi dheki","english":"Ngande has told them"},
+  {"balanda":"Wilii keye ti naa ni dheki","english":"The girl has called her mother"},
+
+  {"balanda":"Ne merego ŋo dheki","english":"I have loved you"},
+  {"balanda":"Ni maguku ti kpörö dheki","english":"He has feared the snake"},
+  {"balanda":"Ni sogo ni dheki","english":"She has hated him"},
+  {"balanda":"Ngande riki ni dheki","english":"Ngande has surprised him"},
+  {"balanda":"Ni dovee kurru dheki","english":"He has seemed calm"},
+
+  {"balanda":"Wilii yele tamma dheki","english":"The girl has tied the shoe"},
+  {"balanda":"Ni di kalla dheki","english":"He has cut the pot"},
+  {"balanda":"Ne tele njokoji dheki","english":"I have pulled the door"},
+  {"balanda":"Danda turu songo dheki","english":"We have pushed the box"},
+  {"balanda":"Wilii soko tamma dheki","english":"The girl has washed the shoe"},
+  {"balanda":"Ne kuru kavokau dheki","english":"I have hidden the beads"},
+
+  {"balanda":"Ngande ngö tiyi dheki","english":"Ngande has built a house"},
+  {"balanda":"Ne suru kavoso dheki","english":"I have created words"},
+  {"balanda":"Ni giri kavoso dheki","english":"She has changed the words"},
+  {"balanda":"Ne kara njokoji dheki","english":"I have turned the door"},
+  {"balanda":"Danda toko villi dheki","english":"We have added money"},
+  {"balanda":"Ne kefo Balanda dheki","english":"I have described Balanda"},
+
+  {"balanda":"Ndi konu nvesani dheki","english":"They have helped the poor"},
+  {"balanda":"Ngande ndugu mira dheki","english":"Ngande has initiated the project"},
+  {"balanda":"Ne maforo mira dheki","english":"I have contributed to the project"},
+  {"balanda":"Wilii sarwa kumere dheki","english":"The girl has separated trash"},
+  {"balanda":"Danda kiri tidina dheki","english":"We have upheld the law"},
+
+  {"balanda":"Ne duru ngo dheki","english":"I have wanted water"},
+  {"balanda":"Ni ze villi dheki","english":"She has given money"},
+  {"balanda":"Ne dhe villi dheki","english":"I have found money"},
+  {"balanda":"Uku mele vongu dheki","english":"Uku has tried the cloth"},
+  {"balanda":"Ngande si ba dheki","english":"Ngande has left home"},
+  {"balanda":"Ne lu Wau dheki","english":"I have arrived in Wau"},
+  {"balanda":"Ni fagi mva dheki","english":"He has sharpened the knife"},
+  {"balanda":"Ngande dewe kakpodu dheki","english":"Ngande has imitated adults"},
+  {"balanda":"Danda bita mira dheki","english":"We have started the project"},
+  {"balanda":"Ni teta dheki","english":"He has fallen"}
+]

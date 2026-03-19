@@ -1,0 +1,227 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_simple",
+  "description": "This file contains Balanda past simple sentences. Past simple expresses completed actions in the past and is formed using the ka- past marker directly on the verb.",
+  "rules": {
+    "affirmative_structure": "S + ka-VERB + (Object/Complement)",
+    "negative_structure": "S + ka-VERB + (Object/Complement) + gba",
+    "question_structure": "(affirmative_or_negative_clause) + we?",
+    "tense": "past",
+    "aspect": "simple",
+    "past_marker": "ka- (prefix attached to verb)",
+    "verb_form": "bare verb with ka- prefix",
+    "negation": "gba (clause-final)",
+    "question_particle": "we? (sentence-final)",
+    "constraints": [
+      "ka- must always be attached directly to the verb",
+      "No copula is used in past simple",
+      "Negation does not remove ka-",
+      "gba always appears at the end of the clause",
+      "Questions do not change word order",
+      "we? always appears at the very end of the clause",
+      "Past simple denotes completed or bounded events"
+    ]
+  }
+}
+
+
+
+Affirmative-Past SSimple
+
+{"balanda":"Ne kaja nza","english":"I ate food."}
+{"balanda":"Ne kanzü ngo","english":"I drank water."}
+{"balanda":"Ni kateli","english":"He slept."}
+{"balanda":"Ne kayai a Wau","english":"I went to Wau."}
+{"balanda":"Ni kadhii agbi tiyi","english":"He came to the house."}
+{"balanda":"Wiki kanono gbi difo","english":"The child walked in the compound."}
+{"balanda":"Ni kamande gbi njü","english":"He worked in the garden."}
+{"balanda":"Danda kamoliki","english":"We played."}
+
+{"balanda":"Ne kamerego ŋo","english":"I loved you."}
+{"balanda":"Ne kaŋiyi sereso","english":"I knew the truth."}
+{"balanda":"Ni katerii","english":"He thought."}
+{"balanda":"Ne kawe ndi","english":"I asked them."}
+{"balanda":"Ni kavele takoni","english":"He told a story."}
+{"balanda":"Ne kabaha ŋo","english":"I saw you."}
+{"balanda":"Ni kadhi","english":"He heard."}
+
+{"balanda":"Ne kasudi kitab","english":"I wrote a book."}
+{"balanda":"Ni kadheke kitab","english":"He read a book."}
+{"balanda":"Ne kasïhï kese","english":"I bought a bike."}
+{"balanda":"Ni kasadi nza","english":"He sold food."}
+{"balanda":"Ne katuru linguu","english":"I pushed the fruit."}
+{"balanda":"Ni kazaka kporo","english":"He pulled the drum."}
+{"balanda":"Ni kakara kafa","english":"He turned the table."}
+
+{"balanda":"Ne kakeye ti ndi","english":"I called them."}
+{"balanda":"Danda kawofo takoni","english":"We discussed the story."}
+{"balanda":"Ni kakolo wiki","english":"He hugged the child."}
+{"balanda":"Ndi kamago","english":"They fought."}
+{"balanda":"Ni kavanda wiki","english":"He protected the child."}
+
+{"balanda":"Ni kateta","english":"He fell."}
+{"balanda":"Ni kagirri","english":"He changed."}
+{"balanda":"Nguu kavere","english":"The tree darkened."}
+{"balanda":"Maraya kadeye","english":"The school developed."}
+{"balanda":"Wiki karengo","english":"The child matured."}
+
+{"balanda":"Ni kadho gbi tiyi","english":"He was in the house."}
+{"balanda":"Ne kama nde","english":"I did the work."}
+{"balanda":"Ne kawala gbi Wau","english":"I lived in Wau."}
+{"balanda":"Ne kaduru ngo","english":"I wanted water."}
+{"balanda":"Ni kadüŋü kpendii","english":"He remained behind."}
+
+{"balanda":"Ni kabase","english":"He sang."}
+{"balanda":"Ni kadulu","english":"He danced."}
+{"balanda":"Ne kaloro kananje","english":"I watched the animals."}
+
+
+Negations
+
+
+{"balanda":"Ne kaja nza gba","english":"I did not eat food."}
+{"balanda":"Ne kanzü ngo gba","english":"I did not drink water."}
+{"balanda":"Ni kateli gba","english":"He did not sleep."}
+{"balanda":"Ne kayai a Wau gba","english":"I did not go to Wau."}
+{"balanda":"Ni kadhii agbi tiyi gba","english":"He did not come to the house."}
+{"balanda":"Wiki kanono gbi difo gba","english":"The child did not walk in the compound."}
+{"balanda":"Ni kamande gbi njü gba","english":"He did not work in the garden."}
+{"balanda":"Danda kamoliki gba","english":"We did not play."}
+
+{"balanda":"Ne kamerego ŋo gba","english":"I did not love you."}
+{"balanda":"Ne kaŋiyi sereso gba","english":"I did not know the truth."}
+{"balanda":"Ni katerii gba","english":"He did not think."}
+{"balanda":"Ne kawe ndi gba","english":"I did not ask them."}
+{"balanda":"Ni kavele takoni gba","english":"He did not tell a story."}
+{"balanda":"Ne kabaha ŋo gba","english":"I did not see you."}
+{"balanda":"Ni kadhi gba","english":"He did not hear."}
+
+{"balanda":"Ne kasudi kitab gba","english":"I did not write a book."}
+{"balanda":"Ni kadheke kitab gba","english":"He did not read a book."}
+{"balanda":"Ne kasïhï kese gba","english":"I did not buy a bike."}
+{"balanda":"Ni kasadi nza gba","english":"He did not sell food."}
+{"balanda":"Ne katuru linguu gba","english":"I did not push the fruit."}
+{"balanda":"Ni kazaka kporo gba","english":"He did not pull the drum."}
+{"balanda":"Ni kakara kafa gba","english":"He did not turn the table."}
+
+{"balanda":"Ne kakeye ti ndi gba","english":"I did not call them."}
+{"balanda":"Danda kawofo takoni gba","english":"We did not discuss the story."}
+{"balanda":"Ni kakolo wiki gba","english":"He did not hug the child."}
+{"balanda":"Ndi kamago gba","english":"They did not fight."}
+{"balanda":"Ni kavanda wiki gba","english":"He did not protect the child."}
+
+{"balanda":"Ni kateta gba","english":"He did not fall."}
+{"balanda":"Ni kagirri gba","english":"He did not change."}
+{"balanda":"Nguu kavere gba","english":"The tree did not darken."}
+{"balanda":"Maraya kadeye gba","english":"The school did not develop."}
+{"balanda":"Wiki karengo gba","english":"The child did not mature."}
+
+{"balanda":"Ni kadho gbi tiyi gba","english":"He was not in the house."}
+{"balanda":"Ne kama nde gba","english":"I did not do the work."}
+{"balanda":"Ne kawala gbi Wau gba","english":"I did not live in Wau."}
+{"balanda":"Ne kaduru ngo gba","english":"I did not want water."}
+{"balanda":"Ni kadüŋü kpendii gba","english":"He did not remain behind."}
+
+{"balanda":"Ni kabase gba","english":"He did not sing."}
+{"balanda":"Ni kadulu gba","english":"He did not dance."}
+{"balanda":"Ne kaloro kananje gba","english":"I did not watch the animals."}
+
+
+Questions
+
+{"balanda":"Ne kaja nza we?","english":"Did I eat food?"}
+{"balanda":"Ne kanzü ngo we?","english":"Did I drink water?"}
+{"balanda":"Ni kateli we?","english":"Did he sleep?"}
+{"balanda":"Ne kayai a Wau we?","english":"Did I go to Wau?"}
+{"balanda":"Ni kadhii agbi tiyi we?","english":"Did he come to the house?"}
+{"balanda":"Wiki kanono gbi difo we?","english":"Did the child walk in the compound?"}
+{"balanda":"Ni kamande gbi njü we?","english":"Did he work in the garden?"}
+{"balanda":"Danda kamoliki we?","english":"Did we play?"}
+
+{"balanda":"Ne kamerego ŋo we?","english":"Did I love you?"}
+{"balanda":"Ne kaŋiyi sereso we?","english":"Did I know the truth?"}
+{"balanda":"Ni katerii we?","english":"Did he think?"}
+{"balanda":"Ne kawe ndi we?","english":"Did I ask them?"}
+{"balanda":"Ni kavele takoni we?","english":"Did he tell a story?"}
+{"balanda":"Ne kabaha ŋo we?","english":"Did I see you?"}
+{"balanda":"Ni kadhi we?","english":"Did he hear?"}
+
+{"balanda":"Ne kasudi kitab we?","english":"Did I write a book?"}
+{"balanda":"Ni kadheke kitab we?","english":"Did he read a book?"}
+{"balanda":"Ne kasïhï kese we?","english":"Did I buy a bike?"}
+{"balanda":"Ni kasadi nza we?","english":"Did he sell food?"}
+{"balanda":"Ne katuru linguu we?","english":"Did I push the fruit?"}
+{"balanda":"Ni kazaka kporo we?","english":"Did he pull the drum?"}
+{"balanda":"Ni kakara kafa we?","english":"Did he turn the table?"}
+
+{"balanda":"Ne kakeye ti ndi we?","english":"Did I call them?"}
+{"balanda":"Danda kawofo takoni we?","english":"Did we discuss the story?"}
+{"balanda":"Ni kakolo wiki we?","english":"Did he hug the child?"}
+{"balanda":"Ndi kamago we?","english":"Did they fight?"}
+{"balanda":"Ni kavanda wiki we?","english":"Did he protect the child?"}
+
+{"balanda":"Ni kateta we?","english":"Did he fall?"}
+{"balanda":"Ni kagirri we?","english":"Did he change?"}
+{"balanda":"Nguu kavere we?","english":"Did the tree darken?"}
+{"balanda":"Maraya kadeye we?","english":"Did the school develop?"}
+{"balanda":"Wiki karengo we?","english":"Did the child mature?"}
+
+{"balanda":"Ni kadho gbi tiyi we?","english":"Did he be in the house?"}
+{"balanda":"Ne kama nde we?","english":"Did I do the work?"}
+{"balanda":"Ne kawala gbi Wau we?","english":"Did I live in Wau?"}
+{"balanda":"Ne kaduru ngo we?","english":"Did I want water?"}
+{"balanda":"Ni kadüŋü kpendii we?","english":"Did he remain behind?"}
+
+{"balanda":"Ni kabase we?","english":"Did he sing?"}
+{"balanda":"Ni kadulu we?","english":"Did he dance?"}
+{"balanda":"Ne kaloro kananje we?","english":"Did I watch the animals?"}
+
+
+Negative Questions
+
+{"balanda":"Ne kaja nza gba we?","english":"Did I not eat food?"}
+{"balanda":"Ne kanzü ngo gba we?","english":"Did I not drink water?"}
+{"balanda":"Ni kateli gba we?","english":"Did he not sleep?"}
+{"balanda":"Ne kayai a Wau gba we?","english":"Did I not go to Wau?"}
+{"balanda":"Ni kadhii agbi tiyi gba we?","english":"Did he not come to the house?"}
+{"balanda":"Wiki kanono gbi difo gba we?","english":"Did the child not walk in the compound?"}
+{"balanda":"Ni kamande gbi njü gba we?","english":"Did he not work in the garden?"}
+{"balanda":"Danda kamoliki gba we?","english":"Did we not play?"}
+
+{"balanda":"Ne kamerego ŋo gba we?","english":"Did I not love you?"}
+{"balanda":"Ne kaŋiyi sereso gba we?","english":"Did I not know the truth?"}
+{"balanda":"Ni katerii gba we?","english":"Did he not think?"}
+{"balanda":"Ne kawe ndi gba we?","english":"Did I not ask them?"}
+{"balanda":"Ni kavele takoni gba we?","english":"Did he not tell a story?"}
+{"balanda":"Ne kabaha ŋo gba we?","english":"Did I not see you?"}
+{"balanda":"Ni kadhi gba we?","english":"Did he not hear?"}
+
+{"balanda":"Ne kasudi kitab gba we?","english":"Did I not write a book?"}
+{"balanda":"Ni kadheke kitab gba we?","english":"Did he not read a book?"}
+{"balanda":"Ne kasïhï kese gba we?","english":"Did I not buy a bike?"}
+{"balanda":"Ni kasadi nza gba we?","english":"Did he not sell food?"}
+{"balanda":"Ne katuru linguu gba we?","english":"Did I not push the fruit?"}
+{"balanda":"Ni kazaka kporo gba we?","english":"Did he not pull the drum?"}
+{"balanda":"Ni kakara kafa gba we?","english":"Did he not turn the table?"}
+
+{"balanda":"Ne kakeye ti ndi gba we?","english":"Did I not call them?"}
+{"balanda":"Danda kawofo takoni gba we?","english":"Did we not discuss the story?"}
+{"balanda":"Ni kakolo wiki gba we?","english":"Did he not hug the child?"}
+{"balanda":"Ndi kamago gba we?","english":"Did they not fight?"}
+{"balanda":"Ni kavanda wiki gba we?","english":"Did he not protect the child?"}
+
+{"balanda":"Ni kateta gba we?","english":"Did he not fall?"}
+{"balanda":"Ni kagirri gba we?","english":"Did he not change?"}
+{"balanda":"Nguu kavere gba we?","english":"Did the tree not darken?"}
+{"balanda":"Maraya kadeye gba we?","english":"Did the school not develop?"}
+{"balanda":"Wiki karengo gba we?","english":"Did the child not mature?"}
+
+{"balanda":"Ni kadho gbi tiyi gba we?","english":"Did he not be in the house?"}
+{"balanda":"Ne kama nde gba we?","english":"Did I not do the work?"}
+{"balanda":"Ne kawala gbi Wau gba we?","english":"Did I not live in Wau?"}
+{"balanda":"Ne kaduru ngo gba we?","english":"Did I not want water?"}
+{"balanda":"Ni kadüŋü kpendii gba we?","english":"Did he not remain behind?"}
+
+{"balanda":"Ni kabase gba we?","english":"Did he not sing?"}
+{"balanda":"Ni kadulu gba we?","english":"Did he not dance?"}
+{"balanda":"Ne kaloro kananje gba we?","english":"Did I not watch the animals?"}

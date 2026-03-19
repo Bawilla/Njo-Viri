@@ -1,0 +1,108 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_continuous_questions",
+  "description": "This file defines yes–no question formation in the Past Continuous tense in Njo Viri (Balanda). Past continuous questions ask whether an action was ongoing at a specific point in the past.",
+  "rules": {
+    "general_principle": {
+      "statement": "Past continuous questions in Balanda are formed by retaining the affirmative past continuous structure and adding the question marker 'we?' at the end of the sentence."
+    },
+
+    "question_structure": {
+      "structure": "Subject + noka + ti-Verb + (Object / Complement) + we?",
+      "description": "Used to ask whether an action was in progress in the past.",
+      "constraints": [
+        "The auxiliary 'noka' must be present",
+        "The prefix 'ti-' must attach to the verb",
+        "The question marker 'we?' must appear sentence-final"
+      ]
+    },
+
+    "aspect_preservation": {
+      "rule": "The progressive prefix 'ti-' is mandatory in all past continuous questions.",
+      "constraints": [
+        "ti- cannot be omitted",
+        "questions do not change aspectual meaning"
+      ]
+    },
+
+    "word_order_rules": {
+      "rule": "Question formation does not change word order.",
+      "note": "Balanda does not use subject–auxiliary inversion."
+    },
+
+    "error_constraints": [
+      "Do not omit 'noka'",
+      "Do not omit 'ti-'",
+      "Do not place 'we?' inside the sentence",
+      "Do not replace 'noka' with 'no'",
+      "Do not use bare verb forms"
+    ],
+
+    "model_behavior_guidelines": {
+      "keep_word_order_fixed": true,
+      "enforce_question_marker_final": true,
+      "preserve_progressive_aspect": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne noka tija se we?","english":"Was I eating fish?"},
+  {"balanda":"Ni noka tinzü ngo we?","english":"Was she drinking water?"},
+  {"balanda":"Danda noka titeli muru famvara we?","english":"Were we sleeping on the bed?"},
+  {"balanda":"Uku noka tiyai we?","english":"Was Uku going?"},
+  {"balanda":"Ngande noka tidhii ba we?","english":"Was Ngande coming home?"},
+
+  {"balanda":"Ndi noka tinonö gbi difo we?","english":"Were they walking in the compound?"},
+  {"balanda":"Ni noka tinangele zanga we?","english":"Was she running fast?"},
+  {"balanda":"Uku noka timande gbi njü we?","english":"Was Uku working in the garden?"},
+  {"balanda":"Wiki noka timoliki gbi difo we?","english":"Was the child playing in the compound?"},
+  {"balanda":"Ne noka tiloro voro we?","english":"Was I watching the dog?"},
+
+  {"balanda":"Ne noka tivele njo balanda we?","english":"Was I speaking Balanda?"},
+  {"balanda":"Wilii noka tisudi kavoso we?","english":"Was the girl writing words?"},
+  {"balanda":"Ne noka tidheke kitabu we?","english":"Was I reading a book?"},
+  {"balanda":"Ni noka titeri ay we?","english":"Was he thinking about it?"},
+  {"balanda":"Ndi noka tiŋiyi ay we?","english":"Were they knowing it?"},
+
+  {"balanda":"Ne noka tiwe ndi we?","english":"Was I asking them?"},
+  {"balanda":"Ngande noka tivele zi ndi we?","english":"Was Ngande telling them?"},
+  {"balanda":"Wilii noka tikeye ti naa ni we?","english":"Was the girl calling her mother?"},
+
+  {"balanda":"Ne noka timerego ŋo we?","english":"Was I loving you?"},
+  {"balanda":"Ni noka timaguku ti kpörö we?","english":"Was he fearing the snake?"},
+  {"balanda":"Ni noka tisogo dha we?","english":"Was she hating him?"},
+  {"balanda":"Ngande noka tiriki ni we?","english":"Was Ngande surprising him?"},
+  {"balanda":"Ni noka tidovee kurru we?","english":"Was he seeming calm?"},
+
+  {"balanda":"Wilii noka tiyele tamma we?","english":"Was the girl tying the shoe?"},
+  {"balanda":"Ni noka tidi kalla we?","english":"Was he cutting the pot?"},
+  {"balanda":"Ne noka titele njokoji we?","english":"Was I pulling the door?"},
+  {"balanda":"Danda noka tituru songo we?","english":"Were we pushing the box?"},
+  {"balanda":"Wilii noka tisoko tamma we?","english":"Was the girl washing the shoe?"},
+  {"balanda":"Ne noka tikuru kavokau we?","english":"Was I hiding the beads?"},
+
+  {"balanda":"Ngande noka tingö tiyi we?","english":"Was Ngande building a house?"},
+  {"balanda":"Ne noka tisuru kavoso we?","english":"Was I creating words?"},
+  {"balanda":"Ni noka tigiri kavoso we?","english":"Was she changing the words?"},
+  {"balanda":"Ne noka tikara njokoji we?","english":"Was I turning the door?"},
+  {"balanda":"Danda noka titoko villi we?","english":"Were we adding money?"},
+  {"balanda":"Ne noka tikefo Balanda we?","english":"Was I describing Balanda?"},
+
+  {"balanda":"Ndi noka tikonu nvesani we?","english":"Were they helping the poor?"},
+  {"balanda":"Ngande noka tindugu mira we?","english":"Was Ngande initiating the project?"},
+  {"balanda":"Ne noka timaforo mira we?","english":"Was I contributing to the project?"},
+  {"balanda":"Wilii noka tisarwa kumere we?","english":"Was the girl separating trash?"},
+  {"balanda":"Danda noka tikiri tidina we?","english":"Were we upholding the law?"},
+
+  {"balanda":"Ne noka tiduru ngo we?","english":"Was I wanting water?"},
+  {"balanda":"Ni noka tize villi we?","english":"Was she giving money?"},
+  {"balanda":"Ne noka tidhe villi we?","english":"Was I finding money?"},
+  {"balanda":"Uku noka timele vongu we?","english":"Was Uku trying the cloth?"},
+  {"balanda":"Ngande noka tisi ba we?","english":"Was Ngande leaving home?"},
+  {"balanda":"Ne noka tilu Wau we?","english":"Was I arriving in Wau?"},
+  {"balanda":"Ni noka tifagi mva we?","english":"Was he sharpening the knife?"},
+  {"balanda":"Ngande noka tidewe kakpodu we?","english":"Was Ngande imitating adults?"},
+  {"balanda":"Danda noka tibita mira we?","english":"Were we starting the project?"},
+  {"balanda":"Ni noka titeta we?","english":"Was he falling?"}
+]

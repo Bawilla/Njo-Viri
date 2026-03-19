@@ -1,0 +1,89 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_noun_noun_predication_and_modification",
+  "description": "This file contains Balanda noun–noun constructions. These include (1) nominal predication using the copular particle 'no' and (2) noun–noun modification without a copula.",
+  "rules": {
+    "construction_types": {
+      "nominal_predication": {
+        "structure": "Subject (Noun or Pronoun) + no + Noun",
+        "function": "Identifies or classifies the subject as a member of a category",
+        "copula": "no",
+        "tense_interpretation": "present or timeless identification",
+        "examples": [
+          "Ni no diktor",
+          "Ni no gbiya"
+        ]
+      },
+      "noun_noun_modification": {
+        "structure": "Modifier Noun + Head Noun",
+        "function": "Describes a quality, type, or classification of the head noun",
+        "copula": "none",
+        "word_order": "Modifier precedes head noun",
+        "examples": [
+          "Gbito bura",
+          "zongo wiki"
+        ]
+      }
+    },
+    "constraints": [
+      "The particle 'no' is used only for nominal predication",
+      "No copula appears in noun–noun modification",
+      "Word order is fixed within each construction",
+      "Plurality and definiteness are inferred from context",
+      "These constructions do not carry tense or aspect marking"
+    ]
+  }
+}
+
+
+[
+  {"balanda":"Ni no diktor","english":"He is a doctor"},
+  {"balanda":"Ni no gbiya","english":"He is a chief"},
+  {"balanda":"Ni no vuru","english":"He is a citizen"},
+  {"balanda":"Willi no wiki","english":"The girl is a child"},
+  {"balanda":"Ni no nvejïga","english":"He is a healer"},
+  {"balanda":"Gamara wutdu","english":"Old person"},
+  {"balanda":"Zanga wutdu","english":"Fast person"},
+  {"balanda":"Gbito bura","english":"Slow cat"},
+  {"balanda":"zongo wiki","english":"Young child"},
+  {"balanda":"Vetere nanje","english":"Black animal"},
+  {"balanda":"Kitimi wilii","english":"Beautiful girl"},
+  {"balanda":"zanga widhako","english":"Fast boy"},
+  {"balanda":"Ganza dhako","english":"Tall man"},
+  {"balanda":"Ferre verre","english":"Wide stream"},
+  {"balanda":"Zongo wilii","english":"Young girl"},
+  {"balanda":"kporo wutdu","english":"Strong person"},
+  {"balanda":"gamara dhako","english":"Old man"},
+  {"balanda":"zongo wiki","english":"Young child"},
+  {"balanda":"Gbito wutdu","english":"Slow person"},
+  {"balanda":"Zanga bura","english":"Fast cat"},
+  {"balanda":"Kitti wutdu","english":"Beautiful person"},
+  {"balanda":"kpoo bura","english":"Strong cat"},
+  {"balanda":"zanga kese","english":"Fast bike"},
+  {"balanda":"gbito dhako","english":"Slow man"},
+  {"balanda":"Zanga wiki","english":"Fast child"},
+  {"balanda":"Gamara dhako","english":"Old man"},
+  {"balanda":"zongo wilii","english":"Young girl"},
+  {"balanda":"kpoo widhako","english":"Strong boy"},
+  {"balanda":"gbito kese","english":"Slow bike"},
+  {"balanda":"zanga kese","english":"Fast bike"},
+  {"balanda":"Yivi gbiya","english":"Good chief"},
+  {"balanda":"Kitti niki","english":"Beautiful woman"},
+  {"balanda":"zanga wutdu","english":"Fast person"},
+  {"balanda":"gbito wiki","english":"Slow child"},
+  {"balanda":"kpoo dhako","english":"Strong man"},
+  {"balanda":"zanga nguu","english":"Fast tree"},
+  {"balanda":"zongo dhako","english":"Young man"},
+  {"balanda":"Gamara niki","english":"Old woman"},
+  {"balanda":"kpoo wiki","english":"Strong child"},
+  {"balanda":"gbito bura","english":"Slow cat"},
+  {"balanda":"zanga widhako","english":"Fast boy"},
+  {"balanda":"kitti wiki","english":"Beautiful child"},
+  {"balanda":"kpoo wiki","english":"Strong child"},
+  {"balanda":"gbito widhako","english":"Slow boy"},
+  {"balanda":"zanga niki","english":"Fast woman"},
+  {"balanda":"kpoo niki","english":"Strong woman"},
+  {"balanda":"Gamara widhako","english":"Old boy"},
+  {"balanda":"zanga wutdu","english":"Fast person"},
+  {"balanda":"Sapara voro","english":"Giant dog"}
+]

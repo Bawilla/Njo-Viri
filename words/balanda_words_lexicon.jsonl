@@ -1,0 +1,486 @@
+{
+  "instruction_type": "lexical_rule",
+  "grammar_name": "balanda_core_function_and_verb_lexicon",
+  "description": "This file contains core Balanda function words and high-frequency verbs, including the copula, auxiliary-like verbs, modal elements, core action verbs, and discourse particles. These items are foundational to sentence structure and meaning.",
+  "rules": {
+    "lexical_classes": {
+      "copula": {
+        "forms": ["No"],
+        "function": "Links a subject to a noun, adjective, or locative expression",
+        "english_equivalents": ["is", "are"],
+        "example": "Ni no gbiya (He is a chief)"
+      },
+      "possession_verb": {
+        "form": "Abi",
+        "meaning": "has",
+        "example": "Ni abi garra (He has a phone)"
+      },
+      "core_verbs": {
+        "forms": ["baha", "durgu", "iyi", "Dhe", "Zeke", "Duru", "Tima", "Limi", "Dhoti", "Dhii"],
+        "function": "Express actions, states, or processes",
+        "usage": "Appear as bare verbs in finite clauses"
+      },
+      "modal_element": {
+        "form": "kanonmve",
+        "meaning": "would",
+        "function": "Expresses conditional or hypothetical modality",
+        "constraint": "Does not take tense or aspect markers directly"
+      },
+      "discourse_particles": {
+        "forms": ["Sereme", "Fulu"],
+        "functions": {
+          "Sereme": "emphasis or intensity (really)",
+          "Fulu": "gratitude or politeness (thank)"
+        }
+      }
+    },
+    "morphological_properties": {
+      "inflection": "none",
+      "agreement": "none",
+      "tense_marking": "Expressed outside the verb using particles or prefixes already defined"
+    },
+    "syntactic_usage": {
+      "verb_position": "Follows the subject in basic declarative clauses",
+      "negation": "Negated using clause-final 'gba'",
+      "questions": "Formed by adding sentence-final 'we?'",
+      "aspect": "Continuous aspect uses ti- and dho; not inherent to these verbs"
+    },
+    "constraints": [
+      "Copula 'No' must not be treated as a lexical action verb",
+      "Function words must not be conjugated",
+      "These verbs must not take the infinitive prefix 'A-' when used as finite verbs",
+      "Modal elements must not be confused with full lexical verbs",
+      "Discourse particles do not function as predicates"
+    ]
+  }
+}
+
+
+
+
+{"balanda":"No","english":"is"}
+{"balanda":"No","english":"are"}
+{"balanda":"Abi","english":"has"}
+{"balanda":"baha","english":"see"}
+{"balanda":"durgu","english":"need"}
+{"balanda":"iyi","english":"know"}
+{"balanda":"kanonmve","english":"would"}
+{"balanda":"Dhe","english":"find"}
+{"balanda":"Zeke","english":"take"}
+{"balanda":"Duru","english":"want"}
+{"balanda":"Tima","english":"does"}
+{"balanda":"Limi","english":"learn"}
+{"balanda":"Dhoti","english":"become"}
+{"balanda":"Dhii","english":"come"}
+{"balanda":"Sereme","english":"really"}
+{"balanda":"Fulu","english":"thank"}
+{"balanda":"Suru","english":"create"}
+{"balanda":"Toko","english":"add"}
+{"balanda":"Fogbi","english":"understand"}
+{"balanda":"Zelungu","english":"choose"}
+{"balanda":"Deye","english":"develop"}
+{"balanda":"Tereta","english":"remember"}
+{"balanda":"Kuye","english":"grow"}
+{"balanda":"sibiti","english":"allow"}
+{"balanda":"Dhiita","english":"bring"}
+{"balanda":"kungu","english":"maintain"}
+{"balanda":"Bita","english":"begin"}
+{"balanda":"Vanda","english":"protect"}
+{"balanda":"Sudi","english":"write"}
+{"balanda":"Viyati","english":"avoid"}
+{"balanda":"Ngö","english":"build"}
+{"balanda":"wuwunjo","english":"believe"}
+{"balanda":"Dhovee","english":"seem"}
+{"balanda":"Wofo","english":"discuss"}
+{"balanda":"Wolondi","english":"follow"}
+{"balanda":"keyoro","english":"refer"}
+{"balanda":"Lovo","english":"solve"}
+{"balanda":"Sigiva","english":"describe"}
+{"balanda":"Durusondi","english":"prefer"}
+{"balanda":"Njemeke","english":"discover"}
+{"balanda":"Kurundi","english":"expect"}
+{"balanda":"Veleso","english":"speak"}
+{"balanda":"Ferege","english":"explain"}
+{"balanda":"Gili","english":"lose"}
+{"balanda":"Wunjo","english":"agree"}
+{"balanda":"dhï","english":"hear"}
+{"balanda":"Duui","english":"remain"}
+{"balanda":"Rovandi","english":"represent"}
+{"balanda":"sumeke","english":"apply"}
+{"balanda":"willi","english":"forget"}
+{"balanda":"Vasili","english":"rely"}
+{"balanda":"Yoro","english":"send"}
+{"balanda":"soho","english":"encourage"}
+{"balanda":"Wobere","english":"relax"}
+{"balanda":"mavata","english":"replace"}
+{"balanda":"Rünve","english":"enable"}
+{"balanda":"Ngele","english":"operate"}
+{"balanda":"Remgbe","english":"compare"}
+{"balanda":"Wunjondi","english":"accept"}
+{"balanda":"Mangbili","english":"complain"}
+{"balanda":"Ndirigbi","english":"enter"}
+{"balanda":"Mati","english":"happen"}
+{"balanda":"Yuva","english":"indicate"}
+{"balanda":"votii","english":"survive"}
+{"balanda":"foyi","english":"appreciate"}
+{"balanda":"mere","english":"admire"}
+{"balanda":"adopt","english":"adopt"}
+{"balanda":"Wavasu","english":"announce"}
+{"balanda":"Runzu","english":"approve"}
+{"balanda":"Ngandi","english":"belong"}
+{"balanda":"Yuvö","english":"criticize"}
+{"balanda":"Votigbi","english":"destroy"}
+{"balanda":"Logi","english":"pour"}
+{"balanda":"Tanga","english":"touch"}
+{"balanda":"viyoro","english":"submit"}
+{"balanda":"giriso","english":"translate"}
+{"balanda":"Dho","english":"be"}
+{"balanda":"Lunde","english":"use"}
+{"balanda":"Maa","english":"make"}
+{"balanda":"Koni","english":"help"}
+{"balanda":"Yai","english":"go"}
+{"balanda":"Terei","english":"think"}
+{"balanda":"Dheke","english":"read"}
+{"balanda":"Tuna","english":"start"}
+{"balanda":"Ze","english":"give"}
+{"balanda":"Moliki","english":"play"}
+{"balanda":"Tere","english":"put"}
+{"balanda":"Wayi","english":"say"}
+{"balanda":"Keye","english":"call"}
+{"balanda":"Sïhï","english":"buy"}
+{"balanda":"Dulu","english":"dance"}
+{"balanda":"Lovo","english":"solve"}
+{"balanda":"Sigiva","english":"describe"}
+{"balanda":"Durusondi","english":"prefer"}
+{"balanda":"Njemeke","english":"discover"}
+{"balanda":"Kurundi","english":"expect"}
+{"balanda":"Veleso","english":"speak"}
+{"balanda":"Wovindo","english":"appear"}
+{"balanda":"Ferege","english":"explain"}
+{"balanda":"Gili","english":"lose"}
+{"balanda":"Wunjo","english":"agree"}
+{"balanda":"dhï","english":"hear"}
+{"balanda":"Duui","english":"remain"}
+{"balanda":"Rovandi","english":"represent"}
+{"balanda":"sumeke","english":"apply"}
+{"balanda":"willi","english":"forget"}
+{"balanda":"Vasili","english":"rely"}
+{"balanda":"Yoro","english":"send"}
+{"balanda":"Kurundi","english":"wait"}
+{"balanda":"Fuhu","english":"flow"}
+{"balanda":"Deme","english":"hit"}
+{"balanda":"Ga","english":"shoot"}
+{"balanda":"Tanga","english":"touch"}
+{"balanda":"Vame","english":"cancel"}
+{"balanda":"Togbi","english":"cry"}
+{"balanda":"losi","english":"dump"}
+{"balanda":"Turu","english":"push"}
+{"balanda":"Luku","english":"select"}
+{"balanda":"Teku","english":"die"}
+{"balanda":"Ja","english":"eat"}
+{"balanda":"Tulu","english":"fill"}
+{"balanda":"Wo","english":"jump"}
+{"balanda":"Naka","english":"kick"}
+{"balanda":"Tüyü","english":"treat"}
+{"balanda":"Ganga","english":"abuse"}
+{"balanda":"Gbi","english":"beat"}
+{"balanda":"Tdaka","english":"burn"}
+{"balanda":"Sudili","english":"print"}
+{"balanda":"muku","english":"raise"}
+{"balanda":"Teli","english":"sleep"}
+{"balanda":"Tui","english":"connect"}
+{"balanda":"Sala","english":"fix"}
+{"balanda":"Nji","english":"kill"}
+{"balanda":"tara","english":"tap"}
+{"balanda":"Teta","english":"attack"}
+{"balanda":"juku","english":"drag"}
+{"balanda":"nzu","english":"drink"}
+{"balanda":"Tele","english":"pull"}
+{"balanda":"Yo","english":"wear"}
+{"balanda":"Koni","english":"count"}
+{"balanda":"Nzama","english":"feed"}
+{"balanda":"Karaka","english":"repeat"}
+{"balanda":"Sese","english":"sing"}
+{"balanda":"Lunguru","english":"collect"}
+{"balanda":"Du","english":"dig"}
+{"balanda":"Figgi","english":"divide"}
+{"balanda":"Nomvamva","english":"hunt"}
+{"balanda":"Yelle","english":"tie"}
+{"balanda":"Zati","english":"escape"}
+{"balanda":"Sogo","english":"hate"}
+{"balanda":"Wirindi","english":"repair"}
+{"balanda":"Kewe","english":"scratch"}
+{"balanda":"Modhi","english":"laugh"}
+{"balanda":"Nii","english":"struggle"}
+{"balanda":"Dukai","english":"swim"}
+{"balanda":"Soko","english":"wash"}
+{"balanda":"Ngoko","english":"shake"}
+{"balanda":"nzere","english":"shine"}
+{"balanda":"Mgba","english":"steal"}
+{"balanda":"Nofi","english":"suck"}
+{"balanda":"Taleti","english":"surround"}
+{"balanda":"Zïmvaa","english":"delay"}
+{"balanda":"kowei","english":"hurry"}
+{"balanda":"nzu","english":"kiss"}
+{"balanda":"Kö","english":"marry"}
+{"balanda":"Sese","english":"pray"}
+{"balanda":"Domo","english":"punch"}
+{"balanda":"ngati","english":"resist"}
+{"balanda":"Vonja","english":"rip"}
+{"balanda":"tolo","english":"rub"}
+{"balanda":"sama","english":"spell"}
+{"balanda":"Tiriti","english":"stretch"}
+{"balanda":"jiya","english":"wake"}
+{"balanda":"Wollo","english":"blow"}
+{"balanda":"Wiriki","english":"surprise"}
+{"balanda":"Viyoro","english":"submit"}
+{"balanda":"giriso","english":"translate"}
+{"balanda":"Valawa","english":"command"}
+{"balanda":"Duba","english":"settle"}
+{"balanda":"Goro","english":"smell"}
+{"balanda":"figigbi","english":"distribute"}
+{"balanda":"yamuru","english":"overcome"}
+{"balanda":"Nii nvogo","english":"suffer"}
+{"balanda":"Wa","english":"throw"}
+{"balanda":"Fesi","english":"acquire"}
+{"balanda":"Dodiri","english":"adjust"}
+{"balanda":"Lokoso","english":"argue"}
+{"balanda":"Muku","english":"arise"}
+{"balanda":"Yïundi","english":"confirm"}
+{"balanda":"Kelsere","english":"justify"}
+{"balanda":"wirindi","english":"organize"}
+{"balanda":"seduu","english":"retain"}
+{"balanda":"Neke","english":"shut"}
+{"balanda":"Odere","english":"compete"}
+{"balanda":"Lufigi","english":"deliver"}
+{"balanda":"Weta","english":"investigate"}
+{"balanda":"Tokpenze","english":"negotiate"}
+{"balanda":"Tiduui","english":"remain"}
+{"balanda":"Yeresu","english":"warn"}
+{"balanda":"tubiti","english":"accuse"}
+{"balanda":"admit","english":"admit"}
+{"balanda":"Wavasu","english":"inform"}
+{"balanda":"rofunsi","english":"persuade"}
+{"balanda":"terelo","english":"propose"}
+{"balanda":"Tanga tamuru","english":"remind"}
+{"balanda":"viteri","english":"suppose"}
+{"balanda":"Abi","english":"have"}
+{"balanda":"Lunde","english":"use"}
+{"balanda":"Maa","english":"make"}
+{"balanda":"Bowo","english":"look"}
+{"balanda":"Yai","english":"go"}
+{"balanda":"Terei","english":"think"}
+{"balanda":"Tdeke","english":"read"}
+{"balanda":"Tuna","english":"start"}
+{"balanda":"Ze","english":"give"}
+{"balanda":"Moliki","english":"play"}
+{"balanda":"Tere","english":"put"}
+{"balanda":"Kalla","english":"cut"}
+{"balanda":"Mele","english":"try"}
+{"balanda":"Keye","english":"call"}
+{"balanda":"Tenge","english":"move"}
+{"balanda":"Dafa","english":"pay"}
+{"balanda":"Zidi","english":"increase"}
+{"balanda":"Feleke","english":"turn"}
+{"balanda":"Weke","english":"ask"}
+{"balanda":"Sïhï","english":"buy"}
+{"balanda":"Kurule","english":"guard"}
+{"balanda":"jere","english":"hold"}
+{"balanda":"nitere","english":"offer"}
+{"balanda":"Womolo","english":"travel"}
+{"balanda":"Lotala","english":"cook"}
+{"balanda":"Dulu","english":"dance"}
+{"balanda":"Wala","english":"live"}
+{"balanda":"Singe","english":"purchase"}
+{"balanda":"Novee","english":"mean"}
+{"balanda":"Teta","english":"fall"}
+{"balanda":"Mada","english":"produce"}
+{"balanda":"Fatati","english":"search"}
+{"balanda":"Vele","english":"talk"}
+{"balanda":"Velezi","english":"tell"}
+{"balanda":"Noro","english":"drive"}
+{"balanda":"konubi","english":"support"}
+{"balanda":"Wusuvi","english":"remove"}
+{"balanda":"Dele","english":"return"}
+{"balanda":"Nangele","english":"run"}
+{"balanda":"Dere","english":"reserve"}
+{"balanda":"Lui","english":"reach"}
+{"balanda":"Woti","english":"rest"}
+{"balanda":"Boho","english":"watch"}
+{"balanda":"Wuru","english":"break"}
+{"balanda":"Dovura","english":"stay"}
+{"balanda":"Mawili","english":"visit"}
+{"balanda":"kpiki","english":"cover"}
+{"balanda":"Muku","english":"rise"}
+{"balanda":"Nono","english":"walk"}
+{"balanda":"Lunguru","english":"pick"}
+{"balanda":"Niyehe","english":"lift"}
+{"balanda":"Ro","english":"stop"}
+{"balanda":"Rugu","english":"teach"}
+{"balanda":"Woko","english":"fly"}
+{"balanda":"yudhe","english":"gain"}
+{"balanda":"Kungu","english":"save"}
+{"balanda":"Rota","english":"stand"}
+{"balanda":"Tengo","english":"fail"}
+{"balanda":"Susu","english":"listen"}
+{"balanda":"Sadi","english":"sell"}
+{"balanda":"Turu","english":"finish"}
+{"balanda":"Kpii","english":"press"}
+{"balanda":"dhoko","english":"ride"}
+{"balanda":"Kedi","english":"spread"}
+{"balanda":"Kurundi","english":"wait"}
+{"balanda":"kuluyu","english":"display"}
+{"balanda":"Fuhu","english":"flow"}
+{"balanda":"Deme","english":"hit"}
+{"balanda":"Ga","english":"shoot"}
+{"balanda":"Vame","english":"cancel"}
+{"balanda":"Togbi","english":"cry"}
+{"balanda":"losi","english":"dump"}
+{"balanda":"Luku","english":"select"}
+{"balanda":"Gbinjo","english":"conflict"}
+{"balanda":"Teku","english":"die"}
+{"balanda":"Tulu","english":"fill"}
+{"balanda":"Wo","english":"jump"}
+{"balanda":"Naka","english":"kick"}
+{"balanda":"pitch","english":"pitch"}
+{"balanda":"Tüyü","english":"treat"}
+{"balanda":"Ganga","english":"abuse"}
+{"balanda":"Gbi","english":"beat"}
+{"balanda":"Tdaka","english":"burn"}
+{"balanda":"deposit","english":"deposit"}
+{"balanda":"Sudili","english":"print"}
+{"balanda":"nokulo","english":"advance"}
+{"balanda":"Tui","english":"connect"}
+{"balanda":"darata","english":"consist"}
+{"balanda":"Tokonjobi","english":"contribute"}
+{"balanda":"digele","english":"draw"}
+{"balanda":"Sala","english":"fix"}
+{"balanda":"Nji","english":"kill"}
+{"balanda":"Dovura","english":"sit"}
+{"balanda":"tara","english":"tap"}
+{"balanda":"win","english":"win"}
+{"balanda":"yidia","english":"claim"}
+{"balanda":"yidhebe","english":"guess"}
+{"balanda":"Yo","english":"wear"}
+{"balanda":"yarali","english":"wonder"}
+{"balanda":"Nzama","english":"feed"}
+{"balanda":"impress","english":"impress"}
+{"balanda":"Karaka","english":"repeat"}
+{"balanda":"nova","english":"seek"}
+{"balanda":"zadha","english":"slide"}
+{"balanda":"goduru","english":"wish"}
+{"balanda":"suggu","english":"combine"}
+{"balanda":"Du","english":"dig"}
+{"balanda":"Figgi","english":"divide"}
+{"balanda":"Le","english":"hang"}
+{"balanda":"Nomvamva","english":"hunt"}
+{"balanda":"kele","english":"mention"}
+{"balanda":"Yelle","english":"tie"}
+{"balanda":"Zati","english":"escape"}
+{"balanda":"Sogo","english":"hate"}
+{"balanda":"Wirindi","english":"repair"}
+{"balanda":"Kewe","english":"scratch"}
+{"balanda":"Modhi","english":"laugh"}
+{"balanda":"njegbi","english":"split"}
+{"balanda":"kpatdara","english":"struggle"}
+{"balanda":"Dukai","english":"swim"}
+{"balanda":"ndugu","english":"train"}
+{"balanda":"Soko","english":"wash"}
+{"balanda":"wuturu","english":"waste"}
+{"balanda":"girita","english":"convert"}
+{"balanda":"Wugi","english":"crash"}
+{"balanda":"Falaka","english":"fold"}
+{"balanda":"gami","english":"grab"}
+{"balanda":"Kuru","english":"hide"}
+{"balanda":"Vayi","english":"miss"}
+{"balanda":"velewe","english":"roll"}
+{"balanda":"sink","english":"sink"}
+{"balanda":"vasuluku","english":"slip"}
+{"balanda":"wiya","english":"swing"}
+{"balanda":"ndaraka","english":"twist"}
+{"balanda":"dungili","english":"concentrate"}
+{"balanda":"kenziri","english":"estimate"}
+{"balanda":"Viya","english":"refuse"}
+{"balanda":"viyu","english":"reveal"}
+{"balanda":"Ngoko","english":"shake"}
+{"balanda":"mosere","english":"shift"}
+{"balanda":"nzere","english":"shine"}
+{"balanda":"Mgba","english":"steal"}
+{"balanda":"Nofi","english":"suck"}
+{"balanda":"Taleti","english":"surround"}
+{"balanda":"nii","english":"bear"}
+{"balanda":"Kurundi","english":"wait"}
+{"balanda":"kuluyu","english":"display"}
+{"balanda":"Fuhu","english":"flow"}
+{"balanda":"Deme","english":"hit"}
+{"balanda":"Ga","english":"shoot"}
+{"balanda":"Vame","english":"cancel"}
+{"balanda":"Togbi","english":"cry"}
+{"balanda":"losi","english":"dump"}
+{"balanda":"Luku","english":"select"}
+{"balanda":"Gbinjo","english":"conflict"}
+{"balanda":"Teku","english":"die"}
+{"balanda":"Tulu","english":"fill"}
+{"balanda":"Wo","english":"jump"}
+{"balanda":"Naka","english":"kick"}
+{"balanda":"pitch","english":"pitch"}
+{"balanda":"Tüyü","english":"treat"}
+{"balanda":"Ganga","english":"abuse"}
+{"balanda":"Gbi","english":"beat"}
+{"balanda":"Tdaka","english":"burn"}
+{"balanda":"deposit","english":"deposit"}
+{"balanda":"Sudili","english":"print"}
+{"balanda":"nokulo","english":"advance"}
+{"balanda":"Tui","english":"connect"}
+{"balanda":"darata","english":"consist"}
+{"balanda":"Tokonjobi","english":"contribute"}
+{"balanda":"digele","english":"draw"}
+{"balanda":"Sala","english":"fix"}
+{"balanda":"Nji","english":"kill"}
+{"balanda":"Dovura","english":"sit"}
+{"balanda":"tara","english":"tap"}
+{"balanda":"win","english":"win"}
+{"balanda":"yidia","english":"claim"}
+{"balanda":"yidhebe","english":"guess"}
+{"balanda":"Yo","english":"wear"}
+{"balanda":"yarali","english":"wonder"}
+{"balanda":"Nzama","english":"feed"}
+{"balanda":"Karaka","english":"repeat"}
+{"balanda":"nova","english":"seek"}
+{"balanda":"zadha","english":"slide"}
+{"balanda":"goduru","english":"wish"}
+{"balanda":"Du","english":"dig"}
+{"balanda":"Figgi","english":"divide"}
+{"balanda":"Le","english":"hang"}
+{"balanda":"Nomvamva","english":"hunt"}
+{"balanda":"Yelle","english":"tie"}
+{"balanda":"Zati","english":"escape"}
+{"balanda":"Sogo","english":"hate"}
+{"balanda":"Wirindi","english":"repair"}
+{"balanda":"Kewe","english":"scratch"}
+{"balanda":"Modhi","english":"laugh"}
+{"balanda":"njegbi","english":"split"}
+{"balanda":"Dukai","english":"swim"}
+{"balanda":"ndugu","english":"train"}
+{"balanda":"Soko","english":"wash"}
+{"balanda":"wuturu","english":"waste"}
+{"balanda":"Wugi","english":"crash"}
+{"balanda":"Falaka","english":"fold"}
+{"balanda":"gami","english":"grab"}
+{"balanda":"Kuru","english":"hide"}
+{"balanda":"Vayi","english":"miss"}
+{"balanda":"velewe","english":"roll"}
+{"balanda":"wiya","english":"swing"}
+{"balanda":"ndaraka","english":"twist"}
+{"balanda":"dungili","english":"concentrate"}
+{"balanda":"kenziri","english":"estimate"}
+{"balanda":"Viya","english":"refuse"}
+{"balanda":"viyu","english":"reveal"}
+{"balanda":"rush","english":"rush"}
+{"balanda":"Ngoko","english":"shake"}
+{"balanda":"nzere","english":"shine"}
+{"balanda":"Mgba","english":"steal"}
+{"balanda":"Nofi","english":"suck"}
+{"balanda":"Taleti","english":"surround"}
+
+

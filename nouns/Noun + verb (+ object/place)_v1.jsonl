@@ -1,0 +1,77 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_noun_verb_basic_clauses",
+  "description": "This file contains basic Balanda noun–verb clauses. These sentences express simple actions or states with a noun or pronoun subject followed directly by a verb, optionally with an object or complement.",
+  "rules": {
+    "basic_structure": "Subject (Noun or Pronoun) + Verb + (Object/Complement)",
+    "word_order": "SVO (Subject–Verb–Object) when an object is present",
+    "subject_type": [
+      "common noun",
+      "proper noun",
+      "pronoun"
+    ],
+    "verb_behavior": "Verb appears in bare form with no tense or aspect marker unless specified elsewhere",
+    "object_behavior": "Object is optional and follows the verb",
+    "prepositional_phrases": "Locative or directional phrases follow the verb or object",
+    "tense_interpretation": "Default tense is generic or present unless overridden by explicit tense markers in other files",
+    "constraints": [
+      "No tense or aspect prefixes are used in this file",
+      "No copula is used",
+      "Word order does not change for different subjects",
+      "Plurality is inferred from the subject, not verb morphology",
+      "Sentences may be transitive or intransitive"
+    ]
+  }
+}
+
+
+[
+  {"balanda":"Wiki ja nza","english":"The child eats food"},
+  {"balanda":"Bura moko juu","english":"The cat chases the rat"},
+  {"balanda":"Ni sudi kitab","english":"He writes a book"},
+  {"balanda":"Wilii dheke kitab","english":"The girl reads a book"},
+  {"balanda":"Ndi mande gbi njü","english":"They work in the garden"},
+  {"balanda":"Danda mande gbi njü","english":"We work in the garden"},
+  {"balanda":"Ni yai agbi negu","english":"He goes to the market"},
+  {"balanda":"Wiki nono","english":"The child walks"},
+  {"balanda":"Bura nono","english":"The cat walks"},
+  {"balanda":"Dhako wara noyaa","english":"The man cuts meat"},
+  {"balanda":"Wilii baha bura","english":"The girl sees the cat"},
+  {"balanda":"Ni vele takoni","english":"He tells a story"},
+  {"balanda":"Ndi ja nza","english":"They eat food"},
+  {"balanda":"Wiki yai agbi maraya","english":"The child goes to school"},
+  {"balanda":"Bura yai agbi tiyi","english":"The cat goes into the house"},
+  {"balanda":"Ni kolo wilii","english":"He hugs the girl"},
+  {"balanda":"Dhako logi ngo","english":"The man pours water"},
+  {"balanda":"Wilii yai agbi negu","english":"The girl goes to the market"},
+  {"balanda":"Ndi sudi kitab","english":"They write books"},
+  {"balanda":"Wiki dheke kitab","english":"The child reads a book"},
+  {"balanda":"Bura moko","english":"The cat chases"},
+  {"balanda":"Ni mande","english":"He works"},
+  {"balanda":"Dhako nono","english":"The man walks"},
+  {"balanda":"Wilii nono","english":"The girl walks"},
+  {"balanda":"Ndi yai a Wau","english":"They go to Wau"},
+  {"balanda":"Wiki ja","english":"The child eats"},
+  {"balanda":"Bura ja nza","english":"The cat eats food"},
+  {"balanda":"Ni dheke kitab","english":"He reads a book"},
+  {"balanda":"Dhako baha maraya","english":"The man sees the school"},
+  {"balanda":"Wilii ja nza","english":"The girl eats food"},
+  {"balanda":"Ndi nono gbi ngita","english":"They walk in the park"},
+  {"balanda":"Ni yai gbi tihi","english":"He goes into the house"},
+  {"balanda":"Wiki logi ngo","english":"The child pours water"},
+  {"balanda":"Bura wara juu","english":"The cat cuts the rat"},
+  {"balanda":"Ni kolo wiki","english":"He hugs the child"},
+  {"balanda":"Dhako dheke kitab","english":"The man reads a book"},
+  {"balanda":"Wilii sudi kitab","english":"The girl writes a book"},
+  {"balanda":"Ndi mande gbi negu","english":"They work in the market"},
+  {"balanda":"Wiki yai a tiyi","english":"The child goes home"},
+  {"balanda":"Bura yai a baa","english":"The cat goes into the house"},
+  {"balanda":"Ni ja nza","english":"He eats food"},
+  {"balanda":"Dhako yai agbi negu","english":"The man goes to the market"},
+  {"balanda":"Wilii mande","english":"The girl works"},
+  {"balanda":"Ndi ja","english":"They eat"},
+  {"balanda":"Wiki nono gbi park","english":"The child walks in the park"},
+  {"balanda":"Bura baha wiki","english":"The cat sees the child"},
+  {"balanda":"Ni logi ngo","english":"He pours water"},
+  {"balanda":"Dhako ja nza","english":"The man eats food"}
+]

@@ -1,0 +1,115 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_continuous_negative_questions",
+  "description": "This file defines negative question formation in the Past Continuous tense in Njo Viri (Balanda). Negative questions ask whether an action was not ongoing at a specific point in the past.",
+  "rules": {
+    "general_principle": {
+      "statement": "Past continuous negative questions preserve the progressive marker 'ti-' and form questions using either the negator 'kawilla' or the discontinuous negation 'maka … gba', followed by the sentence-final question marker 'we?'."
+    },
+
+    "negative_question_strategies": {
+      "kawilla_strategy": {
+        "structure": "Subject + kawilla + ti-Verb + (Object / Complement) + we?",
+        "constraints": [
+          "kawilla appears before the ti-verb",
+          "gba must not be used with kawilla"
+        ]
+      },
+      "maka_gba_strategy": {
+        "structure": "Subject + maka + ti-Verb + (Object / Complement) + gba + we?",
+        "constraints": [
+          "maka must appear before the ti-verb",
+          "gba must appear before 'we?'"
+        ]
+      }
+    },
+
+    "aspect_preservation": {
+      "rule": "The progressive prefix 'ti-' is mandatory in all negative questions.",
+      "constraints": [
+        "ti- cannot be omitted",
+        "negation does not change aspectual meaning"
+      ]
+    },
+
+    "word_order_rules": {
+      "rule": "Negative question formation does not involve inversion.",
+      "note": "Balanda uses sentence-final 'we?' instead of word-order change."
+    },
+
+    "error_constraints": [
+      "Do not combine 'kawilla' with 'gba'",
+      "Do not omit 'ti-'",
+      "Do not omit 'we?'",
+      "Do not replace 'noka' with 'no'",
+      "Do not change prepositions under negation"
+    ],
+
+    "model_behavior_guidelines": {
+      "preserve_progressive_aspect": true,
+      "enforce_valid_negation_strategy": true,
+      "keep_question_marker_final": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne kawilla tija se we?","english":"Was I not eating fish?"},
+  {"balanda":"Ni kawilla tinzü ngo we?","english":"Was she not drinking water?"},
+  {"balanda":"Danda maka titeli muru famvara gba we?","english":"Were we not sleeping on the bed?"},
+  {"balanda":"Uku kawilla tiyai we?","english":"Was Uku not going?"},
+  {"balanda":"Ngande maka tidhii ba gba we?","english":"Was Ngande not coming home?"},
+
+  {"balanda":"Ndi kawilla tinonö gbi difo we?","english":"Were they not walking in the compound?"},
+  {"balanda":"Ni maka tinangele zanga gba we?","english":"Was she not running fast?"},
+  {"balanda":"Uku kawilla timande gbi njü we?","english":"Was Uku not working in the garden?"},
+  {"balanda":"Wiki maka timoliki gbi difo gba we?","english":"Was the child not playing in the compound?"},
+  {"balanda":"Ne kawilla tiloro voro we?","english":"Was I not watching the dog?"},
+
+  {"balanda":"Ne maka tivele njo balanda gba we?","english":"Was I not speaking Balanda?"},
+  {"balanda":"Wilii kawilla tisudi kavoso we?","english":"Was the girl not writing words?"},
+  {"balanda":"Ne maka tidheke kitabu gba we?","english":"Was I not reading a book?"},
+  {"balanda":"Ni kawilla titeri ay we?","english":"Was he not thinking about it?"},
+  {"balanda":"Ndi maka tiŋiyi ay gba we?","english":"Were they not knowing it?"},
+
+  {"balanda":"Ne kawilla tiwe ndi we?","english":"Was I not asking them?"},
+  {"balanda":"Ngande maka tivele zi ndi gba we?","english":"Was Ngande not telling them?"},
+  {"balanda":"Wilii kawilla tikeye ti naa ni we?","english":"Was the girl not calling her mother?"},
+
+  {"balanda":"Ne maka timerego ŋo gba we?","english":"Was I not loving you?"},
+  {"balanda":"Ni kawilla timaguku ti kpörö we?","english":"Was he not fearing the snake?"},
+  {"balanda":"Ni maka tisogo dha gba we?","english":"Was she not hating him?"},
+  {"balanda":"Ngande kawilla tiriki ni we?","english":"Was Ngande not surprising him?"},
+  {"balanda":"Ni maka tidovee kurru gba we?","english":"Was he not seeming calm?"},
+
+  {"balanda":"Wilii kawilla tiyele tamma we?","english":"Was the girl not tying the shoe?"},
+  {"balanda":"Ni maka tidi kalla gba we?","english":"Was he not cutting the pot?"},
+  {"balanda":"Ne kawilla titele njokoji we?","english":"Was I not pulling the door?"},
+  {"balanda":"Danda maka tituru songo gba we?","english":"Were we not pushing the box?"},
+  {"balanda":"Wilii kawilla tisoko tamma we?","english":"Was the girl not washing the shoe?"},
+  {"balanda":"Ne maka tikuru kavokau gba we?","english":"Was I not hiding the beads?"},
+
+  {"balanda":"Ngande kawilla tingö tiyi we?","english":"Was Ngande not building a house?"},
+  {"balanda":"Ne maka tisuru kavoso gba we?","english":"Was I not creating words?"},
+  {"balanda":"Ni kawilla tigiri kavoso we?","english":"Was she not changing the words?"},
+  {"balanda":"Ne maka tikara njokoji gba we?","english":"Was I not turning the door?"},
+  {"balanda":"Danda kawilla titoko villi we?","english":"Were we not adding money?"},
+  {"balanda":"Ne maka tikefo Balanda gba we?","english":"Was I not describing Balanda?"},
+
+  {"balanda":"Ndi kawilla tikonu nvesani we?","english":"Were they not helping the poor?"},
+  {"balanda":"Ngande maka tindugu mira gba we?","english":"Was Ngande not initiating the project?"},
+  {"balanda":"Ne kawilla timaforo mira we?","english":"Was I not contributing to the project?"},
+  {"balanda":"Wilii maka tisarwa kumere gba we?","english":"Was the girl not separating trash?"},
+  {"balanda":"Danda kawilla tikiri tidina we?","english":"Were we not upholding the law?"},
+
+  {"balanda":"Ne maka tiduru ngo gba we?","english":"Was I not wanting water?"},
+  {"balanda":"Ni kawilla tize villi we?","english":"Was she not giving money?"},
+  {"balanda":"Ne maka tidhe villi gba we?","english":"Was I not finding money?"},
+  {"balanda":"Uku kawilla timele vongu we?","english":"Was Uku not trying the cloth?"},
+  {"balanda":"Ngande maka tisi ba gba we?","english":"Was Ngande not leaving home?"},
+  {"balanda":"Ne kawilla tilu Wau we?","english":"Was I not arriving in Wau?"},
+  {"balanda":"Ni maka tifagi mva gba we?","english":"Was he not sharpening the knife?"},
+  {"balanda":"Ngande kawilla tidewe kakpodu we?","english":"Was Ngande not imitating adults?"},
+  {"balanda":"Danda maka tibita mira gba we?","english":"Were we not starting the project?"},
+  {"balanda":"Ni kawilla titeta we?","english":"Was he not falling?"}
+]

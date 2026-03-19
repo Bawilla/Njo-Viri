@@ -1,0 +1,121 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_possessive_constructions_and_contractions",
+  "description": "This file defines possessive constructions and vowel contraction rules in Njo Viri (Balanda). Balanda distinguishes between intrinsic possession (body parts, name) and non-intrinsic possession (objects, external belongings). Contraction occurs when vowels meet at word boundaries.",
+  "rules": {
+
+    "general_principle": {
+      "statement": "Balanda marks possession differently depending on whether the noun is intrinsically possessed (body parts, name) or externally possessed (objects, belongings). Vowel contraction applies when adjacent vowels meet."
+    },
+
+    "personal_pronouns": {
+      "1sg": "ne",
+      "2sg": "ŋo",
+      "3sg": "ni",
+      "1pl": "dhuu/danda",
+      "2pl": "dha",
+      "3pl": "ndi"
+    },
+
+    "possessive_formation": {
+      "principle": "Personal pronouns do NOT mark possession by themselves.",
+      "structure": "Noun + ngandi + Pronoun",
+      "meaning": "Noun of Pronoun",
+      "examples": [
+        {"original":"Yi ngandi ne","contracted":"Yi ngande'e","english":"my thing"},
+        {"original":"Kese ngandi ni","contracted":"Kese ngando'o","english":"his/her bike"},
+        {"original":"Tiyi ngandi ŋo","contracted":"Tiyi ngandi'ŋ","english":"your house"},
+        {"original":"Munza ngandi ndi","contracted":"Munza ngandi ndi","english":"their guitar"}
+      ]
+    },
+
+    "intrinsic_possession": {
+      "definition": "Used for naturally or inherently possessed items such as body parts and name.",
+      "structure": "Noun + Pronoun",
+      "constraints": [
+        "Do NOT use 'ngandi' for intrinsic possession.",
+        "Apply vowel contraction rules when vowels meet."
+      ],
+      "examples": [
+        {"original":"Njo ne","contracted":"Nje'e","english":"my mouth"},
+        {"original":"Mgbo ne","contracted":"Mgbe'e","english":"my leg"},
+        {"original":"Volo ne","contracted":"Vole'e","english":"my eye"},
+        {"original":"Le ne","contracted":"Le'e","english":"my name"},
+        {"original":"Volo ni","contracted":"Volo'o","english":"his/her eye"},
+        {"original":"Volo ŋo","contracted":"Volo'ŋ","english":"your eye"}
+      ]
+    },
+
+    "contraction_rules": {
+
+      "o_plus_e": {
+        "pattern": "o + e",
+        "result": "e'e",
+        "example": "Volo ne → Vole'e"
+      },
+
+      "e_plus_e": {
+        "pattern": "e + e",
+        "result": "e'e",
+        "example": "Le ne → Le'e"
+      },
+
+      "o_plus_i": {
+        "pattern": "o + i",
+        "result": "o'o",
+        "example": "Volo ni → Volo'o"
+      },
+
+      "i_plus_i": {
+        "pattern": "i + i",
+        "result": "o'o",
+        "example": "Ngandi ni → Ngando'o"
+      },
+
+      "i_plus_e": {
+        "pattern": "i + e",
+        "result": "e'e",
+        "example": "Ngandi ne → Ngande'e"
+      },
+
+      "o_plus_o": {
+        "pattern": "o + o",
+        "result": "o'",
+        "example": "Volo ŋo → Volo'ŋ"
+      },
+
+      "e_plus_o": {
+        "pattern": "e + o",
+        "result": "e'",
+        "example": "Le ŋo → Le'ŋ"
+      }
+    },
+
+    "yi_definition": {
+      "yi": "thing",
+      "note": "Used with 'ngandi' for general possession."
+    },
+
+    "orthography_rules": [
+      "Merged vowels are written as e'e or o'o.",
+      "Deleted vowels are marked with an apostrophe before ŋ.",
+      "Contraction is mandatory when vowel collision occurs."
+    ],
+
+    "error_constraints": [
+      "Do not treat pronouns as possessive adjectives.",
+      "Do not use 'ngandi' with intrinsic possession.",
+      "Do not omit 'ngandi' with external possessions.",
+      "Do not ignore vowel contraction rules.",
+      "Do not leave vowel collisions unresolved."
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_ngandi_for_external_possession": true,
+      "block_pronoun_as_possessive": true,
+      "apply_vowel_harmony": true,
+      "resolve_vowel_collision": true,
+      "preserve_apostrophe_marking": true
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_perfect_negation",
+  "description": "This file defines negation in the Present Perfect tense in Njo Viri (Balanda). Present perfect negation expresses actions that have not occurred up to the present moment.",
+  "rules": {
+    "general_principle": {
+      "statement": "Present perfect negation in Balanda is formed by retaining the verb in base form and the present-relevance marker 'dheki', and adding the negation marker 'gba' sentence-finally. The copula 'ma' is not used in present perfect negation."
+    },
+
+    "negation_structure": {
+      "structure": "Subject + Verb(base) + (Object / Complement) + dheki + gba",
+      "constraints": [
+        "The verb must remain in base form",
+        "The marker 'dheki' must be retained",
+        "The negation marker 'gba' must appear sentence-final",
+        "The copula 'ma' must not be used"
+      ]
+    },
+
+    "aspectual_distinction": {
+      "rule": "The copula 'ma' is used for negation only in continuous forms with 'ti-'.",
+      "contrast": {
+        "present_continuous": "Subject + ma + ti-Verb + (Object) + gba",
+        "present_perfect": "Subject + Verb(base) + (Object) + dheki + gba"
+      }
+    },
+
+    "semantic_scope": {
+      "functions": [
+        "non-occurrence up to the present",
+        "denial of completion",
+        "lack of experience"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not use 'ma' in present perfect negation",
+      "Do not remove 'dheki' under negation",
+      "Do not use past-marked verbs",
+      "Do not combine present perfect negation with 'ti-'",
+      "Do not move 'gba' from sentence-final position"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_base_verb": true,
+      "preserve_dheki_marker": true,
+      "require_sentence_final_gba": true,
+      "block_ma_usage": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne ja se dheki gba","english":"I have not eaten fish"},
+  {"balanda":"Ni nzü ngo dheki gba","english":"She has not drunk water"},
+  {"balanda":"Danda teli muru famvara dheki gba","english":"We have not slept on the bed"},
+  {"balanda":"Uku yai dheki gba","english":"Uku has not gone"},
+  {"balanda":"Ngande dhii ba dheki gba","english":"Ngande has not come home"},
+
+  {"balanda":"Ndi nonö gbi difo dheki gba","english":"They have not walked in the compound"},
+  {"balanda":"Ni nangele zanga dheki gba","english":"She has not run fast"},
+  {"balanda":"Uku mande gbi njü dheki gba","english":"Uku has not worked in the garden"},
+  {"balanda":"Wiki moliki gbi difo dheki gba","english":"The child has not played in the compound"},
+  {"balanda":"Ne loro voro dheki gba","english":"I have not watched the dog"},
+
+  {"balanda":"Ne vele njo balanda dheki gba","english":"I have not spoken Balanda"},
+  {"balanda":"Wilii sudi kavoso dheki gba","english":"The girl has not written words"},
+  {"balanda":"Ne dheke kitabu dheki gba","english":"I have not read a book"},
+  {"balanda":"Ni teri ay dheki gba","english":"He has not thought about it"},
+  {"balanda":"Ndi ŋiyi ay dheki gba","english":"They have not known it"},
+
+  {"balanda":"Ne we ndi dheki gba","english":"I have not asked them"},
+  {"balanda":"Ngande vele zi ndi dheki gba","english":"Ngande has not told them"},
+  {"balanda":"Wilii keye ti naa ni dheki gba","english":"The girl has not called her mother"},
+
+  {"balanda":"Ne merego ŋo dheki gba","english":"I have not loved you"},
+  {"balanda":"Ni maguku ti kpörö dheki gba","english":"He has not feared the snake"},
+  {"balanda":"Ni sogo ni dheki gba","english":"She has not hated him"},
+  {"balanda":"Ngande riki ni dheki gba","english":"Ngande has not surprised him"},
+  {"balanda":"Ni dovee kurru dheki gba","english":"He has not seemed calm"},
+
+  {"balanda":"Wilii yele tamma dheki gba","english":"The girl has not tied the shoe"},
+  {"balanda":"Ni di kalla dheki gba","english":"He has not cut the pot"},
+  {"balanda":"Ne tele njokoji dheki gba","english":"I have not pulled the door"},
+  {"balanda":"Danda turu songo dheki gba","english":"We have not pushed the box"},
+  {"balanda":"Wilii soko tamma dheki gba","english":"The girl has not washed the shoe"},
+  {"balanda":"Ne kuru kavokau dheki gba","english":"I have not hidden the beads"},
+
+  {"balanda":"Ngande ngö tiyi dheki gba","english":"Ngande has not built a house"},
+  {"balanda":"Ne suru kavoso dheki gba","english":"I have not created words"},
+  {"balanda":"Ni giri kavoso dheki gba","english":"She has not changed the words"},
+  {"balanda":"Ne kara njokoji dheki gba","english":"I have not turned the door"},
+  {"balanda":"Danda toko villi dheki gba","english":"We have not added money"},
+  {"balanda":"Ne kefo Balanda dheki gba","english":"I have not described Balanda"},
+
+  {"balanda":"Ndi konu nvesani dheki gba","english":"They have not helped the poor"},
+  {"balanda":"Ngande ndugu mira dheki gba","english":"Ngande has not initiated the project"},
+  {"balanda":"Ne maforo mira dheki gba","english":"I have not contributed to the project"},
+  {"balanda":"Wilii sarwa kumere dheki gba","english":"The girl has not separated trash"},
+  {"balanda":"Danda kiri tidina dheki gba","english":"We have not upheld the law"},
+
+  {"balanda":"Ne duru ngo dheki gba","english":"I have not wanted water"},
+  {"balanda":"Ni ze villi dheki gba","english":"She has not given money"},
+  {"balanda":"Ne dhe villi dheki gba","english":"I have not found money"},
+  {"balanda":"Uku mele vongu dheki gba","english":"Uku has not tried the cloth"},
+  {"balanda":"Ngande si ba dheki gba","english":"Ngande has not left home"},
+  {"balanda":"Ne lu Wau dheki gba","english":"I have not arrived in Wau"},
+  {"balanda":"Ni fagi mva dheki gba","english":"He has not sharpened the knife"},
+  {"balanda":"Ngande dewe kakpodu dheki gba","english":"Ngande has not imitated adults"},
+  {"balanda":"Danda bita mira dheki gba","english":"We have not started the project"},
+  {"balanda":"Ni teta dheki gba","english":"He has not fallen"}
+]
+
