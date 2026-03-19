@@ -1,0 +1,127 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_negative_modality_kamamve_simple",
+  "description": "This file contains Balanda past negative modal constructions using 'kamamve'. This modality expresses past inability or impossibility and corresponds to the English meaning 'could not' or 'couldn’t'.",
+  "rules": {
+    "core_meaning": "Past inability or impossibility",
+    "modal": "kamamve",
+    "verb_form": "bare verb (no tense or aspect prefix)",
+    "negation": "gba (clause-final)",
+    "affirmative_negative_form": {
+      "structure": "Subject + kamamve + VERB + (Object/Complement) + gba",
+      "note": "This construction expresses negative modality without continuous aspect"
+    },
+    "question_form": {
+      "structure": "Subject + kamamve + VERB + (Object/Complement) + gba + we?",
+      "function": "Forms yes/no questions expressing past inability"
+    },
+    "tense": "past",
+    "aspect": "simple (non-continuous)",
+    "polarity": "negative",
+    "constraints": [
+      "kamamve must immediately follow the subject",
+      "The verb must remain in its base form",
+      "No ti- or le- prefix may appear in this construction",
+      "gba must appear at the end of the clause before the question particle",
+      "No word order change occurs in questions",
+      "we? always appears at the end of the clause",
+      "This construction must not be confused with past continuous modality (kamamve + dho + ti-VERB)"
+    ]
+  }
+}
+
+
+{"balanda":"Ne kamamve ja nza gba","english":"I couldn’t eat food."}
+{"balanda":"Ne kamamve nzü ngo gba","english":"I couldn’t drink water."}
+{"balanda":"Ni kamamve teli gba","english":"He couldn’t sleep."}
+{"balanda":"Ne kamamve yai a Wau gba","english":"I couldn’t go to Wau."}
+{"balanda":"Ni kamamve dhii agbi tiyi gba","english":"He couldn’t come to the house."}
+{"balanda":"Wiki kamamve nono gbi difo gba","english":"The child couldn’t walk in the compound."}
+{"balanda":"Ni kamamve mande gbi njü gba","english":"He couldn’t work in the garden."}
+{"balanda":"Danda kamamve moliki gba","english":"We couldn’t play."}
+
+{"balanda":"Ne kamamve merego ŋo gba","english":"I couldn’t love you."}
+{"balanda":"Ne kamamve ŋiyi sereso gba","english":"I couldn’t know the truth."}
+{"balanda":"Ni kamamve terei gba","english":"He couldn’t think."}
+{"balanda":"Ne kamamve we ndi gba","english":"I couldn’t ask them."}
+{"balanda":"Ni kamamve vele takoni gba","english":"He couldn’t tell a story."}
+{"balanda":"Ne kamamve baha ŋo gba","english":"I couldn’t see you."}
+{"balanda":"Ni kamamve dhi gba","english":"He couldn’t hear."}
+
+{"balanda":"Ne kamamve sudi kitab gba","english":"I couldn’t write a book."}
+{"balanda":"Ni kamamve dheke kitab gba","english":"He couldn’t read a book."}
+{"balanda":"Ne kamamve sïhï kese gba","english":"I couldn’t buy a bike."}
+{"balanda":"Ni kamamve sadi nza gba","english":"He couldn’t sell food."}
+{"balanda":"Ne kamamve turu linguu gba","english":"I couldn’t push the fruit."}
+{"balanda":"Ni kamamve zaka kporo gba","english":"He couldn’t pull the drum."}
+{"balanda":"Ni kamamve kara kafa gba","english":"He couldn’t turn the table."}
+
+{"balanda":"Ne kamamve keye ti ndi gba","english":"I couldn’t call them."}
+{"balanda":"Danda kamamve wofo takoni gba","english":"We couldn’t discuss the story."}
+{"balanda":"Ni kamamve kolo wiki gba","english":"He couldn’t hug the child."}
+{"balanda":"Ndi kamamve mago gba","english":"They couldn’t fight."}
+{"balanda":"Ni kamamve vanda wiki gba","english":"He couldn’t protect the child."}
+
+{"balanda":"Ni kamamve teta gba","english":"He couldn’t fall."}
+{"balanda":"Ni kamamve girri gba","english":"He couldn’t change."}
+{"balanda":"Nguu kamamve vere gba","english":"The tree couldn’t darken."}
+{"balanda":"Maraya kamamve deye gba","english":"The school couldn’t develop."}
+{"balanda":"Wiki kamamve rengo gba","english":"The child couldn’t mature."}
+
+{"balanda":"Ni kamamve dho gbi tiyi gba","english":"He couldn’t be in the house."}
+{"balanda":"Ne kamamve ma nde gba","english":"I couldn’t do the work."}
+{"balanda":"Ne kamamve wala gbi Wau gba","english":"I couldn’t live in Wau."}
+{"balanda":"Ne kamamve duru ngo gba","english":"I couldn’t want water."}
+{"balanda":"Ni kamamve düŋü kpendii gba","english":"He couldn’t remain behind."}
+
+{"balanda":"Ni kamamve base gba","english":"He couldn’t sing."}
+{"balanda":"Ni kamamve dulu gba","english":"He couldn’t dance."}
+{"balanda":"Ne kamamve loro kananje gba","english":"I couldn’t watch the animals."}
+
+
+{"balanda":"Ne kamamve ja nza gba we?","english":"Couldn’t I eat food?"}
+{"balanda":"Ne kamamve nzü ngo gba we?","english":"Couldn’t I drink water?"}
+{"balanda":"Ni kamamve teli gba we?","english":"Couldn’t he sleep?"}
+{"balanda":"Ne kamamve yai a Wau gba we?","english":"Couldn’t I go to Wau?"}
+{"balanda":"Ni kamamve dhii agbi tiyi gba we?","english":"Couldn’t he come to the house?"}
+{"balanda":"Wiki kamamve nono gbi difo gba we?","english":"Couldn’t the child walk in the compound?"}
+{"balanda":"Ni kamamve mande gbi njü gba we?","english":"Couldn’t he work in the garden?"}
+{"balanda":"Danda kamamve moliki gba we?","english":"Couldn’t we play?"}
+
+{"balanda":"Ne kamamve merego ŋo gba we?","english":"Couldn’t I love you?"}
+{"balanda":"Ne kamamve ŋiyi sereso gba we?","english":"Couldn’t I know the truth?"}
+{"balanda":"Ni kamamve terei gba we?","english":"Couldn’t he think?"}
+{"balanda":"Ne kamamve we ndi gba we?","english":"Couldn’t I ask them?"}
+{"balanda":"Ni kamamve vele takoni gba we?","english":"Couldn’t he tell a story?"}
+{"balanda":"Ne kamamve baha ŋo gba we?","english":"Couldn’t I see you?"}
+{"balanda":"Ni kamamve dhi gba we?","english":"Couldn’t he hear?"}
+
+{"balanda":"Ne kamamve sudi kitab gba we?","english":"Couldn’t I write a book?"}
+{"balanda":"Ni kamamve dheke kitab gba we?","english":"Couldn’t he read a book?"}
+{"balanda":"Ne kamamve sïhï kese gba we?","english":"Couldn’t I buy a bike?"}
+{"balanda":"Ni kamamve sadi nza gba we?","english":"Couldn’t he sell food?"}
+{"balanda":"Ne kamamve turu linguu gba we?","english":"Couldn’t I push the fruit?"}
+{"balanda":"Ni kamamve zaka kporo gba we?","english":"Couldn’t he pull the drum?"}
+{"balanda":"Ni kamamve kara kafa gba we?","english":"Couldn’t he turn the table?"}
+
+{"balanda":"Ne kamamve keye ti ndi gba we?","english":"Couldn’t I call them?"}
+{"balanda":"Danda kamamve wofo takoni gba we?","english":"Couldn’t we discuss the story?"}
+{"balanda":"Ni kamamve kolo wiki gba we?","english":"Couldn’t he hug the child?"}
+{"balanda":"Ndi kamamve mago gba we?","english":"Couldn’t they fight?"}
+{"balanda":"Ni kamamve vanda wiki gba we?","english":"Couldn’t he protect the child?"}
+
+{"balanda":"Ni kamamve teta gba we?","english":"Couldn’t he fall?"}
+{"balanda":"Ni kamamve girri gba we?","english":"Couldn’t he change?"}
+{"balanda":"Nguu kamamve vere gba we?","english":"Couldn’t the tree darken?"}
+{"balanda":"Maraya kamamve deye gba we?","english":"Couldn’t the school develop?"}
+{"balanda":"Wiki kamamve rengo gba we?","english":"Couldn’t the child mature?"}
+
+{"balanda":"Ni kamamve dho gbi tiyi gba we?","english":"Couldn’t he be in the house?"}
+{"balanda":"Ne kamamve ma nde gba we?","english":"Couldn’t I do the work?"}
+{"balanda":"Ne kamamve wala gbi Wau gba we?","english":"Couldn’t I live in Wau?"}
+{"balanda":"Ne kamamve duru ngo gba we?","english":"Couldn’t I want water?"}
+{"balanda":"Ni kamamve düŋü kpendii gba we?","english":"Couldn’t he remain behind?"}
+
+{"balanda":"Ni kamamve base gba we?","english":"Couldn’t he sing?"}
+{"balanda":"Ni kamamve dulu gba we?","english":"Couldn’t he dance?"}
+{"balanda":"Ne kamamve loro kananje gba we?","english":"Couldn’t I watch the animals?"}

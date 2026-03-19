@@ -1,0 +1,104 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_going_to_future_negation",
+  "description": "This file defines negation in the Going-to Future construction in Njo Viri (Balanda). The construction expresses planned or intended actions that will not happen.",
+  "rules": {
+    "general_principle": {
+      "statement": "Going-to future negation in Balanda is formed using either the negative auxiliary 'willa' or the copula-based negation 'ma ... gba'. Both patterns negate an intended future action."
+    },
+
+    "negation_patterns": {
+      "willa_pattern": {
+        "structure": "Subject + willa + tiyai + va + Verb(base) + (Object / Complement)",
+        "constraints": [
+          "Use 'willa' directly after the subject",
+          "Do not add 'gba' in this pattern"
+        ]
+      },
+      "ma_gba_pattern": {
+        "structure": "Subject + ma + tiyai + va + Verb(base) + (Object / Complement) + gba",
+        "constraints": [
+          "Use 'ma' before 'tiyai'",
+          "Use 'gba' sentence-finally"
+        ]
+      }
+    },
+
+    "shared_constraints": [
+      "The verb 'tiyai' must remain unchanged",
+      "The connector 'va' must link to the final base verb",
+      "The final verb must remain in base form",
+      "Do not use 'le-'",
+      "Do not use 'ti-' on the final verb",
+      "Do not use 'dheki'"
+    ],
+
+    "model_behavior_guidelines": {
+      "allow_willa_or_ma_gba": true,
+      "require_va_connector": true,
+      "enforce_base_final_verb": true,
+      "map_to_english_going_to_negation": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne willa tiyai va ja se","english":"I am not going to eat fish"},
+  {"balanda":"Ni willa tiyai va nzü ngo","english":"She is not going to drink water"},
+  {"balanda":"Danda ma tiyai va teli muru famvara gba","english":"We are not going to sleep on the bed"},
+  {"balanda":"Uku willa tiyai va yai","english":"Uku is not going to go"},
+  {"balanda":"Ngande ma tiyai va dhii ba gba","english":"Ngande is not going to come home"},
+
+  {"balanda":"Ndi willa tiyai va nonö gbi difo","english":"They are not going to walk in the compound"},
+  {"balanda":"Ni willa tiyai va nangele zanga","english":"She is not going to run fast"},
+  {"balanda":"Uku ma tiyai va mande gbi njü gba","english":"Uku is not going to work in the garden"},
+  {"balanda":"Wiki willa tiyai va moliki gbi difo","english":"The child is not going to play in the compound"},
+  {"balanda":"Ne ma tiyai va loro voro gba","english":"I am not going to watch the dog"},
+
+  {"balanda":"Ne willa tiyai va vele njo balanda","english":"I am not going to speak Balanda"},
+  {"balanda":"Wilii ma tiyai va sudi kavoso gba","english":"The girl is not going to write words"},
+  {"balanda":"Ne willa tiyai va dheke kitabu","english":"I am not going to read a book"},
+  {"balanda":"Ni ma tiyai va teri ay gba","english":"He is not going to think about it"},
+  {"balanda":"Ndi willa tiyai va ŋiyi ay","english":"They are not going to know it"},
+
+  {"balanda":"Ne ma tiyai va we ndi gba","english":"I am not going to ask them"},
+  {"balanda":"Ngande willa tiyai va vele zi ndi","english":"Ngande is not going to tell them"},
+  {"balanda":"Wilii ma tiyai va keye ti naa ni gba","english":"The girl is not going to call her mother"},
+
+  {"balanda":"Ne willa tiyai va merego ŋo","english":"I am not going to love you"},
+  {"balanda":"Ni ma tiyai va maguku ti kpörö gba","english":"He is not going to fear the snake"},
+  {"balanda":"Ni willa tiyai va sogo ni","english":"She is not going to hate him"},
+  {"balanda":"Ngande ma tiyai va riki ni gba","english":"Ngande is not going to surprise him"},
+  {"balanda":"Ni willa tiyai va dovee kurru","english":"He is not going to seem calm"},
+
+  {"balanda":"Wilii ma tiyai va yele tamma gba","english":"The girl is not going to tie the shoe"},
+  {"balanda":"Ni willa tiyai va di kalla","english":"He is not going to cut the pot"},
+  {"balanda":"Ne ma tiyai va tele njokoji gba","english":"I am not going to pull the door"},
+  {"balanda":"Danda willa tiyai va turu songo","english":"We are not going to push the box"},
+  {"balanda":"Wilii ma tiyai va soko tamma gba","english":"The girl is not going to wash the shoe"},
+  {"balanda":"Ne willa tiyai va kuru kavokau","english":"I am not going to hide the beads"},
+
+  {"balanda":"Ngande ma tiyai va ngö tiyi gba","english":"Ngande is not going to build a house"},
+  {"balanda":"Ne willa tiyai va suru kavoso","english":"I am not going to create words"},
+  {"balanda":"Ni ma tiyai va giri kavoso gba","english":"She is not going to change the words"},
+  {"balanda":"Ne willa tiyai va kara njokoji","english":"I am not going to turn the door"},
+  {"balanda":"Danda ma tiyai va toko villi gba","english":"We are not going to add money"},
+  {"balanda":"Ne willa tiyai va kefo Balanda","english":"I am not going to describe Balanda"},
+
+  {"balanda":"Ndi ma tiyai va konu nvesani gba","english":"They are not going to help the poor"},
+  {"balanda":"Ngande willa tiyai va ndugu mira","english":"Ngande is not going to initiate the project"},
+  {"balanda":"Ne ma tiyai va maforo mira gba","english":"I am not going to contribute to the project"},
+  {"balanda":"Wilii willa tiyai va sarwa kumere","english":"The girl is not going to separate trash"},
+  {"balanda":"Danda ma tiyai va kiri tidina gba","english":"We are not going to uphold the law"},
+
+  {"balanda":"Ne willa tiyai va duru ngo","english":"I am not going to want water"},
+  {"balanda":"Ni ma tiyai va ze villi gba","english":"She is not going to give money"},
+  {"balanda":"Ne willa tiyai va dhe villi","english":"I am not going to find money"},
+  {"balanda":"Uku ma tiyai va mele vongu gba","english":"Uku is not going to try the cloth"},
+  {"balanda":"Ngande willa tiyai va si ba","english":"Ngande is not going to leave home"},
+  {"balanda":"Ne ma tiyai va lu Wau gba","english":"I am not going to arrive in Wau"},
+  {"balanda":"Ni willa tiyai va fagi mva","english":"He is not going to sharpen the knife"},
+  {"balanda":"Ngande ma tiyai va dewe kakpodu gba","english":"Ngande is not going to imitate adults"},
+  {"balanda":"Danda willa tiyai va bita mira","english":"We are not going to start the project"},
+  {"balanda":"Ni ma tiyai va teta gba","english":"He is not going to fall"}
+]

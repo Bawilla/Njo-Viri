@@ -1,0 +1,78 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_simple_negative_modal_questions_mamve",
+  "description": "This file contains Balanda present simple negative modal questions using 'mamve'. These sentences express present inability or impossibility in interrogative form and correspond to the English meaning 'cannot' or 'can’t'.",
+  "rules": {
+    "core_meaning": "Present inability or impossibility (interrogative)",
+    "modal": "mamve",
+    "verb_form": "bare verb (base form)",
+    "negation": "gba (clause-final)",
+    "question_form": {
+      "structure": "Subject + mamve + VERB + (Object/Complement) + gba + we?",
+      "note": "Negative questions are formed by adding the sentence-final question particle 'we?' to the negative modal clause"
+    },
+    "tense": "present",
+    "aspect": "simple (non-continuous)",
+    "polarity": "negative",
+    "question_marker": "we?",
+    "constraints": [
+      "mamve replaces nonve in negative modality",
+      "mamve must immediately follow the subject",
+      "The verb must remain in its base form",
+      "No ti- (continuous) or le- (future) prefix may appear",
+      "gba must appear before the question particle",
+      "No inversion or auxiliary movement occurs in questions",
+      "we? must always appear at the end of the clause",
+      "This construction must not be confused with present continuous negative modal questions (mamve + dho + ti-VERB + gba + we?)"
+    ]
+  }
+}
+
+
+
+{"balanda":"Ne mamve ja nza gba we?","english":"Can't I eat food?"}
+{"balanda":"Ne mamve nzü ngo gba we?","english":"Can't I drink water?"}
+{"balanda":"Ni mamve teli gba we?","english":"Can't he sleep?"}
+{"balanda":"Ne mamve yai a Wau gba we?","english":"Can't I go to Wau?"}
+{"balanda":"Ni mamve dhii agbi tiyi gba we?","english":"Can't he come to the house?"}
+{"balanda":"Wiki mamve nono gbi difo gba we?","english":"Can't the child walk in the compound?"}
+{"balanda":"Ni mamve mande gbi njü gba we?","english":"Can't he work in the garden?"}
+{"balanda":"Danda mamve moliki gba we?","english":"Can't we play?"}
+
+{"balanda":"Ne mamve merego ŋo gba we?","english":"Can't I love you?"}
+{"balanda":"Ne mamve ŋiyi sereso gba we?","english":"Can't I know the truth?"}
+{"balanda":"Ni mamve terei gba we?","english":"Can't he think?"}
+{"balanda":"Ne mamve we ndi gba we?","english":"Can't I ask them?"}
+{"balanda":"Ni mamve vele takoni gba we?","english":"Can't he tell a story?"}
+{"balanda":"Ne mamve baha ŋo gba we?","english":"Can't I see you?"}
+{"balanda":"Ni mamve dhi gba we?","english":"Can't he hear?"}
+
+{"balanda":"Ne mamve sudi kitab gba we?","english":"Can't I write a book?"}
+{"balanda":"Ni mamve dheke kitab gba we?","english":"Can't he read a book?"}
+{"balanda":"Ne mamve sïhï kese gba we?","english":"Can't I buy a bike?"}
+{"balanda":"Ni mamve sadi nza gba we?","english":"Can't he sell food?"}
+{"balanda":"Ne mamve turu linguu gba we?","english":"Can't I push the fruit?"}
+{"balanda":"Ni mamve zaka kporo gba we?","english":"Can't he pull the drum?"}
+{"balanda":"Ni mamve kara kafa gba we?","english":"Can't he turn the table?"}
+
+{"balanda":"Ne mamve keye ti ndi gba we?","english":"Can't I call them?"}
+{"balanda":"Danda mamve wofo takoni gba we?","english":"Can't we discuss the story?"}
+{"balanda":"Ni mamve kolo wiki gba we?","english":"Can't he hug the child?"}
+{"balanda":"Ndi mamve mago gba we?","english":"Can't they fight?"}
+{"balanda":"Ni mamve vanda wiki gba we?","english":"Can't he protect the child?"}
+
+{"balanda":"Ni mamve teta gba we?","english":"Can't he fall?"}
+{"balanda":"Ni mamve girri gba we?","english":"Can't he change?"}
+{"balanda":"Nguu mamve vere gba we?","english":"Can't the tree darken?"}
+{"balanda":"Maraya mamve deye gba we?","english":"Can't the school develop?"}
+{"balanda":"Wiki mamve rengo gba we?","english":"Can't the child mature?"}
+
+{"balanda":"Ni mamve dho gbi tiyi gba we?","english":"Can't he be in the house?"}
+{"balanda":"Ne mamve ma nde gba we?","english":"Can't I do the work?"}
+{"balanda":"Ne mamve wala gbi Wau gba we?","english":"Can't I live in Wau?"}
+{"balanda":"Ne mamve duru ngo gba we?","english":"Can't I want water?"}
+{"balanda":"Ni mamve düŋü kpendii gba we?","english":"Can't he remain behind?"}
+
+{"balanda":"Ni mamve base gba we?","english":"Can't he sing?"}
+{"balanda":"Ni mamve dulu gba we?","english":"Can't he dance?"}
+{"balanda":"Ne mamve loro kananje gba we?","english":"Can't I watch the animals?"}

@@ -1,0 +1,111 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_simple_negation",
+  "description": "This file defines negation in the Future Simple tense in Njo Viri (Balanda). Future simple negation expresses actions that will not take place in the future.",
+  "rules": {
+    "general_principle": {
+      "statement": "Future simple negation in Balanda is formed by retaining the future prefix 'le-' on the verb and adding the negation marker 'gba' sentence-finally."
+    },
+
+    "negation_structure": {
+      "structure": "Subject + le-Verb(base) + (Object / Complement) + gba",
+      "description": "Used to express that a future action will not occur.",
+      "constraints": [
+        "The future prefix 'le-' must remain attached to the verb",
+        "The verb must remain in base form",
+        "The negation marker 'gba' must appear sentence-final"
+      ]
+    },
+
+    "tense_and_aspect_distinction": {
+      "rule": "Future simple negation encodes tense only.",
+      "note": "The copula 'ma', the progressive prefix 'ti-', and the result marker 'dheki' must not be used."
+    },
+
+    "word_order_rules": {
+      "rule": "Negation does not change word order.",
+      "canonical_order": [
+        "Subject",
+        "le-Verb",
+        "Object / Complement",
+        "gba"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not omit the prefix 'le-'",
+      "Do not use 'ma' for future negation",
+      "Do not use 'ti-' or 'dheki'",
+      "Do not move 'gba' from sentence-final position"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_le_prefix": true,
+      "require_sentence_final_gba": true,
+      "block_other_tense_aspect_markers": true,
+      "preserve_word_order": true,
+      "map_to_english_future_simple_negation": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne leja se gba","english":"I will not eat fish"},
+  {"balanda":"Ni lenzü ngo gba","english":"She will not drink water"},
+  {"balanda":"Danda leteli muru famvara gba","english":"We will not sleep on the bed"},
+  {"balanda":"Uku leyai agbi maraya gba","english":"Uku will not go to school"},
+  {"balanda":"Ngande ledhii ba gba","english":"Ngande will not come home"},
+
+  {"balanda":"Ndi lenonö gbi difo gba","english":"They will not walk in the compound"},
+  {"balanda":"Ni lenangele zanga gba","english":"She will not run fast"},
+  {"balanda":"Uku lemande gbi njü gba","english":"Uku will not work in the garden"},
+  {"balanda":"Wiki lemoliki gbi difo gba","english":"The child will not play in the compound"},
+  {"balanda":"Ne leloro voro gba","english":"I will not watch the dog"},
+
+  {"balanda":"Ne levele njo balanda gba","english":"I will not speak Balanda"},
+  {"balanda":"Wilii lesudi kavoso gba","english":"The girl will not write words"},
+  {"balanda":"Ne ledheke kitabu gba","english":"I will not read a book"},
+  {"balanda":"Ni leteri ay gba","english":"He will not think about it"},
+  {"balanda":"Ndi leŋiyi ay gba","english":"They will not know it"},
+
+  {"balanda":"Ne lewe ndi gba","english":"I will not ask them"},
+  {"balanda":"Ngande levele zi ndi gba","english":"Ngande will not tell them"},
+  {"balanda":"Wilii lekeye ti naa ni gba","english":"The girl will not call her mother"},
+
+  {"balanda":"Ne lemerego ŋo gba","english":"I will not love you"},
+  {"balanda":"Ni lemaguku ti kpörö gba","english":"He will not fear the snake"},
+  {"balanda":"Ni lesogo ni gba","english":"She will not hate him"},
+  {"balanda":"Ngande leriki ni gba","english":"Ngande will not surprise him"},
+  {"balanda":"Ni ledovee kurru gba","english":"He will not seem calm"},
+
+  {"balanda":"Wilii leyele tamma gba","english":"The girl will not tie the shoe"},
+  {"balanda":"Ni ledi kalla gba","english":"He will not cut the pot"},
+  {"balanda":"Ne letele njokoji gba","english":"I will not pull the door"},
+  {"balanda":"Danda leturu songo gba","english":"We will not push the box"},
+  {"balanda":"Wilii lesoko tamma gba","english":"The girl will not wash the shoe"},
+  {"balanda":"Ne lekuru kavokau gba","english":"I will not hide the beads"},
+
+  {"balanda":"Ngande lengö tiyi gba","english":"Ngande will not build a house"},
+  {"balanda":"Ne lesuru kavoso gba","english":"I will not create words"},
+  {"balanda":"Ni legiri kavoso gba","english":"She will not change the words"},
+  {"balanda":"Ne lekara njokoji gba","english":"I will not turn the door"},
+  {"balanda":"Danda letoko villi gba","english":"We will not add money"},
+  {"balanda":"Ne lekefo Balanda gba","english":"I will not describe Balanda"},
+
+  {"balanda":"Ndi lekonu nvesani gba","english":"They will not help the poor"},
+  {"balanda":"Ngande lendugu mira gba","english":"Ngande will not initiate the project"},
+  {"balanda":"Ne lemaforo mira gba","english":"I will not contribute to the project"},
+  {"balanda":"Wilii lesarwa kumere gba","english":"The girl will not separate trash"},
+  {"balanda":"Danda lekiri tidina gba","english":"We will not uphold the law"},
+
+  {"balanda":"Ne leduru ngo gba","english":"I will not want water"},
+  {"balanda":"Ni leze villi gba","english":"She will not give money"},
+  {"balanda":"Ne ledhe villi gba","english":"I will not find money"},
+  {"balanda":"Uku lemele vongu gba","english":"Uku will not try the cloth"},
+  {"balanda":"Ngande lesi ba gba","english":"Ngande will not leave home"},
+  {"balanda":"Ne lelu Wau gba","english":"I will not arrive in Wau"},
+  {"balanda":"Ni lefagi mva gba","english":"He will not sharpen the knife"},
+  {"balanda":"Ngande ledewe kakpodu gba","english":"Ngande will not imitate adults"},
+  {"balanda":"Danda lebita mira gba","english":"We will not start the project"},
+  {"balanda":"Ni leteta gba","english":"He will not fall"}
+]

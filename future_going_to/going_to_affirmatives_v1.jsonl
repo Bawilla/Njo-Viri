@@ -1,0 +1,115 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_going_to_future_affirmative",
+  "description": "This file defines affirmative sentences in the Going-to Future construction in Njo Viri (Balanda). The construction expresses planned or intended future actions using the motion verb 'tiyai' followed by the directional marker 'va' and a base verb.",
+  "rules": {
+    "general_principle": {
+      "statement": "Going-to future in Balanda is formed with the present copula 'no', the motion verb 'tiyai' (go), the directional connector 'va', and a base verb expressing the intended action."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + no + tiyai + va + Verb(base) + (Object / Complement)",
+      "description": "Used to express a planned or intended future action.",
+      "constraints": [
+        "The copula 'no' must appear after the subject",
+        "The verb 'tiyai' must remain in base motion form",
+        "The connector 'va' must link 'tiyai' to the following base verb",
+        "The final verb must remain in base form without tense or aspect marking"
+      ]
+    },
+
+    "semantic_function": {
+      "meaning": "planned, intended, or expected future action",
+      "contrast_with_future_simple": "Future simple with 'le-' expresses neutral future, while 'tiyai va' expresses intention or plan."
+    },
+
+    "word_order_rules": {
+      "canonical_order": [
+        "Subject",
+        "no",
+        "tiyai",
+        "va",
+        "Verb(base)",
+        "Object / Complement"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not omit 'no'",
+      "Do not omit 'tiyai'",
+      "Do not omit 'va'",
+      "Do not attach tense markers like 'le-' to the final verb",
+      "Do not use progressive 'ti-' on the final verb",
+      "Do not add 'dheki' in going-to affirmatives"
+    ],
+
+    "model_behavior_guidelines": {
+      "require_no_copula": true,
+      "require_tiyai_motion": true,
+      "require_va_connector": true,
+      "enforce_base_final_verb": true,
+      "map_to_english_going_to_future": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne no tiyai va ja se","english":"I am going to eat fish"},
+  {"balanda":"Ni no tiyai va nzü ngo","english":"She is going to drink water"},
+  {"balanda":"Danda no tiyai va teli muru famvara","english":"We are going to sleep on the bed"},
+  {"balanda":"Uku no tiyai va yai","english":"Uku is going to go"},
+  {"balanda":"Ngande no tiyai va dhii ba","english":"Ngande is going to come home"},
+
+  {"balanda":"Ndi no tiyai va nonö gbi difo","english":"They are going to walk in the compound"},
+  {"balanda":"Ni no tiyai va nangele zanga","english":"She is going to run fast"},
+  {"balanda":"Uku no tiyai va mande gbi njü","english":"Uku is going to work in the garden"},
+  {"balanda":"Wiki no tiyai va moliki gbi difo","english":"The child is going to play in the compound"},
+  {"balanda":"Ne no tiyai va loro voro","english":"I am going to watch the dog"},
+
+  {"balanda":"Ne no tiyai va vele njo balanda","english":"I am going to speak Balanda"},
+  {"balanda":"Wilii no tiyai va sudi kavoso","english":"The girl is going to write words"},
+  {"balanda":"Ne no tiyai va dheke kitabu","english":"I am going to read a book"},
+  {"balanda":"Ni no tiyai va teri ay","english":"He is going to think about it"},
+  {"balanda":"Ndi no tiyai va ŋiyi ay","english":"They are going to know it"},
+
+  {"balanda":"Ne no tiyai va we ndi","english":"I am going to ask them"},
+  {"balanda":"Ngande no tiyai va vele zi ndi","english":"Ngande is going to tell them"},
+  {"balanda":"Wilii no tiyai va keye ti naa ni","english":"The girl is going to call her mother"},
+
+  {"balanda":"Ne no tiyai va merego ŋo","english":"I am going to love you"},
+  {"balanda":"Ni no tiyai va maguku ti kpörö","english":"He is going to fear the snake"},
+  {"balanda":"Ni no tiyai va sogo ni","english":"She is going to hate him"},
+  {"balanda":"Ngande no tiyai va riki ni","english":"Ngande is going to surprise him"},
+  {"balanda":"Ni no tiyai va dovee kurru","english":"He is going to seem calm"},
+
+  {"balanda":"Wilii no tiyai va yele tamma","english":"The girl is going to tie the shoe"},
+  {"balanda":"Ni no tiyai va di kalla","english":"He is going to cut the pot"},
+  {"balanda":"Ne no tiyai va tele njokoji","english":"I am going to pull the door"},
+  {"balanda":"Danda no tiyai va turu songo","english":"We are going to push the box"},
+  {"balanda":"Wilii no tiyai va soko tamma","english":"The girl is going to wash the shoe"},
+  {"balanda":"Ne no tiyai va kuru kavokau","english":"I am going to hide the beads"},
+
+  {"balanda":"Ngande no tiyai va ngö tiyi","english":"Ngande is going to build a house"},
+  {"balanda":"Ne no tiyai va suru kavoso","english":"I am going to create words"},
+  {"balanda":"Ni no tiyai va giri kavoso","english":"She is going to change the words"},
+  {"balanda":"Ne no tiyai va kara njokoji","english":"I am going to turn the door"},
+  {"balanda":"Danda no tiyai va toko villi","english":"We are going to add money"},
+  {"balanda":"Ne no tiyai va kefo Balanda","english":"I am going to describe Balanda"},
+
+  {"balanda":"Ndi no tiyai va konu nvesani","english":"They are going to help the poor"},
+  {"balanda":"Ngande no tiyai va ndugu mira","english":"Ngande is going to initiate the project"},
+  {"balanda":"Ne no tiyai va maforo mira","english":"I am going to contribute to the project"},
+  {"balanda":"Wilii no tiyai va sarwa kumere","english":"The girl is going to separate trash"},
+  {"balanda":"Danda no tiyai va kiri tidina","english":"We are going to uphold the law"},
+
+  {"balanda":"Ne no tiyai va duru ngo","english":"I am going to want water"},
+  {"balanda":"Ni no tiyai va ze villi","english":"She is going to give money"},
+  {"balanda":"Ne no tiyai va dhe villi","english":"I am going to find money"},
+  {"balanda":"Uku no tiyai va mele vongu","english":"Uku is going to try the cloth"},
+  {"balanda":"Ngande no tiyai va si ba","english":"Ngande is going to leave home"},
+  {"balanda":"Ne no tiyai va lu Wau","english":"I am going to arrive in Wau"},
+  {"balanda":"Ni no tiyai va fagi mva","english":"He is going to sharpen the knife"},
+  {"balanda":"Ngande no tiyai va dewe kakpodu","english":"Ngande is going to imitate adults"},
+  {"balanda":"Danda no tiyai va bita mira","english":"We are going to start the project"},
+  {"balanda":"Ni no tiyai va teta","english":"He is going to fall"}
+]

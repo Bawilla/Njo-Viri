@@ -1,0 +1,128 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_continuous_negative_modality_kamamve",
+  "description": "This file contains Balanda past continuous negative modality constructions. This modality expresses past inability or impossibility of an ongoing action and corresponds to the English meaning 'could not be ...-ing'.",
+  "rules": {
+    "core_meaning": "Past inability or impossibility during an ongoing action",
+    "modal": "kamamve",
+    "aspect_marker": "dho",
+    "verb_form": "ti-VERB (present form retained)",
+    "negation": "gba (clause-final)",
+    "affirmative_form": {
+      "structure": "Subject + kamamve + dho + ti-VERB + (Object/Complement) + gba",
+      "note": "This construction is inherently negative in meaning"
+    },
+    "question_form": {
+      "structure": "Subject + kamamve + dho + ti-VERB + (Object/Complement) + gba + we?",
+      "function": "Forms yes/no questions expressing past inability"
+    },
+    "tense": "past",
+    "aspect": "continuous",
+    "constraints": [
+      "kamamve must precede dho",
+      "dho must immediately precede the ti-verb",
+      "ti- must not be removed or replaced",
+      "gba must appear at the end of the clause before the question particle",
+      "No word order change occurs in questions",
+      "This construction must not be used for simple past or present meanings",
+      "The construction expresses modality, not factual negation alone"
+    ]
+  }
+}
+
+
+{"balanda":"Ne kamamve dho tija nza gba","english":"I couldn’t be eating food."}
+{"balanda":"Ne kamamve dho tinzü ngo gba","english":"I couldn’t be drinking water."}
+{"balanda":"Ni kamamve dho titeli gba","english":"He couldn’t be sleeping."}
+{"balanda":"Ne kamamve dho tiyai a Wau gba","english":"I couldn’t be going to Wau."}
+{"balanda":"Ni kamamve dho tidhii agbi tiyi gba","english":"He couldn’t be coming to the house."}
+{"balanda":"Wiki kamamve dho tinono gbi difo gba","english":"The child couldn’t be walking in the compound."}
+{"balanda":"Ni kamamve dho timande gbi njü gba","english":"He couldn’t be working in the garden."}
+{"balanda":"Danda kamamve dho timoliki gba","english":"We couldn’t be playing."}
+
+{"balanda":"Ne kamamve dho timerego ŋo gba","english":"I couldn’t be loving you."}
+{"balanda":"Ne kamamve dho tiŋiyi sereso gba","english":"I couldn’t be knowing the truth."}
+{"balanda":"Ni kamamve dho titerii gba","english":"He couldn’t be thinking."}
+{"balanda":"Ne kamamve dho tiwe ndi gba","english":"I couldn’t be asking them."}
+{"balanda":"Ni kamamve dho tivel e takoni gba","english":"He couldn’t be telling a story."}
+{"balanda":"Ne kamamve dho tibaha ŋo gba","english":"I couldn’t be seeing you."}
+{"balanda":"Ni kamamve dho tidhi gba","english":"He couldn’t be hearing."}
+
+{"balanda":"Ne kamamve dho tisudi kitab gba","english":"I couldn’t be writing a book."}
+{"balanda":"Ni kamamve dho tidheke kitab gba","english":"He couldn’t be reading a book."}
+{"balanda":"Ne kamamve dho tisïhï kese gba","english":"I couldn’t be buying a bike."}
+{"balanda":"Ni kamamve dho tisadi nza gba","english":"He couldn’t be selling food."}
+{"balanda":"Ne kamamve dho tituru linguu gba","english":"I couldn’t be pushing the fruit."}
+{"balanda":"Ni kamamve dho tizaka kporo gba","english":"He couldn’t be pulling the drum."}
+{"balanda":"Ni kamamve dho tikara kafa gba","english":"He couldn’t be turning the table."}
+
+{"balanda":"Ne kamamve dho tikeye ti ndi gba","english":"I couldn’t be calling them."}
+{"balanda":"Danda kamamve dho tiwofo takoni gba","english":"We couldn’t be discussing the story."}
+{"balanda":"Ni kamamve dho tikolo wiki gba","english":"He couldn’t be hugging the child."}
+{"balanda":"Ndi kamamve dho timago gba","english":"They couldn’t be fighting."}
+{"balanda":"Ni kamamve dho tivanda wiki gba","english":"He couldn’t be protecting the child."}
+
+{"balanda":"Ni kamamve dho titeta gba","english":"He couldn’t be falling."}
+{"balanda":"Ni kamamve dho tigirri gba","english":"He couldn’t be changing."}
+{"balanda":"Nguu kamamve dho tivere gba","english":"The tree couldn’t be darkening."}
+{"balanda":"Maraya kamamve dho tideye gba","english":"The school couldn’t be developing."}
+{"balanda":"Wiki kamamve dho tirengo gba","english":"The child couldn’t be maturing."}
+
+{"balanda":"Ni kamamve dho tidho gbi tiyi gba","english":"He couldn’t be being in the house."}
+{"balanda":"Ne kamamve dho tima nde gba","english":"I couldn’t be doing the work."}
+{"balanda":"Ne kamamve dho tiwala gbi Wau gba","english":"I couldn’t be living in Wau."}
+{"balanda":"Ne kamamve dho tiduru ngo gba","english":"I couldn’t be wanting water."}
+{"balanda":"Ni kamamve dho tidüŋü kpendii gba","english":"He couldn’t be remaining behind."}
+
+{"balanda":"Ni kamamve dho tibase gba","english":"He couldn’t be singing."}
+{"balanda":"Ni kamamve dho tidulu gba","english":"He couldn’t be dancing."}
+{"balanda":"Ne kamamve dho tiloro kananje gba","english":"I couldn’t be watching the animals."}
+
+
+
+{"balanda":"Ne kamamve dho tija nza gba we?","english":"Couldn’t I be eating food?"}
+{"balanda":"Ne kamamve dho tinzü ngo gba we?","english":"Couldn’t I be drinking water?"}
+{"balanda":"Ni kamamve dho titeli gba we?","english":"Couldn’t he be sleeping?"}
+{"balanda":"Ne kamamve dho tiyai a Wau gba we?","english":"Couldn’t I be going to Wau?"}
+{"balanda":"Ni kamamve dho tidhii agbi tiyi gba we?","english":"Couldn’t he be coming to the house?"}
+{"balanda":"Wiki kamamve dho tinono gbi difo gba we?","english":"Couldn’t the child be walking in the compound?"}
+{"balanda":"Ni kamamve dho timande gbi njü gba we?","english":"Couldn’t he be working in the garden?"}
+{"balanda":"Danda kamamve dho timoliki gba we?","english":"Couldn’t we be playing?"}
+
+{"balanda":"Ne kamamve dho timerego ŋo gba we?","english":"Couldn’t I be loving you?"}
+{"balanda":"Ne kamamve dho tiŋiyi sereso gba we?","english":"Couldn’t I be knowing the truth?"}
+{"balanda":"Ni kamamve dho titerii gba we?","english":"Couldn’t he be thinking?"}
+{"balanda":"Ne kamamve dho tiwe ndi gba we?","english":"Couldn’t I be asking them?"}
+{"balanda":"Ni kamamve dho tivel e takoni gba we?","english":"Couldn’t he be telling a story?"}
+{"balanda":"Ne kamamve dho tibaha ŋo gba we?","english":"Couldn’t I be seeing you?"}
+{"balanda":"Ni kamamve dho tidhi gba we?","english":"Couldn’t he be hearing?"}
+
+{"balanda":"Ne kamamve dho tisudi kitab gba we?","english":"Couldn’t I be writing a book?"}
+{"balanda":"Ni kamamve dho tidheke kitab gba we?","english":"Couldn’t he be reading a book?"}
+{"balanda":"Ne kamamve dho tisïhï kese gba we?","english":"Couldn’t I be buying a bike?"}
+{"balanda":"Ni kamamve dho tisadi nza gba we?","english":"Couldn’t he be selling food?"}
+{"balanda":"Ne kamamve dho tituru linguu gba we?","english":"Couldn’t I be pushing the fruit?"}
+{"balanda":"Ni kamamve dho tizaka kporo gba we?","english":"Couldn’t he be pulling the drum?"}
+{"balanda":"Ni kamamve dho tikara kafa gba we?","english":"Couldn’t he be turning the table?"}
+
+{"balanda":"Ne kamamve dho tikeye ti ndi gba we?","english":"Couldn’t I be calling them?"}
+{"balanda":"Danda kamamve dho tiwofo takoni gba we?","english":"Couldn’t we be discussing the story?"}
+{"balanda":"Ni kamamve dho tikolo wiki gba we?","english":"Couldn’t he be hugging the child?"}
+{"balanda":"Ndi kamamve dho timago gba we?","english":"Couldn’t they be fighting?"}
+{"balanda":"Ni kamamve dho tivanda wiki gba we?","english":"Couldn’t he be protecting the child?"}
+
+{"balanda":"Ni kamamve dho titeta gba we?","english":"Couldn’t he be falling?"}
+{"balanda":"Ni kamamve dho tigirri gba we?","english":"Couldn’t he be changing?"}
+{"balanda":"Nguu kamamve dho tivere gba we?","english":"Couldn’t the tree be darkening?"}
+{"balanda":"Maraya kamamve dho tideye gba we?","english":"Couldn’t the school be developing?"}
+{"balanda":"Wiki kamamve dho tirengo gba we?","english":"Couldn’t the child be maturing?"}
+
+{"balanda":"Ni kamamve dho tidho gbi tiyi gba we?","english":"Couldn’t he be being in the house?"}
+{"balanda":"Ne kamamve dho tima nde gba we?","english":"Couldn’t I be doing the work?"}
+{"balanda":"Ne kamamve dho tiwala gbi Wau gba we?","english":"Couldn’t I be living in Wau?"}
+{"balanda":"Ne kamamve dho tiduru ngo gba we?","english":"Couldn’t I be wanting water?"}
+{"balanda":"Ni kamamve dho tidüŋü kpendii gba we?","english":"Couldn’t he be remaining behind?"}
+
+{"balanda":"Ni kamamve dho tibase gba we?","english":"Couldn’t he be singing?"}
+{"balanda":"Ni kamamve dho tidulu gba we?","english":"Couldn’t he be dancing?"}
+{"balanda":"Ne kamamve dho tiloro kananje gba we?","english":"Couldn’t I be watching the animals?"}

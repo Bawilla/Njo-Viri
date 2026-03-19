@@ -1,0 +1,47 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_demonstratives",
+  "description": "This file defines the demonstrative system in Njo Viri (Balanda). Demonstratives mark distance (near, far, very far) and number (singular, plural).",
+
+  "rules": {
+
+    "general_principle": {
+      "statement": "Balanda demonstratives distinguish distance from the speaker and agree in number. Plural forms are marked with the prefix 'ka-'."
+    },
+
+    "distance_system": {
+      "near_singular": "ŋono (this)",
+      "near_plural": "kaŋono (these)",
+      "far_singular": "ŋana (that)",
+      "far_plural": "kaŋana (those)",
+      "very_far_visible": "ŋasinna (that very far but visible)"
+    },
+
+    "structure": {
+      "pattern": "Demonstrative + no + Noun",
+      "note": "The copula 'no' links the demonstrative to the noun."
+    },
+
+    "examples": [
+      {"balanda":"Ŋono no villi","english":"This is money"},
+      {"balanda":"Kaŋono no kavongu","english":"These are clothes"},
+      {"balanda":"Ŋana no galem","english":"That is a pen"},
+      {"balanda":"Kaŋana no kagalem","english":"Those are pens"},
+      {"balanda":"Ŋasinna no tiyi","english":"That (far away) is a house"},
+      {"balanda":"Ŋono no lakpa","english":"This is sweet potato"},
+      {"balanda":"Kaŋono no vosuhu","english":"These are grains of sorghum"},
+      {"balanda":"Ŋono no avele ngande'e","english":"This is my maize"}
+    ],
+
+    "error_constraints": [
+      "Do not mix singular demonstratives with plural nouns.",
+      "Do not omit the copula 'no' in predicate constructions."
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_distance_distinction": true,
+      "require_plural_prefix_for_plural": true,
+      "preserve_copula_no": true
+    }
+  }
+}

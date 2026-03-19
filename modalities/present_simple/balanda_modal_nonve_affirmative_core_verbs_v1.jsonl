@@ -1,0 +1,78 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_simple_modality_nonve",
+  "description": "This file contains Balanda present simple modal constructions using 'nonve'. This modality expresses present ability or possibility and corresponds to the English meaning 'can'.",
+  "rules": {
+    "core_meaning": "Present ability or possibility",
+    "modal": "nonve",
+    "verb_form": "bare verb (base form)",
+    "affirmative_form": {
+      "structure": "Subject + nonve + VERB + (Object/Complement)",
+      "note": "This construction expresses present simple modal ability without aspect marking"
+    },
+    "question_form": {
+      "structure": "Subject + nonve + VERB + (Object/Complement) + we?",
+      "function": "Forms yes/no questions expressing present ability or possibility"
+    },
+    "tense": "present",
+    "aspect": "simple (non-continuous)",
+    "polarity": "affirmative",
+    "constraints": [
+      "nonve must immediately follow the subject",
+      "The verb must remain in its base form",
+      "No ti- (continuous) or le- (future) prefix may appear in this construction",
+      "No negation marker (gba) appears in affirmative present modality",
+      "No word order change occurs in questions",
+      "we? always appears at the end of the clause",
+      "This construction must not be confused with present continuous modality (nonve + dho + ti-VERB)"
+    ]
+  }
+}
+
+
+{"balanda":"Ne nonve ja nza","english":"I can eat food."}
+{"balanda":"Ne nonve nzü ngo","english":"I can drink water."}
+{"balanda":"Ni nonve teli","english":"He can sleep."}
+{"balanda":"Ne nonve yai a Wau","english":"I can go to Wau."}
+{"balanda":"Ni nonve dhii agbi tiyi","english":"He can come to the house."}
+{"balanda":"Wiki nonve nono gbi difo","english":"The child can walk in the compound."}
+{"balanda":"Ni nonve mande gbi njü","english":"He can work in the garden."}
+{"balanda":"Danda nonve moliki","english":"We can play."}
+
+{"balanda":"Ne nonve merego ŋo","english":"I can love you."}
+{"balanda":"Ne nonve ŋiyi sereso","english":"I can know the truth."}
+{"balanda":"Ni nonve terei","english":"He can think."}
+{"balanda":"Ne nonve we ndi","english":"I can ask them."}
+{"balanda":"Ni nonve vele takoni","english":"He can tell a story."}
+{"balanda":"Ne nonve baha ŋo","english":"I can see you."}
+{"balanda":"Ni nonve dhi","english":"He can hear."}
+
+{"balanda":"Ne nonve sudi kitab","english":"I can write a book."}
+{"balanda":"Ni nonve dheke kitab","english":"He can read a book."}
+{"balanda":"Ne nonve sïhï kese","english":"I can buy a bike."}
+{"balanda":"Ni nonve sadi nza","english":"He can sell food."}
+{"balanda":"Ne nonve turu linguu","english":"I can push the fruit."}
+{"balanda":"Ni nonve zaka kporo","english":"He can pull the drum."}
+{"balanda":"Ni nonve kara kafa","english":"He can turn the table."}
+
+{"balanda":"Ne nonve keye ti ndi","english":"I can call them."}
+{"balanda":"Danda nonve wofo takoni","english":"We can discuss the story."}
+{"balanda":"Ni nonve kolo wiki","english":"He can hug the child."}
+{"balanda":"Ndi nonve mago","english":"They can fight."}
+{"balanda":"Ni nonve vanda wiki","english":"He can protect the child."}
+
+{"balanda":"Ni nonve teta","english":"He can fall."}
+{"balanda":"Ni nonve girri","english":"He can change."}
+{"balanda":"Nguu nonve vere","english":"The tree can darken."}
+{"balanda":"Maraya nonve deye","english":"The school can develop."}
+{"balanda":"Wiki nonve rengo","english":"The child can mature."}
+
+{"balanda":"Ni nonve dho gbi tiyi","english":"He can be in the house."}
+{"balanda":"Ne nonve ma nde","english":"I can do the work."}
+{"balanda":"Ne nonve wala gbi Wau","english":"I can live in Wau."}
+{"balanda":"Ne nonve duru ngo","english":"I can want water."}
+{"balanda":"Ni nonve düŋü kpendii","english":"He can remain behind."}
+
+{"balanda":"Ni nonve base","english":"He can sing."}
+{"balanda":"Ni nonve dulu","english":"He can dance."}
+{"balanda":"Ne nonve loro kananje","english":"I can watch the animals."}

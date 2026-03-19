@@ -1,0 +1,106 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_going_to_future_positive_questions",
+  "description": "This file defines affirmative yes–no question formation in the Going-to Future construction in Njo Viri (Balanda). These questions ask whether a planned or intended future action will take place.",
+  "rules": {
+    "general_principle": {
+      "statement": "Going-to future positive questions in Balanda are formed by keeping the affirmative going-to structure unchanged and adding the question marker 'we?' at the end of the sentence."
+    },
+
+    "question_structure": {
+      "structure": "Subject + no + tiyai + va + Verb(base) + (Object / Complement) + we?",
+      "constraints": [
+        "The copula 'no' must be retained",
+        "The motion verb 'tiyai' must remain unchanged",
+        "The connector 'va' must link to the final base verb",
+        "The final verb must remain in base form",
+        "Word order must not change",
+        "The question marker 'we?' must be sentence-final"
+      ]
+    },
+
+    "semantic_function": {
+      "meaning": "asks about intention, plan, or expected future action"
+    },
+
+    "error_constraints": [
+      "Do not omit 'no'",
+      "Do not omit 'tiyai'",
+      "Do not omit 'va'",
+      "Do not use 'le-'",
+      "Do not use 'ti-' on the final verb",
+      "Do not add 'gba' in positive questions",
+      "Do not move 'we?' from sentence-final position"
+    ],
+
+    "model_behavior_guidelines": {
+      "require_no_copula": true,
+      "require_tiyai_motion": true,
+      "require_va_connector": true,
+      "enforce_base_final_verb": true,
+      "keep_we_sentence_final": true,
+      "map_to_english_going_to_questions": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne no tiyai va ja se we?","english":"Am I going to eat fish?"},
+  {"balanda":"Ni no tiyai va nzü ngo we?","english":"Is she going to drink water?"},
+  {"balanda":"Danda no tiyai va teli muru famvara we?","english":"Are we going to sleep on the bed?"},
+  {"balanda":"Uku no tiyai va yai we?","english":"Is Uku going to go?"},
+  {"balanda":"Ngande no tiyai va dhii ba we?","english":"Is Ngande going to come home?"},
+
+  {"balanda":"Ndi no tiyai va nonö gbi difo we?","english":"Are they going to walk in the compound?"},
+  {"balanda":"Ni no tiyai va nangele zanga we?","english":"Is she going to run fast?"},
+  {"balanda":"Uku no tiyai va mande gbi njü we?","english":"Is Uku going to work in the garden?"},
+  {"balanda":"Wiki no tiyai va moliki gbi difo we?","english":"Is the child going to play in the compound?"},
+  {"balanda":"Ne no tiyai va loro voro we?","english":"Am I going to watch the dog?"},
+
+  {"balanda":"Ne no tiyai va vele njo balanda we?","english":"Am I going to speak Balanda?"},
+  {"balanda":"Wilii no tiyai va sudi kavoso we?","english":"Is the girl going to write words?"},
+  {"balanda":"Ne no tiyai va dheke kitabu we?","english":"Am I going to read a book?"},
+  {"balanda":"Ni no tiyai va teri ay we?","english":"Is he going to think about it?"},
+  {"balanda":"Ndi no tiyai va ŋiyi ay we?","english":"Are they going to know it?"},
+
+  {"balanda":"Ne no tiyai va we ndi we?","english":"Am I going to ask them?"},
+  {"balanda":"Ngande no tiyai va vele zi ndi we?","english":"Is Ngande going to tell them?"},
+  {"balanda":"Wilii no tiyai va keye ti naa ni we?","english":"Is the girl going to call her mother?"},
+
+  {"balanda":"Ne no tiyai va merego ŋo we?","english":"Am I going to love you?"},
+  {"balanda":"Ni no tiyai va maguku ti kpörö we?","english":"Is he going to fear the snake?"},
+  {"balanda":"Ni no tiyai va sogo ni we?","english":"Is she going to hate him?"},
+  {"balanda":"Ngande no tiyai va riki ni we?","english":"Is Ngande going to surprise him?"},
+  {"balanda":"Ni no tiyai va dovee kurru we?","english":"Is he going to seem calm?"},
+
+  {"balanda":"Wilii no tiyai va yele tamma we?","english":"Is the girl going to tie the shoe?"},
+  {"balanda":"Ni no tiyai va di kalla we?","english":"Is he going to cut the pot?"},
+  {"balanda":"Ne no tiyai va tele njokoji we?","english":"Am I going to pull the door?"},
+  {"balanda":"Danda no tiyai va turu songo we?","english":"Are we going to push the box?"},
+  {"balanda":"Wilii no tiyai va soko tamma we?","english":"Is the girl going to wash the shoe?"},
+  {"balanda":"Ne no tiyai va kuru kavokau we?","english":"Am I going to hide the beads?"},
+
+  {"balanda":"Ngande no tiyai va ngö tiyi we?","english":"Is Ngande going to build a house?"},
+  {"balanda":"Ne no tiyai va suru kavoso we?","english":"Am I going to create words?"},
+  {"balanda":"Ni no tiyai va giri kavoso we?","english":"Is she going to change the words?"},
+  {"balanda":"Ne no tiyai va kara njokoji we?","english":"Am I going to turn the door?"},
+  {"balanda":"Danda no tiyai va toko villi we?","english":"Are we going to add money?"},
+  {"balanda":"Ne no tiyai va kefo Balanda we?","english":"Am I going to describe Balanda?"},
+
+  {"balanda":"Ndi no tiyai va konu nvesani we?","english":"Are they going to help the poor?"},
+  {"balanda":"Ngande no tiyai va ndugu mira we?","english":"Is Ngande going to initiate the project?"},
+  {"balanda":"Ne no tiyai va maforo mira we?","english":"Am I going to contribute to the project?"},
+  {"balanda":"Wilii no tiyai va sarwa kumere we?","english":"Is the girl going to separate trash?"},
+  {"balanda":"Danda no tiyai va kiri tidina we?","english":"Are we going to uphold the law?"},
+
+  {"balanda":"Ne no tiyai va duru ngo we?","english":"Am I going to want water?"},
+  {"balanda":"Ni no tiyai va ze villi we?","english":"Is she going to give money?"},
+  {"balanda":"Ne no tiyai va dhe villi we?","english":"Am I going to find money?"},
+  {"balanda":"Uku no tiyai va mele vongu we?","english":"Is Uku going to try the cloth?"},
+  {"balanda":"Ngande no tiyai va si ba we?","english":"Is Ngande going to leave home?"},
+  {"balanda":"Ne no tiyai va lu Wau we?","english":"Am I going to arrive in Wau?"},
+  {"balanda":"Ni no tiyai va fagi mva we?","english":"Is he going to sharpen the knife?"},
+  {"balanda":"Ngande no tiyai va dewe kakpodu we?","english":"Is Ngande going to imitate adults?"},
+  {"balanda":"Danda no tiyai va bita mira we?","english":"Are we going to start the project?"},
+  {"balanda":"Ni no tiyai va teta we?","english":"Is he going to fall?"}
+]

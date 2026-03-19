@@ -1,0 +1,114 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_continuous_affirmative",
+  "description": "This file defines affirmative sentences in the Future Continuous tense in Njo Viri (Balanda). The future continuous tense expresses actions that will be ongoing at a specific time in the future.",
+  "rules": {
+    "general_principle": {
+      "statement": "Future continuous affirmative sentences in Balanda are formed by combining the future marker 'le-', the auxiliary verb 'dho' (be), and the progressive prefix 'ti-' attached to the verb."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + le-dho + ti-Verb + (Object / Complement)",
+      "description": "Used to express an action that will be in progress in the future.",
+      "constraints": [
+        "The future marker 'le-' must attach to the auxiliary 'dho'",
+        "The auxiliary 'dho' must be present",
+        "The progressive prefix 'ti-' must attach directly to the verb base",
+        "No other tense or aspect markers may appear"
+      ]
+    },
+
+    "tense_and_aspect_roles": {
+      "future_marker": "le-",
+      "auxiliary": "dho (be)",
+      "aspect_marker": "ti- (progressive)"
+    },
+
+    "word_order_rules": {
+      "canonical_order": [
+        "Subject",
+        "le-dho",
+        "ti-Verb",
+        "Object / Complement"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not omit 'le-'",
+      "Do not omit 'dho'",
+      "Do not omit 'ti-'",
+      "Do not use 'ma'",
+      "Do not use 'dheki'",
+      "Do not add 'gba' in affirmative sentences"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_le_dho_auxiliary": true,
+      "enforce_ti_prefix": true,
+      "preserve_word_order": true,
+      "block_other_tense_markers": true,
+      "map_to_english_future_continuous": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne ledho tija se","english":"I will be eating fish"},
+  {"balanda":"Ni ledho tinzü ngo","english":"She will be drinking water"},
+  {"balanda":"Danda ledho titeli muru famvara","english":"We will be sleeping on the bed"},
+  {"balanda":"Uku ledho tiyai","english":"Uku will be going"},
+  {"balanda":"Ngande ledho tidhii ba","english":"Ngande will be coming home"},
+
+  {"balanda":"Ndi ledho tinonö gbi difo","english":"They will be walking in the compound"},
+  {"balanda":"Ni ledho tinangele zanga","english":"She will be running fast"},
+  {"balanda":"Uku ledho timande gbi njü","english":"Uku will be working in the garden"},
+  {"balanda":"Wiki ledho timoliki gbi difo","english":"The child will be playing in the compound"},
+  {"balanda":"Ne ledho tiloro voro","english":"I will be watching the dog"},
+
+  {"balanda":"Ne ledho tivele njo balanda","english":"I will be speaking Balanda"},
+  {"balanda":"Wilii ledho tisudi kavoso","english":"The girl will be writing words"},
+  {"balanda":"Ne ledho tidheke kitabu","english":"I will be reading a book"},
+  {"balanda":"Ni ledho titeri ay","english":"He will be thinking about it"},
+  {"balanda":"Ndi ledho tiŋiyi ay","english":"They will be knowing it"},
+
+  {"balanda":"Ne ledho tiwe ndi","english":"I will be asking them"},
+  {"balanda":"Ngande ledho tivele zi ndi","english":"Ngande will be telling them"},
+  {"balanda":"Wilii ledho tikeye ti naa ni","english":"The girl will be calling her mother"},
+
+  {"balanda":"Ne ledho timerego ŋo","english":"I will be loving you"},
+  {"balanda":"Ni ledho timaguku ti kpörö","english":"He will be fearing the snake"},
+  {"balanda":"Ni ledho tisogo ni","english":"She will be hating him"},
+  {"balanda":"Ngande ledho tiriki ni","english":"Ngande will be surprising him"},
+  {"balanda":"Ni ledho tidovee kurru","english":"He will be seeming calm"},
+
+  {"balanda":"Wilii ledho tiyele tamma","english":"The girl will be tying the shoe"},
+  {"balanda":"Ni ledho tidi kalla","english":"He will be cutting the pot"},
+  {"balanda":"Ne ledho titele njokoji","english":"I will be pulling the door"},
+  {"balanda":"Danda ledho tituru songo","english":"We will be pushing the box"},
+  {"balanda":"Wilii ledho tisoko tamma","english":"The girl will be washing the shoe"},
+  {"balanda":"Ne ledho tikuru kavokau","english":"I will be hiding the beads"},
+
+  {"balanda":"Ngande ledho tingö tiyi","english":"Ngande will be building a house"},
+  {"balanda":"Ne ledho tisuru kavoso","english":"I will be creating words"},
+  {"balanda":"Ni ledho tigiri kavoso","english":"She will be changing the words"},
+  {"balanda":"Ne ledho tikara njokoji","english":"I will be turning the door"},
+  {"balanda":"Danda ledho titoko villi","english":"We will be adding money"},
+  {"balanda":"Ne ledho tikefo Balanda","english":"I will be describing Balanda"},
+
+  {"balanda":"Ndi ledho tikonu nvesani","english":"They will be helping the poor"},
+  {"balanda":"Ngande ledho tindugu mira","english":"Ngande will be initiating the project"},
+  {"balanda":"Ne ledho timaforo mira","english":"I will be contributing to the project"},
+  {"balanda":"Wilii ledho tisarwa kumere","english":"The girl will be separating trash"},
+  {"balanda":"Danda ledho tikiri tidina","english":"We will be upholding the law"},
+
+  {"balanda":"Ne ledho tiduru ngo","english":"I will be wanting water"},
+  {"balanda":"Ni ledho tize villi","english":"She will be giving money"},
+  {"balanda":"Ne ledho tidhe villi","english":"I will be finding money"},
+  {"balanda":"Uku ledho timele vongu","english":"Uku will be trying the cloth"},
+  {"balanda":"Ngande ledho tisi ba","english":"Ngande will be leaving home"},
+  {"balanda":"Ne ledho tilu Wau","english":"I will be arriving in Wau"},
+  {"balanda":"Ni ledho tifagi mva","english":"He will be sharpening the knife"},
+  {"balanda":"Ngande ledho tidewe kakpodu","english":"Ngande will be imitating adults"},
+  {"balanda":"Danda ledho tibita mira","english":"We will be starting the project"},
+  {"balanda":"Ni ledho titeta","english":"He will be falling"}
+]

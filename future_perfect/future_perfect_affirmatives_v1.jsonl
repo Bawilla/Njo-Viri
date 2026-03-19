@@ -1,0 +1,117 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_perfect_affirmative",
+  "description": "This file defines affirmative sentences in the Future Perfect tense in Njo Viri (Balanda). The future perfect tense expresses actions that will be completed before a specific point in the future.",
+  "rules": {
+    "general_principle": {
+      "statement": "Future perfect affirmative sentences in Balanda are formed by attaching the future prefix 'le-' to the base verb and adding the result marker 'dheki' at the end of the clause."
+    },
+
+    "affirmative_structure": {
+      "structure": "Subject + le-Verb(base) + (Object / Complement) + dheki",
+      "description": "Used to express that an action will have been completed in the future.",
+      "constraints": [
+        "The future prefix 'le-' must attach directly to the verb base",
+        "The verb must remain in base form",
+        "The result marker 'dheki' must appear sentence-final",
+        "Objects and complements must appear before 'dheki'"
+      ]
+    },
+
+    "tense_and_aspect_distinction": {
+      "rule": "Future perfect encodes future tense and completion.",
+      "note": [
+        "'le-' encodes future tense",
+        "'dheki' encodes completed result"
+      ]
+    },
+
+    "word_order_rules": {
+      "canonical_order": [
+        "Subject",
+        "le-Verb",
+        "Object / Complement",
+        "dheki"
+      ]
+    },
+
+    "error_constraints": [
+      "Do not omit 'le-'",
+      "Do not omit 'dheki'",
+      "Do not use the progressive prefix 'ti-'",
+      "Do not use the copula 'ma'",
+      "Do not add the negation marker 'gba' in affirmatives",
+      "Do not move 'dheki' from sentence-final position"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_le_prefix": true,
+      "enforce_base_verb": true,
+      "require_sentence_final_dheki": true,
+      "block_other_tense_aspect_markers": true,
+      "map_to_english_future_perfect": true
+    }
+  }
+}
+
+
+[
+  {"balanda":"Ne leja se dheki","english":"I will have eaten fish"},
+  {"balanda":"Ni lenzü ngo dheki","english":"She will have drunk water"},
+  {"balanda":"Danda leteli muru famvara dheki","english":"We will have slept on the bed"},
+  {"balanda":"Uku leyai dheki","english":"Uku will have gone"},
+  {"balanda":"Ngande ledhii ba dheki","english":"Ngande will have come home"},
+
+  {"balanda":"Ndi lenonö gbi difo dheki","english":"They will have walked in the compound"},
+  {"balanda":"Ni lenangele zanga dheki","english":"She will have run fast"},
+  {"balanda":"Uku lemande gbi njü dheki","english":"Uku will have worked in the garden"},
+  {"balanda":"Wiki lemoliki gbi difo dheki","english":"The child will have played in the compound"},
+  {"balanda":"Ne leloro voro dheki","english":"I will have watched the dog"},
+
+  {"balanda":"Ne levele njo balanda dheki","english":"I will have spoken Balanda"},
+  {"balanda":"Wilii lesudi kavoso dheki","english":"The girl will have written words"},
+  {"balanda":"Ne ledheke kitabu dheki","english":"I will have read a book"},
+  {"balanda":"Ni leteri ay dheki","english":"He will have thought about it"},
+  {"balanda":"Ndi leŋiyi ay dheki","english":"They will have known it"},
+
+  {"balanda":"Ne lewe ndi dheki","english":"I will have asked them"},
+  {"balanda":"Ngande levele zi ndi dheki","english":"Ngande will have told them"},
+  {"balanda":"Wilii lekeye ti naa ni dheki","english":"The girl will have called her mother"},
+
+  {"balanda":"Ne lemerego ŋo dheki","english":"I will have loved you"},
+  {"balanda":"Ni lemaguku ti kpörö dheki","english":"He will have feared the snake"},
+  {"balanda":"Ni lesogo ni dheki","english":"She will have hated him"},
+  {"balanda":"Ngande leriki ni dheki","english":"Ngande will have surprised him"},
+  {"balanda":"Ni ledovee kurru dheki","english":"He will have seemed calm"},
+
+  {"balanda":"Wilii leyele tamma dheki","english":"The girl will have tied the shoe"},
+  {"balanda":"Ni ledi kalla dheki","english":"He will have cut the pot"},
+  {"balanda":"Ne letele njokoji dheki","english":"I will have pulled the door"},
+  {"balanda":"Danda leturu songo dheki","english":"We will have pushed the box"},
+  {"balanda":"Wilii lesoko tamma dheki","english":"The girl will have washed the shoe"},
+  {"balanda":"Ne lekuru kavokau dheki","english":"I will have hidden the beads"},
+
+  {"balanda":"Ngande lengö tiyi dheki","english":"Ngande will have built a house"},
+  {"balanda":"Ne lesuru kavoso dheki","english":"I will have created words"},
+  {"balanda":"Ni legiri kavoso dheki","english":"She will have changed the words"},
+  {"balanda":"Ne lekara njokoji dheki","english":"I will have turned the door"},
+  {"balanda":"Danda letoko villi dheki","english":"We will have added money"},
+  {"balanda":"Ne lekefo Balanda dheki","english":"I will have described Balanda"},
+
+  {"balanda":"Ndi lekonu nvesani dheki","english":"They will have helped the poor"},
+  {"balanda":"Ngande lendugu mira dheki","english":"Ngande will have initiated the project"},
+  {"balanda":"Ne lemaforo mira dheki","english":"I will have contributed to the project"},
+  {"balanda":"Wilii lesarwa kumere dheki","english":"The girl will have separated trash"},
+  {"balanda":"Danda lekiri tidina dheki","english":"We will have upheld the law"},
+
+  {"balanda":"Ne leduru ngo dheki","english":"I will have wanted water"},
+  {"balanda":"Ni leze villi dheki","english":"She will have given money"},
+  {"balanda":"Ne ledhe villi dheki","english":"I will have found money"},
+  {"balanda":"Uku lemele vongu dheki","english":"Uku will have tried the cloth"},
+  {"balanda":"Ngande lesi ba dheki","english":"Ngande will have left home"},
+  {"balanda":"Ne lelu Wau dheki","english":"I will have arrived in Wau"},
+  {"balanda":"Ni lefagi mva dheki","english":"He will have sharpened the knife"},
+  {"balanda":"Ngande ledewe kakpodu dheki","english":"Ngande will have imitated adults"},
+  {"balanda":"Danda lebita mira dheki","english":"We will have started the project"},
+  {"balanda":"Ni leteta dheki","english":"He will have fallen"}
+]

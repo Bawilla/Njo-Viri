@@ -1,0 +1,118 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_simple_questions",
+  "description": "This file defines yes–no question formation in the Future Simple tense in Njo Viri (Balanda). Future simple questions ask whether an action will take place in the future.",
+  "rules": {
+    "general_principle": {
+      "statement": "Future simple questions in Balanda are formed by keeping the affirmative or negative future simple structure unchanged and adding the question marker 'we?' at the end of the sentence."
+    },
+
+    "question_structure": {
+      "structure": "Affirmative or Negative Future Simple sentence + we?",
+      "description": "Used to ask whether a future action will or will not occur.",
+      "constraints": [
+        "The future prefix 'le-' must remain attached to the verb",
+        "Word order must not change",
+        "The question marker 'we?' must appear sentence-final"
+      ]
+    },
+
+    "affirmative_questions": {
+      "structure": "Subject + le-Verb(base) + (Object / Complement) + we?",
+      "examples": [
+        "Ne leyai agbi maraya we?",
+        "Ŋo lekonu ndi we?"
+      ]
+    },
+
+    "negative_questions": {
+      "structure": "Subject + le-Verb(base) + (Object / Complement) + gba + we?",
+      "examples": [
+        "Ne leyai agbi maraya gba we?",
+        "Ŋo lekonu ndi gba we?"
+      ]
+    },
+
+    "tense_and_aspect_distinction": {
+      "rule": "Future simple questions encode tense only.",
+      "note": "The copula 'ma', the progressive prefix 'ti-', and the result marker 'dheki' must not be used."
+    },
+
+    "error_constraints": [
+      "Do not omit the prefix 'le-'",
+      "Do not move 'we?' from sentence-final position",
+      "Do not use 'ma' in future questions",
+      "Do not use 'ti-' or 'dheki'",
+      "Do not change word order for questions"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_le_prefix": true,
+      "keep_word_order_fixed": true,
+      "keep_we_sentence_final": true,
+      "allow_affirmative_and_negative_questions": true,
+      "map_to_english_future_simple_questions": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne leja se we?","english":"Will I eat fish?"},
+  {"balanda":"Ni lenzü ngo we?","english":"Will she drink water?"},
+  {"balanda":"Danda leteli muru famvara we?","english":"Will we sleep on the bed?"},
+  {"balanda":"Uku leyai agbi maraya we?","english":"Will Uku go to school?"},
+  {"balanda":"Ngande ledhii ba we?","english":"Will Ngande come home?"},
+
+  {"balanda":"Ndi lenonö gbi difo we?","english":"Will they walk in the compound?"},
+  {"balanda":"Ni lenangele zanga we?","english":"Will she run fast?"},
+  {"balanda":"Uku lemande gbi njü we?","english":"Will Uku work in the garden?"},
+  {"balanda":"Wiki lemoliki gbi difo we?","english":"Will the child play in the compound?"},
+  {"balanda":"Ne leloro voro we?","english":"Will I watch the dog?"},
+
+  {"balanda":"Ne levele njo balanda we?","english":"Will I speak Balanda?"},
+  {"balanda":"Wilii lesudi kavoso we?","english":"Will the girl write words?"},
+  {"balanda":"Ne ledheke kitabu we?","english":"Will I read a book?"},
+  {"balanda":"Ni leteri ay we?","english":"Will he think about it?"},
+  {"balanda":"Ndi leŋiyi ay we?","english":"Will they know it?"},
+
+  {"balanda":"Ne lewe ndi we?","english":"Will I ask them?"},
+  {"balanda":"Ngande levele zi ndi we?","english":"Will Ngande tell them?"},
+  {"balanda":"Wilii lekeye ti naa ni we?","english":"Will the girl call her mother?"},
+
+  {"balanda":"Ne lemerego ŋo we?","english":"Will I love you?"},
+  {"balanda":"Ni lemaguku ti kpörö we?","english":"Will he fear the snake?"},
+  {"balanda":"Ni lesogo ni we?","english":"Will she hate him?"},
+  {"balanda":"Ngande leriki ni we?","english":"Will Ngande surprise him?"},
+  {"balanda":"Ni ledovee kurru we?","english":"Will he seem calm?"},
+
+  {"balanda":"Wilii leyele tamma we?","english":"Will the girl tie the shoe?"},
+  {"balanda":"Ni ledi kalla we?","english":"Will he cut the pot?"},
+  {"balanda":"Ne letele njokoji we?","english":"Will I pull the door?"},
+  {"balanda":"Danda leturu songo we?","english":"Will we push the box?"},
+  {"balanda":"Wilii lesoko tamma we?","english":"Will the girl wash the shoe?"},
+  {"balanda":"Ne lekuru kavokau we?","english":"Will I hide the beads?"},
+
+  {"balanda":"Ngande lengö tiyi we?","english":"Will Ngande build a house?"},
+  {"balanda":"Ne lesuru kavoso we?","english":"Will I create words?"},
+  {"balanda":"Ni legiri kavoso we?","english":"Will she change the words?"},
+  {"balanda":"Ne lekara njokoji we?","english":"Will I turn the door?"},
+  {"balanda":"Danda letoko villi we?","english":"Will we add money?"},
+  {"balanda":"Ne lekefo Balanda we?","english":"Will I describe Balanda?"},
+
+  {"balanda":"Ndi lekonu nvesani we?","english":"Will they help the poor?"},
+  {"balanda":"Ngande lendugu mira we?","english":"Will Ngande initiate the project?"},
+  {"balanda":"Ne lemaforo mira we?","english":"Will I contribute to the project?"},
+  {"balanda":"Wilii lesarwa kumere we?","english":"Will the girl separate trash?"},
+  {"balanda":"Danda lekiri tidina we?","english":"Will we uphold the law?"},
+
+  {"balanda":"Ne leduru ngo we?","english":"Will I want water?"},
+  {"balanda":"Ni leze villi we?","english":"Will she give money?"},
+  {"balanda":"Ne ledhe villi we?","english":"Will I find money?"},
+  {"balanda":"Uku lemele vongu we?","english":"Will Uku try the cloth?"},
+  {"balanda":"Ngande lesi ba we?","english":"Will Ngande leave home?"},
+  {"balanda":"Ne lelu Wau we?","english":"Will I arrive in Wau?"},
+  {"balanda":"Ni lefagi mva we?","english":"Will he sharpen the knife?"},
+  {"balanda":"Ngande ledewe kakpodu we?","english":"Will Ngande imitate adults?"},
+  {"balanda":"Danda lebita mira we?","english":"Will we start the project?"},
+  {"balanda":"Ni leteta we?","english":"Will he fall?"}
+]

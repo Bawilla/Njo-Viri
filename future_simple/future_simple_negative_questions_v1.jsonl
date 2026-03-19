@@ -1,0 +1,102 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_simple_negative_questions",
+  "description": "This file defines negative question formation in the Future Simple tense in Njo Viri (Balanda). Future simple negative questions ask whether an action will not take place in the future.",
+  "rules": {
+    "general_principle": {
+      "statement": "Future simple negative questions in Balanda are formed by keeping the future prefix 'le-' on the verb, adding the negation marker 'gba', and placing the question marker 'we?' sentence-finally."
+    },
+
+    "negative_question_structure": {
+      "structure": "Subject + le-Verb(base) + (Object / Complement) + gba + we?",
+      "constraints": [
+        "The future prefix 'le-' must remain attached to the verb",
+        "The verb must be in base form",
+        "The negation marker 'gba' must appear before 'we?'",
+        "The question marker 'we?' must be sentence-final",
+        "Word order must not change"
+      ]
+    },
+
+    "tense_and_aspect_distinction": {
+      "rule": "Future simple negative questions encode tense only.",
+      "note": "The copula 'ma', the progressive prefix 'ti-', and the result marker 'dheki' must not be used."
+    },
+
+    "error_constraints": [
+      "Do not omit the prefix 'le-'",
+      "Do not move 'gba' from pre-final position",
+      "Do not move 'we?' from sentence-final position",
+      "Do not use 'ma', 'ti-', or 'dheki'"
+    ],
+
+    "model_behavior_guidelines": {
+      "enforce_le_prefix": true,
+      "require_gba_before_we": true,
+      "keep_we_sentence_final": true,
+      "preserve_word_order": true,
+      "map_to_english_future_simple_negative_questions": true
+    }
+  }
+}
+
+[
+  {"balanda":"Ne leja se gba we?","english":"Will I not eat fish?"},
+  {"balanda":"Ni lenzü ngo gba we?","english":"Will she not drink water?"},
+  {"balanda":"Danda leteli muru famvara gba we?","english":"Will we not sleep on the bed?"},
+  {"balanda":"Uku leyai agbi maraya gba we?","english":"Will Uku not go to school?"},
+  {"balanda":"Ngande ledhii ba gba we?","english":"Will Ngande not come home?"},
+
+  {"balanda":"Ndi lenonö gbi difo gba we?","english":"Will they not walk in the compound?"},
+  {"balanda":"Ni lenangele zanga gba we?","english":"Will she not run fast?"},
+  {"balanda":"Uku lemande gbi njü gba we?","english":"Will Uku not work in the garden?"},
+  {"balanda":"Wiki lemoliki gbi difo gba we?","english":"Will the child not play in the compound?"},
+  {"balanda":"Ne leloro voro gba we?","english":"Will I not watch the dog?"},
+
+  {"balanda":"Ne levele njo balanda gba we?","english":"Will I not speak Balanda?"},
+  {"balanda":"Wilii lesudi kavoso gba we?","english":"Will the girl not write words?"},
+  {"balanda":"Ne ledheke kitabu gba we?","english":"Will I not read a book?"},
+  {"balanda":"Ni leteri ay gba we?","english":"Will he not think about it?"},
+  {"balanda":"Ndi leŋiyi ay gba we?","english":"Will they not know it?"},
+
+  {"balanda":"Ne lewe ndi gba we?","english":"Will I not ask them?"},
+  {"balanda":"Ngande levele zi ndi gba we?","english":"Will Ngande not tell them?"},
+  {"balanda":"Wilii lekeye ti naa ni gba we?","english":"Will the girl not call her mother?"},
+
+  {"balanda":"Ne lemerego ŋo gba we?","english":"Will I not love you?"},
+  {"balanda":"Ni lemaguku ti kpörö gba we?","english":"Will he not fear the snake?"},
+  {"balanda":"Ni lesogo ni gba we?","english":"Will she not hate him?"},
+  {"balanda":"Ngande leriki ni gba we?","english":"Will Ngande not surprise him?"},
+  {"balanda":"Ni ledovee kurru gba we?","english":"Will he not seem calm?"},
+
+  {"balanda":"Wilii leyele tamma gba we?","english":"Will the girl not tie the shoe?"},
+  {"balanda":"Ni ledi kalla gba we?","english":"Will he not cut the pot?"},
+  {"balanda":"Ne letele njokoji gba we?","english":"Will I not pull the door?"},
+  {"balanda":"Danda leturu songo gba we?","english":"Will we not push the box?"},
+  {"balanda":"Wilii lesoko tamma gba we?","english":"Will the girl not wash the shoe?"},
+  {"balanda":"Ne lekuru kavokau gba we?","english":"Will I not hide the beads?"},
+
+  {"balanda":"Ngande lengö tiyi gba we?","english":"Will Ngande not build a house?"},
+  {"balanda":"Ne lesuru kavoso gba we?","english":"Will I not create words?"},
+  {"balanda":"Ni legiri kavoso gba we?","english":"Will she not change the words?"},
+  {"balanda":"Ne lekara njokoji gba we?","english":"Will I not turn the door?"},
+  {"balanda":"Danda letoko villi gba we?","english":"Will we not add money?"},
+  {"balanda":"Ne lekefo Balanda gba we?","english":"Will I not describe Balanda?"},
+
+  {"balanda":"Ndi lekonu nvesani gba we?","english":"Will they not help the poor?"},
+  {"balanda":"Ngande lendugu mira gba we?","english":"Will Ngande not initiate the project?"},
+  {"balanda":"Ne lemaforo mira gba we?","english":"Will I not contribute to the project?"},
+  {"balanda":"Wilii lesarwa kumere gba we?","english":"Will the girl not separate trash?"},
+  {"balanda":"Danda lekiri tidina gba we?","english":"Will we not uphold the law?"},
+
+  {"balanda":"Ne leduru ngo gba we?","english":"Will I not want water?"},
+  {"balanda":"Ni leze villi gba we?","english":"Will she not give money?"},
+  {"balanda":"Ne ledhe villi gba we?","english":"Will I not find money?"},
+  {"balanda":"Uku lemele vongu gba we?","english":"Will Uku not try the cloth?"},
+  {"balanda":"Ngande lesi ba gba we?","english":"Will Ngande not leave home?"},
+  {"balanda":"Ne lelu Wau gba we?","english":"Will I not arrive in Wau?"},
+  {"balanda":"Ni lefagi mva gba we?","english":"Will he not sharpen the knife?"},
+  {"balanda":"Ngande ledewe kakpodu gba we?","english":"Will Ngande not imitate adults?"},
+  {"balanda":"Danda lebita mira gba we?","english":"Will we not start the project?"},
+  {"balanda":"Ni leteta gba we?","english":"Will he not fall?"}
+]

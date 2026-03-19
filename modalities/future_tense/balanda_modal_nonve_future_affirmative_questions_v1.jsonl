@@ -1,0 +1,127 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_future_modality_nonve",
+  "description": "This file contains Balanda future tense modal constructions using 'nonve'. This modality expresses future ability or possibility and corresponds to the English meaning 'will be able to'.",
+  "rules": {
+    "core_meaning": "Future ability or possibility",
+    "modal": "nonve",
+    "future_marker": "le- (prefix attached to verb)",
+    "verb_form": "le-VERB (base verb form with future prefix)",
+    "affirmative_form": {
+      "structure": "Subject + nonve + le-VERB + (Object/Complement)",
+      "note": "This construction expresses future modal ability"
+    },
+    "question_form": {
+      "structure": "Subject + nonve + le-VERB + (Object/Complement) + we?",
+      "function": "Forms yes/no questions expressing future ability or possibility"
+    },
+    "tense": "future",
+    "aspect": "neutral (non-progressive)",
+    "polarity": "affirmative",
+    "constraints": [
+      "nonve must precede the verb",
+      "le- must attach directly to the verb",
+      "The verb remains in its base form aside from the le- prefix",
+      "No additional tense or aspect markers may co-occur with le-",
+      "No negation marker (gba) appears in this file",
+      "Questions do not change word order",
+      "we? always appears at the end of the clause"
+    ]
+  }
+}
+
+
+{"balanda":"Ne nonve leja nza","english":"I will be able to eat food."}
+{"balanda":"Ne nonve lenzü ngo","english":"I will be able to drink water."}
+{"balanda":"Ni nonve leteli","english":"He will be able to sleep."}
+{"balanda":"Ne nonve leyai a Wau","english":"I will be able to go to Wau."}
+{"balanda":"Ni nonve ledhii agbi tiyi","english":"He will be able to come to the house."}
+{"balanda":"Wiki nonve lenono gbi difo","english":"The child will be able to walk in the compound."}
+{"balanda":"Ni nonve lemande gbi njü","english":"He will be able to work in the garden."}
+{"balanda":"Danda nonve lemoliki","english":"We will be able to play."}
+
+{"balanda":"Ne nonve lemerego ŋo","english":"I will be able to love you."}
+{"balanda":"Ne nonve leŋiyi sereso","english":"I will be able to know the truth."}
+{"balanda":"Ni nonve leterei","english":"He will be able to think."}
+{"balanda":"Ne nonve lewe ndi","english":"I will be able to ask them."}
+{"balanda":"Ni nonve level e takoni","english":"He will be able to tell a story."}
+{"balanda":"Ne nonve lebaha ŋo","english":"I will be able to see you."}
+{"balanda":"Ni nonve ledhi","english":"He will be able to hear."}
+
+{"balanda":"Ne nonve lesudi kitab","english":"I will be able to write a book."}
+{"balanda":"Ni nonve ledheke kitab","english":"He will be able to read a book."}
+{"balanda":"Ne nonve lesïhï kese","english":"I will be able to buy a bike."}
+{"balanda":"Ni nonve lesadi nza","english":"He will be able to sell food."}
+{"balanda":"Ne nonve leturu linguu","english":"I will be able to push the fruit."}
+{"balanda":"Ni nonve lezaka kporo","english":"He will be able to pull the drum."}
+{"balanda":"Ni nonve lekara kafa","english":"He will be able to turn the table."}
+
+{"balanda":"Ne nonve lekeye ti ndi","english":"I will be able to call them."}
+{"balanda":"Danda nonve lewofo takoni","english":"We will be able to discuss the story."}
+{"balanda":"Ni nonve lekolo wiki","english":"He will be able to hug the child."}
+{"balanda":"Ndi nonve lemago","english":"They will be able to fight."}
+{"balanda":"Ni nonve levanda wiki","english":"He will be able to protect the child."}
+
+{"balanda":"Ni nonve leteta","english":"He will be able to fall."}
+{"balanda":"Ni nonve legirri","english":"He will be able to change."}
+{"balanda":"Nguu nonve levere","english":"The tree will be able to darken."}
+{"balanda":"Maraya nonve ledeye","english":"The school will be able to develop."}
+{"balanda":"Wiki nonve lerengo","english":"The child will be able to mature."}
+
+{"balanda":"Ni nonve ledho gbi tiyi","english":"He will be able to be in the house."}
+{"balanda":"Ne nonve lema nde","english":"I will be able to do the work."}
+{"balanda":"Ne nonve lewala gbi Wau","english":"I will be able to live in Wau."}
+{"balanda":"Ne nonve leduru ngo","english":"I will be able to want water."}
+{"balanda":"Ni nonve ledüŋü kpendii","english":"He will be able to remain behind."}
+
+{"balanda":"Ni nonve lebase","english":"He will be able to sing."}
+{"balanda":"Ni nonve ledulu","english":"He will be able to dance."}
+{"balanda":"Ne nonve leloro kananje","english":"I will be able to watch the animals."}
+
+
+{"balanda":"Ne nonve leja nza we?","english":"Will I be able to eat food?"}
+{"balanda":"Ne nonve lenzü ngo we?","english":"Will I be able to drink water?"}
+{"balanda":"Ni nonve leteli we?","english":"Will he be able to sleep?"}
+{"balanda":"Ne nonve leyai a Wau we?","english":"Will I be able to go to Wau?"}
+{"balanda":"Ni nonve ledhii agbi tiyi we?","english":"Will he be able to come to the house?"}
+{"balanda":"Wiki nonve lenono gbi difo we?","english":"Will the child be able to walk in the compound?"}
+{"balanda":"Ni nonve lemande gbi njü we?","english":"Will he be able to work in the garden?"}
+{"balanda":"Danda nonve lemoliki we?","english":"Will we be able to play?"}
+
+{"balanda":"Ne nonve lemerego ŋo we?","english":"Will I be able to love you?"}
+{"balanda":"Ne nonve leŋiyi sereso we?","english":"Will I be able to know the truth?"}
+{"balanda":"Ni nonve leterei we?","english":"Will he be able to think?"}
+{"balanda":"Ne nonve lewe ndi we?","english":"Will I be able to ask them?"}
+{"balanda":"Ni nonve level e takoni we?","english":"Will he be able to tell a story?"}
+{"balanda":"Ne nonve lebaha ŋo we?","english":"Will I be able to see you?"}
+{"balanda":"Ni nonve ledhi we?","english":"Will he be able to hear?"}
+
+{"balanda":"Ne nonve lesudi kitab we?","english":"Will I be able to write a book?"}
+{"balanda":"Ni nonve ledheke kitab we?","english":"Will he be able to read a book?"}
+{"balanda":"Ne nonve lesïhï kese we?","english":"Will I be able to buy a bike?"}
+{"balanda":"Ni nonve lesadi nza we?","english":"Will he be able to sell food?"}
+{"balanda":"Ne nonve leturu linguu we?","english":"Will I be able to push the fruit?"}
+{"balanda":"Ni nonve lezaka kporo we?","english":"Will he be able to pull the drum?"}
+{"balanda":"Ni nonve lekara kafa we?","english":"Will he be able to turn the table?"}
+
+{"balanda":"Ne nonve lekeye ti ndi we?","english":"Will I be able to call them?"}
+{"balanda":"Danda nonve lewofo takoni we?","english":"Will we be able to discuss the story?"}
+{"balanda":"Ni nonve lekolo wiki we?","english":"Will he be able to hug the child?"}
+{"balanda":"Ndi nonve lemago we?","english":"Will they be able to fight?"}
+{"balanda":"Ni nonve levanda wiki we?","english":"Will he be able to protect the child?"}
+
+{"balanda":"Ni nonve leteta we?","english":"Will he be able to fall?"}
+{"balanda":"Ni nonve legirri we?","english":"Will he be able to change?"}
+{"balanda":"Nguu nonve levere we?","english":"Will the tree be able to darken?"}
+{"balanda":"Maraya nonve ledeye we?","english":"Will the school be able to develop?"}
+{"balanda":"Wiki nonve lerengo we?","english":"Will the child be able to mature?"}
+
+{"balanda":"Ni nonve ledho gbi tiyi we?","english":"Will he be able to be in the house?"}
+{"balanda":"Ne nonve lema nde we?","english":"Will I be able to do the work?"}
+{"balanda":"Ne nonve lewala gbi Wau we?","english":"Will I be able to live in Wau?"}
+{"balanda":"Ne nonve leduru ngo we?","english":"Will I be able to want water?"}
+{"balanda":"Ni nonve ledüŋü kpendii we?","english":"Will he be able to remain behind?"}
+
+{"balanda":"Ni nonve lebase we?","english":"Will he be able to sing?"}
+{"balanda":"Ni nonve ledulu we?","english":"Will he be able to dance?"}
+{"balanda":"Ne nonve leloro kananje we?","english":"Will I be able to watch the animals?"}

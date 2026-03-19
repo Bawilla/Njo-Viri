@@ -1,0 +1,126 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_past_positive_modality_nokanve_simple",
+  "description": "This file contains Balanda past positive modal constructions using 'nokanve'. This modality expresses past ability or possibility and corresponds to the English meaning 'could'.",
+  "rules": {
+    "core_meaning": "Past ability or possibility",
+    "modal": "nokanve",
+    "verb_form": "bare verb (no tense or aspect prefix)",
+    "affirmative_form": {
+      "structure": "Subject + nokanve + VERB + (Object/Complement)",
+      "note": "This construction expresses positive past modality without continuous aspect"
+    },
+    "question_form": {
+      "structure": "Subject + nokanve + VERB + (Object/Complement) + we?",
+      "function": "Forms yes/no questions expressing past ability or possibility"
+    },
+    "tense": "past",
+    "aspect": "simple (non-continuous)",
+    "polarity": "affirmative",
+    "constraints": [
+      "nokanve must immediately follow the subject",
+      "The verb must remain in its base form",
+      "No ti- or le- prefix may appear in this construction",
+      "No negation marker (gba) appears in affirmative past modality",
+      "No word order change occurs in questions",
+      "we? always appears at the end of the clause",
+      "This construction must not be confused with past continuous modality (nokanve + dho + ti-VERB)"
+    ]
+  }
+}
+
+
+{"balanda":"Ne nokanve ja nza","english":"I could eat food."}
+{"balanda":"Ne nokanve nzü ngo","english":"I could drink water."}
+{"balanda":"Ni nokanve teli","english":"He could sleep."}
+{"balanda":"Ne nokanve yai a Wau","english":"I could go to Wau."}
+{"balanda":"Ni nokanve dhii agbi tiyi","english":"He could come into the house."}
+{"balanda":"Wiki nokanve nono gbi difo","english":"The child could walk in the compound."}
+{"balanda":"Ni nokanve mande gbi njü","english":"He could work in the garden."}
+{"balanda":"Danda nokanve moliki","english":"We could play."}
+
+{"balanda":"Ne nokanve merego ŋo","english":"I could love you."}
+{"balanda":"Ne nokanve ŋiyi sereso","english":"I could know the truth."}
+{"balanda":"Ni nokanve terei","english":"He could think."}
+{"balanda":"Ne nokanve we ndi","english":"I could ask them."}
+{"balanda":"Ni nokanve vele takoni","english":"He could tell a story."}
+{"balanda":"Ne nokanve baha ŋo","english":"I could see you."}
+{"balanda":"Ni nokanve dhi","english":"He could hear."}
+
+{"balanda":"Ne nokanve sudi kitab","english":"I could write a book."}
+{"balanda":"Ni nokanve dheke kitab","english":"He could read a book."}
+{"balanda":"Ne nokanve sïhï kese","english":"I could buy a bike."}
+{"balanda":"Ni nokanve sadi nza","english":"He could sell food."}
+{"balanda":"Ne nokanve turu linguu","english":"I could push the fruit."}
+{"balanda":"Ni nokanve zaka kporo","english":"He could pull the drum."}
+{"balanda":"Ni nokanve kara kafa","english":"He could turn the table."}
+
+{"balanda":"Ne nokanve keye ti ndi","english":"I could call them."}
+{"balanda":"Danda nokanve wofo takoni","english":"We could discuss the story."}
+{"balanda":"Ni nokanve kolo wiki","english":"He could hug the child."}
+{"balanda":"Ndi nokanve mago","english":"They could fight."}
+{"balanda":"Ni nokanve vanda wiki","english":"He could protect the child."}
+
+{"balanda":"Ni nokanve teta","english":"He could fall."}
+{"balanda":"Ni nokanve girri","english":"He could change."}
+{"balanda":"Nguu nokanve vere","english":"The tree could darken."}
+{"balanda":"Maraya nokanve deye","english":"The school could develop."}
+{"balanda":"Wiki nokanve rengo","english":"The child could mature."}
+
+{"balanda":"Ni nokanve dho gbi tiyi","english":"He could be in the house."}
+{"balanda":"Ne nokanve ma nde","english":"I could do the work."}
+{"balanda":"Ne nokanve wala gbi Wau","english":"I could live in Wau."}
+{"balanda":"Ne nokanve duru ngo","english":"I could want water."}
+{"balanda":"Ni nokanve düŋü kpendii","english":"He could remain behind."}
+
+{"balanda":"Ni nokanve base","english":"He could sing."}
+{"balanda":"Ni nokanve dulu","english":"He could dance."}
+{"balanda":"Ne nokanve loro kananje","english":"I could watch the animals."}
+
+
+{"balanda":"Ne nokanve ja nza we?","english":"Could I eat food?"}
+{"balanda":"Ne nokanve nzü ngo we?","english":"Could I drink water?"}
+{"balanda":"Ni nokanve teli we?","english":"Could he sleep?"}
+{"balanda":"Ne nokanve yai a Wau we?","english":"Could I go to Wau?"}
+{"balanda":"Ni nokanve dhii agbi tiyi we?","english":"Could he come to the house?"}
+{"balanda":"Wiki nokanve nono gbi difo we?","english":"Could the child walk in the compound?"}
+{"balanda":"Ni nokanve mande gbi njü we?","english":"Could he work in the garden?"}
+{"balanda":"Danda nokanve moliki we?","english":"Could we play?"}
+
+{"balanda":"Ne nokanve merego ŋo we?","english":"Could I love you?"}
+{"balanda":"Ne nokanve ŋiyi sereso we?","english":"Could I know the truth?"}
+{"balanda":"Ni nokanve terei we?","english":"Could he think?"}
+{"balanda":"Ne nokanve we ndi we?","english":"Could I ask them?"}
+{"balanda":"Ni nokanve vele takoni we?","english":"Could he tell a story?"}
+{"balanda":"Ne nokanve baha ŋo we?","english":"Could I see you?"}
+{"balanda":"Ni nokanve dhi we?","english":"Could he hear?"}
+
+{"balanda":"Ne nokanve sudi kitab we?","english":"Could I write a book?"}
+{"balanda":"Ni nokanve dheke kitab we?","english":"Could he read a book?"}
+{"balanda":"Ne nokanve sïhï kese we?","english":"Could I buy a bike?"}
+{"balanda":"Ni nokanve sadi nza we?","english":"Could he sell food?"}
+{"balanda":"Ne nokanve turu linguu we?","english":"Could I push the fruit?"}
+{"balanda":"Ni nokanve zaka kporo we?","english":"Could he pull the drum?"}
+{"balanda":"Ni nokanve kara kafa we?","english":"Could he turn the table?"}
+
+{"balanda":"Ne nokanve keye ti ndi we?","english":"Could I call them?"}
+{"balanda":"Danda nokanve wofo takoni we?","english":"Could we discuss the story?"}
+{"balanda":"Ni nokanve kolo wiki we?","english":"Could he hug the child?"}
+{"balanda":"Ndi nokanve mago we?","english":"Could they fight?"}
+{"balanda":"Ni nokanve vanda wiki we?","english":"Could he protect the child?"}
+
+{"balanda":"Ni nokanve teta we?","english":"Could he fall?"}
+{"balanda":"Ni nokanve girri we?","english":"Could he change?"}
+{"balanda":"Nguu nokanve vere we?","english":"Could the tree darken?"}
+{"balanda":"Maraya nokanve deye we?","english":"Could the school develop?"}
+{"balanda":"Wiki nokanve rengo we?","english":"Could the child mature?"}
+
+{"balanda":"Ni nokanve dho gbi tiyi we?","english":"Could he be in the house?"}
+{"balanda":"Ne nokanve ma nde we?","english":"Could I do the work?"}
+{"balanda":"Ne nokanve wala gbi Wau we?","english":"Could I live in Wau?"}
+{"balanda":"Ne nokanve duru ngo we?","english":"Could I want water?"}
+{"balanda":"Ni nokanve düŋü kpendii we?","english":"Could he remain behind?"}
+
+{"balanda":"Ni nokanve base we?","english":"Could he sing?"}
+{"balanda":"Ni nokanve dulu we?","english":"Could he dance?"}
+{"balanda":"Ne nokanve loro kananje we?","english":"Could I watch the animals?"}
