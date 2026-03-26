@@ -36,7 +36,7 @@
   }
 }
 {"instruction":"Translate from Balanda to English","input":"Ni timande kee ni ja nja gba.","output":"She works but she does not eat."}
-{"instruction":"Translate from Balanda to English","input":"Ne leyai agbi maraya kee ne mamve womolo tidhu gba.","output":"I will go to school but I cannot travel far."}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai agbi maraya kee ne mamve womolo madhu gba.","output":"I will go to school but I cannot travel far."}
 {"instruction":"Translate from Balanda to English","input":"Ni taakeye ti gbiya kee gbiya taadhii gba.","output":"He called the chief but the chief did not come."}
 {"instruction":"Translate from Balanda to English","input":"Kawihi taadheke fökpaa kee ndi taawunjo gba.","output":"The children read the book but did not agree."}
 {"instruction":"Translate from Balanda to English","input":"Dhuu taalo nja kee gbiya taaja nja gba.","output":"We cooked food but the chief did not eat."}
