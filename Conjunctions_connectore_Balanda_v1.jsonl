@@ -1,0 +1,244 @@
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_conjunctions_connectors",
+  "description": "This file contains Balanda conjunctions and connectors. Conjunctions and connectors link two or more clauses or items to express contrast, cause, result, conclusion, alternative, accompaniment, or sequential action. Connectors covered: kee (but), andiso (because), wamina (therefore), ana (so), wala (or), ta (with), dize (and — nouns/pronouns), dii- (and then — verbal converb), wu (and — independent clauses).",
+  "rules": {
+    "kee": {
+      "function": "contrast / concession",
+      "structure": "[Clause A] kee [Clause B]",
+      "notes": "Signals an unexpected or opposing relationship between two clauses. Often paired with gba (negation) in the second clause."
+    },
+    "andiso": {
+      "function": "cause / reason",
+      "structure": "[Main clause] andiso [Reason clause]",
+      "notes": "Introduces the cause or reason for the main clause. Main clause comes first; andiso opens the reason clause."
+    },
+    "wamina": {
+      "function": "logical conclusion / therefore",
+      "structure": "[Premise]; wamina [Conclusion]",
+      "notes": "Draws a logical conclusion from the preceding clause. More formal than ana."
+    },
+    "ana": {
+      "function": "result / consequence / so",
+      "structure": "[Event], ana [Result]",
+      "notes": "Introduces the natural result of the preceding event. Similar to wamina but more narrative and less formal."
+    },
+    "wala": {
+      "function": "alternative / choice / or",
+      "structure": "[Option A] wala [Option B]",
+      "notes": "Presents two options of which one is chosen or possible."
+    },
+    "ta": {
+      "function": "association / accompaniment / with",
+      "structure": "Verb phrase + ta + companion/instrument",
+      "notes": "Marks accompaniment, instrument, or shared participation."
+    },
+    "dize": {
+      "function": "noun / pronoun coordinator",
+      "structure": "Noun/Pronoun + dize + Noun/Pronoun",
+      "notes": "Equivalent to 'and' for nouns and pronouns only. Cannot chain verbs or clauses. Does not interact with tense markers.",
+      "examples": ["avele dize maize (cassava and maize)", "ne dize ni (me and him/her)"]
+    },
+    "dii-": {
+      "function": "verbal converb prefix — sequential action chainer",
+      "structure": "Subject + [tense]-Verb1 + dii-Verb2 (+ dii-Verb3 ...)",
+      "notes": "Chains sequential actions by the same subject. First verb carries the tense marker (taa- past, le- future, bare present/habitual). dii- strips tense from all chained verbs. Optional on middle verbs, preferred on the final chained verb. Cannot be used with different subjects or simultaneous events.",
+      "examples": ["taadheke diiteli (had read and then slept)", "taajiya soko te'e diiyai agbi nde (greeted the guests and then went to work)"]
+    },
+    "wu": {
+      "function": "clause coordinator — independent / non-sequential",
+      "structure": "Subject1 + [tense]-Verb1 + wu + Subject2 + [tense]-Verb2",
+      "notes": "Borrowed from Arabic wa. Connects independent clauses typically with different subjects, simultaneous actions, or habitual/general truths. Both verbs keep their own full tense markers. Cannot be used for same-subject sequential chaining (use dii- instead).",
+      "examples": ["ne taadheke wu ni taateli (I had read and he had slept)"],
+      "comparison_table": {
+        "note": "The three 'and' markers reflect a genuine grammatical distinction that English collapses into one word.",
+        "dize": {"same_subject": "nouns only", "sequential": false, "both_verbs_tensed": false},
+        "dii-": {"same_subject": true, "sequential": true, "both_verbs_tensed": false},
+        "wu":   {"same_subject": false, "sequential": false, "both_verbs_tensed": true}
+      }
+    }
+  }
+}
+{"instruction":"Translate from Balanda to English","input":"Ni timande kee ni ja nja gba.","output":"She works but she does not eat."}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai agbi maraya kee ne mamve womolo tidhu gba.","output":"I will go to school but I cannot travel far."}
+{"instruction":"Translate from Balanda to English","input":"Ni taakeye ti gbiya kee gbiya taadhii gba.","output":"He called the chief but the chief did not come."}
+{"instruction":"Translate from Balanda to English","input":"Kawihi taadheke fökpaa kee ndi taawunjo gba.","output":"The children read the book but did not agree."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taalo nja kee gbiya taaja nja gba.","output":"We cooked food but the chief did not eat."}
+{"instruction":"Translate from Balanda to English","input":"Ni merego diktor kee ni konu ni gba.","output":"She loves the doctor but does not help him."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taawomolo agbi negu kee ndi taadele gba.","output":"They traveled to the market but did not come back."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke fökpaa kee ne leferege ay gba.","output":"I will read the book but I will not explain it."}
+{"instruction":"Translate from Balanda to English","input":"Ŋo nonve mande kee ŋo mamve konu gba.","output":"You can work but you cannot help."}
+{"instruction":"Translate from Balanda to English","input":"Wihi taandiri agbi maraya kee ni taadheke gba.","output":"The child went to school but did not read."}
+{"instruction":"Translate from Balanda to English","input":"Ni taamaa wiki kee ni taaze ay zi bihiwutdu gba.","output":"He made porridge but did not give it to anyone."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu kawunjo ki kee dhuu katuna gba.","output":"We agreed but we did not start."}
+{"instruction":"Translate from Balanda to English","input":"Ni taalunde garra kee ni kamamve veleso gba.","output":"She used the phone but could not speak."}
+{"instruction":"Translate from Balanda to English","input":"Ne taayai a le serre kee ne taanzü ngo gba.","output":"I went to the river but did not drink water."}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu kawihi kee ndi ledhii agbi tiyi gba.","output":"They will help the children but will not come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne tija no andiso nja no muru kafa.","output":"I eat because food is on the table."}
+{"instruction":"Translate from Balanda to English","input":"Ni titeli no andiso ni taamande walita.","output":"She sleeps because she worked all day."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu kakeye ti diktor no andiso wihi kadhii a ba.","output":"We called the doctor because the child came home."}
+{"instruction":"Translate from Balanda to English","input":"Ni tiwomolo no andiso ni merego negu.","output":"He travels because he loves the market."}
+{"instruction":"Translate from Balanda to English","input":"Ndi kadheke fökpaa no andiso diktor kaferege ay ki.","output":"They read the book because the doctor explained it."}
+{"instruction":"Translate from Balanda to English","input":"Ne lekonu ŋo andiso ŋo kakonu ne ki.","output":"I will help you because you helped me."}
+{"instruction":"Translate from Balanda to English","input":"Gbiya kadhii no andiso kaküma kawunjo ki.","output":"The chief came because the heroes agreed."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve mande gba andiso ni kateli gba.","output":"She cannot work because she did not sleep."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu timaa nja no andiso kanvewilli no agbi tiyi.","output":"We make food because the guests are at the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni leyai agbi maraya andiso ni merego adheke.","output":"He will go to school because he loves to read."}
+{"instruction":"Translate from Balanda to English","input":"Ne kawunjo no andiso dhako na kaferege fökpaa ki.","output":"I agreed because the man explained the book."}
+{"instruction":"Translate from Balanda to English","input":"Ni lunde garra no andiso wanaa'u kakeye to'o ki.","output":"She uses the phone because the brother called."}
+{"instruction":"Translate from Balanda to English","input":"Ndi mamve düŋü gba andiso turunvili kono willa.","output":"They cannot remain because the car is not here."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu lekuta andiso ŋo kaze fökpaa zi dhuu ki.","output":"We will commence because you gave us the book."}
+{"instruction":"Translate from Balanda to English","input":"Diktor terei no andiso wihi kadhii gba.","output":"The doctor thinks because the child did not come."}
+{"instruction":"Translate from Balanda to English","input":"Ni taamande tivo, wamina ni leteli.","output":"She worked hard; therefore she will sleep."}
+{"instruction":"Translate from Balanda to English","input":"Kawilii kadheke fökpaa ki, wamina ndi kaŋiyi ki.","output":"The girls read the book; therefore they knew."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taakonu kanjö, wamina ndi taafoyi.","output":"We helped the orphans; therefore they appreciated."}
+{"instruction":"Translate from Balanda to English","input":"Ni kakeye ti niki ŋana ki, wamina ni leviya gba.","output":"He called the woman; therefore she will not decline."}
+{"instruction":"Translate from Balanda to English","input":"Ne kateri ay ki, wamina ne letuna.","output":"I thought about it; therefore I will start."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taandiri madhu, wamina ndi lewoti.","output":"They went far; therefore they will rest."}
+{"instruction":"Translate from Balanda to English","input":"Vedi no muru kafa, wamina ay ledho dhiki.","output":"The charcoal is on the table; therefore it will be black."}
+{"instruction":"Translate from Balanda to English","input":"Ni taaferege nde, wamina dhuu taadhigbi.","output":"She showed the work; therefore we understood."}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze liki zi vakuru ne, wamina ni no kosere songo.","output":"I gave honey to my friend; therefore he is beside the container."}
+{"instruction":"Translate from Balanda to English","input":"Ŋo kalunde kese ki, wamina ŋo leni tirri.","output":"You used the bike; therefore you will carry the load."}
+{"instruction":"Translate from Balanda to English","input":"Kanako kalu ki, wamina dhuu lekuta süüno.","output":"The people arrived; therefore we will commence soon."}
+{"instruction":"Translate from Balanda to English","input":"Ndi kanangele ki, wamina alegili ndi.","output":"They ran away; therefore they will be missed."}
+{"instruction":"Translate from Balanda to English","input":"Ni merego amoliki, wamina ni ledhe kavakure'u.","output":"She loves playing; therefore she will meet her friends."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu mamve dülü gba, wamina dhuu ledhota kono.","output":"We cannot dance; therefore we will sit here."}
+{"instruction":"Translate from Balanda to English","input":"Gavo'o taamodhi, wamina ne ledelesiggi.","output":"The grandfather laughed; therefore I will respond."}
+{"instruction":"Translate from Balanda to English","input":"Diktor taadhii, ana dhuu taaveleso ta ni.","output":"The doctor came, so we spoke with him."}
+{"instruction":"Translate from Balanda to English","input":"Dha taalo nja ana ne taaja gba.","output":"You cooked food, so I didn't eat."}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhe kümü, ana ne taasi amande.","output":"I found wealth, so I stopped working."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taayükü, ana goho aja nja tiyaya tindi willa.","output":"They got fat, so they don't need to eat recklessly."}
+{"instruction":"Translate from Balanda to English","input":"Ni taamgba mva, ana ni no gbi ngirimi.","output":"He stole the knife, so he is in trouble."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taatuna yerre, ana kanako taasoho.","output":"We started the comedy, so the people cheered."}
+{"instruction":"Translate from Balanda to English","input":"Ni taayoro siggi zi ni, ana ni taasadi yi wei.","output":"She sent a message to him, so he sold the thing."}
+{"instruction":"Translate from Balanda to English","input":"Bura no muru yabi nguu, ana ndi taamoko ni.","output":"The cat is on the tree branch, so they chased it."}
+{"instruction":"Translate from Balanda to English","input":"Ne taakonu kanvemande, ana ndi merego ne.","output":"I helped the workers, so they love me."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taadhekenjo, ana dhuu leyai kulo.","output":"They pleaded, so we will proceed."}
+{"instruction":"Translate from Balanda to English","input":"Ni taandugu, ana ni taakpokoro.","output":"He exercised, so he became fit."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taawofoso, ana dhuu taawunjo.","output":"We discussed, so we agreed."}
+{"instruction":"Translate from Balanda to English","input":"Ni taawawiwo, ana wö ni taasoi.","output":"She sweated, so she felt tired."}
+{"instruction":"Translate from Balanda to English","input":"Siriga taaveleso ana ndi taasüsü.","output":"The pioneer spoke, so everyone listened."}
+{"instruction":"Translate from Balanda to English","input":"Ne taaboroko turunvili, ana ne taawirindi ay.","output":"I crashed the car, so I repaired it."}
+{"instruction":"Translate from Balanda to English","input":"Ni leyai agbi maraya wala ni lemande.","output":"He will go to school or he will work."}
+{"instruction":"Translate from Balanda to English","input":"Ni lelo nja wala ni leyai agbi negu.","output":"She will cook food or she will go to the market."}
+{"instruction":"Translate from Balanda to English","input":"Ne lekeye ti diktor wala ne leyai bi diktor.","output":"I will call the doctor or I will go to him."}
+{"instruction":"Translate from Balanda to English","input":"Ndi nonve mande wala ndi nonve womolo.","output":"They can work or they can travel."}
+{"instruction":"Translate from Balanda to English","input":"Ŋo ledheke fökpaa wala ŋo leveleso zi gbiya.","output":"You will read the book or you will speak to the chief."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu lekonu kawihi wala dhuu lekeye ti diktor.","output":"We will help the children or we will call the doctor."}
+{"instruction":"Translate from Balanda to English","input":"Ni kaze no nja wala ngo zi wihi.","output":"He gave food or water to the child."}
+{"instruction":"Translate from Balanda to English","input":"Ni kanonmve mande wala ni kanonmve womolo.","output":"She would work or she would travel."}
+{"instruction":"Translate from Balanda to English","input":"Ne lemaa nja wala ne leyai va moliki.","output":"I will make food or I will go to play."}
+{"instruction":"Translate from Balanda to English","input":"Kawihi ledheke wala ndi leteli.","output":"The children will read or they will sleep."}
+{"instruction":"Translate from Balanda to English","input":"Ŋo nonve keye ti ne wala ŋo nonve dhii agbi tiyi.","output":"You can call me or you can come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni lewunjo wala ni leferege.","output":"He will agree or he will explain."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu lewomolo ta turunvili wala dhuu leyai le serre.","output":"We will travel by car or we will go to the river."}
+{"instruction":"Translate from Balanda to English","input":"Ni lemerego wihi wala ni lesogo ni.","output":"She will love the child or she will hate him."}
+{"instruction":"Translate from Balanda to English","input":"Ndi no tiyeti wala ndi no tikoloti.","output":"Are they fighting or are they cuddling?"}
+{"instruction":"Translate from Balanda to English","input":"Ni yai agbi negu ta kawihi.","output":"She goes to the market with the children."}
+{"instruction":"Translate from Balanda to English","input":"Ne nzü ngo ta diktor.","output":"I drink water with the doctor."}
+{"instruction":"Translate from Balanda to English","input":"Ni taawomolo le serre ta gbiya.","output":"He traveled to the river with the chief."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taalo nja ta kawihi kosere tiyi.","output":"We cooked food with the children beside the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni leyai agbi maraya ta bura ngandi ni.","output":"She will go to school with her cat."}
+{"instruction":"Translate from Balanda to English","input":"Diktor kadhii no ta fökpaa.","output":"The doctor came with the book."}
+{"instruction":"Translate from Balanda to English","input":"Ne lemande ta ŋo lüve.","output":"I will work with you tomorrow."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taawunjo ta gbiya.","output":"They agreed with the chief."}
+{"instruction":"Translate from Balanda to English","input":"Ni ja nja ta niki ngando'o muru kafa.","output":"He eats food with his wife at the table."}
+{"instruction":"Translate from Balanda to English","input":"Ni taaveleso ta dhako ngando'o agbi tiyi.","output":"She spoke with her husband at the house."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu lewomolo ta turunvili agbi negu.","output":"We will travel with the car to the market."}
+{"instruction":"Translate from Balanda to English","input":"Wihi tidheke fökpaa ta nverugu.","output":"The child reads the book with the teacher."}
+{"instruction":"Translate from Balanda to English","input":"Ne taakeye ti ŋo ta garra.","output":"I called you with the phone."}
+{"instruction":"Translate from Balanda to English","input":"Ni taanjuku nja ta gbiya süüta danga.","output":"He prepared food with the chief near the kitchen."}
+{"instruction":"Translate from Balanda to English","input":"Ni kanonmve yai ta ne wala ni kanonmve teli agbi tiyi.","output":"She would go with me or stay at home."}
+{"instruction":"Identify the Balanda conjunction","input":"kee","output":"kee — but (contrast / concession). Signals an unexpected or opposing relationship between two clauses. Often paired with gba (negation) in the second clause. Example: Ni timande kee ni ja nja gba. — She works but she does not eat."}
+{"instruction":"Identify the Balanda conjunction","input":"andiso","output":"andiso — because (cause / reason). Introduces the cause or reason for the main clause. Main clause comes first; andiso opens the reason clause. Example: Ne tija no andiso nja no muru kafa. — I eat because food is on the table."}
+{"instruction":"Identify the Balanda conjunction","input":"wamina","output":"wamina — therefore (logical conclusion). Draws a logical conclusion from the preceding clause. Structure: [Premise]; wamina [Conclusion]. Example: Ni taamande tivo, wamina ni leteli. — She worked hard; therefore she will sleep."}
+{"instruction":"Identify the Balanda conjunction","input":"ana","output":"ana — so (result / consequence). Introduces the natural result of the preceding event. Similar to wamina but more narrative and less formal. Example: Diktor taadhii, ana dhuu taaveleso ta ni. — The doctor came, so we spoke with him."}
+{"instruction":"Identify the Balanda conjunction","input":"wala","output":"wala — or (alternative / choice). Presents two options of which one is chosen or possible. Structure: [Option A] wala [Option B]. Example: Ni leyai agbi maraya wala ni lemande. — He will go to school or he will work."}
+{"instruction":"Identify the Balanda conjunction","input":"ta","output":"ta — with (association / accompaniment). Marks accompaniment, instrument, or shared participation. Structure: Verb phrase + ta + companion/instrument. Example: Ni yai agbi negu ta kawihi. — She goes to the market with the children."}
+{"instruction":"Translate from English to Balanda","input":"She works but she does not eat.","output":"Ni timande kee ni ja nja gba."}
+{"instruction":"Translate from English to Balanda","input":"I will go to school but I cannot travel far.","output":"Ne leyai agbi maraya kee ne mamve womolo tidhu gba."}
+{"instruction":"Translate from English to Balanda","input":"He called the chief but the chief did not come.","output":"Ni taakeye ti gbiya kee gbiya taadhii gba."}
+{"instruction":"Translate from English to Balanda","input":"The children read the book but did not agree.","output":"Kawihi taadheke fökpaa kee ndi taawunjo gba."}
+{"instruction":"Translate from English to Balanda","input":"We cooked food but the chief did not eat.","output":"Dhuu taalo nja kee gbiya taaja nja gba."}
+{"instruction":"Translate from English to Balanda","input":"She loves the doctor but does not help him.","output":"Ni merego diktor kee ni konu ni gba."}
+{"instruction":"Translate from English to Balanda","input":"They traveled to the market but did not come back.","output":"Ndi taawomolo agbi negu kee ndi taadele gba."}
+{"instruction":"Translate from English to Balanda","input":"I will read the book but I will not explain it.","output":"Ne ledheke fökpaa kee ne leferege ay gba."}
+{"instruction":"Translate from English to Balanda","input":"You can work but you cannot help.","output":"Ŋo nonve mande kee ŋo mamve konu gba."}
+{"instruction":"Translate from English to Balanda","input":"The child went to school but did not read.","output":"Wihi taandiri agbi maraya kee ni taadheke gba."}
+{"instruction":"Translate from English to Balanda","input":"I eat because food is on the table.","output":"Ne tija no andiso nja no muru kafa."}
+{"instruction":"Translate from English to Balanda","input":"She sleeps because she worked all day.","output":"Ni titeli no andiso ni taamande walita."}
+{"instruction":"Translate from English to Balanda","input":"We called the doctor because the child came home.","output":"Dhuu kakeye ti diktor no andiso wihi kadhii a ba."}
+{"instruction":"Translate from English to Balanda","input":"He travels because he loves the market.","output":"Ni tiwomolo no andiso ni merego negu."}
+{"instruction":"Translate from English to Balanda","input":"I will help you because you helped me.","output":"Ne lekonu ŋo andiso ŋo kakonu ne ki."}
+{"instruction":"Translate from English to Balanda","input":"The chief came because the heroes agreed.","output":"Gbiya kadhii no andiso kaküma kawunjo ki."}
+{"instruction":"Translate from English to Balanda","input":"She worked hard; therefore she will sleep.","output":"Ni taamande tivo, wamina ni leteli."}
+{"instruction":"Translate from English to Balanda","input":"The girls read the book; therefore they knew.","output":"Kawilii kadheke fökpaa ki, wamina ndi kaŋiyi ki."}
+{"instruction":"Translate from English to Balanda","input":"We helped the orphans; therefore they appreciated.","output":"Dhuu taakonu kanjö, wamina ndi taafoyi."}
+{"instruction":"Translate from English to Balanda","input":"I thought about it; therefore I will start.","output":"Ne kateri ay ki, wamina ne letuna."}
+{"instruction":"Translate from English to Balanda","input":"They went far; therefore they will rest.","output":"Ndi taandiri madhu, wamina ndi lewoti."}
+{"instruction":"Translate from English to Balanda","input":"She showed the work; therefore we understood.","output":"Ni taaferege nde, wamina dhuu taadhigbi."}
+{"instruction":"Translate from English to Balanda","input":"The doctor came, so we spoke with him.","output":"Diktor taadhii, ana dhuu taaveleso ta ni."}
+{"instruction":"Translate from English to Balanda","input":"You cooked food, so I didn't eat.","output":"Dha taalo nja ana ne taaja gba."}
+{"instruction":"Translate from English to Balanda","input":"I found wealth, so I stopped working.","output":"Ne taadhe kümü, ana ne taasi amande."}
+{"instruction":"Translate from English to Balanda","input":"We started the comedy, so the people cheered.","output":"Dhuu taatuna yerre, ana kanako taasoho."}
+{"instruction":"Translate from English to Balanda","input":"I helped the workers, so they love me.","output":"Ne taakonu kanvemande, ana ndi merego ne."}
+{"instruction":"Translate from English to Balanda","input":"He exercised, so he became fit.","output":"Ni taandugu, ana ni taakpokoro."}
+{"instruction":"Translate from English to Balanda","input":"We discussed, so we agreed.","output":"Dhuu taawofoso, ana dhuu taawunjo."}
+{"instruction":"Translate from English to Balanda","input":"The pioneer spoke, so everyone listened.","output":"Siriga taaveleso ana ndi taasüsü."}
+{"instruction":"Translate from English to Balanda","input":"He will go to school or he will work.","output":"Ni leyai agbi maraya wala ni lemande."}
+{"instruction":"Translate from English to Balanda","input":"She will cook food or she will go to the market.","output":"Ni lelo nja wala ni leyai agbi negu."}
+{"instruction":"Translate from English to Balanda","input":"I will call the doctor or I will go to him.","output":"Ne lekeye ti diktor wala ne leyai bi diktor."}
+{"instruction":"Translate from English to Balanda","input":"They can work or they can travel.","output":"Ndi nonve mande wala ndi nonve womolo."}
+{"instruction":"Translate from English to Balanda","input":"You will read the book or you will speak to the chief.","output":"Ŋo ledheke fökpaa wala ŋo leveleso zi gbiya."}
+{"instruction":"Translate from English to Balanda","input":"We will help the children or we will call the doctor.","output":"Dhuu lekonu kawihi wala dhuu lekeye ti diktor."}
+{"instruction":"Translate from English to Balanda","input":"The children will read or they will sleep.","output":"Kawihi ledheke wala ndi leteli."}
+{"instruction":"Translate from English to Balanda","input":"He will agree or he will explain.","output":"Ni lewunjo wala ni leferege."}
+{"instruction":"Translate from English to Balanda","input":"We will travel by car or we will go to the river.","output":"Dhuu lewomolo ta turunvili wala dhuu leyai le serre."}
+{"instruction":"Translate from English to Balanda","input":"She goes to the market with the children.","output":"Ni yai agbi negu ta kawihi."}
+{"instruction":"Translate from English to Balanda","input":"I drink water with the doctor.","output":"Ne nzü ngo ta diktor."}
+{"instruction":"Translate from English to Balanda","input":"He traveled to the river with the chief.","output":"Ni taawomolo le serre ta gbiya."}
+{"instruction":"Translate from English to Balanda","input":"We cooked food with the children beside the house.","output":"Dhuu taalo nja ta kawihi kosere tiyi."}
+{"instruction":"Translate from English to Balanda","input":"The doctor came with the book.","output":"Diktor kadhii no ta fökpaa."}
+{"instruction":"Translate from English to Balanda","input":"I will work with you tomorrow.","output":"Ne lemande ta ŋo lüve."}
+{"instruction":"Translate from English to Balanda","input":"They agreed with the chief.","output":"Ndi taawunjo ta gbiya."}
+{"instruction":"Translate from English to Balanda","input":"He eats food with his wife at the table.","output":"Ni ja nja ta niki ngando'o muru kafa."}
+{"instruction":"Translate from English to Balanda","input":"The child reads the book with the teacher.","output":"Wihi tidheke fökpaa ta nverugu."}
+{"instruction":"Translate from English to Balanda","input":"I called you with the phone.","output":"Ne taakeye ti ŋo ta garra."}
+{"instruction":"Translate from English to Balanda","input":"She would go with me or stay at home.","output":"Ni kanonmve yai ta ne wala ni kanonmve teli agbi tiyi."}
+{"instruction_type":"grammar_rule","grammar_name":"balanda_and_coordinators_three_way_distinction","description":"Balanda expresses the English word 'and' through three distinct grammatical markers, each encoding a different structural relationship. English collapses all three into a single word; Balanda keeps them strictly separate.","rules":{"dize":{"function":"Noun and pronoun coordinator","meaning":"and (for things/persons)","structure":"Noun/Pronoun + dize + Noun/Pronoun","constraints":["Connects nouns and pronouns only","Cannot be used to chain verbs or clauses","Does not carry or interact with tense markers"],"examples":["avele dize maize (cassava and maize)","ne dize ni (me and him/her)"]},"dii":{"function":"Verbal converb prefix — sequential action chainer","meaning":"and then","structure":"Subject + [tense]-Verb1 + dii-Verb2 (+ dii-Verb3 ...)","constraints":["Same subject required across all chained verbs","First verb carries the tense marker (taa- past, le- future, bare present/habitual)","dii- strips tense from all chained verbs","dii- is optional on middle verbs but preferred on the final chained verb","Cannot be used with different subjects or simultaneous events"],"examples":["taadheke diiteli (had read and then slept)","taajiya soko te'e diiyai agbi nde (greeted the guests and then went to work)"]},"wu":{"function":"Clause coordinator — borrowed from Arabic wa","meaning":"and (independent, non-sequential)","structure":"Subject1 + [tense]-Verb1 + wu + Subject2 + [tense]-Verb2","constraints":["Typically connects clauses with different subjects","Used for simultaneous actions, habitual truths, or general statements","Both verbs keep their own full tense markers","Cannot be used for same-subject sequential chaining (use dii- instead)"],"examples":["ne taadheke wu ni taateli (I had read and he had slept)"]},"comparison_table":{"same_subject":{"dize":"nouns only","dii":"yes","wu":"no"},"sequential_actions":{"dize":"no","dii":"yes","wu":"no"},"both_verbs_tensed":{"dize":"no","dii":"no","wu":"yes"},"key_insight":"The three markers reflect a genuine grammatical distinction that English collapses into one word 'and'."}}}
+{"instruction":"Translate from Balanda to English","input":"Ni taayai agbi negu diidheke fökpaa.","output":"He went to the market and then read the book."}
+{"instruction":"Translate from Balanda to English","input":"Ne taaja nja diiteli.","output":"I ate food and then slept."}
+{"instruction":"Translate from Balanda to English","input":"Wihi taanangele zanga diiyai agbi maraya.","output":"The child ran fast and then went to school."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taalo nja diija.","output":"We cooked food and then ate."}
+{"instruction":"Translate from Balanda to English","input":"Ni taabaha voro diimoko ni.","output":"He saw the dog and then chased it."}
+{"instruction":"Translate from Balanda to English","input":"Wilii taasüsü diisudi kavoso.","output":"The girl listened and then wrote words."}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhe kümü diize ay zi vakuru ne.","output":"I found wealth and then gave it to my friend."}
+{"instruction":"Translate from Balanda to English","input":"Ndi taawomolo agbi negu diisadi nja.","output":"They traveled to the market and then sold food."}
+{"instruction":"Translate from Balanda to English","input":"Ni taawofoso ta gbiya diiwunjo.","output":"He discussed with the chief and then agreed."}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai agbi maraya diidheke fökpaa.","output":"I will go to school and then read the book."}
+{"instruction":"Translate from Balanda to English","input":"Wihi leteli diinangele gbi difo.","output":"The child will sleep and then run in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Dhuu lemaa nja diija.","output":"We will make food and then eat."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke fökpaa diisudi ay.","output":"I will read the book and then write it."}
+{"instruction":"Translate from Balanda to English","input":"Ni yai agbi negu diisadi se.","output":"He goes to the market and then sells fish."}
+{"instruction":"Translate from Balanda to English","input":"Ne nzü ngo diiteli.","output":"I drink water and then sleep."}
+{"instruction":"Translate from Balanda to English","input":"Wihi dheke fökpaa diisüsü nverugu.","output":"The child reads the book and then listens to the teacher."}
+{"instruction":"Translate from Balanda to English","input":"Ndi mande gbi njü diija nja.","output":"They work in the garden and then eat food."}
+{"instruction":"Translate from Balanda to English","input":"Ni veleso ta gbiya diiyai agbi tiyi.","output":"He speaks with the chief and then goes to the house."}
+{"instruction":"Translate from English to Balanda","input":"He went to the market and then read the book.","output":"Ni taayai agbi negu diidheke fökpaa."}
+{"instruction":"Translate from English to Balanda","input":"I ate food and then slept.","output":"Ne taaja nja diiteli."}
+{"instruction":"Translate from English to Balanda","input":"The child ran fast and then went to school.","output":"Wihi taanangele zanga diiyai agbi maraya."}
+{"instruction":"Translate from English to Balanda","input":"We cooked food and then ate.","output":"Dhuu taalo nja diija."}
+{"instruction":"Translate from English to Balanda","input":"He saw the dog and then chased it.","output":"Ni taabaha voro diimoko ni."}
+{"instruction":"Translate from English to Balanda","input":"The girl listened and then wrote words.","output":"Wilii taasüsü diisudi kavoso."}
+{"instruction":"Translate from English to Balanda","input":"I found wealth and then gave it to my friend.","output":"Ne taadhe kümü diize ay zi vakuru ne."}
+{"instruction":"Translate from English to Balanda","input":"They traveled to the market and then sold food.","output":"Ndi taawomolo agbi negu diisadi nja."}
+{"instruction":"Translate from English to Balanda","input":"He discussed with the chief and then agreed.","output":"Ni taawofoso ta gbiya diiwunjo."}
+{"instruction":"Translate from English to Balanda","input":"I will go to school and then read the book.","output":"Ne leyai agbi maraya diidheke fökpaa."}
+{"instruction":"Translate from English to Balanda","input":"The child will sleep and then run in the compound.","output":"Wihi leteli diinangele gbi difo."}
+{"instruction":"Translate from English to Balanda","input":"We will make food and then eat.","output":"Dhuu lemaa nja diija."}
+{"instruction":"Translate from English to Balanda","input":"I will read the book and then write it.","output":"Ne ledheke fökpaa diisudi ay."}
+{"instruction":"Translate from English to Balanda","input":"He goes to the market and then sells fish.","output":"Ni yai agbi negu diisadi se."}
+{"instruction":"Translate from English to Balanda","input":"I drink water and then sleep.","output":"Ne nzü ngo diiteli."}
+{"instruction":"Translate from English to Balanda","input":"The child reads the book and then listens to the teacher.","output":"Wihi dheke fökpaa diisüsü nverugu."}
+{"instruction":"Translate from English to Balanda","input":"They work in the garden and then eat food.","output":"Ndi mande gbi njü diija nja."}
+{"instruction":"Translate from English to Balanda","input":"He speaks with the chief and then goes to the house.","output":"Ni veleso ta gbiya diiyai agbi tiyi."}
