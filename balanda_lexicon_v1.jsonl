@@ -1,0 +1,1328 @@
+{"type": "metadata", "dataset": "balanda_njo_viri_lexicon_v1", "description": "Balanda (Njo Viri) bilingual lexicon - 1327 entries, Balanda to English with part of speech", "language_source": "Balanda (Njo Viri)", "language_target": "English", "source": "Njo Viri Self-Study Course and associated lexicon files", "entry_count": 1328, "fields": ["balanda", "english", "pos"], "pos_values": ["----------------", "Adjective", "Adverb", "Article", "Conjunction", "Interjection", "Noun", "Preposition", "Pronoun", "Verb"]}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "A/Umgbanga", "target": "lawyer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Abi", "target": "have", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "adoro", "target": "to move", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "aforoti", "target": "unity", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "afoyo", "target": "rabbit", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "agami", "target": "to grab", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ago", "target": "female fighter", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "agoni", "target": "to shop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ajondo", "target": "birth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ako", "target": "ako", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "akoti", "target": "marriage", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "alamgba", "target": "clean", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ale", "target": "set", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "alimgba", "target": "eagle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "alü", "target": "female dancer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "amuka", "target": "rhinoceros", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "amvuda", "target": "to skid", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ana", "target": "so / therefore", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ande", "target": "businesswoman", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Andi", "target": "why", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Andiso", "target": "because", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Anga", "target": "which", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "angele", "target": "female runner", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "angoko", "target": "to shake", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "anondelendo", "target": "introducing", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "asirikpa", "target": "to intimidate / menace", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ata", "target": "under", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "avele", "target": "cassava", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "awoho", "target": "to jump", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ay", "target": "it (inanimate)", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ba", "target": "home", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "baa", "target": "room / home", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Baha", "target": "see", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bï", "target": "hand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Bi", "target": "hand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Bihi", "target": "some", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "biila", "target": "maybe", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bikur", "target": "ten", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bili", "target": "bone", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "billi", "target": "bone", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Bita", "target": "start", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bitati", "target": "kick off", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Biyeleti", "target": "shock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Boho", "target": "look", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bolis", "target": "police officer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "böö", "target": "make alcohol / distill", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "boro", "target": "crispy", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "borro", "target": "porcupine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bowo", "target": "look", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bü", "target": "termite", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bugu", "target": "banana", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bura", "target": "cat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bura njoro", "target": "wild cat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "burbur", "target": "mole", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "bürükü", "target": "brutal", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "buun", "target": "coffee", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Buwu", "target": "white", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Bı", "target": "hand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dafa", "target": "pay", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dakala", "target": "giraffe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dako", "target": "man", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Danda", "target": "we / us", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "danga", "target": "kitchen", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "darangu", "target": "pride", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "darata", "target": "consist", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dede", "target": "mostly / nearly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dedi", "target": "population", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "deke", "target": "drench", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dele", "target": "return", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "delefö", "target": "report", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "delle", "target": "bird", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "deme", "target": "hit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Deme/Domo", "target": "hit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Denge", "target": "balance", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dere", "target": "reserve", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "deti", "target": "flock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dewe", "target": "imitate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "deye", "target": "develop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "deyeke", "target": "development", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dha", "target": "you all", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhaa", "target": "spear", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhaka", "target": "ladder", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhako", "target": "man", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dhe", "target": "find", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhekaliti", "target": "take advantage of", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dheke", "target": "read", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhere", "target": "surround", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhereke", "target": "stage", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dherüü", "target": "cross", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dhi", "target": "who", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhï", "target": "hear", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhigbi", "target": "understand", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dhii", "target": "come", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhiita", "target": "bring", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhiri", "target": "shave", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhïvïrï", "target": "lion", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dho", "target": "be", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhobi / tagiribi", "target": "from (someone)", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhoko", "target": "ride", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhoti", "target": "become", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhoti / dhogbi", "target": "out of / from (thing)", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhovee", "target": "as if / as though", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dhu", "target": "away", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhuki", "target": "enough", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dhuu", "target": "we (exclusive)", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dïfö", "target": "compound", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "difo", "target": "field", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "digbi", "target": "skip / chop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "digele", "target": "draw", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dihi", "target": "wild goat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "diktor", "target": "doctor", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dimgbo", "target": "lizard", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dimi", "target": "script", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dimuru", "target": "harm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dinvo", "target": "draw / sketch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dïrï", "target": "stone", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "diri", "target": "body", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dirri", "target": "body", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dïsï", "target": "respect / esteem", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dita", "target": "tell", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Diti/luti", "target": "till", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dize", "target": "and", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dö", "target": "onion", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Do, wayido", "target": "lie", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dodiri", "target": "adjust", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "doko", "target": "trick / scam", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dokolo", "target": "pamper", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "domo", "target": "punch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Doo", "target": "night", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "doro", "target": "move", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dovee", "target": "seem", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dovura", "target": "stay / sit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Du", "target": "right", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dü", "target": "correct", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duba", "target": "settle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dudumu", "target": "leftover", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dugulu", "target": "deepen", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dugulugu", "target": "deeply", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duguluta", "target": "valley", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dühü", "target": "rock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dukai", "target": "swim", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Dukaŋi", "target": "swim", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dükü", "target": "rock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dulanga", "target": "container", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dulu", "target": "dance", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duma", "target": "mead", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duŋa", "target": "pig", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dungili", "target": "concentrate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Duŋui", "target": "remain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dunguru", "target": "gather", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "durgu", "target": "need", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Duru", "target": "want / need", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "dürü", "target": "tortoise", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "durungbo", "target": "knee", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duruso", "target": "like", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "durusondi", "target": "prefer / like someone", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duu", "target": "rock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "duui", "target": "remain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Düvi", "target": "hesitate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fa", "target": "tribe / clan", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fabïlï", "target": "very many", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fagi", "target": "sharpen", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fagï", "target": "recite", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "falaka", "target": "fold", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Famvara", "target": "bed", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fanda", "target": "fame / reputation", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fanga", "target": "utter / speak / put in order", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fara", "target": "idea", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "faranga", "target": "youth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fatati", "target": "search", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fayaka", "target": "incompetent", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fayati", "target": "weakness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fayi", "target": "easily", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fege", "target": "cherish", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fehe", "target": "bottle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "feke", "target": "justify", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Fele", "target": "around", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "feleke", "target": "turn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "felenvili", "target": "motorcycle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "feleta", "target": "loiter", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fere", "target": "spread", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ferega", "target": "expand", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ferege", "target": "explain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fereke", "target": "popularity", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fereme", "target": "popular", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fesi", "target": "acquire", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "feta", "target": "travel", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fi", "target": "moon", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fidi", "target": "plant / nurture / cultivate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "figgi", "target": "divide", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "figi nakpudu", "target": "discrimination", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "figigbi", "target": "distribute", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fila-fila", "target": "quickly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fïrï", "target": "hippopotamus", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "firi", "target": "roll in circle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "firri", "target": "string", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Fitdi", "target": "plant", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fitiki", "target": "green", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Fitti", "target": "little", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fiya", "target": "lose interest", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fogbi", "target": "understand", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fökpaa", "target": "book", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "föndi", "target": "result", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Fondi", "target": "monitor", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fongita", "target": "recognize / cherish", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fongo", "target": "jewelry / decoration", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "föö", "target": "smell", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "foro", "target": "join", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "foromo", "target": "community", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "foyi", "target": "appreciate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fubi", "target": "art", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fuhu", "target": "flow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fulu", "target": "thank", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fünji", "target": "advice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fürü", "target": "early", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "furu", "target": "vain", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fürüve", "target": "morning", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "fuugbi muru", "target": "influence", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ga", "target": "shoot", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gaa", "target": "big", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gaa giri", "target": "main road", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gaanjovi", "target": "greed", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gagali", "target": "day", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gagünaa", "target": "great grandmother", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gaguvomgbo", "target": "toe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gaguvongbo", "target": "toe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gagüvuu", "target": "great grandfather", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gajavara", "target": "May", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "galem", "target": "pen", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "galla", "target": "store", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gama", "target": "great", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gamara", "target": "old", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gami", "target": "grab", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gamü", "target": "dedicate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ganaa", "target": "grandmother", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ganga", "target": "abuse", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ganza", "target": "tall", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gara", "target": "bell", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "garra", "target": "cup", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gasudi", "target": "sign", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gatdi", "target": "bad omen", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gavuu", "target": "grandfather", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gawiri", "target": "October", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gayi", "target": "great / almighty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gba", "target": "not", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbaa", "target": "buffalo", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbaki", "target": "many / several", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbandaka", "target": "scatter", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbaraka", "target": "flat", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbata", "target": "town", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbatda", "target": "bed", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbedhe", "target": "exact / fitting", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbefe", "target": "tremble / shake", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gbele", "target": "same", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbetde", "target": "safari", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gbi", "target": "in", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gbindi", "target": "next", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbinjo", "target": "conflict", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbito", "target": "slow", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gbiya", "target": "chief", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gbolo", "target": "ball", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gbulu", "target": "ice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gele", "target": "tradition", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gelle", "target": "tradition", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gewe", "target": "dysfunction", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gezele", "target": "illustrate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gili", "target": "lose", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "giliso", "target": "commit mistake", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "giliwo", "target": "delay", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gïnŋï", "target": "last", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Girdi", "target": "passage", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Giri", "target": "way / road", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "giriso", "target": "translate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "girita", "target": "convert", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "girri", "target": "change", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gitdi", "target": "count", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Gitdi / Tdeke", "target": "read", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "giwili", "target": "not straight", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gö", "target": "hunger", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "go", "target": "war", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "goduru", "target": "wish", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gogo", "target": "pain", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gogodirri", "target": "illness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Goho", "target": "fight", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "golo", "target": "tomb", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gomaa", "target": "quarrel", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "goneu", "target": "shopping", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "göngo", "target": "thirst", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "goro", "target": "smell", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "goti", "target": "forest", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "guku", "target": "fear", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gundiri", "target": "wind", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gündirimu", "target": "storm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "guru", "target": "hole", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "gürü", "target": "nail / crucify", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "güü", "target": "ancestor", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Güükü", "target": "fear", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Hata", "target": "even", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "hmm", "target": "hmm", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "iji", "target": "iji", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "iyi", "target": "know", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ja", "target": "eat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jana", "target": "sister", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "janaa", "target": "sister", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "janga", "target": "salty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jangada", "target": "barren", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jango", "target": "malaria", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "javuu", "target": "female cousin", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jegele", "target": "shadow / picture", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jenjo", "target": "make a will", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jere", "target": "hold / catch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jïgga", "target": "medicine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jiri", "target": "decay", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jiya", "target": "wake", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Jo", "target": "born", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "joko", "target": "bag", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jü", "target": "rat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jubtalia", "target": "hospital", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "jühü", "target": "bitterness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "juku", "target": "drag", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kaati", "target": "insist", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kabihiwö", "target": "sometimes", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kadho", "target": "been", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kafa", "target": "table", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kafi", "target": "back", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kaha", "target": "wound", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kala", "target": "like", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kalangana", "target": "amen / let it be", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kalka", "target": "explicit", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kalla", "target": "pot", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kalı", "target": "camping", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kangara", "target": "lamentation", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kangbita", "target": "at once", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kango", "target": "axe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kaŋono", "target": "these", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kangu", "target": "news", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kanni", "target": "brush", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kanonmve", "target": "would", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kanonve", "target": "would / could", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kanzee", "target": "together", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kara", "target": "turn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "karaga", "target": "join the talk", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "karaka", "target": "repeat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Karakaso/veloko", "target": "communicate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kasinna", "target": "there", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kavara", "target": "relics", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kawi", "target": "right / truth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kawï", "target": "true", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kaze", "target": "spoon", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kedeke", "target": "fittingly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kedi", "target": "spread", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kee", "target": "but", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kele", "target": "sound", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kelegele", "target": "only", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kelsere", "target": "justify", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kende", "target": "rubbish", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kenisa", "target": "church", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kenziri", "target": "estimate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kere", "target": "huge", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kerela", "target": "obviously", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kerre", "target": "basket", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kese", "target": "bicycle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Keselihi", "target": "bicycle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "keseuŋaa", "target": "donkey", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kessi", "target": "stove", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kewe", "target": "scratch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kewe/ gofi", "target": "scratch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Keye", "target": "call", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "keyoro", "target": "refer", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "keyu", "target": "imply", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kihi", "target": "breast", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kiki", "target": "fear / scary", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kïlo", "target": "flirt", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kiŋiwo", "target": "peek", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kiri", "target": "obey tradition", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kisi", "target": "lock", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kïssï", "target": "lock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kitab", "target": "book", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kitabu", "target": "book", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kö", "target": "marry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kobi", "target": "first", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kökö", "target": "cock", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kolo", "target": "hug", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Komo", "target": "married", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Koni", "target": "help", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Konii", "target": "number", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kono", "target": "here", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Konu", "target": "help", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "konubi", "target": "support", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Konve", "target": "partner", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "körö", "target": "descendant", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "koro", "target": "lose weight", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "korotam", "target": "sneeze", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kosere", "target": "beside", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "koso", "target": "voice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Koti", "target": "most / many", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "köti", "target": "marry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kowei", "target": "hurry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "koweikowei", "target": "quickly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpaa", "target": "leaf", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpaa ngbo", "target": "foot", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpaangbo", "target": "foot", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpabii", "target": "across / opposite", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpalawï", "target": "heat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpara", "target": "divert", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpatdara", "target": "struggle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpatili", "target": "afternoon", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpendele", "target": "before", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpendii", "target": "back", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpere", "target": "much / omen", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kperre", "target": "Komodo dragon", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpi", "target": "all", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpï", "target": "sourness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpidhiri", "target": "narrow", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpii", "target": "press", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpiki", "target": "cover", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpili", "target": "store", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpilisi", "target": "keep", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpinga", "target": "hook", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kpisoo", "target": "both", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpiti", "target": "even", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpolo", "target": "growth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpörö", "target": "snake", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kporo", "target": "drum", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpotdu", "target": "elder", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kpukpulu", "target": "rounded", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ku", "target": "death", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kü", "target": "second hand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ku, yaranga", "target": "dry", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kufulu", "target": "dust", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kuhu", "target": "skin", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kuhunjo", "target": "lip", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuhuti", "target": "skin", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "küle", "target": "dove", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "külo", "target": "ahead / before", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kulo /vivililo", "target": "blind", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kulu", "target": "play instrument", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Külüwö", "target": "always", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuluyu", "target": "display", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "küma", "target": "hero", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kumere", "target": "trash", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kumuru", "target": "headache", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Künga", "target": "curve", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kungu", "target": "save", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kunguti", "target": "maintain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kürrü", "target": "chest", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kurru", "target": "reach", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuru", "target": "hide", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kürü", "target": "hide", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kurule", "target": "guard", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kurundi", "target": "wait / expect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuruta", "target": "crowd", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kussu", "target": "reveal", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kusu", "target": "deafness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kusul", "target": "nail", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kusulu", "target": "nail", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Kutama", "target": "boot", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kutdu", "target": "first / before", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kutu", "target": "pinched", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuye", "target": "grow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "kuyo", "target": "sand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "laali", "target": "randomly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lagbo", "target": "till sunset", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lala", "target": "shouting (joy or sorrow)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lali", "target": "shouting", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lamgba", "target": "clean", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lami", "target": "filter", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lamva", "target": "gazelle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lavee", "target": "seems like / as if", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lawi", "target": "rinse", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "laworo", "target": "yesterday", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "le", "target": "name", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Le-", "target": "will (future marker)", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Legere", "target": "just", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lehe", "target": "heart", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "leke", "target": "set", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lelee", "target": "name calling", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "leli", "target": "tomb", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lendu", "target": "far away", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lengetere", "target": "gossip", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lengi", "target": "mirror", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lengilengi", "target": "beautiful / gorgeous", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lenje", "target": "deer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lesere", "target": "aside", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lesereve", "target": "dimension", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Leti", "target": "about", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Letu", "target": "attach", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "leu", "target": "aunt (father's side)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "levo", "target": "noun", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "li", "target": "sleep / sun", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lï", "target": "dream", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ligbö", "target": "till sunset", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lïhï", "target": "metal", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lihi", "target": "iron", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lïkï", "target": "sweet", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "liki", "target": "play", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "limi", "target": "learn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lingira", "target": "sugar", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "linguu", "target": "fruit", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Liwo", "target": "day", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "liwö", "target": "day", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lo", "target": "face", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lobe", "target": "border", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lobï", "target": "arm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lobi", "target": "arm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "loboko", "target": "impotent / baggy", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "logi", "target": "pour", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Loko", "target": "exchange", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lokoso", "target": "argue", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "loli", "target": "sky", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lolöö", "target": "mosquito", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lomu", "target": "asshole", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lomvu", "target": "online", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lona", "target": "gap", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "loro", "target": "stare", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "losi", "target": "dump", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lotala", "target": "cook", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lotü", "target": "low / short", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lotu", "target": "low", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lovo", "target": "solve", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lü", "target": "dance", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lu", "target": "arrive", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lübükü", "target": "rap", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lufigi", "target": "deliver", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lui", "target": "reach", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "luku", "target": "select", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lükü", "target": "fine particle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Lunde", "target": "use", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lungu", "target": "submerge", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lunguru", "target": "pick", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lürü", "target": "lead", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Luti", "target": "until", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "luu", "target": "frog", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lüü", "target": "frog", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "luve", "target": "tomorrow", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "lüveŋana", "target": "after tomorrow", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ma", "target": "do", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Maa", "target": "make", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mabito", "target": "slow", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mada", "target": "produce", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "madhebe", "target": "soft", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "madhiki", "target": "dark", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "madhü", "target": "far", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "madingili", "target": "round", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "madoko", "target": "wet", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mafere", "target": "wide", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "maforo", "target": "contribute", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Maga", "target": "large", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "magamara", "target": "old (of things)", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "maganjovi", "target": "to be greedy", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "magbaka", "target": "flat", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "magö", "target": "fight", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mago", "target": "fight", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "majï", "target": "dry", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "makangara", "target": "hard", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "makeŋi", "target": "thick", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "makoo", "target": "thick porridge", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "makpidiri", "target": "narrow", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamerego", "target": "make love", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamgba", "target": "mating", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamgbala", "target": "dirty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamgbara", "target": "bright / clear", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mamini", "target": "upset", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamïtïrï", "target": "thin", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mamusi,musi", "target": "worry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manabuwu", "target": "to be jealous", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manaduru", "target": "would like", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manamvee", "target": "please / I beg your pardon", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manayi", "target": "happy", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mande", "target": "work", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mangbili", "target": "complain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Manja", "target": "long", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manjite", "target": "small / little", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manjovi", "target": "bad heart", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Manjükü", "target": "prepare", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Manna", "target": "muscle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manni", "target": "paint", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manoko", "target": "sad", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "manza", "target": "long / tall", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Manzi", "target": "smart", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "maraya", "target": "school", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "masaku", "target": "riddle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "masogote", "target": "hate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "masüü", "target": "near", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mata", "target": "place", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "matara", "target": "straight", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "matenzo", "target": "disagree", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mati", "target": "happen", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mavata", "target": "replace", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "maveti", "target": "clean", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mavö", "target": "bad", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mavolo", "target": "to be stubborn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mawala", "target": "to make fun", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mawili", "target": "visit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mawïlï", "target": "visit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mayehe", "target": "behave", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mayivi", "target": "good", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mazanga", "target": "fast", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mazongo", "target": "old / aged (of persons)", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mazule", "target": "to be strong-hearted", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "me", "target": "tongue", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mee", "target": "how", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "meka", "target": "used", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "meketu", "target": "pinpoint", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mele", "target": "try", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "melengei", "target": "pretty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mere", "target": "admire", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "merego", "target": "love", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgba", "target": "steal", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgbala", "target": "well", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgbara", "target": "luck", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgbeemuru", "target": "congratulation", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgbemgbe", "target": "crocodile", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mgbi", "target": "completely / forever", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "miki", "target": "reptile", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mïlï", "target": "mingle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mili", "target": "swallow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "milli", "target": "neck", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mïllï", "target": "neck", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mina", "target": "as / then", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "minni", "target": "fortune", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "miri", "target": "foreign", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mïtïrï", "target": "thick (of person)", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "modhi", "target": "laugh", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "moko", "target": "chase", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Molala", "target": "celebrate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Moliki", "target": "play", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "molo", "target": "leopard", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mosere", "target": "shift", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "muku", "target": "rise / raise", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mükü", "target": "rise", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "münza", "target": "guitar", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Mürü", "target": "on", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "muru", "target": "on (surface)", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "murutiyi", "target": "roof", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "murutü", "target": "earth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "muruwo", "target": "mystery / phenomenon", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "muu", "target": "rain", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mva", "target": "knife", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mve", "target": "own", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mveeta", "target": "related", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mvongo", "target": "watermark", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mvu", "target": "net", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "mvurmvur", "target": "butterfly", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "naa", "target": "mother", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "naka", "target": "kick", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nakinkini", "target": "millipede", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nako", "target": "people", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nakobi", "target": "first wife", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nakpaka", "target": "thick (of liquid)", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nandende", "target": "second wife", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nanga", "target": "debt / lend", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nangele", "target": "run", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nanje", "target": "goat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nanuu", "target": "sheep", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nanze", "target": "animal", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nasisi", "target": "grasshopper", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nau", "target": "four", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "naü", "target": "fly", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nawku", "target": "widow", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nayingo", "target": "flood", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndaa", "target": "please", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndaraka", "target": "twist", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndaraka, tenge", "target": "mixed", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndaramvu", "target": "internet", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nde", "target": "work", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndeletii", "target": "also", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndende", "target": "second", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndi", "target": "they / them", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndile", "target": "pronoun", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndima", "target": "adverb", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndinga", "target": "conjunction", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndïrï", "target": "leave", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndirigbi", "target": "enter", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndiritati", "target": "than", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndiwo", "target": "history", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndo", "target": "short", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ndoo", "target": "year", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndooti", "target": "age", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ndugu", "target": "initiate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nduru", "target": "line", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ne", "target": "I / me", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "negu", "target": "market", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "neke", "target": "shut", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "neme", "target": "closed", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "neu", "target": "business", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nga", "target": "type", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋainze", "target": "alien", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngamve", "target": "fox", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ŋana", "target": "that", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngande'e", "target": "my", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngandi", "target": "own", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngandi danda", "target": "our", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngandi ndi", "target": "their", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngandi Ŋo", "target": "your", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nganga", "target": "jaw", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngara", "target": "corner", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngarata", "target": "mistreat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋariki", "target": "interjection", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngati", "target": "resist", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋayinze", "target": "stranger", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngbala", "target": "well", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbawo", "target": "light", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngbawö", "target": "light", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbee", "target": "reddish", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbita", "target": "immediately", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbo", "target": "leg", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbowö", "target": "hour", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngbu", "target": "different", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngele", "target": "run", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngidido", "target": "hiccup", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngili", "target": "collect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngilimuru", "target": "come together", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngilli", "target": "pile", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋinni", "target": "tickle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngirimi", "target": "trouble", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ŋiyi", "target": "know", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ŋo", "target": "you", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngo", "target": "water", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngö", "target": "build", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋö", "target": "nice", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngo linguu", "target": "juice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋodirri", "target": "health", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngogbi", "target": "skill", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngokara", "target": "pond", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngoki", "target": "milk", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngoko", "target": "shake", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngolo", "target": "tears", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ŋono", "target": "this", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ŋonoko", "target": "mingle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngu", "target": "new", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ngü", "target": "bend", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngulu", "target": "line", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngurru", "target": "path", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ngürü", "target": "smoke", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nguru", "target": "chicken", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nguruwi", "target": "smoke", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nguu", "target": "tree", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ni", "target": "it / he / she / him / her", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nibolo", "target": "future", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nihi", "target": "carry", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nii", "target": "bear", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nii nvogo", "target": "suffer", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "niki", "target": "woman", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Niŋi", "target": "struggle", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Niŋi nvogo", "target": "suffer", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nitere", "target": "offer", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "niyehe", "target": "lift", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nize", "target": "get", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nja", "target": "food", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njadöö", "target": "supper", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njafürüve", "target": "breakfast", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njagigali", "target": "lunch", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Njala", "target": "open", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nje", "target": "split", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njeenjee", "target": "discrete", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njegbi", "target": "split", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njemeke", "target": "discover", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njere", "target": "squirrel", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nji", "target": "kill", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njitde", "target": "little / somewhat", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Njite", "target": "young", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njö", "target": "orphan", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njo", "target": "mouth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njokoji", "target": "door", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Njokozi", "target": "door", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Njome, suku", "target": "end", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njoso", "target": "language", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njovi", "target": "intention", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njü", "target": "farm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nju", "target": "farm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "njuku", "target": "ready", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Njukute", "target": "small", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "no", "target": "is / are (copula)", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nofi", "target": "suck / lick", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "noho", "target": "shame", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Noka", "target": "was", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nokolo", "target": "flexible", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nokoro / zikiri", "target": "wrinkle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nokulo", "target": "advance", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nomvamva", "target": "hunt", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nondele", "target": "introduce / preamble", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nondelete", "target": "introduction", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nönö", "target": "walk", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nono", "target": "walk", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nonve", "target": "can", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nonvendo", "target": "ability", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nonvili", "target": "vehicle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "noro", "target": "drive", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nörö", "target": "drive", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nova", "target": "seek", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Novee", "target": "mean", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nükü", "target": "uncle (mother's side)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Numara", "target": "number", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvaha", "target": "for a while", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvedülü", "target": "dancer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvegifo", "target": "promiscuous person", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvehe", "target": "relative", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvejïga", "target": "healer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvejo", "target": "parent", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvejünjü", "target": "farmer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nveku", "target": "patient", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvele", "target": "blood", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvemago", "target": "fighter", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvemande", "target": "worker", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvemawili", "target": "host", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvemiri", "target": "foreigner / alien", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvemoliki", "target": "player", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvenangele", "target": "runner", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvendere", "target": "enemy", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvenomolo", "target": "traveller", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvesowo", "target": "foodie", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvesudi", "target": "writer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvetu", "target": "messenger", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvewili", "target": "guest", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nvila", "target": "wing", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvili", "target": "engine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nvilli", "target": "machine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nvimana", "target": "nerve", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvimuru", "target": "brain", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvogo", "target": "suffering", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nvokoti", "target": "between", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvu", "target": "suffer", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nvutda", "target": "move", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvuu", "target": "net", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nvyerre", "target": "funny", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nza", "target": "food / rice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nzala", "target": "open", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nzama", "target": "feed", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Nzee", "target": "one", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nzere", "target": "shine", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nzerenze", "target": "shiny", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nzü", "target": "drink", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "nzu", "target": "drink", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "odere", "target": "compete", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Patiro", "target": "boss", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rakpaka", "target": "tough / difficult / giant", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ramvi", "target": "distaste", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "raŋi", "target": "pure", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "raŋŋi", "target": "clean / transparent", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Rebihi", "target": "other / another", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "remgbe", "target": "compare", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rengo", "target": "mature", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "riki", "target": "surprise", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ringi", "target": "date (relationship)", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ro", "target": "stop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "roffi", "target": "ceremony", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "roffi wa akoti", "target": "wedding", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rofi", "target": "meeting / speech", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rofunsi", "target": "persuade", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rofunzi", "target": "persuade", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "roho", "target": "stop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Roko", "target": "few", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "romvo", "target": "ram", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rota", "target": "stand", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rovandi", "target": "represent", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rugu", "target": "teach / educate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rugulu", "target": "educated", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rugute", "target": "education", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rüna", "target": "spoil", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rungu", "target": "colour", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "rünve", "target": "enable", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "runzu", "target": "approve", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "saaka", "target": "wise", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sadi", "target": "sell", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sagita", "target": "begin", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "saha", "target": "sticker", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sahan", "target": "plate", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sakama", "target": "wisdom", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sala", "target": "fix", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sama", "target": "spell", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sandi", "target": "disturb", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sanga", "target": "brown", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sani", "target": "poverty / clemency", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sanvi", "target": "extract", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sara", "target": "cut", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sati", "target": "dirt", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sayi", "target": "look down on", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "se", "target": "fish / song", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "seduŋu", "target": "retain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "seduu", "target": "retain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "see", "target": "snail", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sehe", "target": "hair", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sene", "target": "scorpion", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sere", "target": "side / real", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sereme", "target": "really", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "serre", "target": "river", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sese", "target": "sing", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "shai", "target": "tea", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Si", "target": "let", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sibiti", "target": "allow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "siggi", "target": "message", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "siggite", "target": "communication", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sigiva", "target": "describe", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sïhï", "target": "buy", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sïkï", "target": "intense", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "siki", "target": "very loud", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sili", "target": "piece", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sima", "target": "brag", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "singe", "target": "purchase", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sini", "target": "curse", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sinni", "target": "curse", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sirdele", "target": "worm", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sïrï", "target": "cucumber", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "siri", "target": "hide / teach", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sirige", "target": "expert / pioneer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "siso", "target": "wait (just a minute)", "pos": "Interjection"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sïta", "target": "lay", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "so", "target": "speech", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sogo", "target": "hate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "soho", "target": "courage", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "soko", "target": "wash", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "soni", "target": "past", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Soo", "target": "two", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sorino", "target": "now", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "soro", "target": "today", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sorono", "target": "present", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sorowo", "target": "cold", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "soti", "target": "instead of", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sowo", "target": "gluttony", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sü", "target": "ear", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "su", "target": "spit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sudi", "target": "write", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sudili", "target": "print", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "suggu", "target": "combine", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sukela", "target": "eternal", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Suku", "target": "end / last", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sukumu", "target": "destiny", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sukuru", "target": "worsen", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sukuruta", "target": "hill", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "süküwö", "target": "forever", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sumeke", "target": "apply", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sumu", "target": "press", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sümü", "target": "press", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sumulu", "target": "pressure", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "suru", "target": "create / build", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sussu", "target": "firewood", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "susu", "target": "listen", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Sutihi", "target": "wall", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sutiyi", "target": "wall", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sutu", "target": "much (mass)", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "sutu goti", "target": "majestic mountain", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "süü", "target": "near", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "süüno", "target": "soon", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "süüta", "target": "close to", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ta", "target": "with / by", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tabi", "target": "check", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tabii", "target": "test", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tafi", "target": "mat / carpet", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tagbi", "target": "through", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tagbindi", "target": "after", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tagele", "target": "culture", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tagelle", "target": "traditional", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tagiri", "target": "from", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tagüü", "target": "culture", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Taha", "target": "place", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tahata", "target": "easily", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "takala", "target": "shallow", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "takau", "target": "consecutively", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Takoni", "target": "story", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "takpamu", "target": "spare", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "takuru", "target": "in front", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tala", "target": "taste", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "taleti", "target": "around", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "talla", "target": "dish", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tama", "target": "shoe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tamee", "target": "much", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tamma", "target": "shoe", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tamvee/", "target": "concern", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tanga", "target": "touch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tanga tamuru", "target": "remind", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tangbo", "target": "origin", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tangua", "target": "gorilla", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tara", "target": "tap", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tare", "target": "lonely", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tarra", "target": "straight", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tarugu", "target": "educational", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tata", "target": "trap", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tatere", "target": "root", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tau", "target": "three", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tavai nzee", "target": "once", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tawö", "target": "while", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tawona", "target": "by then", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "taya", "target": "exhaust", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "taza", "target": "shade", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tdaka", "target": "burn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tdeke", "target": "read", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "teka", "target": "injure", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "teku", "target": "die", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tele", "target": "pull", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "teleta", "target": "install", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "teli", "target": "sleep", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "telle", "target": "pull / withdraw", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tenge", "target": "move", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tengo", "target": "fail", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tenzo", "target": "disagreement", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "terbila", "target": "assume", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tere", "target": "put", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Terei", "target": "think", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "terelo", "target": "propose", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tereta", "target": "remember", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "teta", "target": "fall / attack", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tï", "target": "edge", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tidina", "target": "law", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tido", "target": "even (comparative)", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tiduŋui", "target": "remaining", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiduui", "target": "remain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tii", "target": "too", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tima", "target": "does", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tinga", "target": "assemble", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tingi, ngi", "target": "empty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiŋŋimi", "target": "support (noun)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tingo", "target": "move", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tinve", "target": "free", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tïrï", "target": "solve / straighten", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tiri", "target": "load", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiriti", "target": "stretch", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tirri", "target": "straighten", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tïrrï", "target": "weigh", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiserre", "target": "riverbank", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tisorino", "target": "right now", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tivi", "target": "building", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiyaya", "target": "a lot", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tiyi", "target": "house", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "todala", "target": "appeal", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "togbi", "target": "cry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tögbi", "target": "cry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "toko", "target": "add", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tokoma", "target": "affect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tokonjobi", "target": "contribute", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tokoru", "target": "greeting", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tokpenze", "target": "negotiate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tolo", "target": "rub", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tomgbamgba", "target": "ululate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tomgbili", "target": "weep", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "toronvilo", "target": "soap", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tü", "target": "land", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tubiti", "target": "accuse", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tühü", "target": "soil", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tui", "target": "connect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tüla", "target": "owl", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tulu", "target": "fill", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tumuru", "target": "weave", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tuna", "target": "start", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tunduru", "target": "tower", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Tuŋi", "target": "connect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "türü", "target": "official", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "turu", "target": "finish / push", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "turunvili", "target": "car", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Turutabi", "target": "assist", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tüündü", "target": "secure", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tüyü", "target": "treat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "tüyüke", "target": "treatment", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ufulu", "target": "mouse", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ugbuku", "target": "villager", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "uginda", "target": "whistle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ugo", "target": "male fighter", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ugose", "target": "fisherman", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ukenga", "target": "giant / extraordinary figure", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ülü", "target": "male dancer", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ülürü", "target": "leader", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "umgbanga", "target": "judge", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "umvamva", "target": "hunter", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "unde", "target": "businessman", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ungele", "target": "male runner", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "utoni", "target": "hyena", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "uvanda", "target": "guard", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vagbi", "target": "pop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vakuru", "target": "friend", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vala, va", "target": "crack", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Valawa", "target": "command", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "valla", "target": "horse", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vame", "target": "cancel", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vanda", "target": "protect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vanzee", "target": "first", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vara", "target": "oil", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Varra", "target": "oil", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vasilbï", "target": "shoulder", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vasili", "target": "rely", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vasugu", "target": "information", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vavura", "target": "seat / chair", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vayango", "target": "musician / singer / artist", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vayi", "target": "miss", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vele", "target": "say", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "velesi", "target": "spirit", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "veleso", "target": "speak", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "velewe", "target": "roll", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "velezi", "target": "tell", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vemuu", "target": "cloud", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vere", "target": "darken", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vere-njomvi", "target": "lose appetite", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "verre", "target": "stream", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vetdi", "target": "twenty", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vetere", "target": "black", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "veti", "target": "dirt", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vetime", "target": "dirty", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vetü", "target": "mud", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vïmï", "target": "monkey", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vimuru", "target": "mind", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vindo", "target": "out", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vita", "target": "down", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viteri", "target": "suppose", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viviliwo", "target": "darkness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viya", "target": "refuse", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viyati", "target": "avoid", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viyoro", "target": "submit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "viyu", "target": "reveal", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vobï", "target": "finger", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vobi", "target": "finger", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vofu", "target": "bunch", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vokuyo", "target": "sand", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Volo", "target": "eye", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "völö", "target": "stubborn", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voma", "target": "verb", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vonau", "target": "nine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voŋa", "target": "seed", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vongi", "target": "point", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vongu", "target": "cloth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vonja", "target": "rip", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vonzama", "target": "sandal", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vonzee", "target": "six", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voo", "target": "five", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voro", "target": "dog", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vosi", "target": "slice", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vosiri", "target": "star", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voso", "target": "word", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vosoo", "target": "seven", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vota", "target": "particle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votau", "target": "eight", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votele", "target": "preposition", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Voti", "target": "part", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votï", "target": "tooth", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votigbi", "target": "destroy", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votii", "target": "survive", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voto", "target": "to spoil", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "votole", "target": "blackmail", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vototü", "target": "corruption", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vowu", "target": "string", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "voyu", "target": "adjective", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vozetde", "target": "hut", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vozoki", "target": "devil", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Vu", "target": "father", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vugiri", "target": "main road", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vukuyo", "target": "desert", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vuru", "target": "citizen", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vürü", "target": "ash", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vuu", "target": "father", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "vuwu", "target": "harmoniously / plentifully", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wa", "target": "if", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wa, ndi", "target": "of", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wabila", "target": "perhaps", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wagba", "target": "or", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wagbi", "target": "chop", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wai", "target": "its", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wala", "target": "life", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "walana", "target": "channel", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "walando", "target": "life", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "walla", "target": "joke / funny", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wamina", "target": "so / therefore", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wamuru", "target": "shave head", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wamvee", "target": "relate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wana", "target": "brother", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wanaa", "target": "brother", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wanda", "target": "trigger", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wanve", "target": "love / relative", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wara", "target": "cut / slaughter", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Warmuru", "target": "cross", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wavasu", "target": "announce / inform", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wavee", "target": "suppose / for instance", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wavuu", "target": "male cousin", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "waya", "target": "zero", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wayi", "target": "say", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wayido", "target": "to lie", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wayiso", "target": "talk", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wegbïyï", "target": "inquire relationship status", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wehe", "target": "question", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wei", "target": "the", "pos": "Article"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "weke", "target": "ask", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wele", "target": "collect", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wenze", "target": "interview", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "weta", "target": "investigate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wewe", "target": "ask", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wï", "target": "fire", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wie", "target": "baby", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wiekobi", "target": "first child", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wihi", "target": "child", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wii", "target": "flower", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wiki", "target": "child", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wïli", "target": "heat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wilihi", "target": "girl", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "willa", "target": "none", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "willi", "target": "forget", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wïllï", "target": "heat / temperature", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "willimuru", "target": "forgetfulness", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "windijana", "target": "sister's child", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "windinaa", "target": "aunt (mother's side)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "windivuu", "target": "uncle (father's side)", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "windiwana", "target": "brother's child", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wiriba", "target": "guy", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wiriki", "target": "confuse / surprise", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wirindi", "target": "organize / repair", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wirsi", "target": "regulate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wirsiki", "target": "regulation", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wiya", "target": "swing", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wïya", "target": "wave", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wö", "target": "time", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wo", "target": "jump", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wobere", "target": "relax", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wofo", "target": "discuss", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wofogbi", "target": "canvass / discuss", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wokko", "target": "loose", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wökkö", "target": "loose", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "woko", "target": "fly", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wollo", "target": "blow", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wolo", "target": "blow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wolondi", "target": "follow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "womolo", "target": "travel", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "womologo", "target": "warfare", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wonoo", "target": "when (statement)", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wonvili", "target": "vehicle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "woo", "target": "invoke", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "woti", "target": "strength", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wöti", "target": "rest", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wovindo", "target": "appear", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wü", "target": "rope", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wu", "target": "and (clauses)", "pos": "Conjunction"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wugbu", "target": "snow", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wugi", "target": "crash", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuhu", "target": "middle", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wulu", "target": "fry", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wunga", "target": "life", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wunjo", "target": "agree", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wunjondi", "target": "accept", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuru", "target": "break", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Würü", "target": "break", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wüsü", "target": "boil / running stomach", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wusuvi", "target": "remove", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuta", "target": "environment", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wutdu", "target": "person", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wutduru", "target": "personalize", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuturu", "target": "waste", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuu", "target": "grass", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Wüü", "target": "grass", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "wuwunjo", "target": "believe", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ya", "target": "defeat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yaa", "target": "elephant", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yaano", "target": "meat", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yabï", "target": "branch", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yai", "target": "go", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yamo", "target": "air", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yamuru", "target": "overcome", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yara", "target": "impose", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yarali", "target": "wonder", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yaralï", "target": "wonder", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yarangamuru", "target": "commit", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yati", "target": "defeat", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yaya", "target": "recklessly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yee", "target": "up", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yeemuru", "target": "above / on top", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yehe", "target": "up / high", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yeleso", "target": "peace", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yelewo", "target": "evening", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yelle", "target": "tie", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yerego", "target": "threaten to fight", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yeresu", "target": "warn", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yi", "target": "thing", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yï", "target": "stomach", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yidhebe", "target": "guess", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yidia", "target": "claim", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yigo", "target": "foods and drinks", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yïhï", "target": "stomach", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yïlïï", "target": "crawl", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yïmï", "target": "gigantic", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yinde", "target": "tool", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yini", "target": "what", "pos": "Pronoun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yiriwa", "target": "serious", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yïundi", "target": "confirm", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yivi", "target": "good", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yiviti", "target": "kindness / prestige", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yiviwo", "target": "happy", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yiviwö", "target": "pleasure", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yiwi", "target": "twine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yo", "target": "wear", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yobii", "target": "next year / following season", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yoko", "target": "tear", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yomo", "target": "air", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yongo", "target": "when", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yöngö", "target": "big snake", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yoro", "target": "send", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yoroko", "target": "associate", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yorotü", "target": "send with message", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yü", "target": "beg", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yudhe", "target": "gain", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yuku", "target": "still / yet", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yükü", "target": "to fatten", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yündi", "target": "confirm", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yungu", "target": "inquire", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yuti", "target": "show", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yüti", "target": "show", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Yuva", "target": "show", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yuvö", "target": "criticize", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yüyü", "target": "to beg", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "yüyuti", "target": "sign", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zadha", "target": "slide", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zaka", "target": "pull repeatedly", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zanga zanga", "target": "quickly", "pos": "Adverb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zati", "target": "escape", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Ze", "target": "take", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zee", "target": "maggot", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Zegele", "target": "picture", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zehe", "target": "take", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zeke", "target": "take", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zelungu", "target": "choose", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Zenjo", "target": "promise", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zere", "target": "catch", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Zezi", "target": "give", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "Zi", "target": "for", "pos": "Preposition"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zidi", "target": "increase", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ziga", "target": "medicine", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zihi", "target": "refuse", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zïmvaa", "target": "delay", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "ziri", "target": "glow", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zoko", "target": "bag", "pos": "Noun"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zongo", "target": "young / fresh", "pos": "Adjective"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zuku", "target": "de-escalate", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zungu", "target": "line up", "pos": "Verb"}
+{"type": "translation_pair", "source_lang": "Balanda", "target_lang": "English", "source": "zunu", "target": "shrink", "pos": "Verb"}
