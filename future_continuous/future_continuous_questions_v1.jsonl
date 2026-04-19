@@ -4,123 +4,89 @@
   "description": "This file defines yes–no question formation in the Future Continuous tense in Njo Viri (Balanda). Future continuous questions ask whether an action will be ongoing at a future time.",
   "rules": {
     "general_principle": {
-      "statement": "Future continuous questions in Balanda are formed by keeping the future continuous structure unchanged and adding the question marker 'we?' at the end of the sentence."
+      "function": "general principle",
+      "structure": "Future continuous questions in Balanda are formed by keeping the future continuous structure unchanged and adding the question marker 'we?' at the end of the sentence.",
+      "notes": ""
     },
-
     "question_structure": {
+      "function": "question structure",
       "structure": "Affirmative or Negative Future Continuous sentence + we?",
-      "constraints": [
-        "The future marker 'le-' must remain attached to 'dho'",
-        "The auxiliary 'dho' must be present",
-        "The progressive prefix 'ti-' must be present",
-        "Word order must not change",
-        "The question marker 'we?' must be sentence-final"
-      ]
+      "notes": "The future marker 'le-' must remain attached to 'dho'; The auxiliary 'dho' must be present; The progressive prefix 'ti-' must be present; Word order must not change; The question marker 'we?' must be sentence-final"
     },
-
     "affirmative_questions": {
+      "function": "affirmative questions",
       "structure": "Subject + le-dho + ti-Verb + (Object / Complement) + we?",
-      "examples": [
-        "Ne ledho timande we?",
-        "Danda ledho titokpenze neu we?"
-      ]
+      "notes": "Ne ledho timande we?; Danda ledho titokpenze neu we?"
     },
-
     "negative_questions": {
+      "function": "negative questions",
       "structure": "Subject + le-dho + ti-Verb + (Object / Complement) + gba + we?",
-      "examples": [
-        "Ne ledho timande gba we?",
-        "Danda ledho titokpenze neu gba we?"
-      ]
+      "notes": "Ne ledho timande gba we?; Danda ledho titokpenze neu gba we?"
     },
-
     "tense_and_aspect_distinction": {
-      "rule": "Future continuous questions encode both future tense and progressive aspect.",
-      "note": [
-        "'le-' encodes future tense",
-        "'dho' functions as auxiliary 'be'",
-        "'ti-' encodes progressive aspect"
-      ]
+      "function": "tense and aspect distinction",
+      "structure": "Future continuous questions encode both future tense and progressive aspect.",
+      "notes": "'le-' encodes future tense; 'dho' functions as auxiliary 'be'; 'ti-' encodes progressive aspect"
     },
-
-    "error_constraints": [
-      "Do not omit 'le-'",
-      "Do not omit 'dho'",
-      "Do not omit 'ti-'",
-      "Do not use the copula 'ma'",
-      "Do not use the result marker 'dheki'",
-      "Do not move 'gba' or 'we?' from their fixed positions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit 'le-'; Do not omit 'dho'; Do not omit 'ti-'; Do not use the copula 'ma'; Do not use the result marker 'dheki'; Do not move 'gba' or 'we?' from their fixed positions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_le_dho_auxiliary": true,
-      "enforce_ti_prefix": true,
-      "preserve_word_order": true,
-      "keep_we_sentence_final": true,
-      "allow_affirmative_and_negative_questions": true,
-      "map_to_english_future_continuous_questions": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_le_dho_auxiliary\": true, \"enforce_ti_prefix\": true, \"preserve_word_order\": true, \"keep_we_sentence_final\": true, \"allow_affirmative_and_negative_questions\": true, \"map_to_english_future_continuous_questions\": true}",
+      "notes": ""
     }
   }
 }
-
-
-[
-  {"balanda":"Ne ledho tija se we?","english":"Will I be eating fish?"},
-  {"balanda":"Ni ledho tinzü ngo we?","english":"Will she be drinking water?"},
-  {"balanda":"Danda ledho titeli muru famvara we?","english":"Will we be sleeping on the bed?"},
-  {"balanda":"Uku ledho tiyai we?","english":"Will Uku be going?"},
-  {"balanda":"Ngande ledho tidhii ba we?","english":"Will Ngande be coming home?"},
-
-  {"balanda":"Ndi ledho tinonö gbi difo we?","english":"Will they be walking in the compound?"},
-  {"balanda":"Ni ledho tinangele zanga we?","english":"Will she be running fast?"},
-  {"balanda":"Uku ledho timande gbi njü we?","english":"Will Uku be working in the garden?"},
-  {"balanda":"Wiki ledho timoliki gbi difo we?","english":"Will the child be playing in the compound?"},
-  {"balanda":"Ne ledho tiloro voro we?","english":"Will I be watching the dog?"},
-
-  {"balanda":"Ne ledho tivele njo balanda we?","english":"Will I be speaking Balanda?"},
-  {"balanda":"Wilii ledho tisudi kavoso we?","english":"Will the girl be writing words?"},
-  {"balanda":"Ne ledho tidheke kitabu we?","english":"Will I be reading a book?"},
-  {"balanda":"Ni ledho titeri ay we?","english":"Will he be thinking about it?"},
-  {"balanda":"Ndi ledho tiŋiyi ay we?","english":"Will they be knowing it?"},
-
-  {"balanda":"Ne ledho tiwe ndi we?","english":"Will I be asking them?"},
-  {"balanda":"Ngande ledho tivele zi ndi we?","english":"Will Ngande be telling them?"},
-  {"balanda":"Wilii ledho tikeye ti naa ni we?","english":"Will the girl be calling her mother?"},
-
-  {"balanda":"Ne ledho timerego ŋo we?","english":"Will I be loving you?"},
-  {"balanda":"Ni ledho timaguku ti kpörö we?","english":"Will he be fearing the snake?"},
-  {"balanda":"Ni ledho tisogo ni we?","english":"Will she be hating him?"},
-  {"balanda":"Ngande ledho tiriki ni we?","english":"Will Ngande be surprising him?"},
-  {"balanda":"Ni ledho tidovee kurru we?","english":"Will he be seeming calm?"},
-
-  {"balanda":"Wilii ledho tiyele tamma we?","english":"Will the girl be tying the shoe?"},
-  {"balanda":"Ni ledho tidi kalla we?","english":"Will he be cutting the pot?"},
-  {"balanda":"Ne ledho titele njokoji we?","english":"Will I be pulling the door?"},
-  {"balanda":"Danda ledho tituru songo we?","english":"Will we be pushing the box?"},
-  {"balanda":"Wilii ledho tisoko tamma we?","english":"Will the girl be washing the shoe?"},
-  {"balanda":"Ne ledho tikuru kavokau we?","english":"Will I be hiding the beads?"},
-
-  {"balanda":"Ngande ledho tingö tiyi we?","english":"Will Ngande be building a house?"},
-  {"balanda":"Ne ledho tisuru kavoso we?","english":"Will I be creating words?"},
-  {"balanda":"Ni ledho tigiri kavoso we?","english":"Will she be changing the words?"},
-  {"balanda":"Ne ledho tikara njokoji we?","english":"Will I be turning the door?"},
-  {"balanda":"Danda ledho titoko villi we?","english":"Will we be adding money?"},
-  {"balanda":"Ne ledho tikefo Balanda we?","english":"Will I be describing Balanda?"},
-
-  {"balanda":"Ndi ledho tikonu nvesani we?","english":"Will they be helping the poor?"},
-  {"balanda":"Ngande ledho tindugu mira we?","english":"Will Ngande be initiating the project?"},
-  {"balanda":"Ne ledho timaforo mira we?","english":"Will I be contributing to the project?"},
-  {"balanda":"Wilii ledho tisarwa kumere we?","english":"Will the girl be separating trash?"},
-  {"balanda":"Danda ledho tikiri tidina we?","english":"Will we be upholding the law?"},
-
-  {"balanda":"Ne ledho tiduru ngo we?","english":"Will I be wanting water?"},
-  {"balanda":"Ni ledho tize villi we?","english":"Will she be giving money?"},
-  {"balanda":"Ne ledho tidhe villi we?","english":"Will I be finding money?"},
-  {"balanda":"Uku ledho timele vongu we?","english":"Will Uku be trying the cloth?"},
-  {"balanda":"Ngande ledho tisi ba we?","english":"Will Ngande be leaving home?"},
-  {"balanda":"Ne ledho tilu Wau we?","english":"Will I be arriving in Wau?"},
-  {"balanda":"Ni ledho tifagi mva we?","english":"Will he be sharpening the knife?"},
-  {"balanda":"Ngande ledho tidewe kakpodu we?","english":"Will Ngande be imitating adults?"},
-  {"balanda":"Danda ledho tibita mira we?","english":"Will we be starting the project?"},
-  {"balanda":"Ni ledho titeta we?","english":"Will he be falling?"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tija se we?","output":"Will I be eating fish?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tinzü ngo we?","output":"Will she be drinking water?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titeli muru famvara we?","output":"Will we be sleeping on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho tiyai we?","output":"Will Uku be going?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidhii ba we?","output":"Will Ngande be coming home?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tinonö gbi difo we?","output":"Will they be walking in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tinangele zanga we?","output":"Will she be running fast?"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho timande gbi njü we?","output":"Will Uku be working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ledho timoliki gbi difo we?","output":"Will the child be playing in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiloro voro we?","output":"Will I be watching the dog?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tivele njo balanda we?","output":"Will I be speaking Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisudi kavoso we?","output":"Will the girl be writing words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidheke kitabu we?","output":"Will I be reading a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeri ay we?","output":"Will he be thinking about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tiŋiyi ay we?","output":"Will they be knowing it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiwe ndi we?","output":"Will I be asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tivele zi ndi we?","output":"Will Ngande be telling them?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tikeye ti naa ni we?","output":"Will the girl be calling her mother?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho timerego ŋo we?","output":"Will I be loving you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho timaguku ti kpörö we?","output":"Will he be fearing the snake?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tisogo ni we?","output":"Will she be hating him?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tiriki ni we?","output":"Will Ngande be surprising him?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidovee kurru we?","output":"Will he be seeming calm?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tiyele tamma we?","output":"Will the girl be tying the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidi kalla we?","output":"Will he be cutting the pot?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho titele njokoji we?","output":"Will I be pulling the door?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tituru songo we?","output":"Will we be pushing the box?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisoko tamma we?","output":"Will the girl be washing the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikuru kavokau we?","output":"Will I be hiding the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tingö tiyi we?","output":"Will Ngande be building a house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tisuru kavoso we?","output":"Will I be creating words?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tigiri kavoso we?","output":"Will she be changing the words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikara njokoji we?","output":"Will I be turning the door?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titoko villi we?","output":"Will we be adding money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikefo Balanda we?","output":"Will I be describing Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tikonu nvesani we?","output":"Will they be helping the poor?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tindugu mira we?","output":"Will Ngande be initiating the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho timaforo mira we?","output":"Will I be contributing to the project?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisarwa kumere we?","output":"Will the girl be separating trash?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tikiri tidina we?","output":"Will we be upholding the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiduru ngo we?","output":"Will I be wanting water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tize villi we?","output":"Will she be giving money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidhe villi we?","output":"Will I be finding money?"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho timele vongu we?","output":"Will Uku be trying the cloth?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tisi ba we?","output":"Will Ngande be leaving home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tilu Wau we?","output":"Will I be arriving in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tifagi mva we?","output":"Will he be sharpening the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidewe kakpodu we?","output":"Will Ngande be imitating adults?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tibita mira we?","output":"Will we be starting the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeta we?","output":"Will he be falling?"}

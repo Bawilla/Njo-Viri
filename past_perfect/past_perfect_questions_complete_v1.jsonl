@@ -4,97 +4,79 @@
   "description": "This file defines yes–no question formation in the Past Perfect tense in Njo Viri (Balanda). Questions are formed by keeping the past perfect structure unchanged and adding the question marker 'we?' at the end of the sentence.",
   "rules": {
     "general_principle": {
-      "statement": "Past perfect questions in Balanda are formed by appending the sentence-final question marker 'we?'. The past perfect prefix 'taa-' and all prepositions remain unchanged."
+      "function": "general principle",
+      "structure": "Past perfect questions in Balanda are formed by appending the sentence-final question marker 'we?'. The past perfect prefix 'taa-' and all prepositions remain unchanged.",
+      "notes": ""
     },
-
     "question_structure": {
+      "function": "question structure",
       "structure": "Subject + taa-Verb + (Object / Complement) + we?",
-      "constraints": [
-        "The prefix 'taa-' must remain attached to the verb",
-        "'we?' must appear sentence-final",
-        "No auxiliary verbs are introduced",
-        "Word order remains identical to the affirmative form"
-      ]
+      "notes": "The prefix 'taa-' must remain attached to the verb; 'we?' must appear sentence-final; No auxiliary verbs are introduced; Word order remains identical to the affirmative form"
     },
-
     "preposition_behavior": {
-      "rule": "All prepositions retain their original form and position in questions.",
-      "examples": [
-        "gbi famvara we?",
-        "ti vili we?"
-      ]
+      "function": "preposition behavior",
+      "structure": "All prepositions retain their original form and position in questions.",
+      "notes": "gbi famvara we?; ti vili we?"
     },
-
-    "error_constraints": [
-      "Do not move 'we?' to the middle of the sentence",
-      "Do not add 'no' or 'noka'",
-      "Do not remove 'taa-' in questions",
-      "Do not alter prepositions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not move 'we?' to the middle of the sentence; Do not add 'no' or 'noka'; Do not remove 'taa-' in questions; Do not alter prepositions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "append_we_sentence_final": true,
-      "preserve_affirmative_word_order": true,
-      "do_not_modify_prepositions": true
+      "function": "model behavior guidelines",
+      "structure": "{\"append_we_sentence_final\": true, \"preserve_affirmative_word_order\": true, \"do_not_modify_prepositions\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne taaja se we?","english":"Had I eaten fish?"},
-  {"balanda":"Ne taanzü ngo we?","english":"Had I drunk water?"},
-  {"balanda":"Ne taateli gbi famvara we?","english":"Had I slept in the bed?"},
-  {"balanda":"Ne taayai we?","english":"Had I gone?"},
-  {"balanda":"Ne taadhii ba we?","english":"Had I come home?"},
-  {"balanda":"Ne taanonö gbi difo we?","english":"Had I walked in the compound?"},
-  {"balanda":"Ni taanangele zanga we?","english":"Had she run fast?"},
-  {"balanda":"Uku taamande gbi njü we?","english":"Had Uku worked in the garden?"},
-  {"balanda":"Ne taamoliki gbi difo we?","english":"Had I played in the compound?"},
-  {"balanda":"Ne taaloro bura we?","english":"Had I watched the cat?"},
-
-  {"balanda":"Ne taavele Balanda we?","english":"Had I spoken Balanda?"},
-  {"balanda":"Ne taasudi kavoso we?","english":"Had I written words?"},
-  {"balanda":"Ne taadheke kitabu we?","english":"Had I read a book?"},
-  {"balanda":"Ne taateri dha we?","english":"Had I thought about it?"},
-  {"balanda":"Ne taaŋiyi dha we?","english":"Had I known it?"},
-  {"balanda":"Ne taawe ndi we?","english":"Had I asked them?"},
-  {"balanda":"Ne taavele zi ndi we?","english":"Had I told them?"},
-  {"balanda":"Ne taakeye ndi we?","english":"Had I called them?"},
-
-  {"balanda":"Ne taamerego ŋo we?","english":"Had I loved you?"},
-  {"balanda":"Ne taamaguku ti dha we?","english":"Had I feared it?"},
-  {"balanda":"Ne taasogo dha we?","english":"Had I hated it?"},
-  {"balanda":"Ni taariki dha we?","english":"Had she surprised him?"},
-  {"balanda":"Ne taadovee we?","english":"Had I seemed so?"},
-
-  {"balanda":"Ne taayele tamma we?","english":"Had I tied the shoe?"},
-  {"balanda":"Ne taadi kalla we?","english":"Had I cut the pot?"},
-  {"balanda":"Ne taatele njokoji we?","english":"Had I pulled the door?"},
-  {"balanda":"Ne taaturu songo we?","english":"Had I pushed the box?"},
-  {"balanda":"Ne taasoko tamma we?","english":"Had I washed the shoe?"},
-  {"balanda":"Ne taakuru kau we?","english":"Had I hidden the beads?"},
-
-  {"balanda":"Ne taangö tiyi we?","english":"Had I built a house?"},
-  {"balanda":"Ne taasuru voso we?","english":"Had I created words?"},
-  {"balanda":"Ne taagiri voso we?","english":"Had I changed the words?"},
-  {"balanda":"Ne taakara njokoji we?","english":"Had I turned the door?"},
-  {"balanda":"Ne taatoko ti vili we?","english":"Had I added money?"},
-  {"balanda":"Ne taakefo balanda we?","english":"Had I described Balanda?"},
-
-  {"balanda":"Ne taakonu ndi we?","english":"Had I helped them?"},
-  {"balanda":"Ne taandugu mira we?","english":"Had I initiated the project?"},
-  {"balanda":"Ne taamaforo ti mira we?","english":"Had I contributed to the project?"},
-  {"balanda":"Ne taasarwa kumere we?","english":"Had I separated the trash?"},
-  {"balanda":"Ne taakiri tidina we?","english":"Had I upheld the law?"},
-
-  {"balanda":"Ne taaduru ngo we?","english":"Had I wanted water?"},
-  {"balanda":"Ne taaze vili we?","english":"Had I given money?"},
-  {"balanda":"Ne taadhe vili we?","english":"Had I found money?"},
-  {"balanda":"Ne taamele vongu we?","english":"Had I tried the cloth?"},
-  {"balanda":"Ne taasi ba we?","english":"Had I left home?"},
-  {"balanda":"Ne taalu we?","english":"Had I arrived?"},
-  {"balanda":"Ne taafagi mva we?","english":"Had I sharpened the knife?"},
-  {"balanda":"Ne taadewe kakpodu we?","english":"Had I imitated adults?"},
-  {"balanda":"Ne taabita mira we?","english":"Had I started the project?"},
-  {"balanda":"Ne taateta we?","english":"Had I fallen?"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne taaja se we?","output":"Had I eaten fish?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanzü ngo we?","output":"Had I drunk water?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateli gbi famvara we?","output":"Had I slept in the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayai we?","output":"Had I gone?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhii ba we?","output":"Had I come home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanonö gbi difo we?","output":"Had I walked in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni taanangele zanga we?","output":"Had she run fast?"}
+{"instruction":"Translate from Balanda to English","input":"Uku taamande gbi njü we?","output":"Had Uku worked in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamoliki gbi difo we?","output":"Had I played in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaloro bura we?","output":"Had I watched the cat?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele Balanda we?","output":"Had I spoken Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasudi kavoso we?","output":"Had I written words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadheke kitabu we?","output":"Had I read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateri dha we?","output":"Had I thought about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaŋiyi dha we?","output":"Had I known it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taawe ndi we?","output":"Had I asked them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele zi ndi we?","output":"Had I told them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakeye ndi we?","output":"Had I called them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamerego ŋo we?","output":"Had I loved you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaguku ti dha we?","output":"Had I feared it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasogo dha we?","output":"Had I hated it?"}
+{"instruction":"Translate from Balanda to English","input":"Ni taariki dha we?","output":"Had she surprised him?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadovee we?","output":"Had I seemed so?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayele tamma we?","output":"Had I tied the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadi kalla we?","output":"Had I cut the pot?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatele njokoji we?","output":"Had I pulled the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaturu songo we?","output":"Had I pushed the box?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasoko tamma we?","output":"Had I washed the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakuru kau we?","output":"Had I hidden the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taangö tiyi we?","output":"Had I built a house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasuru voso we?","output":"Had I created words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taagiri voso we?","output":"Had I changed the words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakara njokoji we?","output":"Had I turned the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatoko ti vili we?","output":"Had I added money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakefo balanda we?","output":"Had I described Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakonu ndi we?","output":"Had I helped them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taandugu mira we?","output":"Had I initiated the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaforo ti mira we?","output":"Had I contributed to the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasarwa kumere we?","output":"Had I separated the trash?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakiri tidina we?","output":"Had I upheld the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaduru ngo we?","output":"Had I wanted water?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze vili we?","output":"Had I given money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhe vili we?","output":"Had I found money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamele vongu we?","output":"Had I tried the cloth?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasi ba we?","output":"Had I left home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taalu we?","output":"Had I arrived?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taafagi mva we?","output":"Had I sharpened the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadewe kakpodu we?","output":"Had I imitated adults?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taabita mira we?","output":"Had I started the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateta we?","output":"Had I fallen?"}

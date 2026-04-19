@@ -1,56 +1,21 @@
 {
   "instruction_type": "grammar_rule",
   "grammar_name": "balanda_interrogatives",
-  "description": "This file defines interrogative words and question formation in Njo Viri (Balanda). Interrogatives may appear sentence-final after 'no' or as predicate complements.",
-
-  "rules": {
-
-    "interrogative_words": {
-      "yini": "what",
-      "dhi": "who",
-      "aka": "where",
-      "nga": "which",
-      "yongo": "when",
-      "andini": "why",
-      "sowa_yini": "what for",
-      "no_nga": "is which ",
-      "anga": "which one "
-    },
-
-    "general_question_pattern": {
-      "pattern": "Clause + no + Interrogative",
-      "note": "Many questions place the interrogative after the copula 'no'."
-    },
-
-    "examples": [
-
-      {"balanda":"Ŋono no yini?","english":"What is this?"},
-      {"balanda":"Ay no yini?","english":"What is it?"},
-      {"balanda":"Tiyai no dhi?","english":"Who is going?"},
-      {"balanda":"Kateku no dhi?","english":"Who died?"},
-      {"balanda":"Nja ŋono no ngandi dhi?","english":"Whose food is this?"},
-      {"balanda":"Ŋo tidhe kümü no andini?","english":"Why are you finding wealth?"},
-      {"balanda":"Ndi kanangele no andini?","english":"Why did they run?"},
-      {"balanda":"Gbulu kanele no andini?","english":"Why did ice melt?"},
-      {"balanda":"Ŋo tidhii no yongo?","english":"When are you coming?"},
-      {"balanda":"Kese kavoto no yongo?","english":"When did the bike spoil?"},
-      {"balanda":"Ay kamati no yongo?","english":"When did it happen?"},
-      {"balanda":"Mva no aka?","english":"Where is the knife?"},
-      {"balanda":"Kajamini no aka?","english":"Where are the utensils?"},
-      {"balanda":"No nga?","english":"Is which?"},
-      {"balanda":"Anga?","english":"Which one? (colloquial)"}
-    ],
-
-    "error_constraints": [
-      "Do not remove the copula 'no' in predicate questions.",
-      "Maintain interrogative word position.",
-      
-    ],
-
-    "model_behavior_guidelines": {
-      "enforce_interrogative_position": true,
-      "preserve_copula_no": true,
-      "distinguish_formal_and_colloquial_forms": true
-    }
-  }
+  "description": "This file contains Balanda language training examples for balanda interrogatives.",
+  "rules": {}
 }
+{"instruction":"Translate from Balanda to English","input":"Ŋono no yini?","output":"What is this?"}
+{"instruction":"Translate from Balanda to English","input":"Ay no yini?","output":"What is it?"}
+{"instruction":"Translate from Balanda to English","input":"Tiyai no dhi?","output":"Who is going?"}
+{"instruction":"Translate from Balanda to English","input":"Kateku no dhi?","output":"Who died?"}
+{"instruction":"Translate from Balanda to English","input":"Nja ŋono no ngandi dhi?","output":"Whose food is this?"}
+{"instruction":"Translate from Balanda to English","input":"Ŋo tidhe kümü no andini?","output":"Why are you finding wealth?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kanangele no andini?","output":"Why did they run?"}
+{"instruction":"Translate from Balanda to English","input":"Gbulu kanele no andini?","output":"Why did ice melt?"}
+{"instruction":"Translate from Balanda to English","input":"Ŋo tidhii no yongo?","output":"When are you coming?"}
+{"instruction":"Translate from Balanda to English","input":"Kese kavoto no yongo?","output":"When did the bike spoil?"}
+{"instruction":"Translate from Balanda to English","input":"Ay kamati no yongo?","output":"When did it happen?"}
+{"instruction":"Translate from Balanda to English","input":"Mva no aka?","output":"Where is the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Kajamini no aka?","output":"Where are the utensils?"}
+{"instruction":"Translate from Balanda to English","input":"No nga?","output":"Is which?"}
+{"instruction":"Translate from Balanda to English","input":"Anga?","output":"Which one? (colloquial)"}

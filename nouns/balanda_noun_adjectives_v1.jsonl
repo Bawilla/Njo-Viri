@@ -3,78 +3,92 @@
   "grammar_name": "balanda_noun_adjective_predication",
   "description": "This file contains Balanda noun–adjective predication clauses. These sentences describe qualities or states of a subject using a noun or pronoun followed directly by an adjective.",
   "rules": {
-    "basic_structure": "Subject (Noun or Pronoun) + Adjective",
-    "word_order": "Predicate adjective follows the subject directly with no copula",
-    "subject_type": [
-      "common noun",
-      "proper noun",
-      "pronoun"
-    ],
-    "adjective_behavior": "Adjective functions as predicate and does not require a verb meaning 'to be'",
-    "tense_interpretation": "Default interpretation is present or timeless state unless tense markers are added in other constructions",
-    "agreement": "No agreement marking appears on the adjective for number, gender, or person",
-    "constraints": [
-      "No copular verb is used in this construction",
-      "No tense or aspect prefix appears in this file",
-      "Word order remains Subject + Adjective",
-      "Adjectives express permanent or temporary qualities",
-      "Pronoun subjects follow the same structure as noun subjects"
-    ]
+    "basic_structure": {
+      "function": "basic structure",
+      "structure": "Subject (Noun or Pronoun) + Adjective",
+      "notes": ""
+    },
+    "word_order": {
+      "function": "word order",
+      "structure": "Predicate adjective follows the subject directly with no copula",
+      "notes": ""
+    },
+    "subject_type": {
+      "function": "subject type",
+      "structure": "common noun; proper noun; pronoun",
+      "notes": ""
+    },
+    "adjective_behavior": {
+      "function": "adjective behavior",
+      "structure": "Adjective functions as predicate and does not require a verb meaning 'to be'",
+      "notes": ""
+    },
+    "tense_interpretation": {
+      "function": "tense interpretation",
+      "structure": "Default interpretation is present or timeless state unless tense markers are added in other constructions",
+      "notes": ""
+    },
+    "agreement": {
+      "function": "agreement",
+      "structure": "No agreement marking appears on the adjective for number, gender, or person",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "No copular verb is used in this construction; No tense or aspect prefix appears in this file; Word order remains Subject + Adjective; Adjectives express permanent or temporary qualities; Pronoun subjects follow the same structure as noun subjects",
+      "notes": ""
+    }
   }
 }
-
-
-[
-  {"balanda":"Bura maga","english":"The cat is big"},
-  {"balanda":"Wiki mayivi","english":"The child is good"},
-  {"balanda":"Maraya maga","english":"The school is big"},
-  {"balanda":"Nguu manza","english":"The tree is tall"},
-  {"balanda":"Kafa mafere","english":"The table is wide"},
-  {"balanda":"Kporo madhebe","english":"The drum is soft"},
-  {"balanda":"Duu makangara","english":"The rock is hard"},
-  {"balanda":"Vongu mamïtïrï","english":"The cloth is thick"},
-  {"balanda":"Famvara magbaka","english":"The bed is flat"},
-  {"balanda":"Lamva mazanga","english":"The gazelle is fast"},
-  {"balanda":"Durdur magbito","english":"The tortoise is slow"},
-  {"balanda":"Dhako makpoo","english":"The man is strong"},
-  {"balanda":"Wilii makitti","english":"The girl is beautiful"},
-  {"balanda":"Ayeti mayivi","english":"Fucking is good"},
-  {"balanda":"Kese mazanga","english":"The bike is fast"},
-  {"balanda":"Tiyi madhiki","english":"The house is dark"},
-  {"balanda":"Li mamgbala","english":"The sun is bright"},
-  {"balanda":"Toronvilo magbataka","english":"The soap is slippery"},
-  {"balanda":"Giri matara","english":"The road is straight"},
-  {"balanda":"Widhako makeŋi","english":"The boy is thin"},
-  {"balanda":"Siridele mafayi","english":"The worm is weak"},
-  {"balanda":"Dïrrï magbataka","english":"The stone is smooth"},
-  {"balanda":"Gbolo mandingili","english":"The globe is round"},
-  {"balanda":"Giri mafere","english":"The road is wide"},
-  {"balanda":"Wiki mazongo","english":"The child is young"},
-  {"balanda":"Dhako magamara","english":"The man is old"},
-  {"balanda":"Bura makpoo","english":"The cat is strong"},
-  {"balanda":"Kafa madoko","english":"The table is fresh"},
-  {"balanda":"Nza madoko","english":"The food is fresh"},
-  {"balanda":"Vongu maveti","english":"The cloth is dirty"},
-  {"balanda":"Wiki mamgbala","english":"The child is clean"},
-  {"balanda":"Maraya mamgbala","english":"The school is clean"},
-  {"balanda":"Nguu mazanga","english":"The tree is fast growing"},
-  {"balanda":"Bura magbito","english":"The cat is slow"},
-  {"balanda":"Dhako mazanga","english":"The man is fast"},
-  {"balanda":"Wilii mayivi","english":"The girl is good"},
-  {"balanda":"Kporo makangara","english":"The chair is hard"},
-  {"balanda":"Tiyi mafere","english":"The house is wide"},
-  {"balanda":"Giri makpidiri","english":"The road is narrow"},
-  {"balanda":"Nguu makpoo","english":"The tree is strong"},
-  {"balanda":"Kese magbaka","english":"The bike is flat"},
-  {"balanda":"Bura madhebe","english":"The cat is soft"},
-  {"balanda":"Wiki makpoo","english":"The child is strong"},
-  {"balanda":"Duu magbaka","english":"The rock is flat"},
-  {"balanda":"Loli madhiki","english":"The sky is dark"},
-  {"balanda":"Ne mamgbara","english":"I am lucky"},
-  {"balanda":"Ni mamgbara","english":"He is lucky"},
-  {"balanda":"Ne mamgbala","english":"I am clean"},
-  {"balanda":"Ni mamgbala","english":"He is clean"},
-  {"balanda":"Vongu mamitiri","english":"The cloth is thick"},
-  {"balanda":"Kafa makangara","english":"The table is hard"},
-  {"balanda":"Turunvili mazanga","english":"The car is fast"}
-]
+{"instruction":"Translate from Balanda to English","input":"Bura maga","output":"The cat is big"}
+{"instruction":"Translate from Balanda to English","input":"Wiki mayivi","output":"The child is good"}
+{"instruction":"Translate from Balanda to English","input":"Maraya maga","output":"The school is big"}
+{"instruction":"Translate from Balanda to English","input":"Nguu manza","output":"The tree is tall"}
+{"instruction":"Translate from Balanda to English","input":"Kafa mafere","output":"The table is wide"}
+{"instruction":"Translate from Balanda to English","input":"Kporo madhebe","output":"The drum is soft"}
+{"instruction":"Translate from Balanda to English","input":"Duu makangara","output":"The rock is hard"}
+{"instruction":"Translate from Balanda to English","input":"Vongu mamïtïrï","output":"The cloth is thick"}
+{"instruction":"Translate from Balanda to English","input":"Famvara magbaka","output":"The bed is flat"}
+{"instruction":"Translate from Balanda to English","input":"Lamva mazanga","output":"The gazelle is fast"}
+{"instruction":"Translate from Balanda to English","input":"Durdur magbito","output":"The tortoise is slow"}
+{"instruction":"Translate from Balanda to English","input":"Dhako makpoo","output":"The man is strong"}
+{"instruction":"Translate from Balanda to English","input":"Wilii makitti","output":"The girl is beautiful"}
+{"instruction":"Translate from Balanda to English","input":"Ayeti mayivi","output":"Fucking is good"}
+{"instruction":"Translate from Balanda to English","input":"Kese mazanga","output":"The bike is fast"}
+{"instruction":"Translate from Balanda to English","input":"Tiyi madhiki","output":"The house is dark"}
+{"instruction":"Translate from Balanda to English","input":"Li mamgbala","output":"The sun is bright"}
+{"instruction":"Translate from Balanda to English","input":"Toronvilo magbataka","output":"The soap is slippery"}
+{"instruction":"Translate from Balanda to English","input":"Giri matara","output":"The road is straight"}
+{"instruction":"Translate from Balanda to English","input":"Widhako makeŋi","output":"The boy is thin"}
+{"instruction":"Translate from Balanda to English","input":"Siridele mafayi","output":"The worm is weak"}
+{"instruction":"Translate from Balanda to English","input":"Dïrrï magbataka","output":"The stone is smooth"}
+{"instruction":"Translate from Balanda to English","input":"Gbolo mandingili","output":"The globe is round"}
+{"instruction":"Translate from Balanda to English","input":"Giri mafere","output":"The road is wide"}
+{"instruction":"Translate from Balanda to English","input":"Wiki mazongo","output":"The child is young"}
+{"instruction":"Translate from Balanda to English","input":"Dhako magamara","output":"The man is old"}
+{"instruction":"Translate from Balanda to English","input":"Bura makpoo","output":"The cat is strong"}
+{"instruction":"Translate from Balanda to English","input":"Kafa madoko","output":"The table is fresh"}
+{"instruction":"Translate from Balanda to English","input":"Nza madoko","output":"The food is fresh"}
+{"instruction":"Translate from Balanda to English","input":"Vongu maveti","output":"The cloth is dirty"}
+{"instruction":"Translate from Balanda to English","input":"Wiki mamgbala","output":"The child is clean"}
+{"instruction":"Translate from Balanda to English","input":"Maraya mamgbala","output":"The school is clean"}
+{"instruction":"Translate from Balanda to English","input":"Nguu mazanga","output":"The tree is fast growing"}
+{"instruction":"Translate from Balanda to English","input":"Bura magbito","output":"The cat is slow"}
+{"instruction":"Translate from Balanda to English","input":"Dhako mazanga","output":"The man is fast"}
+{"instruction":"Translate from Balanda to English","input":"Wilii mayivi","output":"The girl is good"}
+{"instruction":"Translate from Balanda to English","input":"Kporo makangara","output":"The chair is hard"}
+{"instruction":"Translate from Balanda to English","input":"Tiyi mafere","output":"The house is wide"}
+{"instruction":"Translate from Balanda to English","input":"Giri makpidiri","output":"The road is narrow"}
+{"instruction":"Translate from Balanda to English","input":"Nguu makpoo","output":"The tree is strong"}
+{"instruction":"Translate from Balanda to English","input":"Kese magbaka","output":"The bike is flat"}
+{"instruction":"Translate from Balanda to English","input":"Bura madhebe","output":"The cat is soft"}
+{"instruction":"Translate from Balanda to English","input":"Wiki makpoo","output":"The child is strong"}
+{"instruction":"Translate from Balanda to English","input":"Duu magbaka","output":"The rock is flat"}
+{"instruction":"Translate from Balanda to English","input":"Loli madhiki","output":"The sky is dark"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamgbara","output":"I am lucky"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamgbara","output":"He is lucky"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamgbala","output":"I am clean"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamgbala","output":"He is clean"}
+{"instruction":"Translate from Balanda to English","input":"Vongu mamitiri","output":"The cloth is thick"}
+{"instruction":"Translate from Balanda to English","input":"Kafa makangara","output":"The table is hard"}
+{"instruction":"Translate from Balanda to English","input":"Turunvili mazanga","output":"The car is fast"}

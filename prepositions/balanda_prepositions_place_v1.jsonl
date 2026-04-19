@@ -4,405 +4,158 @@
   "description": "This file defines the system of prepositions in Njo Viri (Balanda). Prepositions encode spatial relations, source and direction, proximity, sequence, association, and logical connection. Each preposition has a fixed semantic role and cannot be freely substituted.",
   "rules": {
     "general_principle": {
-      "statement": "Prepositions in Njo Viri are semantically fixed markers that express location, relation, source, proximity, sequence, or logical connection. They follow the copula or verb and precede the noun or phrase they govern."
+      "function": "general principle",
+      "structure": "Prepositions in Njo Viri are semantically fixed markers that express location, relation, source, proximity, sequence, or logical connection. They follow the copula or verb and precede the noun or phrase they govern.",
+      "notes": ""
     },
-
     "spatial_prepositions": {
-      "gbi": {
-        "meaning": "in, inside, within",
-        "structure": "Subject + copula + gbi + Location",
-        "examples": [
-          "Ni no gbi tiyi",
-          "Joko no gbi Turunvili"
-        ]
-      },
-      "ata": {
-        "meaning": "under, below",
-        "structure": "Subject + copula + ata + Object",
-        "examples": [
-          "Bura no ata kafa",
-          "Joko no ata vavura"
-        ]
-      },
-      "muru": {
-        "meaning": "on (surface contact)",
-        "structure": "Subject + copula + muru + Object",
-        "examples": [
-          "Fökpaa no muru kafa",
-          "Munza no muru vavura"
-        ]
-      },
-      "kafi": {
-        "meaning": "behind",
-        "structure": "Subject + copula + kafi + Reference object",
-        "examples": [
-          "Maraya no kafi goti",
-          "Wiki no kafi nguu"
-        ]
-      },
-      "takuru": {
-        "meaning": "in front of",
-        "structure": "Subject + copula + takuru + Reference object",
-        "examples": [
-          "Bura no takuru tiyi",
-          "Turunvili no takuru vozetde"
-        ]
-      },
-      "nvokoti": {
-        "meaning": "between",
-        "structure": "Subject + copula + nvokoti + Two entities",
-        "examples": [
-          "Turunvili no nvokoti katiyi soo",
-          "Wiki no nvokoti kanvejo ni"
-        ]
-      },
-      "taleti": {
-        "meaning": "around",
-        "structure": "Subject + copula + taleti + Place",
-        "examples": [
-          "Ndi no taleti maraya",
-          "Niki no taleti kesi"
-        ]
-      },
-      "lesere": {
-        "meaning": "to the side of",
-        "structure": "Subject + copula + lesere + Object",
-        "examples": [
-          "Joko no lesere kafa",
-          "Munza no lesere kporo"
-        ]
-      },
-      "kosere": {
-        "meaning": "beside, next to",
-        "structure": "Subject + copula + kosere + Entity",
-        "examples": [
-          "Wilii no kosere naa ni",
-          "Bura no kosere tiyi"
-        ]
-      },
-      "yee": {
-        "meaning": "above",
-        "structure": "Subject + copula + yee + Reference object",
-        "examples": [
-          "Munza no yee kafa",
-          "Nguu no yee tiyi"
-        ]
-      },
-      "yeemuru": {
-        "meaning": "on top of",
-        "structure": "Subject + copula + yeemuru + Object",
-        "examples": [
-          "Fökpaa no yeemuru famvara",
-          "Joko no yeemuru vavura"
-        ]
-      },
-      "vita": {
-        "meaning": "below",
-        "structure": "Subject + copula + vita + Object",
-        "examples": [
-          "Vavura no vita kafa",
-          "Ba no vita nguu"
-        ]
-      },
-      "kpabii": {
-        "meaning": "across from, opposite",
-        "structure": "Subject + copula + kpabii + Reference object",
-        "examples": [
-          "Maraya no kpabii giri",
-          "Tiyi no kpabii vozetde"
-        ]
-      },
-      "tagbi": {
-        "meaning": "through",
-        "structure": "Verb of motion + tagbi + Place",
-        "examples": [
-          "Ne no tiyai tagbi negu",
-          "Bura no tiyai tagbi tiyi"
-        ]
-      }
+      "function": "spatial prepositions",
+      "structure": "{\"gbi\": {\"meaning\": \"in, inside, within\", \"structure\": \"Subject + copula + gbi + Location\", \"examples\": [\"Ni no gbi tiyi\", \"Joko no gbi Turunvili\"]}, \"ata\": {\"meaning\": \"under, below\", \"structure\": \"Subject + copula + ata + Object\", \"examples\": [\"Bura no ata kafa\", \"Joko no ata vavura\"]}, \"muru\": {\"meaning\": \"on (surface contact)\", \"structure\": \"Subject + copula + muru + Object\", \"examples\": [\"Fökpaa no muru kafa\", \"Munza no muru vavura\"]}, \"kafi\": {\"meaning\": \"behind\", \"structure\": \"Subject + copula + kafi + Reference object\", \"examples\": [\"Maraya no kafi goti\", \"Wiki no kafi nguu\"]}, \"takuru\": {\"meaning\": \"in front of\", \"structure\": \"Subject + copula + takuru + Reference object\", \"examples\": [\"Bura no takuru tiyi\", \"Turunvili no takuru vozetde\"]}, \"nvokoti\": {\"meaning\": \"between\", \"structure\": \"Subject + copula + nvokoti + Two entities\", \"examples\": [\"Turunvili no nvokoti katiyi soo\", \"Wiki no nvokoti kanvejo ni\"]}, \"taleti\": {\"meaning\": \"around\", \"structure\": \"Subject + copula + taleti + Place\", \"examples\": [\"Ndi no taleti maraya\", \"Niki no taleti kesi\"]}, \"lesere\": {\"meaning\": \"to the side of\", \"structure\": \"Subject + copula + lesere + Object\", \"examples\": [\"Joko no lesere kafa\", \"Munza no lesere kporo\"]}, \"kosere\": {\"meaning\": \"beside, next to\", \"structure\": \"Subject + copula + kosere + Entity\", \"examples\": [\"Wilii no kosere naa ni\", \"Bura no kosere tiyi\"]}, \"yee\": {\"meaning\": \"above\", \"structure\": \"Subject + copula + yee + Reference object\", \"examples\": [\"Munza no yee kafa\", \"Nguu no yee tiyi\"]}, \"yeemuru\": {\"meaning\": \"on top of\", \"structure\": \"Subject + copula + yeemuru + Object\", \"examples\": [\"Fökpaa no yeemuru famvara\", \"Joko no yeemuru vavura\"]}, \"vita\": {\"meaning\": \"below\", \"structure\": \"Subject + copula + vita + Object\", \"examples\": [\"Vavura no vita kafa\", \"Ba no vita nguu\"]}, \"kpabii\": {\"meaning\": \"across from, opposite\", \"structure\": \"Subject + copula + kpabii + Reference object\", \"examples\": [\"Maraya no kpabii giri\", \"Tiyi no kpabii vozetde\"]}, \"tagbi\": {\"meaning\": \"through\", \"structure\": \"Verb of motion + tagbi + Place\", \"examples\": [\"Ne no tiyai tagbi negu\", \"Bura no tiyai tagbi tiyi\"]}}",
+      "notes": ""
     },
-
     "source_and_sequence_prepositions": {
-      "dhoti": {
-        "meaning": "out of, from (things)",
-        "structure": "Verb + dhoti + Object",
-        "examples": [
-          "Joko kadhii no dhoti Turunvili",
-          "Ngo kadhii no dhoti gotii"
-        ]
-      },
-      "dhobi": {
-        "meaning": "from (someone)",
-        "structure": "Verb + dhobi + Person",
-        "examples": [
-          "Ne kadhii dhobi vakure-e",
-          "Ni kadhii dhobi wana-ni"
-        ]
-      },
-      "tagiri": {
-        "meaning": "from (place or origin)",
-        "structure": "Subject + copula + tagiri + Place",
-        "examples": [
-          "Ne no tagiri Wau",
-          "Ni no tagiri maraya"
-        ]
-      },
-      "tagiribi": {
-        "meaning": "from (someone)",
-        "structure": "Subject + copula + tagiribi + Person",
-        "examples": [
-          "Ne no tagiribi vakure-e",
-          "Ni no tagiribi wana-ni"
-        ]
-      },
-      "tagbindi": {
-        "meaning": "after (sequence)",
-        "structure": "Verb + tagbindi + Entity",
-        "examples": [
-          "Ne taadhii tagbindi ndi",
-          "Wiki no tiyai tagbindi naa ni"
-        ]
-      }
+      "function": "source and sequence prepositions",
+      "structure": "{\"dhoti\": {\"meaning\": \"out of, from (things)\", \"structure\": \"Verb + dhoti + Object\", \"examples\": [\"Joko kadhii no dhoti Turunvili\", \"Ngo kadhii no dhoti gotii\"]}, \"dhobi\": {\"meaning\": \"from (someone)\", \"structure\": \"Verb + dhobi + Person\", \"examples\": [\"Ne kadhii dhobi vakure-e\", \"Ni kadhii dhobi wana-ni\"]}, \"tagiri\": {\"meaning\": \"from (place or origin)\", \"structure\": \"Subject + copula + tagiri + Place\", \"examples\": [\"Ne no tagiri Wau\", \"Ni no tagiri maraya\"]}, \"tagiribi\": {\"meaning\": \"from (someone)\", \"structure\": \"Subject + copula + tagiribi + Person\", \"examples\": [\"Ne no tagiribi vakure-e\", \"Ni no tagiribi wana-ni\"]}, \"tagbindi\": {\"meaning\": \"after (sequence)\", \"structure\": \"Verb + tagbindi + Entity\", \"examples\": [\"Ne taadhii tagbindi ndi\", \"Wiki no tiyai tagbindi naa ni\"]}}",
+      "notes": ""
     },
-
     "proximity_prepositions": {
-      "süüta": {
-        "meaning": "near, close to",
-        "structure": "Subject + copula + süüta + Place",
-        "examples": [
-          "Maraya no süüta serre",
-          "Wilii no süüta tiyi"
-        ]
-      },
-      "süüta": {
-        "meaning": "near (neutral)",
-        "structure": "Subject + copula + süüta + Place",
-        "note": "less specific than süüta"
-      },
-      "masüü": {
-        "meaning": "near (adjectival)",
-        "structure": "Adjective form modifying a noun",
-        "note": "does not function as a preposition"
-      }
+      "function": "proximity prepositions",
+      "structure": "{\"süüta\": {\"meaning\": \"near (neutral)\", \"structure\": \"Subject + copula + süüta + Place\", \"note\": \"less specific than süüta\"}, \"masüü\": {\"meaning\": \"near (adjectival)\", \"structure\": \"Adjective form modifying a noun\", \"note\": \"does not function as a preposition\"}}",
+      "notes": ""
     },
-
     "association_and_logical_connectors": {
-      "ta": {
-        "meaning": "with",
-        "function": "association or accompaniment"
-      },
-      "andiso": {
-        "meaning": "because",
-        "function": "causal connector"
-      },
-      "wamina": {
-        "meaning": "therefore, hence",
-        "function": "result or conclusion connector"
-      },
-      "dize": {
-        "meaning": "and",
-        "function": "additive connector"
-      },
-      "wala": {
-        "meaning": "or",
-        "function": "alternative connector"
-      },
-      "kee": {
-        "meaning": "but",
-        "function": "contrast connector"
-      },
-      "ana": {
-        "meaning": "so",
-        "function": "result connector"
-      }
+      "function": "association and logical connectors",
+      "structure": "{\"ta\": {\"meaning\": \"with\", \"function\": \"association or accompaniment\"}, \"andiso\": {\"meaning\": \"because\", \"function\": \"causal connector\"}, \"wamina\": {\"meaning\": \"therefore, hence\", \"function\": \"result or conclusion connector\"}, \"dize\": {\"meaning\": \"and\", \"function\": \"additive connector\"}, \"wala\": {\"meaning\": \"or\", \"function\": \"alternative connector\"}, \"kee\": {\"meaning\": \"but\", \"function\": \"contrast connector\"}, \"ana\": {\"meaning\": \"so\", \"function\": \"result connector\"}}",
+      "notes": ""
     },
-
     "negation_and_questions": {
-      "negation": {
-        "markers": ["gba", "willa"],
-        "rule": "Prepositions remain unchanged under negation"
-      },
-      "questions": {
-        "marker": "we?",
-        "position": "sentence-final",
-        "rule": "Prepositions remain unchanged in questions"
-      }
+      "function": "negation and questions",
+      "structure": "{\"negation\": {\"markers\": [\"gba\", \"willa\"], \"rule\": \"Prepositions remain unchanged under negation\"}, \"questions\": {\"marker\": \"we?\", \"position\": \"sentence-final\", \"rule\": \"Prepositions remain unchanged in questions\"}}",
+      "notes": ""
     },
-
-    "error_constraints": [
-      "Do not substitute one spatial preposition for another",
-      "Do not use dhobi for places",
-      "Do not use tagiri for people",
-      "Do not use masüü as a preposition",
-      "Do not change prepositions in negation or questions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not substitute one spatial preposition for another; Do not use dhobi for places; Do not use tagiri for people; Do not use masüü as a preposition; Do not change prepositions in negation or questions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "treat_prepositions_as_semantic_units": true,
-      "do_not_generalize_spatial_meaning": true,
-      "preserve_preposition_form": true
+      "function": "model behavior guidelines",
+      "structure": "{\"treat_prepositions_as_semantic_units\": true, \"do_not_generalize_spatial_meaning\": true, \"preserve_preposition_form\": true}",
+      "notes": ""
     }
   }
 }
-
-
-
-{"balanda":"Fökpaa no muru kafa","english":"The book is on the table."}
-{"balanda":"Munza no muru vavura","english":"The guitar is on the seat."}
-
-{"balanda":"Joko no ata vavura","english":"The bag is under the seat."}
-{"balanda":"Bura no ata kafa","english":"The cat is under the table."}
-
-{"balanda":"Ni no gbi tiyi","english":"He is in the house."}
-{"balanda":"Joko no gbi Turunvili","english":"The bag is in the car."}
-
-{"balanda":"Turunvili no takuru vozetde","english":"The car is in front of the building."}
-{"balanda":"Bura no takuru tiyi","english":"The cat is in front of the house."}
-
-{"balanda":"Maraya no kafi goti","english":"The school is behind the mountain."}
-{"balanda":"Wiki no kafi nguu","english":"The child is behind the tree."}
-
-{"balanda":"Munza no yee kafa","english":"The guitar is above the table."}
-{"balanda":"Nguu no yee tiyi","english":"The tree is above the house."}
-
-{"balanda":"Fökpaa no yeemuru famvara","english":"The book is on top of the bed."}
-{"balanda":"Joko no yeemuru vavura","english":"The bag is on top of the seat."}
-
-{"balanda":"Turunvili no takuru ndi","english":"The car is in front of them."}
-{"balanda":"Wiki no takuru bura","english":"The child is in front of the cat."}
-
-{"balanda":"Ndi no taleti maraya","english":"They are around the school."}
-{"balanda":"Niki no taleti kesi","english":"The woman is around the stove."}
-
-{"balanda":"Turunvili no nvokoti katiyi soo","english":"The car is between the two houses."}
-{"balanda":"Wiki no nvokoti kanvejo ni","english":"The child is between his parents."}
-
-{"balanda":"Joko no lesere kafa","english":"The bag is on the side of the table."}
-{"balanda":"Munza no lesere kporo","english":"The guitar is to the side of the drum."}
-
-{"balanda":"Wilii no kosere naa ni","english":"The girl is beside her mother."}
-{"balanda":"Bura no kosere tiyi","english":"The cat is beside the house."}
-
-{"balanda":"Ne kadhii tagiribi vakure'e","english":"I came from my friend."}
-{"balanda":"Joko kadhii no dhogbi Turünvili","english":"The bag came out of the car."}
-{"balanda":"Ni kadhii tagiribi wana-ni","english":"He came from his brother."}
-{"balanda":"Ngo kadhii no dhogbi gotii","english":"The water came out of the mountain."}
-
-{"balanda":"Ne no tagiri Wau","english":"I am from Wau."}
-{"balanda":"Ni no tagiri maraya","english":"He is from the school."}
-
-{"balanda":"Ne taadhii tagbindi ndi","english":"I came after them."}
-{"balanda":"Wiki no tiyai tagbindi naa ni","english":"The child is going after his mother."}
-
-{"balanda":"Widhako no kpendii taadhii","english":"The child following came."}
-{"balanda":"Turunvili kpendii no tiyai","english":"The car behind followed."}
-
-{"balanda":"Maraya no süüta serre","english":"The school is near the river."}
-{"balanda":"Wilii no süüta tiyi","english":"The girl is near the house."}
-
-{"balanda":"Maraya no kpabii giri","english":"The school is across from the road."}
-{"balanda":"Tiyi no kpabii vozetde","english":"The house is opposite the building."}
-
-{"balanda":"Maraya no kpabii gagiri","english":"The school is across from the main road."}
-{"balanda":"Voro no kpabii sutiyi","english":"The dog is opposite the wall."}
-
-{"balanda":"Ne no tiyai tagbi negu","english":"I am going through the market."}
-{"balanda":"Bura no tiyai tagbi famvara","english":"The cat went through the bed."}
-
-{"balanda":"Vavura no vita kafa","english":"The seat is below the table."}
-{"balanda":"Ba no vita nguu","english":"The house is below the tree."}
-
-{"balanda":"Ndi no gbi tiyi","english":"They are within the house."}
-{"balanda":"Wiki no gbi ba","english":"The child is within the home."}
-
-{"balanda":"Wilii no vindo tiyi","english":"The girl is outside the house."}
-{"balanda":"Tama no vindo Turunvili","english":"The shoe is outside the car."}
-
-{"balanda":"Dimgbo no ngara tiyi","english":"The lizard is at the corner of the house."}
-{"balanda":"Wilii no ngara sutiyi","english":"The girl is at the corner of the wall."}
-
-{"balanda":"Wilii no gbi wuhu ndi","english":"The girl is in the middle of them."}
-{"balanda":"Nguu no gbi wuhu goti","english":"The tree is in the middle of the mountain."}
-
-
-{"balanda":"Fökpaa ma muru kafa gba","english":"The book is not on the table."}
-{"balanda":"Fökpaa no muru kafa we?","english":"Is the book on the table?"}
-{"balanda":"Fökpaa ma muru kafa gba we?","english":"Isn't the book on the table?"}
-
-{"balanda":"Munza ma muru vavura gba","english":"The guitar is not on the seat."}
-{"balanda":"Munza no muru vavura we?","english":"Is the guitar on the seat?"}
-{"balanda":"Munza ma muru vavura gba we?","english":"Isn't the guitar on the seat?"}
-
-{"balanda":"Joko ma ata vavura gba","english":"The bag is not under the seat."}
-{"balanda":"Joko no ata vavura we?","english":"Is the bag under the seat?"}
-{"balanda":"Joko ma ata vavura gba we?","english":"Isn't the bag under the seat?"}
-
-{"balanda":"Bura ma ata kafa gba","english":"The cat is not under the table."}
-{"balanda":"Bura no ata kafa we?","english":"Is the cat under the table?"}
-{"balanda":"Bura ma ata kafa gba we?","english":"Isn't the cat under the table?"}
-
-{"balanda":"Ni ma gbi tiyi gba","english":"He is not in the house."}
-{"balanda":"Ni no gbi tiyi we?","english":"Is he in the house?"}
-{"balanda":"Ni ma gbi tiyi gba we?","english":"Isn't he in the house?"}
-
-{"balanda":"Joko ma gbi Turunvili gba","english":"The bag is not in the car."}
-{"balanda":"Joko no gbi Turunvili we?","english":"Is the bag in the car?"}
-{"balanda":"Joko ma gbi Turunvili gba we?","english":"Isn't the bag in the car?"}
-
-{"balanda":"Turunvili ma takuru vozetde gba","english":"The car is not in front of the building."}
-{"balanda":"Turunvili no takuru vozetde we?","english":"Is the car in front of the building?"}
-{"balanda":"Turunvili ma takuru vozetde gba we?","english":"Isn't the car in front of the building?"}
-
-{"balanda":"Bura ma takuru tiyi gba","english":"The cat is not in front of the house."}
-{"balanda":"Bura no takuru tiyi we?","english":"Is the cat in front of the house?"}
-{"balanda":"Bura ma takuru tiyi gba we?","english":"Isn't the cat in front of the house?"}
-
-{"balanda":"Maraya ma kafi goti gba","english":"The school is not behind the mountain."}
-{"balanda":"Maraya no kafi goti we?","english":"Is the school behind the mountain?"}
-{"balanda":"Maraya ma kafi goti gba we?","english":"Isn't the school behind the mountain?"}
-
-{"balanda":"Wiki ma kafi nguu gba","english":"The child is not behind the tree."}
-{"balanda":"Wiki no kafi nguu we?","english":"Is the child behind the tree?"}
-{"balanda":"Wiki ma kafi nguu gba we?","english":"Isn't the child behind the tree?"}
-
-{"balanda":"Munza ma yee kafa gba","english":"The guitar is not above the table."}
-{"balanda":"Munza no yee kafa we?","english":"Is the guitar above the table?"}
-{"balanda":"Munza ma yee kafa gba we?","english":"Isn't the guitar above the table?"}
-
-{"balanda":"Nguu ma yee tiyi gba","english":"The tree is not above the house."}
-{"balanda":"Nguu no yee tiyi we?","english":"Is the tree above the house?"}
-{"balanda":"Nguu ma yee tiyi gba we?","english":"Isn't the tree above the house?"}
-
-{"balanda":"Fökpaa ma yeemuru famvara gba","english":"The book is not on top of the bed."}
-{"balanda":"Fökpaa no yeemuru famvara we?","english":"Is the book on top of the bed?"}
-{"balanda":"Fökpaa ma yeemuru famvara gba we?","english":"Isn't the book on top of the bed?"}
-
-{"balanda":"Joko ma yeemuru vavura gba","english":"The bag is not on top of the seat."}
-{"balanda":"Joko no yeemuru vavura we?","english":"Is the bag on top of the seat?"}
-{"balanda":"Joko ma yeemuru vavura gba we?","english":"Isn't the bag on top of the seat?"}
-
-{"balanda":"Maraya ma süüta park gba","english":"The school is not near the park."}
-{"balanda":"Maraya no süüta park we?","english":"Is the school near the park?"}
-{"balanda":"Maraya ma süüta park gba we?","english":"Isn't the school near the park?"}
-
-{"balanda":"Wilii ma süüta tiyi gba","english":"The girl is not near the house."}
-{"balanda":"Wilii no süüta tiyi we?","english":"Is the girl near the house?"}
-{"balanda":"Wilii ma süüta tiyi gba we?","english":"Isn't the girl near the house?"}
-
-{"balanda":"Wilii ma vindo tiyi gba","english":"The girl is not outside the house."}
-{"balanda":"Wilii no vindo tiyi we?","english":"Is the girl outside the house?"}
-{"balanda":"Wilii ma vindo tiyi gba we?","english":"Isn't the girl outside the house?"}
-
-{"balanda":"Wilii ma gbi wuhu ndi gba","english":"The girl is not in the middle of them."}
-{"balanda":"Wilii no gbi wuhu ndi we?","english":"Is the girl in the middle of them?"}
-{"balanda":"Wilii ma gbi wuhu ndi gba we?","english":"Isn't the girl in the middle of them?"}
-
-{"balanda":"Ne no tiyai tagbi negu","english":"I am going through the market."}
-{"balanda":"Ne willa tiyai tagbi negu","english":"I am not going through the market."}
-{"balanda":"Ne no tiyai tagbi negu we?","english":"Am I going through the market?"}
-{"balanda":"Ne willa tiyai tagbi negu we?","english":"Am I not going through the market?"}
-
-{"balanda":"Bura no tiyai tagbi tiyi","english":"The cat is going through the house."}
-{"balanda":"Bura willa tiyai tagbi tiyi","english":"The cat is not going through the house."}
-{"balanda":"Bura no tiyai tagbi tiyi we?","english":"Is the cat going through the house?"}
-{"balanda":"Bura willa tiyai tagbi tiyi we?","english":"Is the cat not going through the house?"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa no muru kafa","output":"The book is on the table."}
+{"instruction":"Translate from Balanda to English","input":"Munza no muru vavura","output":"The guitar is on the seat."}
+{"instruction":"Translate from Balanda to English","input":"Joko no ata vavura","output":"The bag is under the seat."}
+{"instruction":"Translate from Balanda to English","input":"Bura no ata kafa","output":"The cat is under the table."}
+{"instruction":"Translate from Balanda to English","input":"Ni no gbi tiyi","output":"He is in the house."}
+{"instruction":"Translate from Balanda to English","input":"Joko no gbi Turunvili","output":"The bag is in the car."}
+{"instruction":"Translate from Balanda to English","input":"Turunvili no takuru vozetde","output":"The car is in front of the building."}
+{"instruction":"Translate from Balanda to English","input":"Bura no takuru tiyi","output":"The cat is in front of the house."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kafi goti","output":"The school is behind the mountain."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no kafi nguu","output":"The child is behind the tree."}
+{"instruction":"Translate from Balanda to English","input":"Munza no yee kafa","output":"The guitar is above the table."}
+{"instruction":"Translate from Balanda to English","input":"Nguu no yee tiyi","output":"The tree is above the house."}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa no yeemuru famvara","output":"The book is on top of the bed."}
+{"instruction":"Translate from Balanda to English","input":"Joko no yeemuru vavura","output":"The bag is on top of the seat."}
+{"instruction":"Translate from Balanda to English","input":"Turunvili no takuru ndi","output":"The car is in front of them."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no takuru bura","output":"The child is in front of the cat."}
+{"instruction":"Translate from Balanda to English","input":"Ndi no taleti maraya","output":"They are around the school."}
+{"instruction":"Translate from Balanda to English","input":"Niki no taleti kesi","output":"The woman is around the stove."}
+{"instruction":"Translate from Balanda to English","input":"Turunvili no nvokoti katiyi soo","output":"The car is between the two houses."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no nvokoti kanvejo ni","output":"The child is between his parents."}
+{"instruction":"Translate from Balanda to English","input":"Joko no lesere kafa","output":"The bag is on the side of the table."}
+{"instruction":"Translate from Balanda to English","input":"Munza no lesere kporo","output":"The guitar is to the side of the drum."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no kosere naa ni","output":"The girl is beside her mother."}
+{"instruction":"Translate from Balanda to English","input":"Bura no kosere tiyi","output":"The cat is beside the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne kadhii tagiribi vakure'e","output":"I came from my friend."}
+{"instruction":"Translate from Balanda to English","input":"Joko kadhii no dhogbi Turünvili","output":"The bag came out of the car."}
+{"instruction":"Translate from Balanda to English","input":"Ni kadhii tagiribi wana-ni","output":"He came from his brother."}
+{"instruction":"Translate from Balanda to English","input":"Ngo kadhii no dhogbi gotii","output":"The water came out of the mountain."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tagiri Wau","output":"I am from Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni no tagiri maraya","output":"He is from the school."}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhii tagbindi ndi","output":"I came after them."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no tiyai tagbindi naa ni","output":"The child is going after his mother."}
+{"instruction":"Translate from Balanda to English","input":"Widhako no kpendii taadhii","output":"The child following came."}
+{"instruction":"Translate from Balanda to English","input":"Turunvili kpendii no tiyai","output":"The car behind followed."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no süüta serre","output":"The school is near the river."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no süüta tiyi","output":"The girl is near the house."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kpabii giri","output":"The school is across from the road."}
+{"instruction":"Translate from Balanda to English","input":"Tiyi no kpabii vozetde","output":"The house is opposite the building."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kpabii gagiri","output":"The school is across from the main road."}
+{"instruction":"Translate from Balanda to English","input":"Voro no kpabii sutiyi","output":"The dog is opposite the wall."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai tagbi negu","output":"I am going through the market."}
+{"instruction":"Translate from Balanda to English","input":"Bura no tiyai tagbi famvara","output":"The cat went through the bed."}
+{"instruction":"Translate from Balanda to English","input":"Vavura no vita kafa","output":"The seat is below the table."}
+{"instruction":"Translate from Balanda to English","input":"Ba no vita nguu","output":"The house is below the tree."}
+{"instruction":"Translate from Balanda to English","input":"Ndi no gbi tiyi","output":"They are within the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no gbi ba","output":"The child is within the home."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no vindo tiyi","output":"The girl is outside the house."}
+{"instruction":"Translate from Balanda to English","input":"Tama no vindo Turunvili","output":"The shoe is outside the car."}
+{"instruction":"Translate from Balanda to English","input":"Dimgbo no ngara tiyi","output":"The lizard is at the corner of the house."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no ngara sutiyi","output":"The girl is at the corner of the wall."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no gbi wuhu ndi","output":"The girl is in the middle of them."}
+{"instruction":"Translate from Balanda to English","input":"Nguu no gbi wuhu goti","output":"The tree is in the middle of the mountain."}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma muru kafa gba","output":"The book is not on the table."}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa no muru kafa we?","output":"Is the book on the table?"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma muru kafa gba we?","output":"Isn't the book on the table?"}
+{"instruction":"Translate from Balanda to English","input":"Munza ma muru vavura gba","output":"The guitar is not on the seat."}
+{"instruction":"Translate from Balanda to English","input":"Munza no muru vavura we?","output":"Is the guitar on the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Munza ma muru vavura gba we?","output":"Isn't the guitar on the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma ata vavura gba","output":"The bag is not under the seat."}
+{"instruction":"Translate from Balanda to English","input":"Joko no ata vavura we?","output":"Is the bag under the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma ata vavura gba we?","output":"Isn't the bag under the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Bura ma ata kafa gba","output":"The cat is not under the table."}
+{"instruction":"Translate from Balanda to English","input":"Bura no ata kafa we?","output":"Is the cat under the table?"}
+{"instruction":"Translate from Balanda to English","input":"Bura ma ata kafa gba we?","output":"Isn't the cat under the table?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma gbi tiyi gba","output":"He is not in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni no gbi tiyi we?","output":"Is he in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma gbi tiyi gba we?","output":"Isn't he in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma gbi Turunvili gba","output":"The bag is not in the car."}
+{"instruction":"Translate from Balanda to English","input":"Joko no gbi Turunvili we?","output":"Is the bag in the car?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma gbi Turunvili gba we?","output":"Isn't the bag in the car?"}
+{"instruction":"Translate from Balanda to English","input":"Turunvili ma takuru vozetde gba","output":"The car is not in front of the building."}
+{"instruction":"Translate from Balanda to English","input":"Turunvili no takuru vozetde we?","output":"Is the car in front of the building?"}
+{"instruction":"Translate from Balanda to English","input":"Turunvili ma takuru vozetde gba we?","output":"Isn't the car in front of the building?"}
+{"instruction":"Translate from Balanda to English","input":"Bura ma takuru tiyi gba","output":"The cat is not in front of the house."}
+{"instruction":"Translate from Balanda to English","input":"Bura no takuru tiyi we?","output":"Is the cat in front of the house?"}
+{"instruction":"Translate from Balanda to English","input":"Bura ma takuru tiyi gba we?","output":"Isn't the cat in front of the house?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya ma kafi goti gba","output":"The school is not behind the mountain."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kafi goti we?","output":"Is the school behind the mountain?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya ma kafi goti gba we?","output":"Isn't the school behind the mountain?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ma kafi nguu gba","output":"The child is not behind the tree."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no kafi nguu we?","output":"Is the child behind the tree?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ma kafi nguu gba we?","output":"Isn't the child behind the tree?"}
+{"instruction":"Translate from Balanda to English","input":"Munza ma yee kafa gba","output":"The guitar is not above the table."}
+{"instruction":"Translate from Balanda to English","input":"Munza no yee kafa we?","output":"Is the guitar above the table?"}
+{"instruction":"Translate from Balanda to English","input":"Munza ma yee kafa gba we?","output":"Isn't the guitar above the table?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu ma yee tiyi gba","output":"The tree is not above the house."}
+{"instruction":"Translate from Balanda to English","input":"Nguu no yee tiyi we?","output":"Is the tree above the house?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu ma yee tiyi gba we?","output":"Isn't the tree above the house?"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma yeemuru famvara gba","output":"The book is not on top of the bed."}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa no yeemuru famvara we?","output":"Is the book on top of the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma yeemuru famvara gba we?","output":"Isn't the book on top of the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma yeemuru vavura gba","output":"The bag is not on top of the seat."}
+{"instruction":"Translate from Balanda to English","input":"Joko no yeemuru vavura we?","output":"Is the bag on top of the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Joko ma yeemuru vavura gba we?","output":"Isn't the bag on top of the seat?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya ma süüta park gba","output":"The school is not near the park."}
+{"instruction":"Translate from Balanda to English","input":"Maraya no süüta park we?","output":"Is the school near the park?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya ma süüta park gba we?","output":"Isn't the school near the park?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma süüta tiyi gba","output":"The girl is not near the house."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no süüta tiyi we?","output":"Is the girl near the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma süüta tiyi gba we?","output":"Isn't the girl near the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma vindo tiyi gba","output":"The girl is not outside the house."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no vindo tiyi we?","output":"Is the girl outside the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma vindo tiyi gba we?","output":"Isn't the girl outside the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma gbi wuhu ndi gba","output":"The girl is not in the middle of them."}
+{"instruction":"Translate from Balanda to English","input":"Wilii no gbi wuhu ndi we?","output":"Is the girl in the middle of them?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma gbi wuhu ndi gba we?","output":"Isn't the girl in the middle of them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai tagbi negu","output":"I am going through the market."}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai tagbi negu","output":"I am not going through the market."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai tagbi negu we?","output":"Am I going through the market?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai tagbi negu we?","output":"Am I not going through the market?"}
+{"instruction":"Translate from Balanda to English","input":"Bura no tiyai tagbi tiyi","output":"The cat is going through the house."}
+{"instruction":"Translate from Balanda to English","input":"Bura willa tiyai tagbi tiyi","output":"The cat is not going through the house."}
+{"instruction":"Translate from Balanda to English","input":"Bura no tiyai tagbi tiyi we?","output":"Is the cat going through the house?"}
+{"instruction":"Translate from Balanda to English","input":"Bura willa tiyai tagbi tiyi we?","output":"Is the cat not going through the house?"}

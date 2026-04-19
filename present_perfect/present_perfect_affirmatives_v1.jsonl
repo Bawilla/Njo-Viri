@@ -4,106 +4,84 @@
   "description": "This file defines the Present Perfect tense in Njo Viri (Balanda). The tense expresses actions that have been completed in the past but are relevant at the present moment. It is marked by the particle 'dheki'.",
   "rules": {
     "general_principle": {
-      "statement": "Present perfect tense in Balanda is formed using the verb base form followed by the marker 'dheki'. The tense expresses completed actions with present relevance and does not encode a specific past time."
+      "function": "general principle",
+      "structure": "Present perfect tense in Balanda is formed using the verb base form followed by the marker 'dheki'. The tense expresses completed actions with present relevance and does not encode a specific past time.",
+      "notes": ""
     },
-
     "affirmative_structure": {
+      "function": "affirmative structure",
       "structure": "Subject + Verb(base) + (Object / Complement) + dheki",
-      "description": "Used to express an action that has been completed and whose result is relevant now.",
-      "constraints": [
-        "The verb must be in base form",
-        "The marker 'dheki' must appear sentence-final",
-        "No past tense markers are used"
-      ]
+      "notes": "Used to express an action that has been completed and whose result is relevant now. | The verb must be in base form; The marker 'dheki' must appear sentence-final; No past tense markers are used"
     },
-
     "semantic_scope": {
-      "functions": [
-        "completed action with present relevance",
-        "life experience",
-        "result-focused completion",
-        "actions without specified past time"
-      ]
+      "function": "semantic scope",
+      "structure": "{\"functions\": [\"completed action with present relevance\", \"life experience\", \"result-focused completion\", \"actions without specified past time\"]}",
+      "notes": "completed action with present relevance; life experience; result-focused completion; actions without specified past time"
     },
-
     "aspect_and_tense_rules": {
-      "rule": "Present perfect does not encode tense through verb morphology.",
-      "note": "Temporal reference is inferred from context; 'dheki' encodes present relevance."
+      "function": "aspect and tense rules",
+      "structure": "Present perfect does not encode tense through verb morphology.",
+      "notes": "Temporal reference is inferred from context; 'dheki' encodes present relevance."
     },
-
-    "error_constraints": [
-      "Do not use past-marked verbs with present perfect",
-      "Do not omit 'dheki'",
-      "Do not combine 'dheki' with 'taa-' or 'noka'",
-      "Do not use present perfect with explicit past time expressions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not use past-marked verbs with present perfect; Do not omit 'dheki'; Do not combine 'dheki' with 'taa-' or 'noka'; Do not use present perfect with explicit past time expressions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_base_verb": true,
-      "require_dheki_marker": true,
-      "preserve_sentence_final_position": true,
-      "map_to_english_present_perfect": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_base_verb\": true, \"require_dheki_marker\": true, \"preserve_sentence_final_position\": true, \"map_to_english_present_perfect\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne ja se dheki","english":"I have eaten fish"},
-  {"balanda":"Ni nzü ngo dheki","english":"She has drunk water"},
-  {"balanda":"Danda teli muru famvara dheki","english":"We have slept on the bed"},
-  {"balanda":"Uku yai dheki","english":"Uku has gone"},
-  {"balanda":"Ngande dhii ba dheki","english":"Ngande has come home"},
-
-  {"balanda":"Ndi nonö gbi difo dheki","english":"They have walked in the compound"},
-  {"balanda":"Ni nangele zanga dheki","english":"She has run fast"},
-  {"balanda":"Uku mande gbi njü dheki","english":"Uku has worked in the garden"},
-  {"balanda":"Wiki moliki gbi difo dheki","english":"The child has played in the compound"},
-  {"balanda":"Ne loro voro dheki","english":"I have watched the dog"},
-
-  {"balanda":"Ne vele njo balanda dheki","english":"I have spoken Balanda"},
-  {"balanda":"Wilii sudi kavoso dheki","english":"The girl has written words"},
-  {"balanda":"Ne dheke kitabu dheki","english":"I have read a book"},
-  {"balanda":"Ni teri ay dheki","english":"He has thought about it"},
-  {"balanda":"Ndi ŋiyi ay dheki","english":"They have known it"},
-
-  {"balanda":"Ne we ndi dheki","english":"I have asked them"},
-  {"balanda":"Ngande vele zi ndi dheki","english":"Ngande has told them"},
-  {"balanda":"Wilii keye ti naa ni dheki","english":"The girl has called her mother"},
-
-  {"balanda":"Ne merego ŋo dheki","english":"I have loved you"},
-  {"balanda":"Ni maguku ti kpörö dheki","english":"He has feared the snake"},
-  {"balanda":"Ni sogo ni dheki","english":"She has hated him"},
-  {"balanda":"Ngande riki ni dheki","english":"Ngande has surprised him"},
-  {"balanda":"Ni dovee kurru dheki","english":"He has seemed calm"},
-
-  {"balanda":"Wilii yele tamma dheki","english":"The girl has tied the shoe"},
-  {"balanda":"Ni di kalla dheki","english":"He has cut the pot"},
-  {"balanda":"Ne tele njokoji dheki","english":"I have pulled the door"},
-  {"balanda":"Danda turu songo dheki","english":"We have pushed the box"},
-  {"balanda":"Wilii soko tamma dheki","english":"The girl has washed the shoe"},
-  {"balanda":"Ne kuru kavokau dheki","english":"I have hidden the beads"},
-
-  {"balanda":"Ngande ngö tiyi dheki","english":"Ngande has built a house"},
-  {"balanda":"Ne suru kavoso dheki","english":"I have created words"},
-  {"balanda":"Ni giri kavoso dheki","english":"She has changed the words"},
-  {"balanda":"Ne kara njokoji dheki","english":"I have turned the door"},
-  {"balanda":"Danda toko villi dheki","english":"We have added money"},
-  {"balanda":"Ne kefo Balanda dheki","english":"I have described Balanda"},
-
-  {"balanda":"Ndi konu nvesani dheki","english":"They have helped the poor"},
-  {"balanda":"Ngande ndugu mira dheki","english":"Ngande has initiated the project"},
-  {"balanda":"Ne maforo mira dheki","english":"I have contributed to the project"},
-  {"balanda":"Wilii sarwa kumere dheki","english":"The girl has separated trash"},
-  {"balanda":"Danda kiri tidina dheki","english":"We have upheld the law"},
-
-  {"balanda":"Ne duru ngo dheki","english":"I have wanted water"},
-  {"balanda":"Ni ze villi dheki","english":"She has given money"},
-  {"balanda":"Ne dhe villi dheki","english":"I have found money"},
-  {"balanda":"Uku mele vongu dheki","english":"Uku has tried the cloth"},
-  {"balanda":"Ngande si ba dheki","english":"Ngande has left home"},
-  {"balanda":"Ne lu Wau dheki","english":"I have arrived in Wau"},
-  {"balanda":"Ni fagi mva dheki","english":"He has sharpened the knife"},
-  {"balanda":"Ngande dewe kakpodu dheki","english":"Ngande has imitated adults"},
-  {"balanda":"Danda bita mira dheki","english":"We have started the project"},
-  {"balanda":"Ni teta dheki","english":"He has fallen"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne ja se dheki","output":"I have eaten fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni nzü ngo dheki","output":"She has drunk water"}
+{"instruction":"Translate from Balanda to English","input":"Danda teli muru famvara dheki","output":"We have slept on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku yai dheki","output":"Uku has gone"}
+{"instruction":"Translate from Balanda to English","input":"Ngande dhii ba dheki","output":"Ngande has come home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi nonö gbi difo dheki","output":"They have walked in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni nangele zanga dheki","output":"She has run fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku mande gbi njü dheki","output":"Uku has worked in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki moliki gbi difo dheki","output":"The child has played in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne loro voro dheki","output":"I have watched the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne vele njo balanda dheki","output":"I have spoken Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sudi kavoso dheki","output":"The girl has written words"}
+{"instruction":"Translate from Balanda to English","input":"Ne dheke kitabu dheki","output":"I have read a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni teri ay dheki","output":"He has thought about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ŋiyi ay dheki","output":"They have known it"}
+{"instruction":"Translate from Balanda to English","input":"Ne we ndi dheki","output":"I have asked them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande vele zi ndi dheki","output":"Ngande has told them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii keye ti naa ni dheki","output":"The girl has called her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne merego ŋo dheki","output":"I have loved you"}
+{"instruction":"Translate from Balanda to English","input":"Ni maguku ti kpörö dheki","output":"He has feared the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni sogo ni dheki","output":"She has hated him"}
+{"instruction":"Translate from Balanda to English","input":"Ngande riki ni dheki","output":"Ngande has surprised him"}
+{"instruction":"Translate from Balanda to English","input":"Ni dovee kurru dheki","output":"He has seemed calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii yele tamma dheki","output":"The girl has tied the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni di kalla dheki","output":"He has cut the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne tele njokoji dheki","output":"I have pulled the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda turu songo dheki","output":"We have pushed the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii soko tamma dheki","output":"The girl has washed the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne kuru kavokau dheki","output":"I have hidden the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ngö tiyi dheki","output":"Ngande has built a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne suru kavoso dheki","output":"I have created words"}
+{"instruction":"Translate from Balanda to English","input":"Ni giri kavoso dheki","output":"She has changed the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne kara njokoji dheki","output":"I have turned the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda toko villi dheki","output":"We have added money"}
+{"instruction":"Translate from Balanda to English","input":"Ne kefo Balanda dheki","output":"I have described Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi konu nvesani dheki","output":"They have helped the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ndugu mira dheki","output":"Ngande has initiated the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne maforo mira dheki","output":"I have contributed to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sarwa kumere dheki","output":"The girl has separated trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda kiri tidina dheki","output":"We have upheld the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne duru ngo dheki","output":"I have wanted water"}
+{"instruction":"Translate from Balanda to English","input":"Ni ze villi dheki","output":"She has given money"}
+{"instruction":"Translate from Balanda to English","input":"Ne dhe villi dheki","output":"I have found money"}
+{"instruction":"Translate from Balanda to English","input":"Uku mele vongu dheki","output":"Uku has tried the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande si ba dheki","output":"Ngande has left home"}
+{"instruction":"Translate from Balanda to English","input":"Ne lu Wau dheki","output":"I have arrived in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni fagi mva dheki","output":"He has sharpened the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande dewe kakpodu dheki","output":"Ngande has imitated adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda bita mira dheki","output":"We have started the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni teta dheki","output":"He has fallen"}

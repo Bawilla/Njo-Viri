@@ -3,126 +3,135 @@
   "grammar_name": "balanda_present_continuous_modality_nonve",
   "description": "This file contains Balanda present continuous modal constructions using 'nonve'. This modality expresses present ability or possibility in an ongoing action and corresponds to the English meaning 'can be ...-ing'.",
   "rules": {
-    "core_meaning": "Present ability or possibility during an ongoing action",
-    "modal": "nonve",
-    "aspect_marker": "dho",
-    "verb_form": "ti-VERB (present continuous form)",
+    "core_meaning": {
+      "function": "core meaning",
+      "structure": "Present ability or possibility during an ongoing action",
+      "notes": ""
+    },
+    "modal": {
+      "function": "modal",
+      "structure": "nonve",
+      "notes": ""
+    },
+    "aspect_marker": {
+      "function": "aspect marker",
+      "structure": "dho",
+      "notes": ""
+    },
+    "verb_form": {
+      "function": "verb form",
+      "structure": "ti-VERB (present continuous form)",
+      "notes": ""
+    },
     "affirmative_form": {
+      "function": "affirmative form",
       "structure": "Subject + nonve + dho + ti-VERB + (Object/Complement)",
-      "note": "This construction expresses positive modal meaning with continuous aspect"
+      "notes": "This construction expresses positive modal meaning with continuous aspect"
     },
     "question_form": {
+      "function": "Forms yes/no questions expressing present continuous ability or possibility",
       "structure": "Subject + nonve + dho + ti-VERB + (Object/Complement) + we?",
-      "function": "Forms yes/no questions expressing present continuous ability or possibility"
+      "notes": ""
     },
-    "tense": "present",
-    "aspect": "continuous",
-    "polarity": "affirmative",
-    "constraints": [
-      "nonve must immediately follow the subject",
-      "dho must appear between the modal and the verb",
-      "ti- must be retained on the verb",
-      "No future marker (le-) may appear in this construction",
-      "No negation marker (gba) appears in this file",
-      "No word order change occurs in questions",
-      "we? always appears at the end of the clause",
-      "This construction must not be confused with past continuous modality (nokanve + dho + ti-VERB)"
-    ]
+    "tense": {
+      "function": "tense",
+      "structure": "present",
+      "notes": ""
+    },
+    "aspect": {
+      "function": "aspect",
+      "structure": "continuous",
+      "notes": ""
+    },
+    "polarity": {
+      "function": "polarity",
+      "structure": "affirmative",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "nonve must immediately follow the subject; dho must appear between the modal and the verb; ti- must be retained on the verb; No future marker (le-) may appear in this construction; No negation marker (gba) appears in this file; No word order change occurs in questions; we? always appears at the end of the clause; This construction must not be confused with past continuous modality (nokanve + dho + ti-VERB)",
+      "notes": ""
+    }
   }
 }
-
-
-{"balanda":"Ne nonve dho tija nza","english":"I can be eating food."}
-{"balanda":"Ne nonve dho tinzü ngo","english":"I can be drinking water."}
-{"balanda":"Ni nonve dho titeli","english":"He can be sleeping."}
-{"balanda":"Ne nonve dho tiyai a Wau","english":"I can be going to Wau."}
-{"balanda":"Ni nonve dho tidhii agbi tiyi","english":"He can be coming to the house."}
-{"balanda":"Wiki nonve dho tinono gbi difo","english":"The child can be walking in the compound."}
-{"balanda":"Ni nonve dho timande gbi njü","english":"He can be working in the garden."}
-{"balanda":"Danda nonve dho timoliki","english":"We can be playing."}
-
-{"balanda":"Ne nonve dho timerego ŋo","english":"I can be loving you."}
-{"balanda":"Ne nonve dho tiŋiyi sereso","english":"I can be knowing the truth."}
-{"balanda":"Ni nonve dho titerii","english":"He can be thinking."}
-{"balanda":"Ne nonve dho tiwe ndi","english":"I can be asking them."}
-{"balanda":"Ni nonve dho tivel e takoni","english":"He can be telling a story."}
-{"balanda":"Ne nonve dho tibaha ŋo","english":"I can be seeing you."}
-{"balanda":"Ni nonve dho tidhi","english":"He can be hearing."}
-
-{"balanda":"Ne nonve dho tisudi kitab","english":"I can be writing a book."}
-{"balanda":"Ni nonve dho tidheke kitab","english":"He can be reading a book."}
-{"balanda":"Ne nonve dho tisïhï kese","english":"I can be buying a bike."}
-{"balanda":"Ni nonve dho tisadi nza","english":"He can be selling food."}
-{"balanda":"Ne nonve dho tituru linguu","english":"I can be pushing the fruit."}
-{"balanda":"Ni nonve dho tizaka kporo","english":"He can be pulling the drum."}
-{"balanda":"Ni nonve dho tikara kafa","english":"He can be turning the table."}
-
-{"balanda":"Ne nonve dho tikeye ti ndi","english":"I can be calling them."}
-{"balanda":"Danda nonve dho tiwofo takoni","english":"We can be discussing the story."}
-{"balanda":"Ni nonve dho tikolo wiki","english":"He can be hugging the child."}
-{"balanda":"Ndi nonve dho timago","english":"They can be fighting."}
-{"balanda":"Ni nonve dho tivanda wiki","english":"He can be protecting the child."}
-
-{"balanda":"Ni nonve dho titeta","english":"He can be falling."}
-{"balanda":"Ni nonve dho tigirri","english":"He can be changing."}
-{"balanda":"Nguu nonve dho tivere","english":"The tree can be darkening."}
-{"balanda":"Maraya nonve dho tideye","english":"The school can be developing."}
-{"balanda":"Wiki nonve dho tirengo","english":"The child can be maturing."}
-
-{"balanda":"Ni nonve dho tisita gbi tiyi","english":"He can be lying in the house."}
-{"balanda":"Ne nonve dho tima nde","english":"I can be doing the work."}
-{"balanda":"Ne nonve dho tiwala gbi Wau","english":"I can be living in Wau."}
-{"balanda":"Ne nonve dho tiduru ngo","english":"I can be wanting water."}
-{"balanda":"Ni nonve dho tidüŋü kpendii","english":"He can be remaining behind."}
-
-{"balanda":"Ni nonve dho tibase","english":"He can be singing."}
-{"balanda":"Ni nonve dho tidulu","english":"He can be dancing."}
-{"balanda":"Ne nonve dho tiloro kananje","english":"I can be watching the animals."}
-
-
-{"balanda":"Ne nonve dho tija nza we?","english":"Can I be eating food?"}
-{"balanda":"Ne nonve dho tinzü ngo we?","english":"Can I be drinking water?"}
-{"balanda":"Ni nonve dho titeli we?","english":"Can he be sleeping?"}
-{"balanda":"Ne nonve dho tiyai a Wau we?","english":"Can I be going to Wau?"}
-{"balanda":"Ni nonve dho tidhii agbi tiyi we?","english":"Can he be coming to the house?"}
-{"balanda":"Wiki nonve dho tinono gbi difo we?","english":"Can the child be walking in the compound?"}
-{"balanda":"Ni nonve dho timande gbi njü we?","english":"Can he be working in the garden?"}
-{"balanda":"Danda nonve dho timoliki we?","english":"Can we be playing?"}
-
-{"balanda":"Ne nonve dho timerego ŋo we?","english":"Can I be loving you?"}
-{"balanda":"Ne nonve dho tiŋiyi sereso we?","english":"Can I be knowing the truth?"}
-{"balanda":"Ni nonve dho titerii we?","english":"Can he be thinking?"}
-{"balanda":"Ne nonve dho tiwe ndi we?","english":"Can I be asking them?"}
-{"balanda":"Ni nonve dho tivel e takoni we?","english":"Can he be telling a story?"}
-{"balanda":"Ne nonve dho tibaha ŋo we?","english":"Can I be seeing you?"}
-{"balanda":"Ni nonve dho tidhi we?","english":"Can he be hearing?"}
-
-{"balanda":"Ne nonve dho tisudi kitab we?","english":"Can I be writing a book?"}
-{"balanda":"Ni nonve dho tidheke kitab we?","english":"Can he be reading a book?"}
-{"balanda":"Ne nonve dho tisïhï kese we?","english":"Can I be buying a bike?"}
-{"balanda":"Ni nonve dho tisadi nza we?","english":"Can he be selling food?"}
-{"balanda":"Ne nonve dho tituru linguu we?","english":"Can I be pushing the fruit?"}
-{"balanda":"Ni nonve dho tizaka kporo we?","english":"Can he be pulling the drum?"}
-{"balanda":"Ni nonve dho tikara kafa we?","english":"Can he be turning the table?"}
-
-{"balanda":"Ne nonve dho tikeye ti ndi we?","english":"Can I be calling them?"}
-{"balanda":"Danda nonve dho tiwofo takoni we?","english":"Can we be discussing the story?"}
-{"balanda":"Ni nonve dho tikolo wiki we?","english":"Can he be hugging the child?"}
-{"balanda":"Ndi nonve dho timago we?","english":"Can they be fighting?"}
-{"balanda":"Ni nonve dho tivanda wiki we?","english":"Can he be protecting the child?"}
-
-{"balanda":"Ni nonve dho titeta we?","english":"Can he be falling?"}
-{"balanda":"Ni nonve dho tigirri we?","english":"Can he be changing?"}
-{"balanda":"Nguu nonve dho tivere we?","english":"Can the tree be darkening?"}
-{"balanda":"Maraya nonve dho tideye we?","english":"Can the school be developing?"}
-{"balanda":"Wiki nonve dho tirengo we?","english":"Can the child be maturing?"}
-
-{"balanda":"Ni nonve dho tisita gbi tiyi we?","english":"Can he be lying in the house?"}
-{"balanda":"Ne nonve dho tima nde we?","english":"Can I be doing the work?"}
-{"balanda":"Ne nonve dho tiwala gbi Wau we?","english":"Can I be living in Wau?"}
-{"balanda":"Ne nonve dho tiduru ngo we?","english":"Can I be wanting water?"}
-{"balanda":"Ni nonve dho tidüŋü kpendii we?","english":"Can he be remaining behind?"}
-
-{"balanda":"Ni nonve dho tibase we?","english":"Can he be singing?"}
-{"balanda":"Ni nonve dho tidulu we?","english":"Can he be dancing?"}
-{"balanda":"Ne nonve dho tiloro kananje we?","english":"Can I be watching the animals?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tija nza","output":"I can be eating food."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tinzü ngo","output":"I can be drinking water."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titeli","output":"He can be sleeping."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiyai a Wau","output":"I can be going to Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidhii agbi tiyi","output":"He can be coming to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve dho tinono gbi difo","output":"The child can be walking in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho timande gbi njü","output":"He can be working in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho timoliki","output":"We can be playing."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho timerego ŋo","output":"I can be loving you."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiŋiyi sereso","output":"I can be knowing the truth."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titerii","output":"He can be thinking."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiwe ndi","output":"I can be asking them."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tivel e takoni","output":"He can be telling a story."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tibaha ŋo","output":"I can be seeing you."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidhi","output":"He can be hearing."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tisudi kitab","output":"I can be writing a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidheke kitab","output":"He can be reading a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tisïhï kese","output":"I can be buying a bike."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tisadi nza","output":"He can be selling food."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tituru linguu","output":"I can be pushing the fruit."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tizaka kporo","output":"He can be pulling the drum."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tikara kafa","output":"He can be turning the table."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tikeye ti ndi","output":"I can be calling them."}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho tiwofo takoni","output":"We can be discussing the story."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tikolo wiki","output":"He can be hugging the child."}
+{"instruction":"Translate from Balanda to English","input":"Ndi nonve dho timago","output":"They can be fighting."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tivanda wiki","output":"He can be protecting the child."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titeta","output":"He can be falling."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tigirri","output":"He can be changing."}
+{"instruction":"Translate from Balanda to English","input":"Nguu nonve dho tivere","output":"The tree can be darkening."}
+{"instruction":"Translate from Balanda to English","input":"Maraya nonve dho tideye","output":"The school can be developing."}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve dho tirengo","output":"The child can be maturing."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tisita gbi tiyi","output":"He can be lying in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tima nde","output":"I can be doing the work."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiwala gbi Wau","output":"I can be living in Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiduru ngo","output":"I can be wanting water."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidüŋü kpendii","output":"He can be remaining behind."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tibase","output":"He can be singing."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidulu","output":"He can be dancing."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiloro kananje","output":"I can be watching the animals."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tija nza we?","output":"Can I be eating food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tinzü ngo we?","output":"Can I be drinking water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titeli we?","output":"Can he be sleeping?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiyai a Wau we?","output":"Can I be going to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidhii agbi tiyi we?","output":"Can he be coming to the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve dho tinono gbi difo we?","output":"Can the child be walking in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho timande gbi njü we?","output":"Can he be working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho timoliki we?","output":"Can we be playing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho timerego ŋo we?","output":"Can I be loving you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiŋiyi sereso we?","output":"Can I be knowing the truth?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titerii we?","output":"Can he be thinking?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiwe ndi we?","output":"Can I be asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tivel e takoni we?","output":"Can he be telling a story?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tibaha ŋo we?","output":"Can I be seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidhi we?","output":"Can he be hearing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tisudi kitab we?","output":"Can I be writing a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidheke kitab we?","output":"Can he be reading a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tisïhï kese we?","output":"Can I be buying a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tisadi nza we?","output":"Can he be selling food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tituru linguu we?","output":"Can I be pushing the fruit?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tizaka kporo we?","output":"Can he be pulling the drum?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tikara kafa we?","output":"Can he be turning the table?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tikeye ti ndi we?","output":"Can I be calling them?"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho tiwofo takoni we?","output":"Can we be discussing the story?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tikolo wiki we?","output":"Can he be hugging the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi nonve dho timago we?","output":"Can they be fighting?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tivanda wiki we?","output":"Can he be protecting the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho titeta we?","output":"Can he be falling?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tigirri we?","output":"Can he be changing?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu nonve dho tivere we?","output":"Can the tree be darkening?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya nonve dho tideye we?","output":"Can the school be developing?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve dho tirengo we?","output":"Can the child be maturing?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tisita gbi tiyi we?","output":"Can he be lying in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tima nde we?","output":"Can I be doing the work?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiwala gbi Wau we?","output":"Can I be living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiduru ngo we?","output":"Can I be wanting water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidüŋü kpendii we?","output":"Can he be remaining behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tibase we?","output":"Can he be singing?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidulu we?","output":"Can he be dancing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiloro kananje we?","output":"Can I be watching the animals?"}

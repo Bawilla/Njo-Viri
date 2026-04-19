@@ -2,41 +2,36 @@
   "instruction_type": "grammar_rule",
   "grammar_name": "balanda_locatives",
   "description": "This file defines locative expressions in Njo Viri (Balanda). Locatives indicate spatial reference such as 'here' and 'there'.",
-
   "rules": {
-
     "locative_terms": {
-      "kono": "here",
-      "kana": "there"
+      "function": "locative terms",
+      "structure": "{\"kono\": \"here\", \"kana\": \"there\"}",
+      "notes": "here | there"
     },
-
     "copular_structure": {
-      "pattern": "Subject + no + kono/kana",
-      "note": "Locatives often follow the copula 'no'."
+      "function": "copular structure",
+      "structure": "{\"pattern\": \"Subject + no + kono/kana\", \"note\": \"Locatives often follow the copula 'no'.\"}",
+      "notes": "Subject + no + kono/kana | Locatives often follow the copula 'no'."
     },
-
     "verbal_structure": {
-      "pattern": "Verb + kono/kana",
-      "note": "Locatives may follow verbs without an additional copula."
+      "function": "verbal structure",
+      "structure": "{\"pattern\": \"Verb + kono/kana\", \"note\": \"Locatives may follow verbs without an additional copula.\"}",
+      "notes": "Verb + kono/kana | Locatives may follow verbs without an additional copula."
     },
-
-    "examples": [
-      {"balanda":"Ne tiwala no kono","english":"I am living here"},
-      {"balanda":"Ndi tidhovura no kono","english":"They are residing here"},
-      {"balanda":"Akono no yini?","english":"What is here?"},
-      {"balanda":"Gaha nde no kana","english":"The big work is there"},
-      {"balanda":"Timati kana","english":"It is happening there"},
-      {"balanda":"Akana no yini?","english":"What is there?"}
-    ],
-
-    "error_constraints": [
-      "Do not omit locative markers when expressing location.",
-      "Distinguish clearly between 'kono' (here) and 'kana' (there)."
-    ],
-
+    "examples": {
+      "function": "examples",
+      "structure": "",
+      "notes": ""
+    },
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit locative markers when expressing location.; Distinguish clearly between 'kono' (here) and 'kana' (there).",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "preserve_spatial_distinction": true,
-      "allow_copular_and_verbal_locatives": true
+      "function": "model behavior guidelines",
+      "structure": "{\"preserve_spatial_distinction\": true, \"allow_copular_and_verbal_locatives\": true}",
+      "notes": ""
     }
   }
 }

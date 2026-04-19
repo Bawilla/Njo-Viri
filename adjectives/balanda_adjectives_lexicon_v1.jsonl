@@ -1,112 +1,77 @@
 {
-  "instruction_type": "lexical_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_adjectives_core",
   "description": "This file contains core Balanda adjectives and descriptive words. These words express qualities, states, quantities, and attributes. Adjectives in Balanda are not inflected for number or gender and remain invariable.",
   "rules": {
-    "part_of_speech": "adjective",
+    "part_of_speech": {
+      "function": "part of speech",
+      "structure": "adjective",
+      "notes": ""
+    },
     "morphology": {
-      "inflection": "none",
-      "agreement": "Adjectives do not agree with nouns in number, gender, or class",
-      "form": "Adjectives appear as fixed lexical forms"
+      "function": "morphology",
+      "structure": "{\"inflection\": \"none\", \"agreement\": \"Adjectives do not agree with nouns in number, gender, or class\", \"form\": \"Adjectives appear as fixed lexical forms\"}",
+      "notes": "none | Adjectives do not agree with nouns in number, gender, or class | Adjectives appear as fixed lexical forms"
     },
     "semantic_categories": {
-      "quality": ["mayivi", "mavö", "makiti", "makpokoro"],
-      "size_dimension": ["maga", "manjite", "manza", "lotü", "mafere", "makpidiri"],
-      "speed": ["mazanga", "mabito"],
-      "age_state": ["ngu", "magamara", "mazongo"],
-      "cleanliness_condition": ["mamgbala", "maveti", "madoko", "majï"],
-      "life_state": ["wunga"],
-      "light_visual": ["mamgbara", "madhiki"],
-      "shape_form": ["madingili", "magbaka", "matara"],
-      "thickness": ["makeŋi", "mamïtïrï"],
-      "quantity_determiner": ["makoti", "maroko", "kpi", "bihi"],
-      "order_relation": ["kokono", "suku", "kpendele"],
-      "focus_emphasis": ["gama", "kelegere", "kala"],
-      "emotional_state": ["manayi", "manoko"]
+      "function": "semantic categories",
+      "structure": "{\"quality\": [\"mayivi\", \"mavö\", \"makiti\", \"makpokoro\"], \"size_dimension\": [\"maga\", \"manjite\", \"manza\", \"lotü\", \"mafere\", \"makpidiri\"], \"speed\": [\"mazanga\", \"mabito\"], \"age_state\": [\"ngu\", \"magamara\", \"mazongo\"], \"cleanliness_condition\": [\"mamgbala\", \"maveti\", \"madoko\", \"majï\"], \"life_state\": [\"wunga\"], \"light_visual\": [\"mamgbara\", \"madhiki\"], \"shape_form\": [\"madingili\", \"magbaka\", \"matara\"], \"thickness\": [\"makeŋi\", \"mamïtïrï\"], \"quantity_determiner\": [\"makoti\", \"maroko\", \"kpi\", \"bihi\"], \"order_relation\": [\"kokono\", \"suku\", \"kpendele\"], \"focus_emphasis\": [\"gama\", \"kelegere\", \"kala\"], \"emotional_state\": [\"manayi\", \"manoko\"]}",
+      "notes": "mayivi; mavö; makiti; makpokoro | maga; manjite; manza; lotü; mafere; makpidiri | mazanga; mabito | ngu; magamara; mazongo | mamgbala; maveti; madoko; majï | wunga | mamgbara; madhiki | madingili; magbaka; matara | makeŋi; mamïtïrï | makoti; maroko; kpi; bihi | kokono; suku; kpendele | gama; kelegere; kala | manayi; manoko"
     },
     "syntactic_usage": {
-      "attributive": {
-        "structure": "NOUN + ADJECTIVE",
-        "example": "Wiki mayivi (good child)"
-      },
-      "predicative": {
-        "structure": "NOUN + ADJECTIVE",
-        "example": "Wiki mayivi (The child is good)"
-      }
+      "function": "syntactic usage",
+      "structure": "{\"attributive\": {\"structure\": \"NOUN + ADJECTIVE\", \"example\": \"Wiki mayivi (good child)\"}, \"predicative\": {\"structure\": \"NOUN + ADJECTIVE\", \"example\": \"Wiki mayivi (The child is good)\"}}",
+      "notes": ""
     },
     "polysemy_rules": {
-      "manza": "Can mean both 'long' and 'tall' depending on the noun it modifies"
+      "function": "polysemy rules",
+      "structure": "{\"manza\": \"Can mean both 'long' and 'tall' depending on the noun it modifies\"}",
+      "notes": "Can mean both 'long' and 'tall' depending on the noun it modifies"
     },
-    "constraints": [
-      "Adjectives must not be conjugated",
-      "Adjectives must not take tense or aspect markers",
-      "Adjectives must not be prefixed with verb markers",
-      "Quantifiers like 'kpi' and 'bihi' behave adjectivally but may also function as determiners",
-      "Do not invent comparative or superlative morphology unless explicitly attested"
-    ]
+    "constraints": {
+      "function": "constraints",
+      "structure": "Adjectives must not be conjugated; Adjectives must not take tense or aspect markers; Adjectives must not be prefixed with verb markers; Quantifiers like 'kpi' and 'bihi' behave adjectivally but may also function as determiners; Do not invent comparative or superlative morphology unless explicitly attested",
+      "notes": ""
+    }
   }
 }
-
-
-
-{"balanda":"mayivi","english":"good"}
-{"balanda":"mavö","english":"bad"}
-
-{"balanda":"maga","english":"big"}
-{"balanda":"manjite","english":"small"}
-
-{"balanda":"manza","english":"long"}
-{"balanda":"manza","english":"tall"}
-{"balanda":"lotü","english":"low"}
-
-{"balanda":"mafere","english":"wide"}
-{"balanda":"makpidiri","english":"narrow"}
-
-{"balanda":"mazanga","english":"fast"}
-{"balanda":"mabito","english":"slow"}
-
-{"balanda":"ngu","english":"new"}
-
-{"balanda":"magamara","english":"old"}
-{"balanda":"mazongo","english":"young"}
-
-{"balanda":"makpokoro","english":"difficult"}
-
-{"balanda":"mamgbala","english":"clean"}
-{"balanda":"maveti","english":"dirty"}
-
-{"balanda":"wunga","english":"alive"}
-
-{"balanda":"madoko","english":"fresh"}
-{"balanda":"majï","english":"rotten"}
-
-{"balanda":"makiti","english":"beautiful"}
-
-{"balanda":"mamgbara","english":"bright"}
-{"balanda":"madhiki","english":"dark"}
-
-{"balanda":"makeŋi","english":"thin"}
-{"balanda":"mamïtïrï","english":"thick"}
-
-{"balanda":"madingili","english":"round"}
-{"balanda":"magbaka","english":"flat"}
-
-{"balanda":"matara","english":"straight"}
-
-{"balanda":"makoti","english":"many"}
-{"balanda":"maroko","english":"few"}
-
-{"balanda":"kpi","english":"all"}
-{"balanda":"bihi","english":"some"}
-
-{"balanda":"kala","english":"same"}
-{"balanda":"gama","english":"main"}
-{"balanda":"kelegere","english":"only"}
- 
-{"balanda":"kokono","english":"first"}
-{"balanda":"suku","english":"last"}
-
-{"balanda":"kpendele","english":"previous"}
-
-{"balanda":"manayi","english":"happy"}
-{"balanda":"manoko","english":"ashamed"}
+{"instruction":"Translate from Balanda to English","input":"mayivi","output":"good"}
+{"instruction":"Translate from Balanda to English","input":"mavö","output":"bad"}
+{"instruction":"Translate from Balanda to English","input":"maga","output":"big"}
+{"instruction":"Translate from Balanda to English","input":"manjite","output":"small"}
+{"instruction":"Translate from Balanda to English","input":"manza","output":"long"}
+{"instruction":"Translate from Balanda to English","input":"manza","output":"tall"}
+{"instruction":"Translate from Balanda to English","input":"lotü","output":"low"}
+{"instruction":"Translate from Balanda to English","input":"mafere","output":"wide"}
+{"instruction":"Translate from Balanda to English","input":"makpidiri","output":"narrow"}
+{"instruction":"Translate from Balanda to English","input":"mazanga","output":"fast"}
+{"instruction":"Translate from Balanda to English","input":"mabito","output":"slow"}
+{"instruction":"Translate from Balanda to English","input":"ngu","output":"new"}
+{"instruction":"Translate from Balanda to English","input":"magamara","output":"old"}
+{"instruction":"Translate from Balanda to English","input":"mazongo","output":"young"}
+{"instruction":"Translate from Balanda to English","input":"makpokoro","output":"difficult"}
+{"instruction":"Translate from Balanda to English","input":"mamgbala","output":"clean"}
+{"instruction":"Translate from Balanda to English","input":"maveti","output":"dirty"}
+{"instruction":"Translate from Balanda to English","input":"wunga","output":"alive"}
+{"instruction":"Translate from Balanda to English","input":"madoko","output":"fresh"}
+{"instruction":"Translate from Balanda to English","input":"majï","output":"rotten"}
+{"instruction":"Translate from Balanda to English","input":"makiti","output":"beautiful"}
+{"instruction":"Translate from Balanda to English","input":"mamgbara","output":"bright"}
+{"instruction":"Translate from Balanda to English","input":"madhiki","output":"dark"}
+{"instruction":"Translate from Balanda to English","input":"makeŋi","output":"thin"}
+{"instruction":"Translate from Balanda to English","input":"mamïtïrï","output":"thick"}
+{"instruction":"Translate from Balanda to English","input":"madingili","output":"round"}
+{"instruction":"Translate from Balanda to English","input":"magbaka","output":"flat"}
+{"instruction":"Translate from Balanda to English","input":"matara","output":"straight"}
+{"instruction":"Translate from Balanda to English","input":"makoti","output":"many"}
+{"instruction":"Translate from Balanda to English","input":"maroko","output":"few"}
+{"instruction":"Translate from Balanda to English","input":"kpi","output":"all"}
+{"instruction":"Translate from Balanda to English","input":"bihi","output":"some"}
+{"instruction":"Translate from Balanda to English","input":"kala","output":"same"}
+{"instruction":"Translate from Balanda to English","input":"gama","output":"main"}
+{"instruction":"Translate from Balanda to English","input":"kelegere","output":"only"}
+{"instruction":"Translate from Balanda to English","input":"kokono","output":"first"}
+{"instruction":"Translate from Balanda to English","input":"suku","output":"last"}
+{"instruction":"Translate from Balanda to English","input":"kpendele","output":"previous"}
+{"instruction":"Translate from Balanda to English","input":"manayi","output":"happy"}
+{"instruction":"Translate from Balanda to English","input":"manoko","output":"ashamed"}

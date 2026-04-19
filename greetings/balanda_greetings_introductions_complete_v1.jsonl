@@ -1,137 +1,72 @@
 {
-  "instruction_type": "pragmatics_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_greetings_and_social_expressions",
   "description": "This file contains fixed greetings, introductions, polite expressions, and social formulas in Balanda (Njo Viri). These expressions are conventionalized and must be learned as whole units rather than generated productively.",
   "rules": {
-    "category": [
-      "formal greetings",
-      "casual greetings",
-      "time-based greetings",
-      "polite inquiries",
-      "responses to inquiries",
-      "introductions",
-      "farewells"
-    ],
+    "category": {
+      "function": "category",
+      "structure": "formal greetings; casual greetings; time-based greetings; polite inquiries; responses to inquiries; introductions; farewells",
+      "notes": ""
+    },
     "usage_principles": {
-      "fixed_expressions": "Most greetings and social expressions are lexicalized and should not be reordered or inflected",
-      "register_sensitivity": "Some greetings are formal (e.g. Muruti), while others are casual (e.g. Mehe)",
-      "time_specificity": "Greetings using 'Yivi' are tied to time of day",
-      "politeness_markers": "Expressions like 'fulu ŋo' are used to mark politeness and gratitude"
+      "function": "usage principles",
+      "structure": "{\"fixed_expressions\": \"Most greetings and social expressions are lexicalized and should not be reordered or inflected\", \"register_sensitivity\": \"Some greetings are formal (e.g. Muruti), while others are casual (e.g. Mehe)\", \"time_specificity\": \"Greetings using 'Yivi' are tied to time of day\", \"politeness_markers\": \"Expressions like 'fulu ŋo' are used to mark politeness and gratitude\"}",
+      "notes": "Most greetings and social expressions are lexicalized and should not be reordered or inflected | Some greetings are formal (e.g. Muruti), while others are casual (e.g. Mehe) | Greetings using 'Yivi' are tied to time of day | Expressions like 'fulu ŋo' are used to mark politeness and gratitude"
     },
     "core_patterns": {
-      "formal_greeting": {
-        "form": "Muruti",
-        "meaning": "Hello (formal)"
-      },
-      "casual_greeting": {
-        "form": "Mehe",
-        "meaning": "What’s up? / Hi (casual)"
-      },
-      "time_based_greetings": {
-        "structure": "Yivi + time_expression",
-        "examples": [
-          "Yivi fürüve (morning)",
-          "Yivi kpatili (afternoon)",
-          "Yivi yelewo (evening)",
-          "Yivi doo (night)"
-        ]
-      },
-      "wellbeing_question": {
-        "structure": "Ŋo (no) mehe",
-        "meaning": "How are you?"
-      },
-      "wellbeing_response": {
-        "structure": "Ne ka-mgbala, fulu ŋo",
-        "meaning": "I’m fine, thank you"
-      },
-      "introduction_question": {
-        "structure": "Le ŋo no yini?",
-        "meaning": "What is your name?"
-      },
-      "self_introduction": {
-        "structure": "Le ne no NAME",
-        "meaning": "My name is NAME"
-      },
-      "origin_question": {
-        "structure": "Ŋo no tagiri aka?",
-        "meaning": "Where are you from?"
-      },
-      "residence_statement": {
-        "structure": "Ne tiwala no (a) PLACE",
-        "meaning": "I live in PLACE"
-      },
-      "farewell": {
-        "forms": [
-          "Silingi!",
-          "Baha ŋo süüno!"
-        ]
-      }
+      "function": "core patterns",
+      "structure": "{\"formal_greeting\": {\"form\": \"Muruti\", \"meaning\": \"Hello (formal)\"}, \"casual_greeting\": {\"form\": \"Mehe\", \"meaning\": \"What’s up? / Hi (casual)\"}, \"time_based_greetings\": {\"structure\": \"Yivi + time_expression\", \"examples\": [\"Yivi fürüve (morning)\", \"Yivi kpatili (afternoon)\", \"Yivi yelewo (evening)\", \"Yivi doo (night)\"]}, \"wellbeing_question\": {\"structure\": \"Ŋo (no) mehe\", \"meaning\": \"How are you?\"}, \"wellbeing_response\": {\"structure\": \"Ne ka-mgbala, fulu ŋo\", \"meaning\": \"I’m fine, thank you\"}, \"introduction_question\": {\"structure\": \"Le ŋo no yini?\", \"meaning\": \"What is your name?\"}, \"self_introduction\": {\"structure\": \"Le ne no NAME\", \"meaning\": \"My name is NAME\"}, \"origin_question\": {\"structure\": \"Ŋo no tagiri aka?\", \"meaning\": \"Where are you from?\"}, \"residence_statement\": {\"structure\": \"Ne tiwala no (a) PLACE\", \"meaning\": \"I live in PLACE\"}, \"farewell\": {\"forms\": [\"Silingi!\", \"Baha ŋo süüno!\"]}}",
+      "notes": ""
     },
     "question_formation": {
-      "rule": "Questions are marked by a question mark and/or interrogative words; no inversion occurs",
-      "constraint": "Word order must remain fixed"
+      "function": "question formation",
+      "structure": "Questions are marked by a question mark and/or interrogative words; no inversion occurs",
+      "notes": "Word order must remain fixed"
     },
-    "error_correction_rules": [
-      "Incorrect word order must be corrected to standard fixed forms",
-      "Particles such as 'no' must appear in their conventional position",
-      "Auxiliary splitting or reordering is not allowed"
-    ],
-    "constraints": [
-      "Do not generate new greeting forms not attested in the data",
-      "Do not reorder elements inside fixed expressions",
-      "Do not treat greetings as compositional verb phrases",
-      "Politeness expressions must remain intact"
-    ]
+    "error_correction_rules": {
+      "function": "error correction rules",
+      "structure": "Incorrect word order must be corrected to standard fixed forms; Particles such as 'no' must appear in their conventional position; Auxiliary splitting or reordering is not allowed",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "Do not generate new greeting forms not attested in the data; Do not reorder elements inside fixed expressions; Do not treat greetings as compositional verb phrases; Politeness expressions must remain intact",
+      "notes": ""
+    }
   }
 }
-
-
-
 {"instruction":"Translate from Balanda to English","input":"Muruti","output":"Hello (formal)"}
 {"instruction":"Translate from Balanda to English","input":"Mehe","output":"What’s up? (casual)"}
-
 {"instruction":"Translate from Balanda to English","input":"Yivi fürüve","output":"Good morning"}
 {"instruction":"Translate from Balanda to English","input":"Yivi kpatili","output":"Good afternoon"}
 {"instruction":"Translate from Balanda to English","input":"Yivi yelewo","output":"Good evening"}
 {"instruction":"Translate from Balanda to English","input":"Yivi doo","output":"Good night"}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo (no) mehe","output":"How are you?"}
 {"instruction":"Translate from Balanda to English","input":"Ne ka-mgbala, fulu ŋo","output":"I’m fine, thank you."}
-
 {"instruction":"Translate from Balanda to English","input":"Kee ŋo (no) mehe","output":"And how are you? / What about you?"}
 {"instruction":"Translate from Balanda to English","input":"Ne ka-mgbala tii, fulu ŋo","output":"I’m fine too, thank you."}
-
 {"instruction":"Translate from Balanda to English","input":"Adhe ŋo maŋo","output":"Nice to meet you."}
 {"instruction":"Translate from Balanda to English","input":"Diluma!","output":"Welcome!"}
-
 {"instruction":"Translate from Balanda to English","input":"Silingi!","output":"Goodbye! / Farewell!"}
 {"instruction":"Translate from Balanda to English","input":"Baha ŋo süüno!","output":"See you soon!"}
-
 {"instruction":"Translate from Balanda to English","input":"Le ŋo no yini?","output":"What is your name?"}
 {"instruction":"Translate from Balanda to English","input":"Le ŋo no tdi?","output":"Who is your name? (casual)"}
 {"instruction":"Translate from Balanda to English","input":"Le ne no Dangi","output":"My name is Dangi."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo no tagiri aka?","output":"Where are you from?"}
 {"instruction":"Translate from Balanda to English","input":"Ne no tagiri Wau","output":"I’m from Wau."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo tiwala no aka?","output":"Where do you live?"}
 {"instruction":"Translate from Balanda to English","input":"Ne tiwala no (a) Juba","output":"I live in Juba."}
-
 {"instruction":"Translate from Balanda to English","input":"Fulu tda!","output":"Thank you!"}
-
-{"instruction":"Explain how to greet someone formally in Balanda","output":"Use Muruti for a formal greeting. For time-specific greetings, use Yivi fürüve (morning), Yivi kpatili (afternoon), or Yivi yelewo (evening)."}
-{"instruction":"Explain how to greet someone casually in Balanda","output":"Use Mehe for a casual greeting. To ask how someone is, say Ŋo (no) mehe."}
-
-{"instruction":"Identify the sentence type","input":"Muruti","output":"Formal greeting"}
-{"instruction":"Identify the sentence type","input":"Mehe","output":"Casual greeting"}
-{"instruction":"Identify the sentence type","input":"Le ŋo no yini?","output":"Introduction question"}
-{"instruction":"Identify the sentence type","input":"Ne no tagiri Wau","output":"Self-introduction statement"}
-
-{"instruction":"Create a morning greeting in Balanda","output":"Yivi fürüve"}
-{"instruction":"Create a polite response to 'Ŋo (no) mehe'","output":"Ne ka-mgbala, fulu ŋo"}
-{"instruction":"Create a self-introduction in Balanda","output":"Le ne no Dangi"}
-{"instruction":"Create a farewell in Balanda","output":"Silingi!"}
-
+{"instruction":"Explain how to greet someone formally in Balanda","input":"","output":"Use Muruti for a formal greeting. For time-specific greetings, use Yivi fürüve (morning), Yivi kpatili (afternoon), or Yivi yelewo (evening)."}
+{"instruction":"Explain how to greet someone casually in Balanda","input":"","output":"Use Mehe for a casual greeting. To ask how someone is, say Ŋo (no) mehe."}
+{"instruction":"Identify the Balanda sentence type","input":"Muruti","output":"Formal greeting"}
+{"instruction":"Identify the Balanda sentence type","input":"Mehe","output":"Casual greeting"}
+{"instruction":"Identify the Balanda sentence type","input":"Le ŋo no yini?","output":"Introduction question"}
+{"instruction":"Identify the Balanda sentence type","input":"Ne no tagiri Wau","output":"Self-introduction statement"}
+{"instruction":"Create a morning greeting in Balanda","input":"","output":"Yivi fürüve"}
+{"instruction":"Create a polite response to 'Ŋo (no) mehe'","input":"","output":"Ne ka-mgbala, fulu ŋo"}
+{"instruction":"Create a self-introduction in Balanda","input":"","output":"Le ne no Dangi"}
+{"instruction":"Create a farewell in Balanda","input":"","output":"Silingi!"}
 {"instruction":"Correct the Balanda sentence","input":"Le ne yini no","output":"Incorrect word order. Correct form: Le ne no yini."}
 {"instruction":"Correct the Balanda sentence","input":"Ŋo aka no tagiri?","output":"Incorrect word order. Correct form: Ŋo no tagiri aka?"}
 {"instruction":"Correct the Balanda sentence","input":"Ne mgbala ka","output":"Incorrect structure. Correct form: Ne ka-mgbala."}

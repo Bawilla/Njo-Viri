@@ -4,98 +4,79 @@
   "description": "This file defines the Past Perfect tense in Njo Viri (Balanda). The tense is used to express actions that were completed before another past reference point. It is marked by the prefix 'taa-' attached directly to the verb.",
   "rules": {
     "general_principle": {
-      "statement": "Past perfect tense in Balanda is formed by attaching the prefix 'taa-' to the verb. The tense expresses an action that had already been completed in the past."
+      "function": "general principle",
+      "structure": "Past perfect tense in Balanda is formed by attaching the prefix 'taa-' to the verb. The tense expresses an action that had already been completed in the past.",
+      "notes": ""
     },
-
     "affirmative_structure": {
+      "function": "affirmative structure",
       "structure": "Subject + taa-Verb + (Object / Complement)",
-      "description": "Used to express a completed action prior to another past event.",
-      "constraints": [
-        "The prefix 'taa-' must attach directly to the verb root",
-        "No auxiliary verb is used",
-        "Word order is fixed"
-      ]
+      "notes": "Used to express a completed action prior to another past event. | The prefix 'taa-' must attach directly to the verb root; No auxiliary verb is used; Word order is fixed"
     },
-
     "verb_morphology": {
-      "rule": "taa- is a tense prefix, not a separate word.",
-      "examples": [
-        "taadhe (had found)",
-        "taamande (had worked)",
-        "taamerego (had loved)"
-      ]
+      "function": "verb morphology",
+      "structure": "taa- is a tense prefix, not a separate word.",
+      "notes": "taadhe (had found); taamande (had worked); taamerego (had loved)"
     },
-
-    "error_constraints": [
-      "Do not omit the prefix 'taa-'",
-      "Do not insert 'no' or 'noka' in past perfect",
-      "Do not separate 'taa-' from the verb root"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit the prefix 'taa-'; Do not insert 'no' or 'noka' in past perfect; Do not separate 'taa-' from the verb root",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_taa_prefix": true,
-      "preserve_word_order": true,
-      "restrict_to_completed_actions": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_taa_prefix\": true, \"preserve_word_order\": true, \"restrict_to_completed_actions\": true}",
+      "notes": ""
     }
   }
 }
-
-
-[
-  {"balanda":"Ne taaja se","english":"I had eaten fish"},
-  {"balanda":"Ne taanzü ngo","english":"I had drunk water"},
-  {"balanda":"Ne taateli gbi famvara","english":"I had slept in the bed"},
-  {"balanda":"Ne taayai","english":"I had gone"},
-  {"balanda":"Ne taadhii ba","english":"I had come home"},
-  {"balanda":"Ne taanonö gbi difo","english":"I had walked in the compound"},
-  {"balanda":"Ni taanangele zanga","english":"She had run fast"},
-  {"balanda":"Uku taamande gbi njü","english":"Uku had worked in the garden"},
-  {"balanda":"Ne taamoliki gbi difo","english":"I had played in the compound"},
-  {"balanda":"Ne taaloro bura","english":"I had watched the cat"},
-
-  {"balanda":"Ne taavele Balanda","english":"I had spoken Balanda"},
-  {"balanda":"Ne taasudi kavoso","english":"I had written words"},
-  {"balanda":"Ne taadheke kitabu","english":"I had read a book"},
-  {"balanda":"Ne taateri dha","english":"I had thought about it"},
-  {"balanda":"Ne taaŋiyi dha","english":"I had known it"},
-  {"balanda":"Ne taawe ndi","english":"I had asked them"},
-  {"balanda":"Ne taavele zi ndi","english":"I had told them"},
-  {"balanda":"Ne taakeye ndi","english":"I had called them"},
-
-  {"balanda":"Ne taamerego ŋo","english":"I had loved you"},
-  {"balanda":"Ne taamaguku ti dha","english":"I had feared it"},
-  {"balanda":"Ne taasogo dha","english":"I had hated it"},
-  {"balanda":"Ni taariki dha","english":"She had surprised him"},
-  {"balanda":"Ne taadovee","english":"I had seemed so"},
-
-  {"balanda":"Ne taayele tamma","english":"I had tied the shoe"},
-  {"balanda":"Ne taadi kalla","english":"I had cut the pot"},
-  {"balanda":"Ne taatele njokoji","english":"I had pulled the door"},
-  {"balanda":"Ne taaturu songo","english":"I had pushed the box"},
-  {"balanda":"Ne taasoko tamma","english":"I had washed the shoe"},
-  {"balanda":"Ne taakuru kau","english":"I had hidden the beads"},
-
-  {"balanda":"Ne taangö tiyi","english":"I had built a house"},
-  {"balanda":"Ne taasuru voso","english":"I had created words"},
-  {"balanda":"Ne taagiri voso","english":"I had changed the words"},
-  {"balanda":"Ne taakara njokoji","english":"I had turned the door"},
-  {"balanda":"Ne taatoko ti vili","english":"I had added money"},
-  {"balanda":"Ne taakefo balanda","english":"I had described Balanda"},
-
-  {"balanda":"Ne taakonu ndi","english":"I had helped them"},
-  {"balanda":"Ne taandugu mira","english":"I had initiated the project"},
-  {"balanda":"Ne taamaforo ti mira","english":"I had contributed to the project"},
-  {"balanda":"Ne taasarwa kumere","english":"I had separated the trash"},
-  {"balanda":"Ne taakiri tidina","english":"I had upheld the law"},
-
-  {"balanda":"Ne taaduru ngo","english":"I had wanted water"},
-  {"balanda":"Ne taaze vili","english":"I had given money"},
-  {"balanda":"Ne taadhe vili","english":"I had found money"},
-  {"balanda":"Ne taamele vongu","english":"I had tried the cloth"},
-  {"balanda":"Ne taasi ba","english":"I had left home"},
-  {"balanda":"Ne taalu","english":"I had arrived"},
-  {"balanda":"Ne taafagi mva","english":"I had sharpened the knife"},
-  {"balanda":"Ne taadewe kakpodu","english":"I had imitated adults"},
-  {"balanda":"Ne taabita mira","english":"I had started the project"},
-  {"balanda":"Ne taateta","english":"I had fallen"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne taaja se","output":"I had eaten fish"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanzü ngo","output":"I had drunk water"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateli gbi famvara","output":"I had slept in the bed"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayai","output":"I had gone"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhii ba","output":"I had come home"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanonö gbi difo","output":"I had walked in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni taanangele zanga","output":"She had run fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku taamande gbi njü","output":"Uku had worked in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamoliki gbi difo","output":"I had played in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaloro bura","output":"I had watched the cat"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele Balanda","output":"I had spoken Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasudi kavoso","output":"I had written words"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadheke kitabu","output":"I had read a book"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateri dha","output":"I had thought about it"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaŋiyi dha","output":"I had known it"}
+{"instruction":"Translate from Balanda to English","input":"Ne taawe ndi","output":"I had asked them"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele zi ndi","output":"I had told them"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakeye ndi","output":"I had called them"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamerego ŋo","output":"I had loved you"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaguku ti dha","output":"I had feared it"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasogo dha","output":"I had hated it"}
+{"instruction":"Translate from Balanda to English","input":"Ni taariki dha","output":"She had surprised him"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadovee","output":"I had seemed so"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayele tamma","output":"I had tied the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadi kalla","output":"I had cut the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatele njokoji","output":"I had pulled the door"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaturu songo","output":"I had pushed the box"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasoko tamma","output":"I had washed the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakuru kau","output":"I had hidden the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ne taangö tiyi","output":"I had built a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasuru voso","output":"I had created words"}
+{"instruction":"Translate from Balanda to English","input":"Ne taagiri voso","output":"I had changed the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakara njokoji","output":"I had turned the door"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatoko ti vili","output":"I had added money"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakefo balanda","output":"I had described Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakonu ndi","output":"I had helped them"}
+{"instruction":"Translate from Balanda to English","input":"Ne taandugu mira","output":"I had initiated the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaforo ti mira","output":"I had contributed to the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasarwa kumere","output":"I had separated the trash"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakiri tidina","output":"I had upheld the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaduru ngo","output":"I had wanted water"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze vili","output":"I had given money"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhe vili","output":"I had found money"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamele vongu","output":"I had tried the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasi ba","output":"I had left home"}
+{"instruction":"Translate from Balanda to English","input":"Ne taalu","output":"I had arrived"}
+{"instruction":"Translate from Balanda to English","input":"Ne taafagi mva","output":"I had sharpened the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadewe kakpodu","output":"I had imitated adults"}
+{"instruction":"Translate from Balanda to English","input":"Ne taabita mira","output":"I had started the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateta","output":"I had fallen"}

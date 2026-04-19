@@ -4,98 +4,79 @@
   "description": "This file defines negative yes–no question formation in the Past Perfect tense in Njo Viri (Balanda). Negative questions are formed by adding the sentence-final negation marker 'gba' followed by the question marker 'we?'.",
   "rules": {
     "general_principle": {
-      "statement": "Past perfect negative questions in Balanda retain the past perfect prefix 'taa-' and form negation with sentence-final 'gba', followed by the question marker 'we?'."
+      "function": "general principle",
+      "structure": "Past perfect negative questions in Balanda retain the past perfect prefix 'taa-' and form negation with sentence-final 'gba', followed by the question marker 'we?'.",
+      "notes": ""
     },
-
     "negative_question_structure": {
+      "function": "negative question structure",
       "structure": "Subject + taa-Verb + (Object / Complement) + gba we?",
-      "constraints": [
-        "The prefix 'taa-' must remain attached to the verb",
-        "'gba' must appear before 'we?'",
-        "'we?' must be sentence-final",
-        "Word order remains identical to affirmative clauses"
-      ]
+      "notes": "The prefix 'taa-' must remain attached to the verb; 'gba' must appear before 'we?'; 'we?' must be sentence-final; Word order remains identical to affirmative clauses"
     },
-
     "preposition_behavior": {
-      "rule": "All prepositions retain their original form and position in negative questions.",
-      "examples": [
-        "gbi famvara gba we?",
-        "ti vili gba we?"
-      ]
+      "function": "preposition behavior",
+      "structure": "All prepositions retain their original form and position in negative questions.",
+      "notes": "gbi famvara gba we?; ti vili gba we?"
     },
-
-    "error_constraints": [
-      "Do not place 'gba' before the verb",
-      "Do not separate 'gba' and 'we?'",
-      "Do not add auxiliary verbs",
-      "Do not modify prepositions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not place 'gba' before the verb; Do not separate 'gba' and 'we?'; Do not add auxiliary verbs; Do not modify prepositions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "append_gba_before_we": true,
-      "preserve_affirmative_word_order": true,
-      "do_not_modify_prepositions": true
+      "function": "model behavior guidelines",
+      "structure": "{\"append_gba_before_we\": true, \"preserve_affirmative_word_order\": true, \"do_not_modify_prepositions\": true}",
+      "notes": ""
     }
   }
 }
-
-
-[
-  {"balanda":"Ne taaja se gba we?","english":"Had I not eaten fish?"},
-  {"balanda":"Ne taanzü ngo gba we?","english":"Had I not drunk water?"},
-  {"balanda":"Ne taateli gbi famvara gba we?","english":"Had I not slept in the bed?"},
-  {"balanda":"Ne taayai gba we?","english":"Had I not gone?"},
-  {"balanda":"Ne taadhii ba gba we?","english":"Had I not come home?"},
-  {"balanda":"Ne taanonö gbi difo gba we?","english":"Had I not walked in the compound?"},
-  {"balanda":"Ni taanangele zanga gba we?","english":"Had she not run fast?"},
-  {"balanda":"Uku taamande gbi njü gba we?","english":"Had Uku not worked in the garden?"},
-  {"balanda":"Ne taamoliki gbi difo gba we?","english":"Had I not played in the compound?"},
-  {"balanda":"Ne taaloro bura gba we?","english":"Had I not watched the cat?"},
-
-  {"balanda":"Ne taavele Balanda gba we?","english":"Had I not spoken Balanda?"},
-  {"balanda":"Ne taasudi kavoso gba we?","english":"Had I not written words?"},
-  {"balanda":"Ne taadheke kitabu gba we?","english":"Had I not read a book?"},
-  {"balanda":"Ne taateri dha gba we?","english":"Had I not thought about it?"},
-  {"balanda":"Ne taaŋiyi dha gba we?","english":"Had I not known it?"},
-  {"balanda":"Ne taawe ndi gba we?","english":"Had I not asked them?"},
-  {"balanda":"Ne taavele zi ndi gba we?","english":"Had I not told them?"},
-  {"balanda":"Ne taakeye ndi gba we?","english":"Had I not called them?"},
-
-  {"balanda":"Ne taamerego ŋo gba we?","english":"Had I not loved you?"},
-  {"balanda":"Ne taamaguku ti dha gba we?","english":"Had I not feared it?"},
-  {"balanda":"Ne taasogo dha gba we?","english":"Had I not hated it?"},
-  {"balanda":"Ni taariki dha gba we?","english":"Had she not surprised him?"},
-  {"balanda":"Ne taadovee gba we?","english":"Had I not seemed so?"},
-
-  {"balanda":"Ne taayele tamma gba we?","english":"Had I not tied the shoe?"},
-  {"balanda":"Ne taadi kalla gba we?","english":"Had I not cut the pot?"},
-  {"balanda":"Ne taatele njokoji gba we?","english":"Had I not pulled the door?"},
-  {"balanda":"Ne taaturu songo gba we?","english":"Had I not pushed the box?"},
-  {"balanda":"Ne taasoko tamma gba we?","english":"Had I not washed the shoe?"},
-  {"balanda":"Ne taakuru kau gba we?","english":"Had I not hidden the beads?"},
-
-  {"balanda":"Ne taangö tiyi gba we?","english":"Had I not built a house?"},
-  {"balanda":"Ne taasuru voso gba we?","english":"Had I not created words?"},
-  {"balanda":"Ne taagiri voso gba we?","english":"Had I not changed the words?"},
-  {"balanda":"Ne taakara njokoji gba we?","english":"Had I not turned the door?"},
-  {"balanda":"Ne taatoko ti vili gba we?","english":"Had I not added money?"},
-  {"balanda":"Ne taakefo balanda gba we?","english":"Had I not described Balanda?"},
-
-  {"balanda":"Ne taakonu ndi gba we?","english":"Had I not helped them?"},
-  {"balanda":"Ne taandugu mira gba we?","english":"Had I not initiated the project?"},
-  {"balanda":"Ne taamaforo ti mira gba we?","english":"Had I not contributed to the project?"},
-  {"balanda":"Ne taasarwa kumere gba we?","english":"Had I not separated the trash?"},
-  {"balanda":"Ne taakiri tidina gba we?","english":"Had I not upheld the law?"},
-
-  {"balanda":"Ne taaduru ngo gba we?","english":"Had I not wanted water?"},
-  {"balanda":"Ne taaze vili gba we?","english":"Had I not given money?"},
-  {"balanda":"Ne taadhe vili gba we?","english":"Had I not found money?"},
-  {"balanda":"Ne taamele vongu gba we?","english":"Had I not tried the cloth?"},
-  {"balanda":"Ne taasi ba gba we?","english":"Had I not left home?"},
-  {"balanda":"Ne taalu gba we?","english":"Had I not arrived?"},
-  {"balanda":"Ne taafagi mva gba we?","english":"Had I not sharpened the knife?"},
-  {"balanda":"Ne taadewe kakpodu gba we?","english":"Had I not imitated adults?"},
-  {"balanda":"Ne taabita mira gba we?","english":"Had I not started the project?"},
-  {"balanda":"Ne taateta gba we?","english":"Had I not fallen?"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne taaja se gba we?","output":"Had I not eaten fish?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanzü ngo gba we?","output":"Had I not drunk water?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateli gbi famvara gba we?","output":"Had I not slept in the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayai gba we?","output":"Had I not gone?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhii ba gba we?","output":"Had I not come home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanonö gbi difo gba we?","output":"Had I not walked in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni taanangele zanga gba we?","output":"Had she not run fast?"}
+{"instruction":"Translate from Balanda to English","input":"Uku taamande gbi njü gba we?","output":"Had Uku not worked in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamoliki gbi difo gba we?","output":"Had I not played in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaloro bura gba we?","output":"Had I not watched the cat?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele Balanda gba we?","output":"Had I not spoken Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasudi kavoso gba we?","output":"Had I not written words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadheke kitabu gba we?","output":"Had I not read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateri dha gba we?","output":"Had I not thought about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaŋiyi dha gba we?","output":"Had I not known it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taawe ndi gba we?","output":"Had I not asked them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taavele zi ndi gba we?","output":"Had I not told them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakeye ndi gba we?","output":"Had I not called them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamerego ŋo gba we?","output":"Had I not loved you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaguku ti dha gba we?","output":"Had I not feared it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasogo dha gba we?","output":"Had I not hated it?"}
+{"instruction":"Translate from Balanda to English","input":"Ni taariki dha gba we?","output":"Had she not surprised him?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadovee gba we?","output":"Had I not seemed so?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taayele tamma gba we?","output":"Had I not tied the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadi kalla gba we?","output":"Had I not cut the pot?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatele njokoji gba we?","output":"Had I not pulled the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaturu songo gba we?","output":"Had I not pushed the box?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasoko tamma gba we?","output":"Had I not washed the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakuru kau gba we?","output":"Had I not hidden the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taangö tiyi gba we?","output":"Had I not built a house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasuru voso gba we?","output":"Had I not created words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taagiri voso gba we?","output":"Had I not changed the words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakara njokoji gba we?","output":"Had I not turned the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatoko ti vili gba we?","output":"Had I not added money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakefo balanda gba we?","output":"Had I not described Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakonu ndi gba we?","output":"Had I not helped them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taandugu mira gba we?","output":"Had I not initiated the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaforo ti mira gba we?","output":"Had I not contributed to the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasarwa kumere gba we?","output":"Had I not separated the trash?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taakiri tidina gba we?","output":"Had I not upheld the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaduru ngo gba we?","output":"Had I not wanted water?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze vili gba we?","output":"Had I not given money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadhe vili gba we?","output":"Had I not found money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamele vongu gba we?","output":"Had I not tried the cloth?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasi ba gba we?","output":"Had I not left home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taalu gba we?","output":"Had I not arrived?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taafagi mva gba we?","output":"Had I not sharpened the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadewe kakpodu gba we?","output":"Had I not imitated adults?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taabita mira gba we?","output":"Had I not started the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateta gba we?","output":"Had I not fallen?"}

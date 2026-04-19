@@ -1,45 +1,46 @@
-[
-  {"balanda":"Zanga wiki ja nza","english":"The fast child eats food"},
-  {"balanda":"Gbito wiki ja nza","english":"The slow child eats food"},
-  {"balanda":"Zanga widako ja nza","english":"The fast boy eats food"},
-  {"balanda":"Gbito widako ja nza","english":"The slow boy eats food"},
-  {"balanda":"Zanga wilii ja nza","english":"The fast girl eats food"},
-  {"balanda":"Gbito wilii ja nza","english":"The slow girl eats food"},
-  {"balanda":"Zanga dhako ja nza","english":"The fast man eats food"},
-  {"balanda":"Gbito dhako ja nza","english":"The slow man eats food"},
-  {"balanda":"Zanga bura ja nza","english":"The fast cat eats food"},
-  {"balanda":"Gbito bura ja nza","english":"The slow cat eats food"},
-
-  {"balanda":"Zanga wiki nono","english":"The fast child walks"},
-  {"balanda":"Gbito wiki nono","english":"The slow child walks"},
-  {"balanda":"Zanga widako nono","english":"The fast boy walks"},
-  {"balanda":"Gbito widako nono","english":"The slow boy walks"},
-  {"balanda":"Zanga wilii nono","english":"The fast girl walks"},
-  {"balanda":"Gbito wilii nono","english":"The slow girl walks"},
-  {"balanda":"Zanga dhako nono","english":"The fast man walks"},
-  {"balanda":"Gbito dhako nono","english":"The slow man walks"},
-  {"balanda":"Zanga bura nono","english":"The fast cat walks"},
-  {"balanda":"Gbito bura nono","english":"The slow cat walks"},
-
-  {"balanda":"Zanga wiki yai","english":"The fast child goes"},
-  {"balanda":"Gbito wiki yai","english":"The slow child goes"},
-  {"balanda":"Zanga widako yai","english":"The fast boy goes"},
-  {"balanda":"Gbito widako yai","english":"The slow boy goes"},
-  {"balanda":"Zanga wilii yai","english":"The fast girl goes"},
-  {"balanda":"Gbito wilii yai","english":"The slow girl goes"},
-  {"balanda":"Zanga dhako yai","english":"The fast man goes"},
-  {"balanda":"Gbito dhako yai","english":"The slow man goes"},
-  {"balanda":"Zanga bura yai","english":"The fast cat goes"},
-  {"balanda":"Gbito bura yai","english":"The slow cat goes"},
-
-  {"balanda":"Zanga wiki mande","english":"The fast child works"},
-  {"balanda":"Gbito wiki mande","english":"The slow child works"},
-  {"balanda":"Zanga widako mande","english":"The fast boy works"},
-  {"balanda":"Gbito widako mande","english":"The slow boy works"},
-  {"balanda":"Zanga dhako mande","english":"The fast man works"},
-  {"balanda":"Gbito dhako mande","english":"The slow man works"},
-  {"balanda":"Zanga wilii mande","english":"The fast girl works"},
-  {"balanda":"Gbito wilii mande","english":"The slow girl works"},
-  {"balanda":"Zanga bura mande","english":"The fast cat works"},
-  {"balanda":"Gbito bura mande","english":"The slow cat works"}
-]
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "modified_noun_+_verb",
+  "description": "This file contains Balanda language training examples for modified noun + verb.",
+  "rules": {}
+}
+{"instruction":"Translate from Balanda to English","input":"Zanga wiki ja nza","output":"The fast child eats food"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wiki ja nza","output":"The slow child eats food"}
+{"instruction":"Translate from Balanda to English","input":"Zanga widako ja nza","output":"The fast boy eats food"}
+{"instruction":"Translate from Balanda to English","input":"Gbito widako ja nza","output":"The slow boy eats food"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wilii ja nza","output":"The fast girl eats food"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wilii ja nza","output":"The slow girl eats food"}
+{"instruction":"Translate from Balanda to English","input":"Zanga dhako ja nza","output":"The fast man eats food"}
+{"instruction":"Translate from Balanda to English","input":"Gbito dhako ja nza","output":"The slow man eats food"}
+{"instruction":"Translate from Balanda to English","input":"Zanga bura ja nza","output":"The fast cat eats food"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura ja nza","output":"The slow cat eats food"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wiki nono","output":"The fast child walks"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wiki nono","output":"The slow child walks"}
+{"instruction":"Translate from Balanda to English","input":"Zanga widako nono","output":"The fast boy walks"}
+{"instruction":"Translate from Balanda to English","input":"Gbito widako nono","output":"The slow boy walks"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wilii nono","output":"The fast girl walks"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wilii nono","output":"The slow girl walks"}
+{"instruction":"Translate from Balanda to English","input":"Zanga dhako nono","output":"The fast man walks"}
+{"instruction":"Translate from Balanda to English","input":"Gbito dhako nono","output":"The slow man walks"}
+{"instruction":"Translate from Balanda to English","input":"Zanga bura nono","output":"The fast cat walks"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura nono","output":"The slow cat walks"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wiki yai","output":"The fast child goes"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wiki yai","output":"The slow child goes"}
+{"instruction":"Translate from Balanda to English","input":"Zanga widako yai","output":"The fast boy goes"}
+{"instruction":"Translate from Balanda to English","input":"Gbito widako yai","output":"The slow boy goes"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wilii yai","output":"The fast girl goes"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wilii yai","output":"The slow girl goes"}
+{"instruction":"Translate from Balanda to English","input":"Zanga dhako yai","output":"The fast man goes"}
+{"instruction":"Translate from Balanda to English","input":"Gbito dhako yai","output":"The slow man goes"}
+{"instruction":"Translate from Balanda to English","input":"Zanga bura yai","output":"The fast cat goes"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura yai","output":"The slow cat goes"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wiki mande","output":"The fast child works"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wiki mande","output":"The slow child works"}
+{"instruction":"Translate from Balanda to English","input":"Zanga widako mande","output":"The fast boy works"}
+{"instruction":"Translate from Balanda to English","input":"Gbito widako mande","output":"The slow boy works"}
+{"instruction":"Translate from Balanda to English","input":"Zanga dhako mande","output":"The fast man works"}
+{"instruction":"Translate from Balanda to English","input":"Gbito dhako mande","output":"The slow man works"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wilii mande","output":"The fast girl works"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wilii mande","output":"The slow girl works"}
+{"instruction":"Translate from Balanda to English","input":"Zanga bura mande","output":"The fast cat works"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura mande","output":"The slow cat works"}

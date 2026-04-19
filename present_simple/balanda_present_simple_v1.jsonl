@@ -1,77 +1,42 @@
-
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "balanda_present_simple",
+  "description": "This file contains Balanda language training examples for balanda present simple. Items covered: sentence type.",
+  "rules": {
+    "sentence_type": {
+      "function": "sentence type",
+      "structure": "",
+      "notes": "Inferred from training records."
+    }
+  }
+}
 {"instruction":"Translate from Balanda to English","input":"Ne no nvekümü","output":"I am wealthy"}
 {"instruction":"Translate from Balanda to English","input":"Ne moliki gbi difo","output":"I play in the compound"}
 {"instruction":"Translate from Balanda to English","input":"Ni nangele zanga","output":"She runs fast"}
 {"instruction":"Translate from Balanda to English","input":"Uku mande gbi njü","output":"Uku works in the garden"}
 {"instruction":"Translate from Balanda to English","input":"Ne merego ŋo","output":"I love you"}
-
 {"instruction":"Translate from Balanda to English","input":"Ne moliki gbi difo gba","output":"I don’t play in the compound"}
 {"instruction":"Translate from Balanda to English","input":"Ni kulu munja gba","output":"He doesn’t play guitar"}
 {"instruction":"Translate from Balanda to English","input":"Ni nangele zanga gba","output":"She doesn’t run fast"}
 {"instruction":"Translate from Balanda to English","input":"Afo mande gbi njü gba","output":"Afo doesn’t work in the garden"}
 {"instruction":"Translate from Balanda to English","input":"Ne merego ŋo gba","output":"I don’t love you"}
-
 {"instruction":"Translate from Balanda to English","input":"Ne moliki gbi difo we?","output":"Do I play in the compound?"}
 {"instruction":"Translate from Balanda to English","input":"Ni kulu munja we?","output":"Does he play guitar?"}
 {"instruction":"Translate from Balanda to English","input":"Ni nangele zanga we?","output":"Does she run fast?"}
 {"instruction":"Translate from Balanda to English","input":"Uku mande gbi njü we?","output":"Does Uku work in the garden?"}
 {"instruction":"Translate from Balanda to English","input":"Ne merego ŋo we?","output":"Do I love you?"}
-
-
-{
-  "instruction":"Explain how present simple tense works in Balanda",
-  "output":"Present simple tense in Balanda uses the base verb with normal word order. No tense marker is added for affirmative sentences. Example: Uku mande gbi njü (Uku works in the garden)."
-}
-
-{
-  "instruction":"How do you negate a present simple sentence in Balanda?",
-  "output":"Negation in present simple tense is formed by adding gba at the end of the sentence. Example: Ne moliki gbi difo gba (I do not play in the compound)."
-}
-
-{
-  "instruction":"How do you form yes/no questions in present simple tense in Balanda?",
-  "output":"Yes/no questions are formed by adding we? at the end of the sentence. Example: Ne merego ŋo we? (Do I love you?)."
-}
-
-{
-  "instruction":"How are negative questions formed in present simple tense in Balanda?",
-  "output":"Negative questions are formed by using gba before we?. Example: Ne duru ngo gba we? (Don’t I want water?)."
-}
-
-
-
-{"instruction":"Identify the sentence type","input":"Ni nangele zanga","output":"Affirmative present simple"}
-{"instruction":"Identify the sentence type","input":"Ni nangele zanga gba","output":"Negative present simple"}
-{"instruction":"Identify the sentence type","input":"Ni nangele zanga we?","output":"Present simple question"}
-{"instruction":"Identify the sentence type","input":"Ne duru ngo gba we?","output":"Negative present simple question"}
-
-
-
-{"instruction":"Create an affirmative present simple sentence in Balanda","output":"Ndi konu nvesani"}
-
-{"instruction":"Create a negative present simple sentence in Balanda","output":"Ndi runga nveku gba"}
-
-{"instruction":"Create a present simple question in Balanda","output":"Ne sarawa kumere we?"}
-
-{"instruction":"Create a negative present simple question in Balanda","output":"Danda kirri tidina gba we?"}
-
-
-
-{
-  "instruction":"Correct the Balanda sentence",
-  "input":"Ne no merego ŋo",
-  "output":"Incorrect for present simple tense. Correct form: Ne merego ŋo."
-}
-
-{
-  "instruction":"Correct the Balanda sentence",
-  "input":"Ni mande gbi njü ma",
-  "output":"Incorrect negation. Correct form: Ni mande gbi njü gba."
-}
-
-{
-  "instruction":"Correct the question sentence",
-  "input":"Ne merego we ŋo?",
-  "output":"Incorrect word order. Correct form: Ne merego ŋo we?"
-}
-
+{"instruction":"Explain how present simple tense works in Balanda","input":"","output":"Present simple tense in Balanda uses the base verb with normal word order. No tense marker is added for affirmative sentences. Example: Uku mande gbi njü (Uku works in the garden)."}
+{"instruction":"How do you negate a present simple sentence in Balanda?","input":"","output":"Negation in present simple tense is formed by adding gba at the end of the sentence. Example: Ne moliki gbi difo gba (I do not play in the compound)."}
+{"instruction":"How do you form yes/no questions in present simple tense in Balanda?","input":"","output":"Yes/no questions are formed by adding we? at the end of the sentence. Example: Ne merego ŋo we? (Do I love you?)."}
+{"instruction":"How are negative questions formed in present simple tense in Balanda?","input":"","output":"Negative questions are formed by using gba before we?. Example: Ne duru ngo gba we? (Don’t I want water?)."}
+{"instruction":"Identify the Balanda sentence type","input":"Ni nangele zanga","output":"Affirmative present simple"}
+{"instruction":"Identify the Balanda sentence type","input":"Ni nangele zanga gba","output":"Negative present simple"}
+{"instruction":"Identify the Balanda sentence type","input":"Ni nangele zanga we?","output":"Present simple question"}
+{"instruction":"Identify the Balanda sentence type","input":"Ne duru ngo gba we?","output":"Negative present simple question"}
+{"instruction":"Create an affirmative present simple sentence in Balanda","input":"","output":"Ndi konu nvesani"}
+{"instruction":"Create a negative present simple sentence in Balanda","input":"","output":"Ndi runga nveku gba"}
+{"instruction":"Create a present simple question in Balanda","input":"","output":"Ne sarawa kumere we?"}
+{"instruction":"Create a negative present simple question in Balanda","input":"","output":"Danda kirri tidina gba we?"}
+{"instruction":"Correct the Balanda sentence","input":"Ne no merego ŋo","output":"Incorrect for present simple tense. Correct form: Ne merego ŋo."}
+{"instruction":"Correct the Balanda sentence","input":"Ni mande gbi njü ma","output":"Incorrect negation. Correct form: Ni mande gbi njü gba."}
+{"instruction":"Correct the question sentence","input":"Ne merego we ŋo?","output":"Incorrect word order. Correct form: Ne merego ŋo we?"}

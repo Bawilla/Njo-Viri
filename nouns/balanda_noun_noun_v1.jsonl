@@ -4,86 +4,63 @@
   "description": "This file contains Balanda noun–noun constructions. These include (1) nominal predication using the copular particle 'no' and (2) noun–noun modification without a copula.",
   "rules": {
     "construction_types": {
-      "nominal_predication": {
-        "structure": "Subject (Noun or Pronoun) + no + Noun",
-        "function": "Identifies or classifies the subject as a member of a category",
-        "copula": "no",
-        "tense_interpretation": "present or timeless identification",
-        "examples": [
-          "Ni no diktor",
-          "Ni no gbiya"
-        ]
-      },
-      "noun_noun_modification": {
-        "structure": "Modifier Noun + Head Noun",
-        "function": "Describes a quality, type, or classification of the head noun",
-        "copula": "none",
-        "word_order": "Modifier precedes head noun",
-        "examples": [
-          "Gbito bura",
-          "zongo wiki"
-        ]
-      }
+      "function": "construction types",
+      "structure": "{\"nominal_predication\": {\"structure\": \"Subject (Noun or Pronoun) + no + Noun\", \"function\": \"Identifies or classifies the subject as a member of a category\", \"copula\": \"no\", \"tense_interpretation\": \"present or timeless identification\", \"examples\": [\"Ni no diktor\", \"Ni no gbiya\"]}, \"noun_noun_modification\": {\"structure\": \"Modifier Noun + Head Noun\", \"function\": \"Describes a quality, type, or classification of the head noun\", \"copula\": \"none\", \"word_order\": \"Modifier precedes head noun\", \"examples\": [\"Gbito bura\", \"zongo wiki\"]}}",
+      "notes": ""
     },
-    "constraints": [
-      "The particle 'no' is used only for nominal predication",
-      "No copula appears in noun–noun modification",
-      "Word order is fixed within each construction",
-      "Plurality and definiteness are inferred from context",
-      "These constructions do not carry tense or aspect marking"
-    ]
+    "constraints": {
+      "function": "constraints",
+      "structure": "The particle 'no' is used only for nominal predication; No copula appears in noun–noun modification; Word order is fixed within each construction; Plurality and definiteness are inferred from context; These constructions do not carry tense or aspect marking",
+      "notes": ""
+    }
   }
 }
-
-
-[
-  {"balanda":"Ni no diktor","english":"He is a doctor"},
-  {"balanda":"Ni no gbiya","english":"He is a chief"},
-  {"balanda":"Ni no vuru","english":"He is a citizen"},
-  {"balanda":"Willi no wiki","english":"The girl is a child"},
-  {"balanda":"Ni no nvejïga","english":"He is a healer"},
-  {"balanda":"Gamara wutdu","english":"Old person"},
-  {"balanda":"Zanga wutdu","english":"Fast person"},
-  {"balanda":"Gbito bura","english":"Slow cat"},
-  {"balanda":"zongo wiki","english":"Young child"},
-  {"balanda":"Vetere nanje","english":"Black animal"},
-  {"balanda":"Kitimi wilii","english":"Beautiful girl"},
-  {"balanda":"zanga widhako","english":"Fast boy"},
-  {"balanda":"Ganza dhako","english":"Tall man"},
-  {"balanda":"Ferre verre","english":"Wide stream"},
-  {"balanda":"Zongo wilii","english":"Young girl"},
-  {"balanda":"kporo wutdu","english":"Strong person"},
-  {"balanda":"gamara dhako","english":"Old man"},
-  {"balanda":"zongo wiki","english":"Young child"},
-  {"balanda":"Gbito wutdu","english":"Slow person"},
-  {"balanda":"Zanga bura","english":"Fast cat"},
-  {"balanda":"Kitti wutdu","english":"Beautiful person"},
-  {"balanda":"kpoo bura","english":"Strong cat"},
-  {"balanda":"zanga kese","english":"Fast bike"},
-  {"balanda":"gbito dhako","english":"Slow man"},
-  {"balanda":"Zanga wiki","english":"Fast child"},
-  {"balanda":"Gamara dhako","english":"Old man"},
-  {"balanda":"zongo wilii","english":"Young girl"},
-  {"balanda":"kpoo widhako","english":"Strong boy"},
-  {"balanda":"gbito kese","english":"Slow bike"},
-  {"balanda":"zanga kese","english":"Fast bike"},
-  {"balanda":"Yivi gbiya","english":"Good chief"},
-  {"balanda":"Kitti niki","english":"Beautiful woman"},
-  {"balanda":"zanga wutdu","english":"Fast person"},
-  {"balanda":"gbito wiki","english":"Slow child"},
-  {"balanda":"kpoo dhako","english":"Strong man"},
-  {"balanda":"zanga nguu","english":"Fast tree"},
-  {"balanda":"zongo dhako","english":"Young man"},
-  {"balanda":"Gamara niki","english":"Old woman"},
-  {"balanda":"kpoo wiki","english":"Strong child"},
-  {"balanda":"gbito bura","english":"Slow cat"},
-  {"balanda":"zanga widhako","english":"Fast boy"},
-  {"balanda":"kitti wiki","english":"Beautiful child"},
-  {"balanda":"kpoo wiki","english":"Strong child"},
-  {"balanda":"gbito widhako","english":"Slow boy"},
-  {"balanda":"zanga niki","english":"Fast woman"},
-  {"balanda":"kpoo niki","english":"Strong woman"},
-  {"balanda":"Gamara widhako","english":"Old boy"},
-  {"balanda":"zanga wutdu","english":"Fast person"},
-  {"balanda":"Sapara voro","english":"Giant dog"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ni no diktor","output":"He is a doctor"}
+{"instruction":"Translate from Balanda to English","input":"Ni no gbiya","output":"He is a chief"}
+{"instruction":"Translate from Balanda to English","input":"Ni no vuru","output":"He is a citizen"}
+{"instruction":"Translate from Balanda to English","input":"Willi no wiki","output":"The girl is a child"}
+{"instruction":"Translate from Balanda to English","input":"Ni no nvejïga","output":"He is a healer"}
+{"instruction":"Translate from Balanda to English","input":"Gamara wutdu","output":"Old person"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wutdu","output":"Fast person"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura","output":"Slow cat"}
+{"instruction":"Translate from Balanda to English","input":"zongo wiki","output":"Young child"}
+{"instruction":"Translate from Balanda to English","input":"Vetere nanje","output":"Black animal"}
+{"instruction":"Translate from Balanda to English","input":"Kitimi wilii","output":"Beautiful girl"}
+{"instruction":"Translate from Balanda to English","input":"zanga widhako","output":"Fast boy"}
+{"instruction":"Translate from Balanda to English","input":"Ganza dhako","output":"Tall man"}
+{"instruction":"Translate from Balanda to English","input":"Ferre verre","output":"Wide stream"}
+{"instruction":"Translate from Balanda to English","input":"Zongo wilii","output":"Young girl"}
+{"instruction":"Translate from Balanda to English","input":"kporo wutdu","output":"Strong person"}
+{"instruction":"Translate from Balanda to English","input":"gamara dhako","output":"Old man"}
+{"instruction":"Translate from Balanda to English","input":"zongo wiki","output":"Young child"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wutdu","output":"Slow person"}
+{"instruction":"Translate from Balanda to English","input":"Zanga bura","output":"Fast cat"}
+{"instruction":"Translate from Balanda to English","input":"Kitti wutdu","output":"Beautiful person"}
+{"instruction":"Translate from Balanda to English","input":"kpoo bura","output":"Strong cat"}
+{"instruction":"Translate from Balanda to English","input":"zanga kese","output":"Fast bike"}
+{"instruction":"Translate from Balanda to English","input":"gbito dhako","output":"Slow man"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wiki","output":"Fast child"}
+{"instruction":"Translate from Balanda to English","input":"Gamara dhako","output":"Old man"}
+{"instruction":"Translate from Balanda to English","input":"zongo wilii","output":"Young girl"}
+{"instruction":"Translate from Balanda to English","input":"kpoo widhako","output":"Strong boy"}
+{"instruction":"Translate from Balanda to English","input":"gbito kese","output":"Slow bike"}
+{"instruction":"Translate from Balanda to English","input":"zanga kese","output":"Fast bike"}
+{"instruction":"Translate from Balanda to English","input":"Yivi gbiya","output":"Good chief"}
+{"instruction":"Translate from Balanda to English","input":"Kitti niki","output":"Beautiful woman"}
+{"instruction":"Translate from Balanda to English","input":"zanga wutdu","output":"Fast person"}
+{"instruction":"Translate from Balanda to English","input":"gbito wiki","output":"Slow child"}
+{"instruction":"Translate from Balanda to English","input":"kpoo dhako","output":"Strong man"}
+{"instruction":"Translate from Balanda to English","input":"zanga nguu","output":"Fast tree"}
+{"instruction":"Translate from Balanda to English","input":"zongo dhako","output":"Young man"}
+{"instruction":"Translate from Balanda to English","input":"Gamara niki","output":"Old woman"}
+{"instruction":"Translate from Balanda to English","input":"kpoo wiki","output":"Strong child"}
+{"instruction":"Translate from Balanda to English","input":"gbito bura","output":"Slow cat"}
+{"instruction":"Translate from Balanda to English","input":"zanga widhako","output":"Fast boy"}
+{"instruction":"Translate from Balanda to English","input":"kitti wiki","output":"Beautiful child"}
+{"instruction":"Translate from Balanda to English","input":"kpoo wiki","output":"Strong child"}
+{"instruction":"Translate from Balanda to English","input":"gbito widhako","output":"Slow boy"}
+{"instruction":"Translate from Balanda to English","input":"zanga niki","output":"Fast woman"}
+{"instruction":"Translate from Balanda to English","input":"kpoo niki","output":"Strong woman"}
+{"instruction":"Translate from Balanda to English","input":"Gamara widhako","output":"Old boy"}
+{"instruction":"Translate from Balanda to English","input":"zanga wutdu","output":"Fast person"}
+{"instruction":"Translate from Balanda to English","input":"Sapara voro","output":"Giant dog"}

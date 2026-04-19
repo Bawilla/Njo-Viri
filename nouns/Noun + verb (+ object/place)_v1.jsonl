@@ -3,75 +3,93 @@
   "grammar_name": "balanda_noun_verb_basic_clauses",
   "description": "This file contains basic Balanda noun–verb clauses. These sentences express simple actions or states with a noun or pronoun subject followed directly by a verb, optionally with an object or complement.",
   "rules": {
-    "basic_structure": "Subject (Noun or Pronoun) + Verb + (Object/Complement)",
-    "word_order": "SVO (Subject–Verb–Object) when an object is present",
-    "subject_type": [
-      "common noun",
-      "proper noun",
-      "pronoun"
-    ],
-    "verb_behavior": "Verb appears in bare form with no tense or aspect marker unless specified elsewhere",
-    "object_behavior": "Object is optional and follows the verb",
-    "prepositional_phrases": "Locative or directional phrases follow the verb or object",
-    "tense_interpretation": "Default tense is generic or present unless overridden by explicit tense markers in other files",
-    "constraints": [
-      "No tense or aspect prefixes are used in this file",
-      "No copula is used",
-      "Word order does not change for different subjects",
-      "Plurality is inferred from the subject, not verb morphology",
-      "Sentences may be transitive or intransitive"
-    ]
+    "basic_structure": {
+      "function": "basic structure",
+      "structure": "Subject (Noun or Pronoun) + Verb + (Object/Complement)",
+      "notes": ""
+    },
+    "word_order": {
+      "function": "word order",
+      "structure": "SVO (Subject–Verb–Object) when an object is present",
+      "notes": ""
+    },
+    "subject_type": {
+      "function": "subject type",
+      "structure": "common noun; proper noun; pronoun",
+      "notes": ""
+    },
+    "verb_behavior": {
+      "function": "verb behavior",
+      "structure": "Verb appears in bare form with no tense or aspect marker unless specified elsewhere",
+      "notes": ""
+    },
+    "object_behavior": {
+      "function": "object behavior",
+      "structure": "Object is optional and follows the verb",
+      "notes": ""
+    },
+    "prepositional_phrases": {
+      "function": "prepositional phrases",
+      "structure": "Locative or directional phrases follow the verb or object",
+      "notes": ""
+    },
+    "tense_interpretation": {
+      "function": "tense interpretation",
+      "structure": "Default tense is generic or present unless overridden by explicit tense markers in other files",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "No tense or aspect prefixes are used in this file; No copula is used; Word order does not change for different subjects; Plurality is inferred from the subject, not verb morphology; Sentences may be transitive or intransitive",
+      "notes": ""
+    }
   }
 }
-
-
-[
-  {"balanda":"Wiki ja nza","english":"The child eats food"},
-  {"balanda":"Bura moko juu","english":"The cat chases the rat"},
-  {"balanda":"Ni sudi kitab","english":"He writes a book"},
-  {"balanda":"Wilii dheke kitab","english":"The girl reads a book"},
-  {"balanda":"Ndi mande gbi njü","english":"They work in the garden"},
-  {"balanda":"Danda mande gbi njü","english":"We work in the garden"},
-  {"balanda":"Ni yai agbi negu","english":"He goes to the market"},
-  {"balanda":"Wiki nono","english":"The child walks"},
-  {"balanda":"Bura nono","english":"The cat walks"},
-  {"balanda":"Dhako wara noyaa","english":"The man cuts meat"},
-  {"balanda":"Wilii baha bura","english":"The girl sees the cat"},
-  {"balanda":"Ni vele takoni","english":"He tells a story"},
-  {"balanda":"Ndi ja nza","english":"They eat food"},
-  {"balanda":"Wiki yai agbi maraya","english":"The child goes to school"},
-  {"balanda":"Bura yai agbi tiyi","english":"The cat goes into the house"},
-  {"balanda":"Ni kolo wilii","english":"He hugs the girl"},
-  {"balanda":"Dhako logi ngo","english":"The man pours water"},
-  {"balanda":"Wilii yai agbi negu","english":"The girl goes to the market"},
-  {"balanda":"Ndi sudi kitab","english":"They write books"},
-  {"balanda":"Wiki dheke kitab","english":"The child reads a book"},
-  {"balanda":"Bura moko","english":"The cat chases"},
-  {"balanda":"Ni mande","english":"He works"},
-  {"balanda":"Dhako nono","english":"The man walks"},
-  {"balanda":"Wilii nono","english":"The girl walks"},
-  {"balanda":"Ndi yai a Wau","english":"They go to Wau"},
-  {"balanda":"Wiki ja","english":"The child eats"},
-  {"balanda":"Bura ja nza","english":"The cat eats food"},
-  {"balanda":"Ni dheke kitab","english":"He reads a book"},
-  {"balanda":"Dhako baha maraya","english":"The man sees the school"},
-  {"balanda":"Wilii ja nza","english":"The girl eats food"},
-  {"balanda":"Ndi nono gbi ngita","english":"They walk in the park"},
-  {"balanda":"Ni yai gbi tihi","english":"He goes into the house"},
-  {"balanda":"Wiki logi ngo","english":"The child pours water"},
-  {"balanda":"Bura wara juu","english":"The cat cuts the rat"},
-  {"balanda":"Ni kolo wiki","english":"He hugs the child"},
-  {"balanda":"Dhako dheke kitab","english":"The man reads a book"},
-  {"balanda":"Wilii sudi kitab","english":"The girl writes a book"},
-  {"balanda":"Ndi mande gbi negu","english":"They work in the market"},
-  {"balanda":"Wiki yai a tiyi","english":"The child goes home"},
-  {"balanda":"Bura yai a baa","english":"The cat goes into the house"},
-  {"balanda":"Ni ja nza","english":"He eats food"},
-  {"balanda":"Dhako yai agbi negu","english":"The man goes to the market"},
-  {"balanda":"Wilii mande","english":"The girl works"},
-  {"balanda":"Ndi ja","english":"They eat"},
-  {"balanda":"Wiki nono gbi park","english":"The child walks in the park"},
-  {"balanda":"Bura baha wiki","english":"The cat sees the child"},
-  {"balanda":"Ni logi ngo","english":"He pours water"},
-  {"balanda":"Dhako ja nza","english":"The man eats food"}
-]
+{"instruction":"Translate from Balanda to English","input":"Wiki ja nza","output":"The child eats food"}
+{"instruction":"Translate from Balanda to English","input":"Bura moko juu","output":"The cat chases the rat"}
+{"instruction":"Translate from Balanda to English","input":"Ni sudi kitab","output":"He writes a book"}
+{"instruction":"Translate from Balanda to English","input":"Wilii dheke kitab","output":"The girl reads a book"}
+{"instruction":"Translate from Balanda to English","input":"Ndi mande gbi njü","output":"They work in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Danda mande gbi njü","output":"We work in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Ni yai agbi negu","output":"He goes to the market"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nono","output":"The child walks"}
+{"instruction":"Translate from Balanda to English","input":"Bura nono","output":"The cat walks"}
+{"instruction":"Translate from Balanda to English","input":"Dhako wara noyaa","output":"The man cuts meat"}
+{"instruction":"Translate from Balanda to English","input":"Wilii baha bura","output":"The girl sees the cat"}
+{"instruction":"Translate from Balanda to English","input":"Ni vele takoni","output":"He tells a story"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ja nza","output":"They eat food"}
+{"instruction":"Translate from Balanda to English","input":"Wiki yai agbi maraya","output":"The child goes to school"}
+{"instruction":"Translate from Balanda to English","input":"Bura yai agbi tiyi","output":"The cat goes into the house"}
+{"instruction":"Translate from Balanda to English","input":"Ni kolo wilii","output":"He hugs the girl"}
+{"instruction":"Translate from Balanda to English","input":"Dhako logi ngo","output":"The man pours water"}
+{"instruction":"Translate from Balanda to English","input":"Wilii yai agbi negu","output":"The girl goes to the market"}
+{"instruction":"Translate from Balanda to English","input":"Ndi sudi kitab","output":"They write books"}
+{"instruction":"Translate from Balanda to English","input":"Wiki dheke kitab","output":"The child reads a book"}
+{"instruction":"Translate from Balanda to English","input":"Bura moko","output":"The cat chases"}
+{"instruction":"Translate from Balanda to English","input":"Ni mande","output":"He works"}
+{"instruction":"Translate from Balanda to English","input":"Dhako nono","output":"The man walks"}
+{"instruction":"Translate from Balanda to English","input":"Wilii nono","output":"The girl walks"}
+{"instruction":"Translate from Balanda to English","input":"Ndi yai a Wau","output":"They go to Wau"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ja","output":"The child eats"}
+{"instruction":"Translate from Balanda to English","input":"Bura ja nza","output":"The cat eats food"}
+{"instruction":"Translate from Balanda to English","input":"Ni dheke kitab","output":"He reads a book"}
+{"instruction":"Translate from Balanda to English","input":"Dhako baha maraya","output":"The man sees the school"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ja nza","output":"The girl eats food"}
+{"instruction":"Translate from Balanda to English","input":"Ndi nono gbi ngita","output":"They walk in the park"}
+{"instruction":"Translate from Balanda to English","input":"Ni yai gbi tihi","output":"He goes into the house"}
+{"instruction":"Translate from Balanda to English","input":"Wiki logi ngo","output":"The child pours water"}
+{"instruction":"Translate from Balanda to English","input":"Bura wara juu","output":"The cat cuts the rat"}
+{"instruction":"Translate from Balanda to English","input":"Ni kolo wiki","output":"He hugs the child"}
+{"instruction":"Translate from Balanda to English","input":"Dhako dheke kitab","output":"The man reads a book"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sudi kitab","output":"The girl writes a book"}
+{"instruction":"Translate from Balanda to English","input":"Ndi mande gbi negu","output":"They work in the market"}
+{"instruction":"Translate from Balanda to English","input":"Wiki yai a tiyi","output":"The child goes home"}
+{"instruction":"Translate from Balanda to English","input":"Bura yai a baa","output":"The cat goes into the house"}
+{"instruction":"Translate from Balanda to English","input":"Ni ja nza","output":"He eats food"}
+{"instruction":"Translate from Balanda to English","input":"Dhako yai agbi negu","output":"The man goes to the market"}
+{"instruction":"Translate from Balanda to English","input":"Wilii mande","output":"The girl works"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ja","output":"They eat"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nono gbi park","output":"The child walks in the park"}
+{"instruction":"Translate from Balanda to English","input":"Bura baha wiki","output":"The cat sees the child"}
+{"instruction":"Translate from Balanda to English","input":"Ni logi ngo","output":"He pours water"}
+{"instruction":"Translate from Balanda to English","input":"Dhako ja nza","output":"The man eats food"}

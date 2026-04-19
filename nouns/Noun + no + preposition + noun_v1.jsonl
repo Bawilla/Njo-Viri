@@ -3,72 +3,89 @@
   "grammar_name": "balanda_locative_predication",
   "description": "This file contains Balanda locative predication clauses. These sentences describe the location of a subject using the copular particle 'no' followed by a locative preposition and its object.",
   "rules": {
-    "basic_structure": "Subject (Noun) + no + Preposition + Locative Object",
-    "copular_particle": "no",
-    "function": "Expresses location or spatial relation of the subject",
-    "preposition_role": "Encodes spatial relationship (in, under, behind, on, above, near, in front of, beside)",
-    "word_order": "Fixed; no inversion or movement",
-    "tense_interpretation": "Present or timeless state unless modified by tense markers in other constructions",
-    "constraints": [
-      "The particle 'no' must appear between the subject and the preposition",
-      "Prepositions must be followed by a locative object",
-      "No tense or aspect marking appears in this construction",
-      "No negation appears in this file",
-      "Plurality and definiteness are inferred from context",
-      "This construction is distinct from possession and nominal predication"
-    ]
+    "basic_structure": {
+      "function": "basic structure",
+      "structure": "Subject (Noun) + no + Preposition + Locative Object",
+      "notes": ""
+    },
+    "copular_particle": {
+      "function": "copular particle",
+      "structure": "no",
+      "notes": ""
+    },
+    "function": {
+      "function": "function",
+      "structure": "Expresses location or spatial relation of the subject",
+      "notes": ""
+    },
+    "preposition_role": {
+      "function": "preposition role",
+      "structure": "Encodes spatial relationship (in, under, behind, on, above, near, in front of, beside)",
+      "notes": ""
+    },
+    "word_order": {
+      "function": "word order",
+      "structure": "Fixed; no inversion or movement",
+      "notes": ""
+    },
+    "tense_interpretation": {
+      "function": "tense interpretation",
+      "structure": "Present or timeless state unless modified by tense markers in other constructions",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "The particle 'no' must appear between the subject and the preposition; Prepositions must be followed by a locative object; No tense or aspect marking appears in this construction; No negation appears in this file; Plurality and definiteness are inferred from context; This construction is distinct from possession and nominal predication",
+      "notes": ""
+    }
   }
 }
-
-
-[
-  {"balanda":"Joko no gbi tiyi","english":"The bag is in the house"},
-  {"balanda":"Wiki no ata kafa","english":"The child is under the table"},
-  {"balanda":"Maraya no kafi negu","english":"The school is behind the market"},
-  {"balanda":"Kese no muru Turunvili","english":"The bike is on the car"},
-  {"balanda":"Tama no yeemuru nguu","english":"The shoe is above the tree"},
-  {"balanda":"Bura no gbi baa","english":"The cat is in the house"},
-  {"balanda":"Kporo no kosere kafa","english":"The drum is beside the table"},
-  {"balanda":"Wilii no takuru tiyi","english":"The girl is in front of the house"},
-  {"balanda":"Dhako no kafi maraya","english":"The man is behind the school"},
-  {"balanda":"Wiki no gbi park","english":"The child is in the park"},
-  {"balanda":"Joko no ata kporo","english":"The bag is under the drum"},
-  {"balanda":"Maraya no süüta negu","english":"The school is near the market"},
-  {"balanda":"Bura no takuru kafa","english":"The cat is in front of the table"},
-  {"balanda":"Kafa no ata tiyi","english":"The table is under the house"},
-  {"balanda":"Nguu no kafi tiyi","english":"The tree is behind the house"},
-  {"balanda":"Kese no gbi garra","english":"The bike is in the phone room"},
-  {"balanda":"Wilii no kosere willi","english":"The child is beside the girl"},
-  {"balanda":"Dika no gbi park","english":"The stone is in the park"},
-  {"balanda":"Tihi no kpabii maraya","english":"The house is opposite the school"},
-  {"balanda":"Joko no gbi Turunvili","english":"The bag is in the car"},
-  {"balanda":"Wilii no ata nguu","english":"The girl is under the tree"},
-  {"balanda":"Bura no kafi park","english":"The cat is behind the park"},
-  {"balanda":"Kafa no muru dika","english":"The table is on the stone"},
-  {"balanda":"Nguu no gbi park","english":"The tree is in the park"},
-  {"balanda":"Kporo no ata kafa","english":"The chair is under the table"},
-  {"balanda":"Wilii no muru gbatda","english":"The girl is on the bed"},
-  {"balanda":"Maraya no takuru park","english":"The school is in front of the park"},
-  {"balanda":"Dhako no gbi tihi","english":"The man is in the house"},
-  {"balanda":"Bura no kosere nguu","english":"The cat is beside the tree"},
-  {"balanda":"Kese no kafi tiyi","english":"The bike is behind the house"},
-  {"balanda":"Wilii no gbi maraya","english":"The girl is in the school"},
-  {"balanda":"Joko no muru kafa","english":"The bag is on the table"},
-  {"balanda":"Nguu no ata tiyi","english":"The tree is under the house"},
-  {"balanda":"Kporo no gbi baa","english":"The chair is in the house"},
-  {"balanda":"Bura no muru kafa","english":"The cat is on the table"},
-  {"balanda":"Kafa no gbi tiyi","english":"The table is in the house"},
-  {"balanda":"Wilii no kafi tiyi","english":"The girl is behind the house"},
-  {"balanda":"Dika no ata kafa","english":"The stone is under the table"},
-  {"balanda":"Maraya no gbi negu","english":"The school is in the market"},
-  {"balanda":"Mgbemgbe no kosere ngo","english":"The crocodile is beside the water"},
-  {"balanda":"Kese no takuru tiyi","english":"The bike is in front of the house"},
-  {"balanda":"Wilii no gbi wuhu","english":"The girl is in the bush"},
-  {"balanda":"Dimgbo no kafi duu","english":"The lizard is behind the rock"},
-  {"balanda":"Afoyo no gbi tiyi","english":"The rabbit is in the house"},
-  {"balanda":"Njii no takuru songo","english":"The salt is in front of the container"},
-  {"balanda":"Vongu no ata dika","english":"The cloth is under the thigh"},
-  {"balanda":"Wilii no gbi negu","english":"The girl is in the market"},
-  {"balanda":"Maraya no kosere tiyi","english":"The school is beside the house"},
-  {"balanda":"Dhako no muru sutiyi","english":"The man is on the wall"}
-]
+{"instruction":"Translate from Balanda to English","input":"Joko no gbi tiyi","output":"The bag is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Wiki no ata kafa","output":"The child is under the table"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kafi negu","output":"The school is behind the market"}
+{"instruction":"Translate from Balanda to English","input":"Kese no muru Turunvili","output":"The bike is on the car"}
+{"instruction":"Translate from Balanda to English","input":"Tama no yeemuru nguu","output":"The shoe is above the tree"}
+{"instruction":"Translate from Balanda to English","input":"Bura no gbi baa","output":"The cat is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Kporo no kosere kafa","output":"The drum is beside the table"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no takuru tiyi","output":"The girl is in front of the house"}
+{"instruction":"Translate from Balanda to English","input":"Dhako no kafi maraya","output":"The man is behind the school"}
+{"instruction":"Translate from Balanda to English","input":"Wiki no gbi park","output":"The child is in the park"}
+{"instruction":"Translate from Balanda to English","input":"Joko no ata kporo","output":"The bag is under the drum"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no süüta negu","output":"The school is near the market"}
+{"instruction":"Translate from Balanda to English","input":"Bura no takuru kafa","output":"The cat is in front of the table"}
+{"instruction":"Translate from Balanda to English","input":"Kafa no ata tiyi","output":"The table is under the house"}
+{"instruction":"Translate from Balanda to English","input":"Nguu no kafi tiyi","output":"The tree is behind the house"}
+{"instruction":"Translate from Balanda to English","input":"Kese no gbi garra","output":"The bike is in the phone room"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no kosere willi","output":"The child is beside the girl"}
+{"instruction":"Translate from Balanda to English","input":"Dika no gbi park","output":"The stone is in the park"}
+{"instruction":"Translate from Balanda to English","input":"Tihi no kpabii maraya","output":"The house is opposite the school"}
+{"instruction":"Translate from Balanda to English","input":"Joko no gbi Turunvili","output":"The bag is in the car"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no ata nguu","output":"The girl is under the tree"}
+{"instruction":"Translate from Balanda to English","input":"Bura no kafi park","output":"The cat is behind the park"}
+{"instruction":"Translate from Balanda to English","input":"Kafa no muru dika","output":"The table is on the stone"}
+{"instruction":"Translate from Balanda to English","input":"Nguu no gbi park","output":"The tree is in the park"}
+{"instruction":"Translate from Balanda to English","input":"Kporo no ata kafa","output":"The chair is under the table"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no muru gbatda","output":"The girl is on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no takuru park","output":"The school is in front of the park"}
+{"instruction":"Translate from Balanda to English","input":"Dhako no gbi tihi","output":"The man is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Bura no kosere nguu","output":"The cat is beside the tree"}
+{"instruction":"Translate from Balanda to English","input":"Kese no kafi tiyi","output":"The bike is behind the house"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no gbi maraya","output":"The girl is in the school"}
+{"instruction":"Translate from Balanda to English","input":"Joko no muru kafa","output":"The bag is on the table"}
+{"instruction":"Translate from Balanda to English","input":"Nguu no ata tiyi","output":"The tree is under the house"}
+{"instruction":"Translate from Balanda to English","input":"Kporo no gbi baa","output":"The chair is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Bura no muru kafa","output":"The cat is on the table"}
+{"instruction":"Translate from Balanda to English","input":"Kafa no gbi tiyi","output":"The table is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no kafi tiyi","output":"The girl is behind the house"}
+{"instruction":"Translate from Balanda to English","input":"Dika no ata kafa","output":"The stone is under the table"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no gbi negu","output":"The school is in the market"}
+{"instruction":"Translate from Balanda to English","input":"Mgbemgbe no kosere ngo","output":"The crocodile is beside the water"}
+{"instruction":"Translate from Balanda to English","input":"Kese no takuru tiyi","output":"The bike is in front of the house"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no gbi wuhu","output":"The girl is in the bush"}
+{"instruction":"Translate from Balanda to English","input":"Dimgbo no kafi duu","output":"The lizard is behind the rock"}
+{"instruction":"Translate from Balanda to English","input":"Afoyo no gbi tiyi","output":"The rabbit is in the house"}
+{"instruction":"Translate from Balanda to English","input":"Njii no takuru songo","output":"The salt is in front of the container"}
+{"instruction":"Translate from Balanda to English","input":"Vongu no ata dika","output":"The cloth is under the thigh"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no gbi negu","output":"The girl is in the market"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no kosere tiyi","output":"The school is beside the house"}
+{"instruction":"Translate from Balanda to English","input":"Dhako no muru sutiyi","output":"The man is on the wall"}

@@ -1,42 +1,45 @@
 {
-  "instruction_type": "morphology_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_infinitive_verbs",
   "description": "This file contains Balanda infinitive verb forms. The infinitive expresses the meaning 'to VERB' and is used as a non-finite verb form. Infinitives are formed by adding the prefix 'A-' to the verb root.",
   "rules": {
-    "part_of_speech": "verb (infinitive, non-finite)",
-    "infinitive_marker": "A-",
+    "part_of_speech": {
+      "function": "part of speech",
+      "structure": "verb (infinitive, non-finite)",
+      "notes": ""
+    },
+    "infinitive_marker": {
+      "function": "infinitive marker",
+      "structure": "A-",
+      "notes": ""
+    },
     "formation_rule": {
+      "function": "formation rule",
       "structure": "A- + VERB_ROOT",
-      "example": "Adulu = to dance"
+      "notes": "Adulu = to dance"
     },
-    "semantic_function": [
-      "Expresses the action in an abstract or dictionary form",
-      "Used for citation and explanation of verbs",
-      "Used as a base for derivational processes (e.g. verb → noun)"
-    ],
+    "semantic_function": {
+      "function": "semantic function",
+      "structure": "Expresses the action in an abstract or dictionary form; Used for citation and explanation of verbs; Used as a base for derivational processes (e.g. verb → noun)",
+      "notes": ""
+    },
     "syntactic_properties": {
-      "tense": "none",
-      "aspect": "none",
-      "modality": "none",
-      "person_agreement": "none"
+      "function": "syntactic properties",
+      "structure": "{\"tense\": \"none\", \"aspect\": \"none\", \"modality\": \"none\", \"person_agreement\": \"none\"}",
+      "notes": "none | none | none | none"
     },
-    "usage_constraints": [
-      "Infinitive verbs must not take tense markers (noka, le-, ka-)",
-      "Infinitive verbs must not take aspect markers (ti-, dho)",
-      "Infinitive verbs must not combine with modal verbs (nonve, nokanve, mamve, kamamve)",
-      "Infinitive verbs must not be used as finite predicates in sentences",
-      "The prefix 'A-' must be removed when the verb is used in a finite clause"
-    ],
+    "usage_constraints": {
+      "function": "usage constraints",
+      "structure": "Infinitive verbs must not take tense markers (noka, le-, ka-); Infinitive verbs must not take aspect markers (ti-, dho); Infinitive verbs must not combine with modal verbs (nonve, nokanve, mamve, kamamve); Infinitive verbs must not be used as finite predicates in sentences; The prefix 'A-' must be removed when the verb is used in a finite clause",
+      "notes": ""
+    },
     "contrast_rules": {
-      "finite_vs_infinitive": {
-        "infinitive": "Aja (to eat)",
-        "finite": "Ne ja nza (I eat food)"
-      }
+      "function": "contrast rules",
+      "structure": "{\"finite_vs_infinitive\": {\"infinitive\": \"Aja (to eat)\", \"finite\": \"Ne ja nza (I eat food)\"}}",
+      "notes": ""
     }
   }
 }
-
-
 {"instruction":"Translate from Balanda to English","input":"Aja","output":"to eat"}
 {"instruction":"Translate from Balanda to English","input":"Anzü","output":"to drink"}
 {"instruction":"Translate from Balanda to English","input":"Ateli","output":"to sleep"}
@@ -47,7 +50,6 @@
 {"instruction":"Translate from Balanda to English","input":"Anonö","output":"to walk"}
 {"instruction":"Translate from Balanda to English","input":"Anangele","output":"to run"}
 {"instruction":"Translate from Balanda to English","input":"Amande","output":"to work"}
-
 {"instruction":"Translate from Balanda to English","input":"Amoliki","output":"to play"}
 {"instruction":"Translate from Balanda to English","input":"Adheke","output":"to read"}
 {"instruction":"Translate from Balanda to English","input":"Asudi","output":"to write"}
@@ -58,7 +60,6 @@
 {"instruction":"Translate from Balanda to English","input":"Asï","output":"to buy"}
 {"instruction":"Translate from Balanda to English","input":"Asadi","output":"to sell"}
 {"instruction":"Translate from Balanda to English","input":"Aloro","output":"to watch"}
-
 {"instruction":"Translate from Balanda to English","input":"Amerego","output":"to love"}
 {"instruction":"Translate from Balanda to English","input":"Agofi","output":"to scrape"}
 {"instruction":"Translate from Balanda to English","input":"Asalaka","output":"to seal"}
@@ -69,7 +70,6 @@
 {"instruction":"Translate from Balanda to English","input":"Anzala","output":"to open"}
 {"instruction":"Translate from Balanda to English","input":"Atereta","output":"to remember"}
 {"instruction":"Translate from Balanda to English","input":"Anofi","output":"to lick"}
-
 {"instruction":"Translate from Balanda to English","input":"Amere","output":"to admire"}
 {"instruction":"Translate from Balanda to English","input":"Ayili","output":"to crawl"}
 {"instruction":"Translate from Balanda to English","input":"Ayïlï","output":"to approach"}
@@ -80,7 +80,6 @@
 {"instruction":"Translate from Balanda to English","input":"Asandi","output":"to disturb"}
 {"instruction":"Translate from Balanda to English","input":"Afünzi","output":"to advise"}
 {"instruction":"Translate from Balanda to English","input":"Afeme","output":"to criticize"}
-
 {"instruction":"Translate from Balanda to English","input":"Atirifo","output":"to politicize"}
 {"instruction":"Translate from Balanda to English","input":"Aluku","output":"to collect"}
 {"instruction":"Translate from Balanda to English","input":"Asiggiva","output":"to describe"}
@@ -91,7 +90,6 @@
 {"instruction":"Translate from Balanda to English","input":"Asekele","output":"to shun"}
 {"instruction":"Translate from Balanda to English","input":"Awono","output":"to betray"}
 {"instruction":"Translate from Balanda to English","input":"Adugulu","output":"to deepen"}
-
 {"instruction":"Translate from Balanda to English","input":"Atili","output":"to ooze"}
 {"instruction":"Translate from Balanda to English","input":"Atiwi","output":"to siphon"}
 {"instruction":"Translate from Balanda to English","input":"Awiya","output":"to mock"}
@@ -102,7 +100,6 @@
 {"instruction":"Translate from Balanda to English","input":"Alunde","output":"to utilize"}
 {"instruction":"Translate from Balanda to English","input":"Azuku","output":"to de-escalate"}
 {"instruction":"Translate from Balanda to English","input":"Ajuku","output":"to drag"}
-
 {"instruction":"Translate from Balanda to English","input":"Atele","output":"to pull"}
 {"instruction":"Translate from Balanda to English","input":"Atoro","output":"to dip"}
 {"instruction":"Translate from Balanda to English","input":"Asoko","output":"to wash"}
@@ -113,7 +110,6 @@
 {"instruction":"Translate from Balanda to English","input":"Aziri","output":"to glow"}
 {"instruction":"Translate from Balanda to English","input":"Ajere","output":"to catch"}
 {"instruction":"Translate from Balanda to English","input":"Aturu","output":"to push"}
-
 {"instruction":"Translate from Balanda to English","input":"Abita","output":"to start"}
 {"instruction":"Translate from Balanda to English","input":"Atuna","output":"to begin"}
 {"instruction":"Translate from Balanda to English","input":"Asagita","output":"to commence"}
@@ -124,7 +120,6 @@
 {"instruction":"Translate from Balanda to English","input":"Akara","output":"to turn"}
 {"instruction":"Translate from Balanda to English","input":"Ayele","output":"to tie"}
 {"instruction":"Translate from Balanda to English","input":"Akuru","output":"to hide"}
-
 {"instruction":"Translate from Balanda to English","input":"Aniŋi","output":"to tolerate"}
 {"instruction":"Translate from Balanda to English","input":"Amaguku","output":"to fear"}
 {"instruction":"Translate from Balanda to English","input":"Atoko","output":"to add"}
@@ -135,7 +130,6 @@
 {"instruction":"Translate from Balanda to English","input":"Adhi","output":"to hear"}
 {"instruction":"Translate from Balanda to English","input":"Adi","output":"to cut"}
 {"instruction":"Translate from Balanda to English","input":"Ayele","output":"to tie"}
-
 {"instruction":"Translate from Balanda to English","input":"Afele","output":"to rotate"}
 {"instruction":"Translate from Balanda to English","input":"Afala","output":"to roll"}
 {"instruction":"Translate from Balanda to English","input":"Anondoro","output":"to loiter"}
@@ -146,7 +140,6 @@
 {"instruction":"Translate from Balanda to English","input":"Akisi","output":"to lock"}
 {"instruction":"Translate from Balanda to English","input":"Adere","output":"to reserve"}
 {"instruction":"Translate from Balanda to English","input":"Amiggi","output":"to book"}
-
 {"instruction":"Translate from Balanda to English","input":"Agbandaka","output":"to scatter"}
 {"instruction":"Translate from Balanda to English","input":"Awanda","output":"to trigger"}
 {"instruction":"Translate from Balanda to English","input":"Andugu","output":"to initiate"}
@@ -157,7 +150,6 @@
 {"instruction":"Translate from Balanda to English","input":"Alürü","output":"to lead"}
 {"instruction":"Translate from Balanda to English","input":"Aringi","output":"to date"}
 {"instruction":"Translate from Balanda to English","input":"Awiriki","output":"to confuse"}
-
 {"instruction":"Translate from Balanda to English","input":"Anzere","output":"to shine"}
 {"instruction":"Translate from Balanda to English","input":"Alengetere","output":"to gossip"}
 {"instruction":"Translate from Balanda to English","input":"Adunguru","output":"to gather"}
@@ -168,7 +160,6 @@
 {"instruction":"Translate from Balanda to English","input":"Amili","output":"to swallow"}
 {"instruction":"Translate from Balanda to English","input":"Amele","output":"to try"}
 {"instruction":"Translate from Balanda to English","input":"Angarata","output":"to nag"}
-
 {"instruction":"Translate from Balanda to English","input":"Asarwa","output":"to separate"}
 {"instruction":"Translate from Balanda to English","input":"Akiri","output":"to uphold"}
 {"instruction":"Translate from Balanda to English","input":"Arunga","output":"to isolate"}
@@ -179,7 +170,6 @@
 {"instruction":"Translate from Balanda to English","input":"Akussu","output":"to reveal"}
 {"instruction":"Translate from Balanda to English","input":"Awulu","output":"to fry"}
 {"instruction":"Translate from Balanda to English","input":"Awala","output":"to live"}
-
 {"instruction":"Translate from Balanda to English","input":"Adho","output":"to be"}
 {"instruction":"Translate from Balanda to English","input":"Ama","output":"to do"}
 {"instruction":"Translate from Balanda to English","input":"Awayi","output":"to say"}
@@ -189,11 +179,9 @@
 {"instruction":"Translate from Balanda to English","input":"Ateku","output":"to die"}
 {"instruction":"Translate from Balanda to English","input":"Akoni","output":"to count"}
 {"instruction":"Translate from Balanda to English","input":"Akonu","output":"to help"}
-
 {"instruction":"Translate from Balanda to English","input":"Adovee","output":"to seem"}
 {"instruction":"Translate from Balanda to English","input":"Asi","output":"to leave"}
 {"instruction":"Translate from Balanda to English","input":"Adüŋü","output":"to remain"}
-
 {"instruction":"Translate from Balanda to English","input":"Azaka","output":"to pull"}
 {"instruction":"Translate from Balanda to English","input":"Azehe","output":"to take"}
 {"instruction":"Translate from Balanda to English","input":"Azeke","output":"to give"}
@@ -204,7 +192,6 @@
 {"instruction":"Translate from Balanda to English","input":"Akefo","output":"to describe"}
 {"instruction":"Translate from Balanda to English","input":"Akeye","output":"to call"}
 {"instruction":"Translate from Balanda to English","input":"Adewe","output":"to imitate"}
-
 {"instruction":"Translate from Balanda to English","input":"Andugu","output":"to initiate or train"}
 {"instruction":"Translate from Balanda to English","input":"Arengo","output":"to mature"}
 {"instruction":"Translate from Balanda to English","input":"Aremgbe","output":"to compare"}
@@ -215,7 +202,6 @@
 {"instruction":"Translate from Balanda to English","input":"Akara","output":"to turn"}
 {"instruction":"Translate from Balanda to English","input":"Agirri","output":"to change"}
 {"instruction":"Translate from Balanda to English","input":"Ateta","output":"to fall"}
-
 {"instruction":"Translate from Balanda to English","input":"Aduru","output":"to want"}
 {"instruction":"Translate from Balanda to English","input":"Aze","output":"to give"}
 {"instruction":"Translate from Balanda to English","input":"Alunde","output":"to use"}
@@ -225,19 +211,14 @@
 {"instruction":"Translate from Balanda to English","input":"Adovee","output":"to seem"}
 {"instruction":"Translate from Balanda to English","input":"Asi","output":"to leave"}
 {"instruction":"Translate from Balanda to English","input":"Adüŋü","output":"to remain"}
-
-{"instruction":"Create an infinitive verb in Balanda meaning 'to describe'","output":"Akefo"}
-{"instruction":"Create an infinitive verb in Balanda meaning 'to sing'","output":"Abase"}
-{"instruction":"Create an infinitive verb in Balanda meaning 'to fall'","output":"Ateta"}
-
+{"instruction":"Create an infinitive verb in Balanda meaning 'to describe'","input":"","output":"Akefo"}
+{"instruction":"Create an infinitive verb in Balanda meaning 'to sing'","input":"","output":"Abase"}
+{"instruction":"Create an infinitive verb in Balanda meaning 'to fall'","input":"","output":"Ateta"}
 {"instruction":"Correct the Balanda verb form","input":"dülü","output":"Incorrect infinitive. Correct form: Adülü"}
 {"instruction":"Correct the Balanda verb form","input":"magoo","output":"Incorrect infinitive. Correct form: Amago"}
 {"instruction":"Correct the Balanda verb form","input":"zaka","output":"Incorrect infinitive. Correct form: Azaka"}
-
-
-{"instruction":"Create an infinitive verb meaning 'to eat' in Balanda","output":"Aja"}
-{"instruction":"Create an infinitive verb meaning 'to work' in Balanda","output":"Amande"}
-{"instruction":"Create an infinitive verb meaning 'to love' in Balanda","output":"Amerego"}
-
+{"instruction":"Create an infinitive verb meaning 'to eat' in Balanda","input":"","output":"Aja"}
+{"instruction":"Create an infinitive verb meaning 'to work' in Balanda","input":"","output":"Amande"}
+{"instruction":"Create an infinitive verb meaning 'to love' in Balanda","input":"","output":"Amerego"}
 {"instruction":"Correct the Balanda verb form","input":"merego","output":"Incorrect infinitive. Correct form: Amerego"}
 {"instruction":"Correct the Balanda verb form","input":"dulu","output":"Incorrect infinitive. Correct form: Adülü"}

@@ -4,43 +4,32 @@
   "description": "This file contains Balanda cardinal numbers and rules for number formation. Balanda numbers are formed using base numerals and additive composition.",
   "rules": {
     "base_numbers": {
-      "0": "Waya",
-      "1": "Nzee",
-      "2": "Soo",
-      "3": "Tau",
-      "4": "Nau",
-      "5": "Voo",
-      "6": "Vonzee",
-      "7": "Vosoo",
-      "8": "Votau",
-      "9": "Vonau",
-      "10": "Bikur",
-      "20": "Vetdi"
+      "function": "base numbers",
+      "structure": "{\"0\": \"Waya\", \"1\": \"Nzee\", \"2\": \"Soo\", \"3\": \"Tau\", \"4\": \"Nau\", \"5\": \"Voo\", \"6\": \"Vonzee\", \"7\": \"Vosoo\", \"8\": \"Votau\", \"9\": \"Vonau\", \"10\": \"Bikur\", \"20\": \"Vetdi\"}",
+      "notes": "Waya | Nzee | Soo | Tau | Nau | Voo | Vonzee | Vosoo | Votau | Vonau | Bikur | Vetdi"
     },
     "number_formation": {
-      "11_to_19": {
-        "structure": "Bikur + Unit",
-        "rule": "Numbers from 11 to 19 are formed by combining 'Bikur' (ten) with a unit number",
-        "example": "Bikur nzee = eleven"
-      },
-      "21_to_29": {
-        "structure": "Vetdi + Unit",
-        "rule": "Numbers from 21 to 29 are formed by combining 'Vetdi' (twenty) with a unit number",
-        "example": "Vetdi tau = twenty-three"
-      }
+      "function": "number formation",
+      "structure": "{\"11_to_19\": {\"structure\": \"Bikur + Unit\", \"rule\": \"Numbers from 11 to 19 are formed by combining 'Bikur' (ten) with a unit number\", \"example\": \"Bikur nzee = eleven\"}, \"21_to_29\": {\"structure\": \"Vetdi + Unit\", \"rule\": \"Numbers from 21 to 29 are formed by combining 'Vetdi' (twenty) with a unit number\", \"example\": \"Vetdi tau = twenty-three\"}}",
+      "notes": ""
     },
-    "composition_principle": "Additive; higher base number precedes the unit number",
-    "word_order": "Base number followed by unit number",
-    "constraints": [
-      "Unit numbers do not change form when combined",
-      "No conjunction is used between number elements",
-      "Numbers are written as separate words",
-      "Incorrect unit forms must be corrected to the standard base numerals"
-    ]
+    "composition_principle": {
+      "function": "composition principle",
+      "structure": "Additive; higher base number precedes the unit number",
+      "notes": ""
+    },
+    "word_order": {
+      "function": "word order",
+      "structure": "Base number followed by unit number",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "Unit numbers do not change form when combined; No conjunction is used between number elements; Numbers are written as separate words; Incorrect unit forms must be corrected to the standard base numerals",
+      "notes": ""
+    }
   }
 }
-
-
 {"instruction":"Translate from Balanda to English","input":"Waya","output":"Zero"}
 {"instruction":"Translate from Balanda to English","input":"Nzee","output":"One"}
 {"instruction":"Translate from Balanda to English","input":"Soo","output":"Two"}
@@ -51,7 +40,6 @@
 {"instruction":"Translate from Balanda to English","input":"Vosoo","output":"Seven"}
 {"instruction":"Translate from Balanda to English","input":"Votau","output":"Eight"}
 {"instruction":"Translate from Balanda to English","input":"Vonau","output":"Nine"}
-
 {"instruction":"Translate from Balanda to English","input":"Bikur","output":"Ten"}
 {"instruction":"Translate from Balanda to English","input":"Bikur nzee","output":"Eleven"}
 {"instruction":"Translate from Balanda to English","input":"Bikur soo","output":"Twelve"}
@@ -62,7 +50,6 @@
 {"instruction":"Translate from Balanda to English","input":"Bikur vosoo","output":"Seventeen"}
 {"instruction":"Translate from Balanda to English","input":"Bikur votau","output":"Eighteen"}
 {"instruction":"Translate from Balanda to English","input":"Bikur vonau","output":"Nineteen"}
-
 {"instruction":"Translate from Balanda to English","input":"Vetdi","output":"Twenty"}
 {"instruction":"Translate from Balanda to English","input":"Vetdi nzee","output":"Twenty-one"}
 {"instruction":"Translate from Balanda to English","input":"Vetdi soo","output":"Twenty-two"}
@@ -73,19 +60,14 @@
 {"instruction":"Translate from Balanda to English","input":"Vetdi vosoo","output":"Twenty-seven"}
 {"instruction":"Translate from Balanda to English","input":"Vetdi votau","output":"Twenty-eight"}
 {"instruction":"Translate from Balanda to English","input":"Vetdi vonau","output":"Twenty-nine"}
-
 {"instruction":"Translate from English to Balanda","input":"Seven","output":"Vosoo"}
 {"instruction":"Translate from English to Balanda","input":"Fourteen","output":"Bikur nau"}
 {"instruction":"Translate from English to Balanda","input":"Twenty-three","output":"Vetdi tau"}
-
-{"instruction":"Explain how numbers are formed from 11 to 19 in Balanda","output":"Numbers from 11 to 19 are formed by combining Bikur (ten) with the unit number. Example: Bikur nzee (eleven)."}
-{"instruction":"Explain how numbers from 21 to 29 are formed in Balanda","output":"Numbers from 21 to 29 are formed by combining Vetdi (twenty) with the unit number. Example: Vetdi nzee (twenty-one)."}
-
-{"instruction":"Identify the number","input":"Bikur voo","output":"Fifteen"}
-{"instruction":"Identify the number","input":"Vetdi vonzee","output":"Twenty-six"}
-
-{"instruction":"Create a Balanda number for 18","output":"Bikur votau"}
-{"instruction":"Create a Balanda number for 24","output":"Vetdi nau"}
-
+{"instruction":"Explain how numbers are formed from 11 to 19 in Balanda","input":"","output":"Numbers from 11 to 19 are formed by combining Bikur (ten) with the unit number. Example: Bikur nzee (eleven)."}
+{"instruction":"Explain how numbers from 21 to 29 are formed in Balanda","input":"","output":"Numbers from 21 to 29 are formed by combining Vetdi (twenty) with the unit number. Example: Vetdi nzee (twenty-one)."}
+{"instruction":"Identify the Balanda number","input":"Bikur voo","output":"Fifteen"}
+{"instruction":"Identify the Balanda number","input":"Vetdi vonzee","output":"Twenty-six"}
+{"instruction":"Create a Balanda number for 18","input":"","output":"Bikur votau"}
+{"instruction":"Create a Balanda number for 24","input":"","output":"Vetdi nau"}
 {"instruction":"Correct the Balanda number","input":"Bikur nzu","output":"Incorrect. Correct form: Bikur nzee"}
 {"instruction":"Correct the Balanda number","input":"Vetdi vonzo","output":"Incorrect. Correct form: Vetdi vonzee"}

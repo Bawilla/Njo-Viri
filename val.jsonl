@@ -1,431 +1,458 @@
-{"instruction": "Translate from Balanda to English", "input": "Ne ledheke kitabu we?", "output": "Will I read a book?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka timaforo mira", "output": "I was contributing to the project"}
-{"instruction": "Translate from Balanda to English", "input": "Wolondi", "output": "follow"}
-{"instruction": "Translate from Balanda to English", "input": "Zanga wilii nono", "output": "The fast girl walks"}
-{"instruction": "Translate from Balanda to English", "input": "Maraya maga", "output": "The school is big"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kakeye ti ndi", "output": "I called them."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi konu nvesani dheki gba", "output": "They have not helped the poor"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledheke kitabu dheki gba", "output": "I will not have read a book"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lesarwa kumere", "output": "The girl will separate trash"}
-{"instruction": "Translate from Balanda to English", "input": "Wala", "output": "live"}
-{"instruction": "Translate from Balanda to English", "input": "Ne willa tiwutduru kese ngande’e ta kavokau we?", "output": "Am I not personalizing my bike with beads?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tikuru kavokau we?", "output": "Will I be hiding the beads?"}
-{"instruction": "Present continuous example", "input": "Abase", "output": "Ni no tibase"}
-{"instruction": "Translate from Balanda to English", "input": "Maraya no süüta park we?", "output": "Is the school near the park?"}
-{"instruction": "Question example", "input": "Awe", "output": "Ne we ŋo we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi no taleti maraya", "output": "They are around the school."}
-{"instruction": "Translate from Balanda to English", "input": "Aloro", "output": "to watch"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve mande gba andiso ni kateli gba.", "output": "She cannot work because she did not sleep."}
-{"instruction": "Translate from Balanda to English", "input": "Ni taagirri", "output": "He had changed."}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tidhii agbi tiyi gba", "output": "He was not coming to the house."}
-{"instruction": "Translate from Balanda to English", "input": "Ni willa tiyai va fagi mva we?", "output": "Is he not going to sharpen the knife?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni leze villi gba we?", "output": "Will she not give money?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dho tigirri gba we?", "output": "Can he not be changing?"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki ja nza", "output": "The child eats food"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dho tidhii agbi tiyi gba", "output": "He cannot be coming to the house."}
-{"instruction": "Translate from Balanda to English", "input": "Ni kakolo wiki", "output": "He hugged the child."}
-{"instruction": "Translate from Balanda to English", "input": "willi", "output": "forget"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lesarwa kumere dheki gba we?", "output": "Will the girl not have separated trash?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii kawilla tisudi kavoso we?", "output": "Was the girl not writing words?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taatoko ti vili gba", "output": "I had not added money"}
-{"instruction": "Present simple example", "input": "Adülü", "output": "Ni dülu"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve dho tiŋiyi sereso we?", "output": "Can I be knowing the truth?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve sïhï kese we?", "output": "Can I buy a bike?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tiduru ngo", "output": "I will be wanting water"}
-{"instruction": "Translate from Balanda to English", "input": "Fökpaa ma yeemuru famvara gba", "output": "The book is not on top of the bed."}
-{"instruction": "Question example", "input": "Aja", "output": "Ne ja nza we?"}
-{"instruction": "Translate from Balanda to English", "input": "Uku taamande gbi njü", "output": "Uku had worked in the garden"}
-{"instruction": "Translate from Balanda to English", "input": "Tiyi ngandi gbiya", "output": "The chief's house"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande lesi ba gba we?", "output": "Will Ngande not leave home?"}
-{"instruction": "Translate from Balanda to English", "input": "Abi danda no tiyi", "output": "We have a house"}
-{"instruction": "Translate from English to Balanda", "input": "We cooked food but the chief did not eat.", "output": "Dhuu taalo nja kee gbiya taaja nja gba."}
-{"instruction": "Translate from Balanda to English", "input": "Ne ma tiyai va lu Wau gba we?", "output": "Am I not going to arrive in Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Uku lemande gbi njü dheki we?", "output": "Will Uku have worked in the garden?"}
-{"instruction": "Translate from Balanda to English", "input": "Ateta", "output": "to fall"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledheke kitabu gba", "output": "I will not read a book"}
-{"instruction": "Translate from Balanda to English", "input": "Danda kamamve dho tiwofo takoni gba", "output": "We couldn’t be discussing the story."}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka titeli gba we?", "output": "Was he not sleeping?"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande ledhii ba gba we?", "output": "Will Ngande not come home?"}
-{"instruction": "Translate from Balanda to English", "input": "Niki no taleti kesi", "output": "The woman is around the stove."}
-{"instruction": "Translate from Balanda to English", "input": "Ngande si ba dheki gba we?", "output": "Has Ngande not left home?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tidi kalla gba we?", "output": "Will he not be cutting the pot?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tidhii agbi tiyi we?", "output": "Could he be coming to the house?"}
-{"instruction": "Translate from Balanda to English", "input": "iyi", "output": "know"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taafagi mva gba", "output": "I had not sharpened the knife"}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tidüŋü kpendii gba", "output": "He was not remaining behind."}
-{"instruction": "Translate from Balanda to English", "input": "Koti kakafa", "output": "Many tables"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve lewala gbi Wau gba we?", "output": "Will I not be able to live in Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda ledho tikiri tidina gba", "output": "We will not be upholding the law"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tisudi kitab gba", "output": "I was not writing a book."}
-{"instruction": "Translate from Balanda to English", "input": "Ne lemaforo mira dheki", "output": "I will have contributed to the project"}
-{"instruction": "Identify the Balanda alphabet letter", "input": "Z", "output": "Letter Z, pronounced /ze/, example: Zanga (fast)"}
-{"instruction": "Translate from Balanda to English", "input": "jubtalia", "output": "hospital"}
-{"instruction": "Translate from Balanda to English", "input": "Asigili", "output": "to miss"}
-{"instruction": "Translate from Balanda to English", "input": "Uku mele vongu dheki", "output": "Uku has tried the cloth"}
-{"instruction": "Translate from Balanda to English", "input": "Joko ngandi niki", "output": "The woman's bag"}
-{"instruction": "Translate from Balanda to English", "input": "Fitti nza", "output": "Little food"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lekeye ti naa ni", "output": "The girl will call her mother"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tisudi kitab gba we?", "output": "Was I not writing a book?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve yai a Wau", "output": "I can go to Wau."}
-{"instruction": "Translate from Balanda to English", "input": "kungu", "output": "maintain"}
-{"instruction": "Translate from Balanda to English", "input": "Zanga dhako nono", "output": "The fast man walks"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki kamamve dho tirengo gba we?", "output": "Couldn’t the child be maturing?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tiduru ngo", "output": "I was wanting water."}
-{"instruction": "Translate from Balanda to English", "input": "Ne taasarwa kumere gba we?", "output": "Had I not separated the trash?"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande kawilla tingö tiyi we?", "output": "Was Ngande not building a house?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne vele njo balanda dheki", "output": "I have spoken Balanda"}
-{"instruction": "Translate from Balanda to English", "input": "wöti", "output": "rest"}
-{"instruction": "Translate from Balanda to English", "input": "gogodirri", "output": "illness"}
-{"instruction": "Translate from Balanda to English", "input": "Danda nonve lemoliki", "output": "We will be able to play."}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve ledüŋü kpendii we?", "output": "Will he be able to remain behind?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne leyai agbi maraya kee ne mamve womolo tidhu gba.", "output": "I will go to school but I cannot travel far."}
-{"instruction": "Translate from Balanda to English", "input": "Ni kulu munja gba", "output": "He doesn’t play guitar"}
-{"instruction": "Correct the Balanda number", "input": "Bikur nzu", "output": "Incorrect. Correct form: Bikur nzee"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve dho tisudi kitab", "output": "I can be writing a book."}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve lekolo wiki we?", "output": "Will he be able to hug the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi kawilla tikonu nvesani", "output": "They were not helping the poor"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taatele njokoji", "output": "I had pulled the door"}
-{"instruction": "Translate from Balanda to English", "input": "ndaraka", "output": "twist"}
-{"instruction": "Translate from Balanda to English", "input": "Atele", "output": "to pull"}
-{"instruction": "Translate from Balanda to English", "input": "Joko no gbi Turunvili", "output": "The bag is in the car."}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tikeye ti ndi gba we?", "output": "Was I not calling them?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve kolo wiki we?", "output": "Could he hug the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tiyai a Wau we?", "output": "Was I going to Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve dho tiwala gbi Wau we?", "output": "Can I be living in Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lesoko tamma dheki gba we?", "output": "Will the girl not have washed the shoe?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ma tiyai va teri ay gba", "output": "He is not going to think about it"}
-{"instruction": "Translate from Balanda to English", "input": "Ni noka tidi kalla", "output": "He was cutting the pot"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve leyai a Wau we?", "output": "Will I be able to go to Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kateta", "output": "He fell."}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve dho tija nza", "output": "I can be eating food."}
-{"instruction": "Translate from Balanda to English", "input": "Ne nokanve dho timerego ŋo", "output": "I could be loving you."}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve dho tikolo wiki", "output": "He can be hugging the child."}
-{"instruction": "Translate from Balanda to English", "input": "ku", "output": "death"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho tisadi nza gba", "output": "He couldn’t be selling food."}
-{"instruction": "Translate from Balanda to English", "input": "Kawiki vonzee", "output": "Six children"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve lekeye ti ndi we?", "output": "Will I be able to call them?"}
-{"instruction": "Translate from Balanda to English", "input": "Adugulu", "output": "to deepen"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kaja nza gba we?", "output": "Did I not eat food?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda ma tiyai va teli muru famvara gba", "output": "We are not going to sleep on the bed"}
-{"instruction": "Identify the pronoun type", "input": "Ti-ndi", "output": "Third person plural reflexive pronoun"}
-{"instruction": "Translate from Balanda to English", "input": "kufulu", "output": "dust"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho tibase gba", "output": "He couldn’t be singing."}
-{"instruction": "Translate from Balanda to English", "input": "Ni taanangele zanga gba", "output": "She had not run fast"}
-{"instruction": "Translate from Balanda to English", "input": "Dukai", "output": "swim"}
-{"instruction": "Translate from Balanda to English", "input": "Ale", "output": "to set"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tija nza we?", "output": "Was I eating food?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tikuru kavokau", "output": "I will be hiding the beads"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dulu gba", "output": "He cannot dance."}
-{"instruction": "Translate from Balanda to English", "input": "Ne nokanve yai a Wau", "output": "I could go to Wau."}
-{"instruction": "Translate from Balanda to English", "input": "Ni leteta dheki gba we?", "output": "Will he not have fallen?"}
-{"instruction": "Translate from Balanda to English", "input": "Nguu noka tivere we?", "output": "Was the tree darkening?"}
-{"instruction": "Identify special consonant cluster", "input": "Ng", "output": "Cluster Ng, pronounced /ng/, example: Ngu (new)"}
-{"instruction": "Translate from Balanda to English", "input": "Ne leyai a Kenya lüve we?", "output": "Will I go to Kenya tomorrow?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kadulu we?", "output": "Did he dance?"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi taamago", "output": "They had fought."}
-{"instruction": "Translate from Balanda to English", "input": "kitti wiki", "output": "Beautiful child"}
-{"instruction": "Translate from Balanda to English", "input": "Ne lu Wau dheki gba", "output": "I have not arrived in Wau"}
-{"instruction": "Translate from Balanda to English", "input": "nvele", "output": "blood"}
-{"instruction": "Translate from Balanda to English", "input": "Durdur magbito", "output": "The tortoise is slow"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi taawomolo agbi negu kee ndi taadele gba.", "output": "They traveled to the market but did not come back."}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve sadi nza gba we?", "output": "Can't he sell food?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kaduru ngo gba", "output": "I did not want water."}
-{"instruction": "Translate from English to Balanda", "input": "He speaks with the chief and then goes to the house.", "output": "Ni veleso ta gbiya diiyai agbi tiyi."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi lekonu nvesani we?", "output": "Will they help the poor?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni lesogo ni dheki gba we?", "output": "Will she not have hated him?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kawilla tiwe ndi we?", "output": "Was I not asking them?"}
-{"instruction": "Translate from Balanda to English", "input": "Asekele", "output": "to shun"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve dho tiŋiyi sereso gba", "output": "I cannot be knowing the truth."}
-{"instruction": "Translate from Balanda to English", "input": "Ne no tiyai va we ndi", "output": "I am going to ask them"}
-{"instruction": "Translate from Balanda to English", "input": "Bihi nza", "output": "Some food"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taamaforo ti mira gba we?", "output": "Had I not contributed to the project?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve turu linguu gba we?", "output": "Can't I push the fruit?"}
-{"instruction": "Translate from Balanda to English", "input": "Lovo", "output": "solve"}
-{"instruction": "Translate from Balanda to English", "input": "Ni teri ay dheki", "output": "He has thought about it"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kadüŋü kpendii gba we?", "output": "Did he not remain behind?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda kamamve moliki gba", "output": "We couldn’t play."}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve we ndi gba we?", "output": "Can't I ask them?"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande noka tidewe kakpodu we?", "output": "Was Ngande imitating adults?"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande ledho tindugu mira we?", "output": "Will Ngande be initiating the project?"}
-{"instruction": "Translate from Balanda to English", "input": "Wihi leteli diinangele gbi difo.", "output": "The child will sleep and then run in the compound."}
-{"instruction": "Translate from Balanda to English", "input": "kessi", "output": "stove"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tikara njokoji gba we?", "output": "Was I not turning the door?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii leyele tamma dheki gba", "output": "The girl will not have tied the shoe"}
-{"instruction": "Translate from Balanda to English", "input": "Diluma!", "output": "Welcome!"}
-{"instruction": "Question example", "input": "Agiri", "output": "Ni giri we?"}
-{"instruction": "Translate from Balanda to English", "input": "dïrï", "output": "stone"}
-{"instruction": "Translate from English to Balanda", "input": "The girls read the book; therefore they knew.", "output": "Kawilii kadheke fökpaa ki, wamina ndi kaŋiyi ki."}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tigirri", "output": "He could be changing."}
-{"instruction": "Translate from Balanda to English", "input": "gbito kese", "output": "Slow bike"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mande gbi Wau.", "output": "He works in Wau."}
-{"instruction": "Translate from Balanda to English", "input": "Wiki maka tirengo gba we?", "output": "Was the child not maturing?"}
-{"instruction": "Translate from Balanda to English", "input": "Nguu mamve dho tivere gba we?", "output": "Can the tree not be darkening?"}
-{"instruction": "Translate from Balanda to English", "input": "Kabura voo", "output": "Five cats"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taagiri voso we?", "output": "Had I changed the words?"}
-{"instruction": "Translate from Balanda to English", "input": "Maraya kamamve deye gba", "output": "The school couldn’t develop."}
-{"instruction": "Translate from Balanda to English", "input": "Weke", "output": "ask"}
-{"instruction": "Translate from Balanda to English", "input": "Ne willa tiyai tagbi negu we?", "output": "Am I not going through the market?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda ledho tituru songo", "output": "We will be pushing the box"}
-{"instruction": "Question example", "input": "Asudi", "output": "Ne sudi kitab we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve lebaha ŋo gba we?", "output": "Will I not be able to see you?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tidheke kitab", "output": "He could be reading a book."}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dho tikolo wiki gba we?", "output": "Can he not be hugging the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda letoko villi dheki gba we?", "output": "Will we not have added money?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tizaka kporo gba", "output": "He was not pulling the drum."}
-{"instruction": "Translate from English to Balanda", "input": "She works but she does not eat.", "output": "Ni timande kee ni ja nja gba."}
-{"instruction": "Translate from Balanda to English", "input": "wirindi", "output": "organize"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledi kalla gba", "output": "He will not cut the pot"}
-{"instruction": "Question example", "input": "Akeye", "output": "Ne keye ŋo we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni teta dheki", "output": "He has fallen"}
-{"instruction": "Translate from Balanda to English", "input": "Danda teli muru famvara dheki we?", "output": "Have we slept on the bed?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho titeli gba", "output": "He couldn’t be sleeping."}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve kolo wiki gba", "output": "He couldn’t hug the child."}
-{"instruction": "Translate from Balanda to English", "input": "Yo", "output": "wear"}
-{"instruction": "Translate from Balanda to English", "input": "Amoko", "output": "to chase"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande ndugu mira dheki gba we?", "output": "Has Ngande not initiated the project?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne leloro voro dheki we?", "output": "Will I have watched the dog?"}
-{"instruction": "Translate from Balanda to English", "input": "Uku leyai agbi maraya gba", "output": "Uku will not go to school"}
-{"instruction": "Translate from Balanda to English", "input": "Gbito bura mande", "output": "The slow cat works"}
-{"instruction": "Question example", "input": "Aŋiyi", "output": "Ne ŋiyi ndi we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledheke fökpaa diisudi ay.", "output": "I will read the book and then write it."}
-{"instruction": "Question example", "input": "Awofo", "output": "Ndi wofo njofanau we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dulu we?", "output": "Could he dance?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tikefo Balanda we?", "output": "Will I be describing Balanda?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kadhii agbi tiyi gba", "output": "He did not come to the house."}
-{"instruction": "Translate from Balanda to English", "input": "Wilii keye ti naa ni dheki", "output": "The girl has called her mother"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande no tiyai va si ba we?", "output": "Is Ngande going to leave home?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve ledhii agbi tiyi gba", "output": "He will not be able to come to the house."}
-{"instruction": "Translate from Balanda to English", "input": "Wiki lemoliki gbi difo we?", "output": "Will the child play in the compound?"}
-{"instruction": "Translate from Balanda to English", "input": "bï", "output": "hand"}
-{"instruction": "Identify the Balanda alphabet letter", "input": "Ü", "output": "Letter Ü, pronounced /ü/, example: Ülü (dancer, male)"}
-{"instruction": "Negative example", "input": "Asudi", "output": "Ne sudi kitab gba"}
-{"instruction": "Translate from Balanda to English", "input": "nvuu", "output": "net"}
-{"instruction": "Translate from Balanda to English", "input": "adopt", "output": "adopt"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve dho tidulu", "output": "He can be dancing."}
-{"instruction": "Translate from Balanda to English", "input": "vuu", "output": "father"}
-{"instruction": "Identify the sentence type", "input": "Ne willa tiduru ngo we?", "output": "Negative present continuous question"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tidho gbi tiyi", "output": "He could be being in the house."}
-{"instruction": "Translate from Balanda to English", "input": "Lui", "output": "reach"}
-{"instruction": "Identify special consonant cluster", "input": "Kp", "output": "Cluster Kp, pronounced /kp/, example: Kpotdu (elder)"}
-{"instruction": "Translate from Balanda to English", "input": "Danda leturu songo dheki gba", "output": "We will not have pushed the box"}
-{"instruction": "Translate from English to Balanda", "input": "She loves the doctor but does not help him.", "output": "Ni merego diktor kee ni konu ni gba."}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve dho tija nza we?", "output": "Can I be eating food?"}
-{"instruction": "Present continuous example", "input": "Ama", "output": "Ne no tima nde"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lekeye ti naa ni dheki gba", "output": "The girl will not have called her mother"}
-{"instruction": "Translate from Balanda to English", "input": "Ne dheke kitabu dheki gba we?", "output": "Have I not read a book?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne merego ŋo dheki gba", "output": "I have not loved you"}
-{"instruction": "Translate from Balanda to English", "input": "Uku lemande gbi njü dheki", "output": "Uku will have worked in the garden"}
-{"instruction": "Present simple example", "input": "Adheke", "output": "Ne dheke kitab"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii lesudi kavoso gba we?", "output": "Will the girl not write words?"}
-{"instruction": "Translate from Balanda to English", "input": "niki", "output": "woman"}
-{"instruction": "Translate from Balanda to English", "input": "Amago", "output": "to fight"}
-{"instruction": "Translate from Balanda to English", "input": "Ne no tiyai va tele njokoji we?", "output": "Am I going to pull the door?"}
-{"instruction": "Translate from Balanda to English", "input": "Munza no yee kafa", "output": "The guitar is above the table."}
-{"instruction": "Translate from Balanda to English", "input": "Ne taafagi mva", "output": "I had sharpened the knife"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve dho tidheke kitab", "output": "He can be reading a book."}
-{"instruction": "Present continuous example", "input": "Avanda", "output": "Ni no tivanda baa"}
-{"instruction": "Present simple example", "input": "Adüŋü", "output": "Ni düŋü gbi baa"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande noka tidewe kakpodu", "output": "Ngande was imitating adults"}
-{"instruction": "Translate from Balanda to English", "input": "Ni no tifagi mva", "output": "He is sharpening the knife"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kamamve ja nza gba we?", "output": "Couldn’t I eat food?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho titeri ay we?", "output": "Will he be thinking about it?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tibaha ŋo we?", "output": "Was I seeing you?"}
-{"instruction": "Translate from Balanda to English", "input": "deposit", "output": "deposit"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki taanono gbi difo", "output": "The child had walked in the compound."}
-{"instruction": "Translate from Balanda to English", "input": "Danda leteli muru famvara", "output": "We will sleep on the bed"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kamamve sïhï kese gba we?", "output": "Couldn’t I buy a bike?"}
-{"instruction": "Translate from Balanda to English", "input": "Amütere", "output": "to shift"}
-{"instruction": "Translate from Balanda to English", "input": "Ni veleso ta gbiya diiyai agbi tiyi.", "output": "He speaks with the chief and then goes to the house."}
-{"instruction": "Present simple example", "input": "Avele", "output": "Ne vele bihiyi"}
-{"instruction": "Translate from Balanda to English", "input": "Danda teli muru famvara dheki gba", "output": "We have not slept on the bed"}
-{"instruction": "Translate from Balanda to English", "input": "nvejünjü", "output": "farmer"}
-{"instruction": "Translate from Balanda to English", "input": "Agbereke", "output": "to settle"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki nokanve nono gbi difo", "output": "The child could walk in the compound."}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho tidhi gba", "output": "He couldn’t be hearing."}
-{"instruction": "Translate from English to Balanda", "input": "They traveled to the market and then sold food.", "output": "Ndi taawomolo agbi negu diisadi nja."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi willa tiyai va ŋiyi ay", "output": "They are not going to know it"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dho gbi tiyi gba", "output": "He cannot be in the house."}
-{"instruction": "Translate from Balanda to English", "input": "Danda willa tiyai va bita mira we?", "output": "Are we not going to start the project?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii noka tikeye ti naa ni", "output": "The girl was calling her mother"}
-{"instruction": "Translate from Balanda to English", "input": "Danda kawilla tikiri tidina we?", "output": "Were we not upholding the law?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve kolo wiki", "output": "He could hug the child."}
-{"instruction": "Translate from Balanda to English", "input": "Ne moliki gbi difo we?", "output": "Do I play in the compound?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taaja nja diiteli.", "output": "I ate food and then slept."}
-{"instruction": "Translate from Balanda to English", "input": "Vetdi tau", "output": "Twenty-three"}
-{"instruction": "Translate from Balanda to English", "input": "Danda no tiyai va teli muru famvara we?", "output": "Are we going to sleep on the bed?"}
-{"instruction": "Translate from Balanda to English", "input": "Adeke", "output": "to drench"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kateli", "output": "He slept."}
-{"instruction": "Present simple example", "input": "Aduru", "output": "Ne duru ngo"}
-{"instruction": "Translate from Balanda to English", "input": "fünji", "output": "advice"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tija se gba", "output": "I will not be eating fish"}
-{"instruction": "Translate from Balanda to English", "input": "konubi", "output": "support"}
-{"instruction": "Translate from Balanda to English", "input": "Ŋo kalunde kese ki, wamina ŋo leni tirri.", "output": "You used the bike; therefore you will carry the load."}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tinzü ngo gba", "output": "She was not drinking water"}
-{"instruction": "Translate from Balanda to English", "input": "Wavasu", "output": "announce"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kakeye ti ndi gba", "output": "I did not call them."}
-{"instruction": "Translate from Balanda to English", "input": "Ni noka titeri ay", "output": "He was thinking about it"}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve nzü ngo", "output": "I can drink water."}
-{"instruction": "Translate from Balanda to English", "input": "Ne leyai a Kenya lüve gba", "output": "I will not go to Kenya tomorrow."}
-{"instruction": "Translate from Balanda to English", "input": "Uku leyai dheki", "output": "Uku will have gone"}
-{"instruction": "Translate from Balanda to English", "input": "Le ŋo no yini?", "output": "What is your name?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taateri dha we?", "output": "Had I thought about it?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii ma tiyai va soko tamma gba", "output": "The girl is not going to wash the shoe"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii ma süüta tiyi gba we?", "output": "Isn't the girl near the house?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tidulu", "output": "He could be dancing."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi lekonu kawihi kee ndi ledhii agbi tiyi gba.", "output": "They will help the children but will not come to the house."}
-{"instruction": "Translate from English to Balanda", "input": "They work in the garden and then eat food.", "output": "Ndi mande gbi njü diija nja."}
-{"instruction": "Translate from Balanda to English", "input": "Tdeke", "output": "read"}
-{"instruction": "Translate from Balanda to English", "input": "Danda kiri tidina dheki we?", "output": "Have we upheld the law?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve mande gbi njü gba", "output": "He cannot work in the garden."}
-{"instruction": "Translate from Balanda to English", "input": "Ne taateli gbi famvara we?", "output": "Had I slept in the bed?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tisogo ni gba we?", "output": "Will she not be hating him?"}
-{"instruction": "Translate from Balanda to English", "input": "Ati wilii no kpö", "output": "The girl feels lazy"}
-{"instruction": "Translate from Balanda to English", "input": "Ay no muru dühü.", "output": "It is on the rock."}
-{"instruction": "Translate from Balanda to English", "input": "Atoko", "output": "to add"}
-{"instruction": "Translate from Balanda to English", "input": "Atuna", "output": "to begin"}
-{"instruction": "Translate from Balanda to English", "input": "Ni lesogo ni we?", "output": "Will she hate him?"}
-{"instruction": "Translate from Balanda to English", "input": "Maraya no takuru park", "output": "The school is in front of the park"}
-{"instruction": "Translate from Balanda to English", "input": "Ni logi ngo", "output": "He pours water"}
-{"instruction": "Identify the sentence type", "input": "Mehe", "output": "Casual greeting"}
-{"instruction": "Present simple example", "input": "Adhii", "output": "Ni dhii baa"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taanzü ngo we?", "output": "Had I drunk water?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni taateta", "output": "He had fallen."}
-{"instruction": "Translate from Balanda to English", "input": "Ne letele njokoji dheki we?", "output": "Will I have pulled the door?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nokanve dho tidüŋü kpendii we?", "output": "Could he be remaining behind?"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki karengo we?", "output": "Did the child mature?"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande ledhii ba", "output": "Ngande will come home"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taagiri voso gba we?", "output": "Had I not changed the words?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve levanda wiki gba we?", "output": "Will he not be able to protect the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve leteta gba", "output": "He will not be able to fall."}
-{"instruction": "Translate from Balanda to English", "input": "Ne no tiyai va kuru kavokau we?", "output": "Am I going to hide the beads?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni noka tisogo dha", "output": "She was hating you"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi no tiyai agbi maraya we?", "output": "Are they going to the school?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tisuru kavoso we?", "output": "Will I be creating words?"}
-{"instruction": "Translate from Balanda to English", "input": "Anonö", "output": "to walk"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi no tiyai va ŋiyi ay", "output": "They are going to know it"}
-{"instruction": "Translate from Balanda to English", "input": "Ganga", "output": "abuse"}
-{"instruction": "Translate from Balanda to English", "input": "Ne willa tiyai va dhe villi", "output": "I am not going to find money"}
-{"instruction": "Question example", "input": "Avere", "output": "Loli vere we?"}
-{"instruction": "Translate from Balanda to English", "input": "roffi wa akoti", "output": "wedding"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande ledho tivele zi ndi we?", "output": "Will Ngande be telling them?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tiwala gbi Wau gba", "output": "I was not living in Wau."}
-{"instruction": "Translate from Balanda to English", "input": "kpotdu", "output": "elder"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve lesadi nza we?", "output": "Will he be able to sell food?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka titele njokoji", "output": "I was pulling the door"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii sarwa kumere dheki gba we?", "output": "Has the girl not separated trash?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tisïhï kese we?", "output": "Was I buying a bike?"}
-{"instruction": "Translate from Balanda to English", "input": "Dhuu taakonu kanjö, wamina ndi taafoyi.", "output": "We helped the orphans; therefore they appreciated."}
-{"instruction": "Translate from Balanda to English", "input": "Tokonjobi", "output": "contribute"}
-{"instruction": "Translate from Balanda to English", "input": "Ni noka tidho gbi tiyi", "output": "He was being in the house."}
-{"instruction": "Translate from Balanda to English", "input": "Ngande dewe kakpodu dheki gba", "output": "Ngande has not imitated adults"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taaloro bura", "output": "I had watched the cat"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki nonve lerengo we?", "output": "Will the child be able to mature?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kabaha ŋo gba", "output": "I did not see you."}
-{"instruction": "Translate from Balanda to English", "input": "Bikur nau", "output": "Fourteen"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nangele zanga gba", "output": "She doesn’t run fast"}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve vanda wiki gba we?", "output": "Can't he protect the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii no tiyai va sarwa kumere we?", "output": "Is the girl going to separate trash?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve leloro kananje gba we?", "output": "Will I not be able to watch the animals?"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi nokanve mago", "output": "They could fight."}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledhe villi gba we?", "output": "Will I not find money?"}
-{"instruction": "Present simple example", "input": "Arengo", "output": "Ni rengo"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii ledho tiyele tamma", "output": "The girl will be tying the shoe"}
-{"instruction": "Question example", "input": "Adho", "output": "Ni dho we?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve kara kafa gba", "output": "He couldn’t turn the table."}
-{"instruction": "Translate from Balanda to English", "input": "umvamva", "output": "hunter"}
-{"instruction": "Translate from Balanda to English", "input": "Teta", "output": "fall"}
-{"instruction": "Correct the Balanda sentence", "input": "Ne mgbala ka", "output": "Incorrect structure. Correct form: Ne ka-mgbala."}
-{"instruction": "Translate from Balanda to English", "input": "Wiki nzee", "output": "One child"}
-{"instruction": "Translate from Balanda to English", "input": "Ne lewe ndi", "output": "I will ask them"}
-{"instruction": "Translate from Balanda to English", "input": "zongo dhako", "output": "Young man"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ledho tidhe villi", "output": "I will be finding money"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tinzü ngo we?", "output": "Will she be drinking water?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tivele njo balanda gba", "output": "I was not speaking Balanda"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taabita mira", "output": "I had started the project"}
-{"instruction": "Translate from Balanda to English", "input": "Nguu nonve vere we?", "output": "Can the tree darken?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taaze liki zi vakuru ne, wamina ni no kosere songo.", "output": "I gave honey to my friend; therefore he is beside the container."}
-{"instruction": "Translate from Balanda to English", "input": "Danda ledho tikiri tidina", "output": "We will be upholding the law"}
-{"instruction": "Translate from Balanda to English", "input": "nvewili", "output": "guest"}
-{"instruction": "Translate from Balanda to English", "input": "Joko no lesere kafa", "output": "The bag is on the side of the table."}
-{"instruction": "Correct the Balanda verb form", "input": "dulu", "output": "Incorrect infinitive. Correct form: Adülü"}
-{"instruction": "Translate from Balanda to English", "input": "gara", "output": "bell"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve kolo wiki we?", "output": "Can he hug the child?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni nonve lezaka kporo we?", "output": "Will he be able to pull the drum?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taadewe kakpodu we?", "output": "Had I imitated adults?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne noka tiwala gbi Wau we?", "output": "Was I living in Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne willa tiyai va kuru kavokau", "output": "I am not going to hide the beads"}
-{"instruction": "Translate from Balanda to English", "input": "Ne mamve dho tibaha ŋo gba we?", "output": "Can I not be seeing you?"}
-{"instruction": "Translate from Balanda to English", "input": "Anga?", "output": "Which one? (colloquial)"}
-{"instruction": "Translate from Balanda to English", "input": "Ni lemaguku ti kpörö gba we?", "output": "Will he not fear the snake?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho tidulu gba", "output": "He couldn’t be dancing."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi kamago we?", "output": "Did they fight?"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi noka timago we?", "output": "Were they fighting?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne lekuru kavokau dheki we?", "output": "Will I have hidden the beads?"}
-{"instruction": "Translate from Balanda to English", "input": "Adhe ŋo maŋo", "output": "Nice to meet you."}
-{"instruction": "Translate from Balanda to English", "input": "bolis", "output": "police"}
-{"instruction": "Translate from Balanda to English", "input": "Muku", "output": "arise"}
-{"instruction": "Translate from Balanda to English", "input": "Gbolo mandingili", "output": "The globe is round"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kawilla timaguku ti kpörö", "output": "He was not fearing the snake"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande maka tisi ba gba we?", "output": "Was Ngande not leaving home?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tiŋiyi sereso gba", "output": "I was not knowing the truth."}
-{"instruction": "Translate from Balanda to English", "input": "Nguu nonve dho tivere we?", "output": "Can the tree be darkening?"}
-{"instruction": "Translate from Balanda to English", "input": "Wilii ledho tisoko tamma gba", "output": "The girl will not be washing the shoe"}
-{"instruction": "Translate from Balanda to English", "input": "Ne taaduru ngo", "output": "I had wanted water"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi mande gbi njü diija nja.", "output": "They work in the garden and then eat food."}
-{"instruction": "Translate from Balanda to English", "input": "Danda noka tikiri tidina we?", "output": "Were we upholding the law?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kawilla titele njokoji we?", "output": "Was I not pulling the door?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne leja se we?", "output": "Will I eat fish?"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kawilla timaforo mira", "output": "I was not contributing to the project"}
-{"instruction": "Translate from Balanda to English", "input": "Amande", "output": "to work"}
-{"instruction": "Translate from Balanda to English", "input": "lü", "output": "dance"}
-{"instruction": "Translate from Balanda to English", "input": "Danda no tiyai va toko villi", "output": "We are going to add money"}
-{"instruction": "Translate from Balanda to English", "input": "Wiki nonve dho tinono gbi difo", "output": "The child can be walking in the compound."}
-{"instruction": "Translate from Balanda to English", "input": "Ndi lenonö gbi difo gba we?", "output": "Will they not walk in the compound?"}
-{"instruction": "Present continuous example", "input": "Abaha", "output": "Ne no tibaha ŋo"}
-{"instruction": "Translate from Balanda to English", "input": "Ne maka tibaha ŋo gba we?", "output": "Was I not seeing you?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tisogo ni", "output": "She will be hating him"}
-{"instruction": "Translate from Balanda to English", "input": "Ni noka tize villi we?", "output": "Was she giving money?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tidovee kurru", "output": "He will be seeming calm"}
-{"instruction": "Translate from Balanda to English", "input": "Uku leyai dheki gba we?", "output": "Will Uku not have gone?"}
-{"instruction": "Negative example", "input": "Ateli", "output": "Ni teli ta doo gba"}
-{"instruction": "Translate from Balanda to English", "input": "Ni ledho tisogo ni gba", "output": "She will not be hating him"}
-{"instruction": "Translate from Balanda to English", "input": "Kawiki vonau", "output": "Nine children"}
-{"instruction": "Translate from Balanda to English", "input": "wii", "output": "flower"}
-{"instruction": "Translate from Balanda to English", "input": "mamgbala", "output": "clean"}
-{"instruction": "Translate from Balanda to English", "input": "Ngande no tiyai va ndugu mira we?", "output": "Is Ngande going to initiate the project?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni no nvejïga", "output": "He is a healer"}
-{"instruction": "Question example", "input": "Ayai", "output": "Ne yai a Wau we?"}
-{"instruction": "Translate from Balanda to English", "input": "Awala", "output": "to live"}
-{"instruction": "Translate from Balanda to English", "input": "Weta", "output": "investigate"}
-{"instruction": "Translate from Balanda to English", "input": "Garra ngandi dhako", "output": "The man's phone"}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tifagi mva gba we?", "output": "Was he not sharpening the knife?"}
-{"instruction": "Translate from Balanda to English", "input": "Ati wiki no ku", "output": "The child is sick"}
-{"instruction": "Translate from Balanda to English", "input": "wunga", "output": "alive"}
-{"instruction": "Translate from Balanda to English", "input": "Ni kamamve dho tidüŋü kpendii gba", "output": "He couldn’t be remaining behind."}
-{"instruction": "Translate from Balanda to English", "input": "Wollo", "output": "blow"}
-{"instruction": "Translate from Balanda to English", "input": "kala", "output": "same"}
-{"instruction": "Translate from Balanda to English", "input": "Vonau", "output": "Nine"}
-{"instruction": "Identify the Balanda alphabet letter", "input": "Y", "output": "Letter Y, pronounced /ya/, example: Yehe (behavior)"}
-{"instruction": "Translate from Balanda to English", "input": "Danda maka tituru songo gba we?", "output": "Were we not pushing the box?"}
-{"instruction": "Translate from Balanda to English", "input": "madhiki", "output": "dark"}
-{"instruction": "Translate from Balanda to English", "input": "jegele", "output": "shadow"}
-{"instruction": "Translate from Balanda to English", "input": "Danda letoko villi", "output": "We will add money"}
-{"instruction": "Translate from Balanda to English", "input": "Danda nonve lemoliki we?", "output": "Will we be able to play?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni lemaguku ti kpörö dheki gba we?", "output": "Will he not have feared the snake?"}
-{"instruction": "Translate from Balanda to English", "input": "Danda no tiyai va turu songo we?", "output": "Are we going to push the box?"}
-{"instruction": "Translate from Balanda to English", "input": "Tihi no kpabii maraya", "output": "The house is opposite the school"}
-{"instruction": "Translate from Balanda to English", "input": "Ne kawala gbi Wau we?", "output": "Did I live in Wau?"}
-{"instruction": "Translate from Balanda to English", "input": "Ni maka tigirri gba", "output": "He was not changing."}
-{"instruction": "Translate from Balanda to English", "input": "goduru", "output": "wish"}
-{"instruction": "Translate from Balanda to English", "input": "Ne ja se dheki", "output": "I have eaten fish"}
-{"instruction": "Translate from Balanda to English", "input": "Veleso", "output": "speak"}
-{"instruction": "Identify the Balanda alphabet letter", "input": "F", "output": "Letter F, pronounced /fe/, example: Fulu (thank, praise)"}
-{"instruction": "Translate from Balanda to English", "input": "girri", "output": "change"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi kamago", "output": "They fought."}
-{"instruction": "Translate from Balanda to English", "input": "Ni mamve dhii agbi tiyi gba", "output": "He cannot come to the house."}
-{"instruction": "Translate from Balanda to English", "input": "Ne nonve leja nza", "output": "I will be able to eat food."}
-{"instruction": "Translate from Balanda to English", "input": "Afala", "output": "to roll"}
-{"instruction": "Translate from Balanda to English", "input": "Ni no gbiya", "output": "He is a chief"}
-{"instruction": "Translate from Balanda to English", "input": "Ndi willa tirunga nveku", "output": "They are not isolating the sick"}
-{"instruction": "Translate from Balanda to English", "input": "Dhuu kakeye ti diktor no andiso wihi kadhii a ba.", "output": "We called the doctor because the child came home."}
-{"instruction": "Translate from Balanda to English", "input": "Wiki no gbi ba", "output": "The child is within the home."}
+{
+  "instruction_type": "grammar_rule",
+  "grammar_name": "val",
+  "description": "This file contains Balanda language training examples for val. Items covered: alphabet letter, pronoun type, sentence type, special consonant cluster.",
+  "rules": {
+    "alphabet_letter": {
+      "function": "alphabet letter",
+      "structure": "",
+      "notes": "Inferred from training records."
+    },
+    "pronoun_type": {
+      "function": "pronoun type",
+      "structure": "",
+      "notes": "Inferred from training records."
+    },
+    "sentence_type": {
+      "function": "sentence type",
+      "structure": "",
+      "notes": "Inferred from training records."
+    },
+    "special_consonant_cluster": {
+      "function": "special consonant cluster",
+      "structure": "",
+      "notes": "Inferred from training records."
+    }
+  }
+}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke kitabu we?","output":"Will I read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka timaforo mira","output":"I was contributing to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wolondi","output":"follow"}
+{"instruction":"Translate from Balanda to English","input":"Zanga wilii nono","output":"The fast girl walks"}
+{"instruction":"Translate from Balanda to English","input":"Maraya maga","output":"The school is big"}
+{"instruction":"Translate from Balanda to English","input":"Ne kakeye ti ndi","output":"I called them."}
+{"instruction":"Translate from Balanda to English","input":"Ndi konu nvesani dheki gba","output":"They have not helped the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke kitabu dheki gba","output":"I will not have read a book"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesarwa kumere","output":"The girl will separate trash"}
+{"instruction":"Translate from Balanda to English","input":"Wala","output":"live"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiwutduru kese ngande’e ta kavokau we?","output":"Am I not personalizing my bike with beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikuru kavokau we?","output":"Will I be hiding the beads?"}
+{"instruction":"Present continuous example","input":"Abase","output":"Ni no tibase"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no süüta park we?","output":"Is the school near the park?"}
+{"instruction":"Question example","input":"Awe","output":"Ne we ŋo we?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi no taleti maraya","output":"They are around the school."}
+{"instruction":"Translate from Balanda to English","input":"Aloro","output":"to watch"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve mande gba andiso ni kateli gba.","output":"She cannot work because she did not sleep."}
+{"instruction":"Translate from Balanda to English","input":"Ni taagirri","output":"He had changed."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidhii agbi tiyi gba","output":"He was not coming to the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va fagi mva we?","output":"Is he not going to sharpen the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ni leze villi gba we?","output":"Will she not give money?"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tigirri gba we?","output":"Can he not be changing?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ja nza","output":"The child eats food"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tidhii agbi tiyi gba","output":"He cannot be coming to the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni kakolo wiki","output":"He hugged the child."}
+{"instruction":"Translate from Balanda to English","input":"willi","output":"forget"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesarwa kumere dheki gba we?","output":"Will the girl not have separated trash?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tisudi kavoso we?","output":"Was the girl not writing words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatoko ti vili gba","output":"I had not added money"}
+{"instruction":"Present simple example","input":"Adülü","output":"Ni dülu"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiŋiyi sereso we?","output":"Can I be knowing the truth?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve sïhï kese we?","output":"Can I buy a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiduru ngo","output":"I will be wanting water"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma yeemuru famvara gba","output":"The book is not on top of the bed."}
+{"instruction":"Question example","input":"Aja","output":"Ne ja nza we?"}
+{"instruction":"Translate from Balanda to English","input":"Uku taamande gbi njü","output":"Uku had worked in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Tiyi ngandi gbiya","output":"The chief's house"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lesi ba gba we?","output":"Will Ngande not leave home?"}
+{"instruction":"Translate from Balanda to English","input":"Abi danda no tiyi","output":"We have a house"}
+{"instruction":"Translate from English to Balanda","input":"We cooked food but the chief did not eat.","output":"Dhuu taalo nja kee gbiya taaja nja gba."}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va lu Wau gba we?","output":"Am I not going to arrive in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemande gbi njü dheki we?","output":"Will Uku have worked in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Ateta","output":"to fall"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke kitabu gba","output":"I will not read a book"}
+{"instruction":"Translate from Balanda to English","input":"Danda kamamve dho tiwofo takoni gba","output":"We couldn’t be discussing the story."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titeli gba we?","output":"Was he not sleeping?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledhii ba gba we?","output":"Will Ngande not come home?"}
+{"instruction":"Translate from Balanda to English","input":"Niki no taleti kesi","output":"The woman is around the stove."}
+{"instruction":"Translate from Balanda to English","input":"Ngande si ba dheki gba we?","output":"Has Ngande not left home?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidi kalla gba we?","output":"Will he not be cutting the pot?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tidhii agbi tiyi we?","output":"Could he be coming to the house?"}
+{"instruction":"Translate from Balanda to English","input":"iyi","output":"know"}
+{"instruction":"Translate from Balanda to English","input":"Ne taafagi mva gba","output":"I had not sharpened the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidüŋü kpendii gba","output":"He was not remaining behind."}
+{"instruction":"Translate from Balanda to English","input":"Koti kakafa","output":"Many tables"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve lewala gbi Wau gba we?","output":"Will I not be able to live in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tikiri tidina gba","output":"We will not be upholding the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisudi kitab gba","output":"I was not writing a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne lemaforo mira dheki","output":"I will have contributed to the project"}
+{"instruction":"Identify the Balanda alphabet letter","input":"Z","output":"Letter Z, pronounced /ze/, example: Zanga (fast)"}
+{"instruction":"Translate from Balanda to English","input":"jubtalia","output":"hospital"}
+{"instruction":"Translate from Balanda to English","input":"Asigili","output":"to miss"}
+{"instruction":"Translate from Balanda to English","input":"Uku mele vongu dheki","output":"Uku has tried the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Joko ngandi niki","output":"The woman's bag"}
+{"instruction":"Translate from Balanda to English","input":"Fitti nza","output":"Little food"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni","output":"The girl will call her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisudi kitab gba we?","output":"Was I not writing a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve yai a Wau","output":"I can go to Wau."}
+{"instruction":"Translate from Balanda to English","input":"kungu","output":"maintain"}
+{"instruction":"Translate from Balanda to English","input":"Zanga dhako nono","output":"The fast man walks"}
+{"instruction":"Translate from Balanda to English","input":"Wiki kamamve dho tirengo gba we?","output":"Couldn’t the child be maturing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiduru ngo","output":"I was wanting water."}
+{"instruction":"Translate from Balanda to English","input":"Ne taasarwa kumere gba we?","output":"Had I not separated the trash?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande kawilla tingö tiyi we?","output":"Was Ngande not building a house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne vele njo balanda dheki","output":"I have spoken Balanda"}
+{"instruction":"Translate from Balanda to English","input":"wöti","output":"rest"}
+{"instruction":"Translate from Balanda to English","input":"gogodirri","output":"illness"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve lemoliki","output":"We will be able to play."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve ledüŋü kpendii we?","output":"Will he be able to remain behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai agbi maraya kee ne mamve womolo tidhu gba.","output":"I will go to school but I cannot travel far."}
+{"instruction":"Translate from Balanda to English","input":"Ni kulu munja gba","output":"He doesn’t play guitar"}
+{"instruction":"Correct the Balanda number","input":"Bikur nzu","output":"Incorrect. Correct form: Bikur nzee"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tisudi kitab","output":"I can be writing a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve lekolo wiki we?","output":"Will he be able to hug the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kawilla tikonu nvesani","output":"They were not helping the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatele njokoji","output":"I had pulled the door"}
+{"instruction":"Translate from Balanda to English","input":"ndaraka","output":"twist"}
+{"instruction":"Translate from Balanda to English","input":"Atele","output":"to pull"}
+{"instruction":"Translate from Balanda to English","input":"Joko no gbi Turunvili","output":"The bag is in the car."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikeye ti ndi gba we?","output":"Was I not calling them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve kolo wiki we?","output":"Could he hug the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiyai a Wau we?","output":"Was I going to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tiwala gbi Wau we?","output":"Can I be living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesoko tamma dheki gba we?","output":"Will the girl not have washed the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va teri ay gba","output":"He is not going to think about it"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidi kalla","output":"He was cutting the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve leyai a Wau we?","output":"Will I be able to go to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kateta","output":"He fell."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tija nza","output":"I can be eating food."}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve dho timerego ŋo","output":"I could be loving you."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tikolo wiki","output":"He can be hugging the child."}
+{"instruction":"Translate from Balanda to English","input":"ku","output":"death"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tisadi nza gba","output":"He couldn’t be selling food."}
+{"instruction":"Translate from Balanda to English","input":"Kawiki vonzee","output":"Six children"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve lekeye ti ndi we?","output":"Will I be able to call them?"}
+{"instruction":"Translate from Balanda to English","input":"Adugulu","output":"to deepen"}
+{"instruction":"Translate from Balanda to English","input":"Ne kaja nza gba we?","output":"Did I not eat food?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ma tiyai va teli muru famvara gba","output":"We are not going to sleep on the bed"}
+{"instruction":"Identify the Balanda pronoun type","input":"Ti-ndi","output":"Third person plural reflexive pronoun"}
+{"instruction":"Translate from Balanda to English","input":"kufulu","output":"dust"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tibase gba","output":"He couldn’t be singing."}
+{"instruction":"Translate from Balanda to English","input":"Ni taanangele zanga gba","output":"She had not run fast"}
+{"instruction":"Translate from Balanda to English","input":"Dukai","output":"swim"}
+{"instruction":"Translate from Balanda to English","input":"Ale","output":"to set"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tija nza we?","output":"Was I eating food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikuru kavokau","output":"I will be hiding the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dulu gba","output":"He cannot dance."}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve yai a Wau","output":"I could go to Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni leteta dheki gba we?","output":"Will he not have fallen?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu noka tivere we?","output":"Was the tree darkening?"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Ng","output":"Cluster Ng, pronounced /ng/, example: Ngu (new)"}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai a Kenya lüve we?","output":"Will I go to Kenya tomorrow?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kadulu we?","output":"Did he dance?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi taamago","output":"They had fought."}
+{"instruction":"Translate from Balanda to English","input":"kitti wiki","output":"Beautiful child"}
+{"instruction":"Translate from Balanda to English","input":"Ne lu Wau dheki gba","output":"I have not arrived in Wau"}
+{"instruction":"Translate from Balanda to English","input":"nvele","output":"blood"}
+{"instruction":"Translate from Balanda to English","input":"Durdur magbito","output":"The tortoise is slow"}
+{"instruction":"Translate from Balanda to English","input":"Ndi taawomolo agbi negu kee ndi taadele gba.","output":"They traveled to the market but did not come back."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve sadi nza gba we?","output":"Can't he sell food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kaduru ngo gba","output":"I did not want water."}
+{"instruction":"Translate from English to Balanda","input":"He speaks with the chief and then goes to the house.","output":"Ni veleso ta gbiya diiyai agbi tiyi."}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu nvesani we?","output":"Will they help the poor?"}
+{"instruction":"Translate from Balanda to English","input":"Ni lesogo ni dheki gba we?","output":"Will she not have hated him?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla tiwe ndi we?","output":"Was I not asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Asekele","output":"to shun"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve dho tiŋiyi sereso gba","output":"I cannot be knowing the truth."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai va we ndi","output":"I am going to ask them"}
+{"instruction":"Translate from Balanda to English","input":"Bihi nza","output":"Some food"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaforo ti mira gba we?","output":"Had I not contributed to the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve turu linguu gba we?","output":"Can't I push the fruit?"}
+{"instruction":"Translate from Balanda to English","input":"Lovo","output":"solve"}
+{"instruction":"Translate from Balanda to English","input":"Ni teri ay dheki","output":"He has thought about it"}
+{"instruction":"Translate from Balanda to English","input":"Ni kadüŋü kpendii gba we?","output":"Did he not remain behind?"}
+{"instruction":"Translate from Balanda to English","input":"Danda kamamve moliki gba","output":"We couldn’t play."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve we ndi gba we?","output":"Can't I ask them?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tidewe kakpodu we?","output":"Was Ngande imitating adults?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tindugu mira we?","output":"Will Ngande be initiating the project?"}
+{"instruction":"Translate from Balanda to English","input":"Wihi leteli diinangele gbi difo.","output":"The child will sleep and then run in the compound."}
+{"instruction":"Translate from Balanda to English","input":"kessi","output":"stove"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikara njokoji gba we?","output":"Was I not turning the door?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii leyele tamma dheki gba","output":"The girl will not have tied the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Diluma!","output":"Welcome!"}
+{"instruction":"Question example","input":"Agiri","output":"Ni giri we?"}
+{"instruction":"Translate from Balanda to English","input":"dïrï","output":"stone"}
+{"instruction":"Translate from English to Balanda","input":"The girls read the book; therefore they knew.","output":"Kawilii kadheke fökpaa ki, wamina ndi kaŋiyi ki."}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tigirri","output":"He could be changing."}
+{"instruction":"Translate from Balanda to English","input":"gbito kese","output":"Slow bike"}
+{"instruction":"Translate from Balanda to English","input":"Ni mande gbi Wau.","output":"He works in Wau."}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tirengo gba we?","output":"Was the child not maturing?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu mamve dho tivere gba we?","output":"Can the tree not be darkening?"}
+{"instruction":"Translate from Balanda to English","input":"Kabura voo","output":"Five cats"}
+{"instruction":"Translate from Balanda to English","input":"Ne taagiri voso we?","output":"Had I changed the words?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya kamamve deye gba","output":"The school couldn’t develop."}
+{"instruction":"Translate from Balanda to English","input":"Weke","output":"ask"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai tagbi negu we?","output":"Am I not going through the market?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tituru songo","output":"We will be pushing the box"}
+{"instruction":"Question example","input":"Asudi","output":"Ne sudi kitab we?"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve lebaha ŋo gba we?","output":"Will I not be able to see you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tidheke kitab","output":"He could be reading a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tikolo wiki gba we?","output":"Can he not be hugging the child?"}
+{"instruction":"Translate from Balanda to English","input":"Danda letoko villi dheki gba we?","output":"Will we not have added money?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tizaka kporo gba","output":"He was not pulling the drum."}
+{"instruction":"Translate from English to Balanda","input":"She works but she does not eat.","output":"Ni timande kee ni ja nja gba."}
+{"instruction":"Translate from Balanda to English","input":"wirindi","output":"organize"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledi kalla gba","output":"He will not cut the pot"}
+{"instruction":"Question example","input":"Akeye","output":"Ne keye ŋo we?"}
+{"instruction":"Translate from Balanda to English","input":"Ni teta dheki","output":"He has fallen"}
+{"instruction":"Translate from Balanda to English","input":"Danda teli muru famvara dheki we?","output":"Have we slept on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho titeli gba","output":"He couldn’t be sleeping."}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve kolo wiki gba","output":"He couldn’t hug the child."}
+{"instruction":"Translate from Balanda to English","input":"Yo","output":"wear"}
+{"instruction":"Translate from Balanda to English","input":"Amoko","output":"to chase"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ndugu mira dheki gba we?","output":"Has Ngande not initiated the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne leloro voro dheki we?","output":"Will I have watched the dog?"}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai agbi maraya gba","output":"Uku will not go to school"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura mande","output":"The slow cat works"}
+{"instruction":"Question example","input":"Aŋiyi","output":"Ne ŋiyi ndi we?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke fökpaa diisudi ay.","output":"I will read the book and then write it."}
+{"instruction":"Question example","input":"Awofo","output":"Ndi wofo njofanau we?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dulu we?","output":"Could he dance?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikefo Balanda we?","output":"Will I be describing Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kadhii agbi tiyi gba","output":"He did not come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wilii keye ti naa ni dheki","output":"The girl has called her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ngande no tiyai va si ba we?","output":"Is Ngande going to leave home?"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve ledhii agbi tiyi gba","output":"He will not be able to come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki lemoliki gbi difo we?","output":"Will the child play in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"bï","output":"hand"}
+{"instruction":"Identify the Balanda alphabet letter","input":"Ü","output":"Letter Ü, pronounced /ü/, example: Ülü (dancer, male)"}
+{"instruction":"Negative example","input":"Asudi","output":"Ne sudi kitab gba"}
+{"instruction":"Translate from Balanda to English","input":"nvuu","output":"net"}
+{"instruction":"Translate from Balanda to English","input":"adopt","output":"adopt"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidulu","output":"He can be dancing."}
+{"instruction":"Translate from Balanda to English","input":"vuu","output":"father"}
+{"instruction":"Identify the Balanda sentence type","input":"Ne willa tiduru ngo we?","output":"Negative present continuous question"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tidho gbi tiyi","output":"He could be being in the house."}
+{"instruction":"Translate from Balanda to English","input":"Lui","output":"reach"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Kp","output":"Cluster Kp, pronounced /kp/, example: Kpotdu (elder)"}
+{"instruction":"Translate from Balanda to English","input":"Danda leturu songo dheki gba","output":"We will not have pushed the box"}
+{"instruction":"Translate from English to Balanda","input":"She loves the doctor but does not help him.","output":"Ni merego diktor kee ni konu ni gba."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tija nza we?","output":"Can I be eating food?"}
+{"instruction":"Present continuous example","input":"Ama","output":"Ne no tima nde"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni dheki gba","output":"The girl will not have called her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne dheke kitabu dheki gba we?","output":"Have I not read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne merego ŋo dheki gba","output":"I have not loved you"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemande gbi njü dheki","output":"Uku will have worked in the garden"}
+{"instruction":"Present simple example","input":"Adheke","output":"Ne dheke kitab"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesudi kavoso gba we?","output":"Will the girl not write words?"}
+{"instruction":"Translate from Balanda to English","input":"niki","output":"woman"}
+{"instruction":"Translate from Balanda to English","input":"Amago","output":"to fight"}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai va tele njokoji we?","output":"Am I going to pull the door?"}
+{"instruction":"Translate from Balanda to English","input":"Munza no yee kafa","output":"The guitar is above the table."}
+{"instruction":"Translate from Balanda to English","input":"Ne taafagi mva","output":"I had sharpened the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidheke kitab","output":"He can be reading a book."}
+{"instruction":"Present continuous example","input":"Avanda","output":"Ni no tivanda baa"}
+{"instruction":"Present simple example","input":"Adüŋü","output":"Ni düŋü gbi baa"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tidewe kakpodu","output":"Ngande was imitating adults"}
+{"instruction":"Translate from Balanda to English","input":"Ni no tifagi mva","output":"He is sharpening the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ne kamamve ja nza gba we?","output":"Couldn’t I eat food?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeri ay we?","output":"Will he be thinking about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tibaha ŋo we?","output":"Was I seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"deposit","output":"deposit"}
+{"instruction":"Translate from Balanda to English","input":"Wiki taanono gbi difo","output":"The child had walked in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Danda leteli muru famvara","output":"We will sleep on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Ne kamamve sïhï kese gba we?","output":"Couldn’t I buy a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Amütere","output":"to shift"}
+{"instruction":"Translate from Balanda to English","input":"Ni veleso ta gbiya diiyai agbi tiyi.","output":"He speaks with the chief and then goes to the house."}
+{"instruction":"Present simple example","input":"Avele","output":"Ne vele bihiyi"}
+{"instruction":"Translate from Balanda to English","input":"Danda teli muru famvara dheki gba","output":"We have not slept on the bed"}
+{"instruction":"Translate from Balanda to English","input":"nvejünjü","output":"farmer"}
+{"instruction":"Translate from Balanda to English","input":"Agbereke","output":"to settle"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nokanve nono gbi difo","output":"The child could walk in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tidhi gba","output":"He couldn’t be hearing."}
+{"instruction":"Translate from English to Balanda","input":"They traveled to the market and then sold food.","output":"Ndi taawomolo agbi negu diisadi nja."}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tiyai va ŋiyi ay","output":"They are not going to know it"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho gbi tiyi gba","output":"He cannot be in the house."}
+{"instruction":"Translate from Balanda to English","input":"Danda willa tiyai va bita mira we?","output":"Are we not going to start the project?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tikeye ti naa ni","output":"The girl was calling her mother"}
+{"instruction":"Translate from Balanda to English","input":"Danda kawilla tikiri tidina we?","output":"Were we not upholding the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve kolo wiki","output":"He could hug the child."}
+{"instruction":"Translate from Balanda to English","input":"Ne moliki gbi difo we?","output":"Do I play in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaja nja diiteli.","output":"I ate food and then slept."}
+{"instruction":"Translate from Balanda to English","input":"Vetdi tau","output":"Twenty-three"}
+{"instruction":"Translate from Balanda to English","input":"Danda no tiyai va teli muru famvara we?","output":"Are we going to sleep on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Adeke","output":"to drench"}
+{"instruction":"Translate from Balanda to English","input":"Ni kateli","output":"He slept."}
+{"instruction":"Present simple example","input":"Aduru","output":"Ne duru ngo"}
+{"instruction":"Translate from Balanda to English","input":"fünji","output":"advice"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tija se gba","output":"I will not be eating fish"}
+{"instruction":"Translate from Balanda to English","input":"konubi","output":"support"}
+{"instruction":"Translate from Balanda to English","input":"Ŋo kalunde kese ki, wamina ŋo leni tirri.","output":"You used the bike; therefore you will carry the load."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tinzü ngo gba","output":"She was not drinking water"}
+{"instruction":"Translate from Balanda to English","input":"Wavasu","output":"announce"}
+{"instruction":"Translate from Balanda to English","input":"Ne kakeye ti ndi gba","output":"I did not call them."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeri ay","output":"He was thinking about it"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve nzü ngo","output":"I can drink water."}
+{"instruction":"Translate from Balanda to English","input":"Ne leyai a Kenya lüve gba","output":"I will not go to Kenya tomorrow."}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai dheki","output":"Uku will have gone"}
+{"instruction":"Translate from Balanda to English","input":"Le ŋo no yini?","output":"What is your name?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taateri dha we?","output":"Had I thought about it?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va soko tamma gba","output":"The girl is not going to wash the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma süüta tiyi gba we?","output":"Isn't the girl near the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tidulu","output":"He could be dancing."}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu kawihi kee ndi ledhii agbi tiyi gba.","output":"They will help the children but will not come to the house."}
+{"instruction":"Translate from English to Balanda","input":"They work in the garden and then eat food.","output":"Ndi mande gbi njü diija nja."}
+{"instruction":"Translate from Balanda to English","input":"Tdeke","output":"read"}
+{"instruction":"Translate from Balanda to English","input":"Danda kiri tidina dheki we?","output":"Have we upheld the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve mande gbi njü gba","output":"He cannot work in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Ne taateli gbi famvara we?","output":"Had I slept in the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tisogo ni gba we?","output":"Will she not be hating him?"}
+{"instruction":"Translate from Balanda to English","input":"Ati wilii no kpö","output":"The girl feels lazy"}
+{"instruction":"Translate from Balanda to English","input":"Ay no muru dühü.","output":"It is on the rock."}
+{"instruction":"Translate from Balanda to English","input":"Atoko","output":"to add"}
+{"instruction":"Translate from Balanda to English","input":"Atuna","output":"to begin"}
+{"instruction":"Translate from Balanda to English","input":"Ni lesogo ni we?","output":"Will she hate him?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya no takuru park","output":"The school is in front of the park"}
+{"instruction":"Translate from Balanda to English","input":"Ni logi ngo","output":"He pours water"}
+{"instruction":"Identify the Balanda sentence type","input":"Mehe","output":"Casual greeting"}
+{"instruction":"Present simple example","input":"Adhii","output":"Ni dhii baa"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanzü ngo we?","output":"Had I drunk water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni taateta","output":"He had fallen."}
+{"instruction":"Translate from Balanda to English","input":"Ne letele njokoji dheki we?","output":"Will I have pulled the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tidüŋü kpendii we?","output":"Could he be remaining behind?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki karengo we?","output":"Did the child mature?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledhii ba","output":"Ngande will come home"}
+{"instruction":"Translate from Balanda to English","input":"Ne taagiri voso gba we?","output":"Had I not changed the words?"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve levanda wiki gba we?","output":"Will he not be able to protect the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve leteta gba","output":"He will not be able to fall."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai va kuru kavokau we?","output":"Am I going to hide the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tisogo dha","output":"She was hating you"}
+{"instruction":"Translate from Balanda to English","input":"Ndi no tiyai agbi maraya we?","output":"Are they going to the school?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tisuru kavoso we?","output":"Will I be creating words?"}
+{"instruction":"Translate from Balanda to English","input":"Anonö","output":"to walk"}
+{"instruction":"Translate from Balanda to English","input":"Ndi no tiyai va ŋiyi ay","output":"They are going to know it"}
+{"instruction":"Translate from Balanda to English","input":"Ganga","output":"abuse"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va dhe villi","output":"I am not going to find money"}
+{"instruction":"Question example","input":"Avere","output":"Loli vere we?"}
+{"instruction":"Translate from Balanda to English","input":"roffi wa akoti","output":"wedding"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tivele zi ndi we?","output":"Will Ngande be telling them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiwala gbi Wau gba","output":"I was not living in Wau."}
+{"instruction":"Translate from Balanda to English","input":"kpotdu","output":"elder"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve lesadi nza we?","output":"Will he be able to sell food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka titele njokoji","output":"I was pulling the door"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sarwa kumere dheki gba we?","output":"Has the girl not separated trash?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisïhï kese we?","output":"Was I buying a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Dhuu taakonu kanjö, wamina ndi taafoyi.","output":"We helped the orphans; therefore they appreciated."}
+{"instruction":"Translate from Balanda to English","input":"Tokonjobi","output":"contribute"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidho gbi tiyi","output":"He was being in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ngande dewe kakpodu dheki gba","output":"Ngande has not imitated adults"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaloro bura","output":"I had watched the cat"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve lerengo we?","output":"Will the child be able to mature?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kabaha ŋo gba","output":"I did not see you."}
+{"instruction":"Translate from Balanda to English","input":"Bikur nau","output":"Fourteen"}
+{"instruction":"Translate from Balanda to English","input":"Ni nangele zanga gba","output":"She doesn’t run fast"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve vanda wiki gba we?","output":"Can't he protect the child?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no tiyai va sarwa kumere we?","output":"Is the girl going to separate trash?"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve leloro kananje gba we?","output":"Will I not be able to watch the animals?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi nokanve mago","output":"They could fight."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledhe villi gba we?","output":"Will I not find money?"}
+{"instruction":"Present simple example","input":"Arengo","output":"Ni rengo"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tiyele tamma","output":"The girl will be tying the shoe"}
+{"instruction":"Question example","input":"Adho","output":"Ni dho we?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve kara kafa gba","output":"He couldn’t turn the table."}
+{"instruction":"Translate from Balanda to English","input":"umvamva","output":"hunter"}
+{"instruction":"Translate from Balanda to English","input":"Teta","output":"fall"}
+{"instruction":"Correct the Balanda sentence","input":"Ne mgbala ka","output":"Incorrect structure. Correct form: Ne ka-mgbala."}
+{"instruction":"Translate from Balanda to English","input":"Wiki nzee","output":"One child"}
+{"instruction":"Translate from Balanda to English","input":"Ne lewe ndi","output":"I will ask them"}
+{"instruction":"Translate from Balanda to English","input":"zongo dhako","output":"Young man"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidhe villi","output":"I will be finding money"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tinzü ngo we?","output":"Will she be drinking water?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tivele njo balanda gba","output":"I was not speaking Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ne taabita mira","output":"I had started the project"}
+{"instruction":"Translate from Balanda to English","input":"Nguu nonve vere we?","output":"Can the tree darken?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze liki zi vakuru ne, wamina ni no kosere songo.","output":"I gave honey to my friend; therefore he is beside the container."}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tikiri tidina","output":"We will be upholding the law"}
+{"instruction":"Translate from Balanda to English","input":"nvewili","output":"guest"}
+{"instruction":"Translate from Balanda to English","input":"Joko no lesere kafa","output":"The bag is on the side of the table."}
+{"instruction":"Correct the Balanda verb form","input":"dulu","output":"Incorrect infinitive. Correct form: Adülü"}
+{"instruction":"Translate from Balanda to English","input":"gara","output":"bell"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve kolo wiki we?","output":"Can he hug the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve lezaka kporo we?","output":"Will he be able to pull the drum?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadewe kakpodu we?","output":"Had I imitated adults?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwala gbi Wau we?","output":"Was I living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va kuru kavokau","output":"I am not going to hide the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve dho tibaha ŋo gba we?","output":"Can I not be seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"Anga?","output":"Which one? (colloquial)"}
+{"instruction":"Translate from Balanda to English","input":"Ni lemaguku ti kpörö gba we?","output":"Will he not fear the snake?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tidulu gba","output":"He couldn’t be dancing."}
+{"instruction":"Translate from Balanda to English","input":"Ndi kamago we?","output":"Did they fight?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka timago we?","output":"Were they fighting?"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekuru kavokau dheki we?","output":"Will I have hidden the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Adhe ŋo maŋo","output":"Nice to meet you."}
+{"instruction":"Translate from Balanda to English","input":"bolis","output":"police"}
+{"instruction":"Translate from Balanda to English","input":"Muku","output":"arise"}
+{"instruction":"Translate from Balanda to English","input":"Gbolo mandingili","output":"The globe is round"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla timaguku ti kpörö","output":"He was not fearing the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ngande maka tisi ba gba we?","output":"Was Ngande not leaving home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiŋiyi sereso gba","output":"I was not knowing the truth."}
+{"instruction":"Translate from Balanda to English","input":"Nguu nonve dho tivere we?","output":"Can the tree be darkening?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisoko tamma gba","output":"The girl will not be washing the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaduru ngo","output":"I had wanted water"}
+{"instruction":"Translate from Balanda to English","input":"Ndi mande gbi njü diija nja.","output":"They work in the garden and then eat food."}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tikiri tidina we?","output":"Were we upholding the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla titele njokoji we?","output":"Was I not pulling the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne leja se we?","output":"Will I eat fish?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla timaforo mira","output":"I was not contributing to the project"}
+{"instruction":"Translate from Balanda to English","input":"Amande","output":"to work"}
+{"instruction":"Translate from Balanda to English","input":"lü","output":"dance"}
+{"instruction":"Translate from Balanda to English","input":"Danda no tiyai va toko villi","output":"We are going to add money"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve dho tinono gbi difo","output":"The child can be walking in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ndi lenonö gbi difo gba we?","output":"Will they not walk in the compound?"}
+{"instruction":"Present continuous example","input":"Abaha","output":"Ne no tibaha ŋo"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tibaha ŋo gba we?","output":"Was I not seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tisogo ni","output":"She will be hating him"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tize villi we?","output":"Was she giving money?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidovee kurru","output":"He will be seeming calm"}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai dheki gba we?","output":"Will Uku not have gone?"}
+{"instruction":"Negative example","input":"Ateli","output":"Ni teli ta doo gba"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tisogo ni gba","output":"She will not be hating him"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki vonau","output":"Nine children"}
+{"instruction":"Translate from Balanda to English","input":"wii","output":"flower"}
+{"instruction":"Translate from Balanda to English","input":"mamgbala","output":"clean"}
+{"instruction":"Translate from Balanda to English","input":"Ngande no tiyai va ndugu mira we?","output":"Is Ngande going to initiate the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ni no nvejïga","output":"He is a healer"}
+{"instruction":"Question example","input":"Ayai","output":"Ne yai a Wau we?"}
+{"instruction":"Translate from Balanda to English","input":"Awala","output":"to live"}
+{"instruction":"Translate from Balanda to English","input":"Weta","output":"investigate"}
+{"instruction":"Translate from Balanda to English","input":"Garra ngandi dhako","output":"The man's phone"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tifagi mva gba we?","output":"Was he not sharpening the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ati wiki no ku","output":"The child is sick"}
+{"instruction":"Translate from Balanda to English","input":"wunga","output":"alive"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tidüŋü kpendii gba","output":"He couldn’t be remaining behind."}
+{"instruction":"Translate from Balanda to English","input":"Wollo","output":"blow"}
+{"instruction":"Translate from Balanda to English","input":"kala","output":"same"}
+{"instruction":"Translate from Balanda to English","input":"Vonau","output":"Nine"}
+{"instruction":"Identify the Balanda alphabet letter","input":"Y","output":"Letter Y, pronounced /ya/, example: Yehe (behavior)"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka tituru songo gba we?","output":"Were we not pushing the box?"}
+{"instruction":"Translate from Balanda to English","input":"madhiki","output":"dark"}
+{"instruction":"Translate from Balanda to English","input":"jegele","output":"shadow"}
+{"instruction":"Translate from Balanda to English","input":"Danda letoko villi","output":"We will add money"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve lemoliki we?","output":"Will we be able to play?"}
+{"instruction":"Translate from Balanda to English","input":"Ni lemaguku ti kpörö dheki gba we?","output":"Will he not have feared the snake?"}
+{"instruction":"Translate from Balanda to English","input":"Danda no tiyai va turu songo we?","output":"Are we going to push the box?"}
+{"instruction":"Translate from Balanda to English","input":"Tihi no kpabii maraya","output":"The house is opposite the school"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawala gbi Wau we?","output":"Did I live in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tigirri gba","output":"He was not changing."}
+{"instruction":"Translate from Balanda to English","input":"goduru","output":"wish"}
+{"instruction":"Translate from Balanda to English","input":"Ne ja se dheki","output":"I have eaten fish"}
+{"instruction":"Translate from Balanda to English","input":"Veleso","output":"speak"}
+{"instruction":"Identify the Balanda alphabet letter","input":"F","output":"Letter F, pronounced /fe/, example: Fulu (thank, praise)"}
+{"instruction":"Translate from Balanda to English","input":"girri","output":"change"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kamago","output":"They fought."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dhii agbi tiyi gba","output":"He cannot come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve leja nza","output":"I will be able to eat food."}
+{"instruction":"Translate from Balanda to English","input":"Afala","output":"to roll"}
+{"instruction":"Translate from Balanda to English","input":"Ni no gbiya","output":"He is a chief"}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tirunga nveku","output":"They are not isolating the sick"}
+{"instruction":"Translate from Balanda to English","input":"Dhuu kakeye ti diktor no andiso wihi kadhii a ba.","output":"We called the doctor because the child came home."}
+{"instruction":"Translate from Balanda to English","input":"Wiki no gbi ba","output":"The child is within the home."}

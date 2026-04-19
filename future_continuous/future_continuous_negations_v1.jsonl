@@ -4,116 +4,84 @@
   "description": "This file defines negation in the Future Continuous tense in Njo Viri (Balanda). Future continuous negation expresses actions that will not be ongoing at a future time.",
   "rules": {
     "general_principle": {
-      "statement": "Future continuous negation in Balanda is formed by retaining the future marker 'le-', the auxiliary 'dho' (be), and the progressive prefix 'ti-', and adding the negation marker 'gba' sentence-finally."
+      "function": "general principle",
+      "structure": "Future continuous negation in Balanda is formed by retaining the future marker 'le-', the auxiliary 'dho' (be), and the progressive prefix 'ti-', and adding the negation marker 'gba' sentence-finally.",
+      "notes": ""
     },
-
     "negation_structure": {
+      "function": "negation structure",
       "structure": "Subject + le-dho + ti-Verb + (Object / Complement) + gba",
-      "description": "Used to express that an action will not be in progress in the future.",
-      "constraints": [
-        "The future marker 'le-' must attach to 'dho'",
-        "The auxiliary 'dho' must be present",
-        "The progressive prefix 'ti-' must be present",
-        "The negation marker 'gba' must appear sentence-final"
-      ]
+      "notes": "Used to express that an action will not be in progress in the future. | The future marker 'le-' must attach to 'dho'; The auxiliary 'dho' must be present; The progressive prefix 'ti-' must be present; The negation marker 'gba' must appear sentence-final"
     },
-
     "tense_and_aspect_distinction": {
-      "rule": "Future continuous negation encodes both tense and aspect.",
-      "note": [
-        "'le-' encodes future tense",
-        "'dho' functions as auxiliary 'be'",
-        "'ti-' encodes progressive aspect"
-      ]
+      "function": "tense and aspect distinction",
+      "structure": "Future continuous negation encodes both tense and aspect.",
+      "notes": "'le-' encodes future tense; 'dho' functions as auxiliary 'be'; 'ti-' encodes progressive aspect"
     },
-
     "word_order_rules": {
-      "canonical_order": [
-        "Subject",
-        "le-dho",
-        "ti-Verb",
-        "Object / Complement",
-        "gba"
-      ]
+      "function": "word order rules",
+      "structure": "{\"canonical_order\": [\"Subject\", \"le-dho\", \"ti-Verb\", \"Object / Complement\", \"gba\"]}",
+      "notes": "Subject; le-dho; ti-Verb; Object / Complement; gba"
     },
-
-    "error_constraints": [
-      "Do not omit 'le-'",
-      "Do not omit 'dho'",
-      "Do not omit 'ti-'",
-      "Do not use the copula 'ma'",
-      "Do not use 'dheki'",
-      "Do not place 'gba' anywhere except sentence-final"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit 'le-'; Do not omit 'dho'; Do not omit 'ti-'; Do not use the copula 'ma'; Do not use 'dheki'; Do not place 'gba' anywhere except sentence-final",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_le_dho_auxiliary": true,
-      "enforce_ti_prefix": true,
-      "require_sentence_final_gba": true,
-      "preserve_word_order": true,
-      "map_to_english_future_continuous_negation": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_le_dho_auxiliary\": true, \"enforce_ti_prefix\": true, \"require_sentence_final_gba\": true, \"preserve_word_order\": true, \"map_to_english_future_continuous_negation\": true}",
+      "notes": ""
     }
   }
 }
-
-
-[
-  {"balanda":"Ne ledho tija se gba","english":"I will not be eating fish"},
-  {"balanda":"Ni ledho tinzü ngo gba","english":"She will not be drinking water"},
-  {"balanda":"Danda ledho titeli muru famvara gba","english":"We will not be sleeping on the bed"},
-  {"balanda":"Uku ledho tiyai gba","english":"Uku will not be going"},
-  {"balanda":"Ngande ledho tidhii ba gba","english":"Ngande will not be coming home"},
-
-  {"balanda":"Ndi ledho tinonö gbi difo gba","english":"They will not be walking in the compound"},
-  {"balanda":"Ni ledho tinangele zanga gba","english":"She will not be running fast"},
-  {"balanda":"Uku ledho timande gbi njü gba","english":"Uku will not be working in the garden"},
-  {"balanda":"Wiki ledho timoliki gbi difo gba","english":"The child will not be playing in the compound"},
-  {"balanda":"Ne ledho tiloro voro gba","english":"I will not be watching the dog"},
-
-  {"balanda":"Ne ledho tivele njo balanda gba","english":"I will not be speaking Balanda"},
-  {"balanda":"Wilii ledho tisudi kavoso gba","english":"The girl will not be writing words"},
-  {"balanda":"Ne ledho tidheke kitabu gba","english":"I will not be reading a book"},
-  {"balanda":"Ni ledho titeri ay gba","english":"He will not be thinking about it"},
-  {"balanda":"Ndi ledho tiŋiyi ay gba","english":"They will not be knowing it"},
-
-  {"balanda":"Ne ledho tiwe ndi gba","english":"I will not be asking them"},
-  {"balanda":"Ngande ledho tivele zi ndi gba","english":"Ngande will not be telling them"},
-  {"balanda":"Wilii ledho tikeye ti naa ni gba","english":"The girl will not be calling her mother"},
-
-  {"balanda":"Ne ledho timerego ŋo gba","english":"I will not be loving you"},
-  {"balanda":"Ni ledho timaguku ti kpörö gba","english":"He will not be fearing the snake"},
-  {"balanda":"Ni ledho tisogo ni gba","english":"She will not be hating him"},
-  {"balanda":"Ngande ledho tiriki ni gba","english":"Ngande will not be surprising him"},
-  {"balanda":"Ni ledho tidovee kurru gba","english":"He will not be seeming calm"},
-
-  {"balanda":"Wilii ledho tiyele tamma gba","english":"The girl will not be tying the shoe"},
-  {"balanda":"Ni ledho tidi kalla gba","english":"He will not be cutting the pot"},
-  {"balanda":"Ne ledho titele njokoji gba","english":"I will not be pulling the door"},
-  {"balanda":"Danda ledho tituru songo gba","english":"We will not be pushing the box"},
-  {"balanda":"Wilii ledho tisoko tamma gba","english":"The girl will not be washing the shoe"},
-  {"balanda":"Ne ledho tikuru kavokau gba","english":"I will not be hiding the beads"},
-
-  {"balanda":"Ngande ledho tingö tiyi gba","english":"Ngande will not be building a house"},
-  {"balanda":"Ne ledho tisuru kavoso gba","english":"I will not be creating words"},
-  {"balanda":"Ni ledho tigiri kavoso gba","english":"She will not be changing the words"},
-  {"balanda":"Ne ledho tikara njokoji gba","english":"I will not be turning the door"},
-  {"balanda":"Danda ledho titoko villi gba","english":"We will not be adding money"},
-  {"balanda":"Ne ledho tikefo Balanda gba","english":"I will not be describing Balanda"},
-
-  {"balanda":"Ndi ledho tikonu nvesani gba","english":"They will not be helping the poor"},
-  {"balanda":"Ngande ledho tindugu mira gba","english":"Ngande will not be initiating the project"},
-  {"balanda":"Ne ledho timaforo mira gba","english":"I will not be contributing to the project"},
-  {"balanda":"Wilii ledho tisarwa kumere gba","english":"The girl will not be separating trash"},
-  {"balanda":"Danda ledho tikiri tidina gba","english":"We will not be upholding the law"},
-
-  {"balanda":"Ne ledho tiduru ngo gba","english":"I will not be wanting water"},
-  {"balanda":"Ni ledho tize villi gba","english":"She will not be giving money"},
-  {"balanda":"Ne ledho tidhe villi gba","english":"I will not be finding money"},
-  {"balanda":"Uku ledho timele vongu gba","english":"Uku will not be trying the cloth"},
-  {"balanda":"Ngande ledho tisi ba gba","english":"Ngande will not be leaving home"},
-  {"balanda":"Ne ledho tilu Wau gba","english":"I will not be arriving in Wau"},
-  {"balanda":"Ni ledho tifagi mva gba","english":"He will not be sharpening the knife"},
-  {"balanda":"Ngande ledho tidewe kakpodu gba","english":"Ngande will not be imitating adults"},
-  {"balanda":"Danda ledho tibita mira gba","english":"We will not be starting the project"},
-  {"balanda":"Ni ledho titeta gba","english":"He will not be falling"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tija se gba","output":"I will not be eating fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tinzü ngo gba","output":"She will not be drinking water"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titeli muru famvara gba","output":"We will not be sleeping on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho tiyai gba","output":"Uku will not be going"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidhii ba gba","output":"Ngande will not be coming home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tinonö gbi difo gba","output":"They will not be walking in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tinangele zanga gba","output":"She will not be running fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho timande gbi njü gba","output":"Uku will not be working in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki ledho timoliki gbi difo gba","output":"The child will not be playing in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiloro voro gba","output":"I will not be watching the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tivele njo balanda gba","output":"I will not be speaking Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisudi kavoso gba","output":"The girl will not be writing words"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidheke kitabu gba","output":"I will not be reading a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeri ay gba","output":"He will not be thinking about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tiŋiyi ay gba","output":"They will not be knowing it"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiwe ndi gba","output":"I will not be asking them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tivele zi ndi gba","output":"Ngande will not be telling them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tikeye ti naa ni gba","output":"The girl will not be calling her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho timerego ŋo gba","output":"I will not be loving you"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho timaguku ti kpörö gba","output":"He will not be fearing the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tisogo ni gba","output":"She will not be hating him"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tiriki ni gba","output":"Ngande will not be surprising him"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidovee kurru gba","output":"He will not be seeming calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tiyele tamma gba","output":"The girl will not be tying the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tidi kalla gba","output":"He will not be cutting the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho titele njokoji gba","output":"I will not be pulling the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tituru songo gba","output":"We will not be pushing the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisoko tamma gba","output":"The girl will not be washing the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikuru kavokau gba","output":"I will not be hiding the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tingö tiyi gba","output":"Ngande will not be building a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tisuru kavoso gba","output":"I will not be creating words"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tigiri kavoso gba","output":"She will not be changing the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikara njokoji gba","output":"I will not be turning the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titoko villi gba","output":"We will not be adding money"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikefo Balanda gba","output":"I will not be describing Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ledho tikonu nvesani gba","output":"They will not be helping the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tindugu mira gba","output":"Ngande will not be initiating the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho timaforo mira gba","output":"I will not be contributing to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisarwa kumere gba","output":"The girl will not be separating trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tikiri tidina gba","output":"We will not be upholding the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiduru ngo gba","output":"I will not be wanting water"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tize villi gba","output":"She will not be giving money"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidhe villi gba","output":"I will not be finding money"}
+{"instruction":"Translate from Balanda to English","input":"Uku ledho timele vongu gba","output":"Uku will not be trying the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tisi ba gba","output":"Ngande will not be leaving home"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tilu Wau gba","output":"I will not be arriving in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho tifagi mva gba","output":"He will not be sharpening the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidewe kakpodu gba","output":"Ngande will not be imitating adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho tibita mira gba","output":"We will not be starting the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeta gba","output":"He will not be falling"}

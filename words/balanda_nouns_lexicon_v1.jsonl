@@ -1,283 +1,268 @@
 {
-  "instruction_type": "lexical_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_nouns_people_social",
   "description": "This file contains core Balanda nouns referring to people, family relations, age groups, and social roles. These nouns function as independent lexical items and serve as subjects, objects, and complements in sentences.",
   "rules": {
-    "part_of_speech": "noun",
-    "semantic_domain": [
-      "human beings",
-      "family relations",
-      "social roles",
-      "age and status groups"
-    ],
+    "part_of_speech": {
+      "function": "part of speech",
+      "structure": "noun",
+      "notes": ""
+    },
+    "semantic_domain": {
+      "function": "semantic domain",
+      "structure": "human beings; family relations; social roles; age and status groups",
+      "notes": ""
+    },
     "morphology": {
-      "inflection": "none",
-      "gender_marking": "lexical (e.g. dhako = man, niki = woman)",
-      "number_marking": "Plurality is not marked on the noun itself; plural is expressed with ka- or quantifiers"
+      "function": "morphology",
+      "structure": "{\"inflection\": \"none\", \"gender_marking\": \"lexical (e.g. dhako = man, niki = woman)\", \"number_marking\": \"Plurality is not marked on the noun itself; plural is expressed with ka- or quantifiers\"}",
+      "notes": "none | lexical (e.g. dhako = man, niki = woman) | Plurality is not marked on the noun itself; plural is expressed with ka- or quantifiers"
     },
     "syntactic_usage": {
-      "subject": {
-        "example": "Wiki nonve nono (The child can walk)"
-      },
-      "object": {
-        "example": "Ni kolo wiki (He hugs the child)"
-      },
-      "predicate_nominal": {
-        "structure": "NOUN + no + NOUN",
-        "example": "Ni no gbiya (He is a chief)"
-      }
+      "function": "syntactic usage",
+      "structure": "{\"subject\": {\"example\": \"Wiki nonve nono (The child can walk)\"}, \"object\": {\"example\": \"Ni kolo wiki (He hugs the child)\"}, \"predicate_nominal\": {\"structure\": \"NOUN + no + NOUN\", \"example\": \"Ni no gbiya (He is a chief)\"}}",
+      "notes": ""
     },
     "compatibility_rules": {
-      "adjectives": "Nouns may be modified by adjectives following the noun (NOUN + ADJECTIVE)",
-      "possession": "Nouns may take possessors using 'ngandi' (NOUN + ngandi + POSSESSOR)",
-      "quantifiers": "Nouns may combine with quantity words (e.g. makoti, bihi, kpi)",
-      "questions": "Nouns participate in questions without changing form"
+      "function": "compatibility rules",
+      "structure": "{\"adjectives\": \"Nouns may be modified by adjectives following the noun (NOUN + ADJECTIVE)\", \"possession\": \"Nouns may take possessors using 'ngandi' (NOUN + ngandi + POSSESSOR)\", \"quantifiers\": \"Nouns may combine with quantity words (e.g. makoti, bihi, kpi)\", \"questions\": \"Nouns participate in questions without changing form\"}",
+      "notes": "Nouns may be modified by adjectives following the noun (NOUN + ADJECTIVE) | Nouns may take possessors using 'ngandi' (NOUN + ngandi + POSSESSOR) | Nouns may combine with quantity words (e.g. makoti, bihi, kpi) | Nouns participate in questions without changing form"
     },
-    "constraints": [
-      "Nouns do not take tense, aspect, or modality markers",
-      "Nouns are not prefixed with verb markers (A-, ti-, le-)",
-      "Gender distinctions are lexical, not grammatical",
-      "Social role nouns can function both as common nouns and predicate complements",
-      "Do not invent plural suffixes; use ka- or quantifiers instead"
-    ]
+    "constraints": {
+      "function": "constraints",
+      "structure": "Nouns do not take tense, aspect, or modality markers; Nouns are not prefixed with verb markers (A-, ti-, le-); Gender distinctions are lexical, not grammatical; Social role nouns can function both as common nouns and predicate complements; Do not invent plural suffixes; use ka- or quantifiers instead",
+      "notes": ""
+    }
   }
 }
-
-
-
-{"balanda":"wutdu","english":"person"}
-{"balanda":"dako","english":"man"}
-{"balanda":"niki","english":"woman"}
-{"balanda":"wiki","english":"child"}
-{"balanda":"nvejo","english":"parent"}
-{"balanda":"naa","english":"mother"}
-{"balanda":"vuu","english":"father"}
-{"balanda":"wanaa","english":"brother"}
-{"balanda":"janaa","english":"sister"}
-{"balanda":"vakuru","english":"friend"}
-{"balanda":"kpotdu","english":"elder"}
-{"balanda":"faranga","english":"youth"}
-{"balanda":"ülürü","english":"leader"}
-{"balanda":"gbiya","english":"chief"}
-{"balanda":"nvemande","english":"worker"}
-{"balanda":"nvejünjü","english":"farmer"}
-{"balanda":"umvamva","english":"hunter"}
-{"balanda":"ugose","english":"fisherman"}
-{"balanda":"diktor","english":"doctor"}
-{"balanda":"nveku","english":"patient"}
-{"balanda":"nvejïga","english":"healer"}
-{"balanda":"uvanda","english":"guard"}
-{"balanda":"bolis","english":"police"}
-{"balanda":"umgbanga","english":"judge"}
-{"balanda":"nvetu","english":"messenger"}
-{"balanda":"nvenomolo","english":"traveler"}
-{"balanda":"nvewili","english":"guest"}
-{"balanda":"nvemawili","english":"host"}
-{"balanda":"ŋayinze","english":"stranger"}
-{"balanda":"vuru","english":"citizen"}
-{"balanda":"ugbuku","english":"villager"}
-{"balanda":"nako","english":"people"}
-{"balanda":"nvendere","english":"enemy"}
-{"balanda":"nvehe","english":"relative"}
-{"balanda":"güü","english":"ancestor"}
-{"balanda":"körö","english":"descendant"}
-{"balanda":"nawku","english":"widow"}
-{"balanda":"njö","english":"orphan"}
-{"balanda":"akoti","english":"marriage"}
-{"balanda":"roffi wa akoti","english":"wedding"}
-{"balanda":"roffi","english":"ceremony"}
-{"balanda":"tidina","english":"law"}
-{"balanda":"gele","english":"tradition"}
-{"balanda":"tagüü","english":"culture"}
-{"balanda":"njo","english":"language"}
-{"balanda":"njoso","english":"language"}
-{"balanda":"voso","english":"word"}
-{"balanda":"le","english":"name"}
-{"balanda":"takoni","english":"story"}
-{"balanda":"se","english":"song"}
-{"balanda":"lü","english":"dance"}
-{"balanda":"kporo","english":"drum"}
-{"balanda":"koso","english":"voice"}
-{"balanda":"kele","english":"sound"}
-{"balanda":"so","english":"speech"}
-{"balanda":"siggi","english":"message"}
-{"balanda":"kangu","english":"news"}
-{"balanda":"vasugu","english":"information"}
-{"balanda":"fara","english":"idea"}
-{"balanda":"gbinjo","english":"conflict"}
-{"balanda":"yeleso","english":"peace"}
-{"balanda":"gö","english":"war"}
-{"balanda":"magö","english":"fight"}
-{"balanda":"konu","english":"help"}
-{"balanda":"fünji","english":"advice"}
-
-{"balanda":"dirri","english":"body"}
-{"balanda":"mürü","english":"head"}
-{"balanda":"lo","english":"face"}
-{"balanda":"volo","english":"eye"}
-{"balanda":"sü","english":"ear"}
-{"balanda":"ŋo","english":"nose"}
-{"balanda":"njo","english":"mouth"}
-{"balanda":"votï","english":"tooth"}
-{"balanda":"me","english":"tongue"}
-{"balanda":"milli","english":"neck"}
-{"balanda":"vasilbï","english":"shoulder"}
-{"balanda":"lobï","english":"arm"}
-{"balanda":"bï","english":"hand"}
-{"balanda":"vobï","english":"finger"}
-{"balanda":"kürrü","english":"chest"}
-{"balanda":"kafi","english":"back"}
-{"balanda":"yï","english":"stomach"}
-{"balanda":"lehe","english":"heart"}
-{"balanda":"nvele","english":"blood"}
-{"balanda":"bili","english":"bone"}
-{"balanda":"kuhuti","english":"skin"}
-{"balanda":"sehe","english":"hair"}
-{"balanda":"ngbo","english":"leg"}
-{"balanda":"durungbo","english":"knee"}
-{"balanda":"kpaangbo","english":"foot"}
-{"balanda":"gaguvongbo","english":"toe"}
-{"balanda":"kusulu","english":"nail"}
-{"balanda":"nvimuru","english":"brain"}
-{"balanda":"wala","english":"life"}
-{"balanda":"ku","english":"death"}
-{"balanda":"ajondo","english":"birth"}
-{"balanda":"ŋodirri","english":"health"}
-{"balanda":"gogodirri","english":"illness"}
-{"balanda":"gogo","english":"pain"}
-{"balanda":"kaha","english":"wound"}
-{"balanda":"jïgga","english":"medicine"}
-{"balanda":"tüyüke","english":"treatment"}
-{"balanda":"jubtalia","english":"hospital"}
-{"balanda":"gö","english":"hunger"}
-{"balanda":"göngo","english":"thirst"}
-{"balanda":"woti","english":"strength"}
-{"balanda":"fayati","english":"weakness"}
-{"balanda":"li","english":"sleep"}
-{"balanda":"lï","english":"dream"}
-{"balanda":"wöti","english":"rest"}
-{"balanda":"nde","english":"work"}
-{"balanda":"nonvendo","english":"ability"}
-{"balanda":"willimuru","english":"forgetfulness"}
-{"balanda":"ndooti","english":"age"}
-{"balanda":"kpolo","english":"growth"}
-{"balanda":"girri","english":"change"}
-{"balanda":"deyeke","english":"development"}
-{"balanda":"mgbara","english":"luck"}
-{"balanda":"sukumu","english":"destiny"}
-{"balanda":"guku","english":"fear"}
-{"balanda":"soho","english":"courage"}
-
-
-{"balanda":"tü","english":"land"}
-{"balanda":"murutü","english":"earth"}
-{"balanda":"njü","english":"farm"}
-{"balanda":"goti","english":"forest"}
-{"balanda":"nguu","english":"tree"}
-{"balanda":"yabï","english":"branch"}
-{"balanda":"kpaa","english":"leaf"}
-{"balanda":"tatere","english":"root"}
-{"balanda":"wii","english":"flower"}
-{"balanda":"linguu","english":"fruit"}
-{"balanda":"voŋa","english":"seed"}
-{"balanda":"wuu","english":"grass"}
-{"balanda":"nanje","english":"animal"}
-{"balanda":"delle","english":"goat"}
-{"balanda":"voro","english":"dog"}
-{"balanda":"bura","english":"cat"}
-{"balanda":"keseuŋaa","english":"donkey"}
-{"balanda":"nguru","english":"chicken"}
-{"balanda":"nanuu","english":"bird"}
-{"balanda":"valla","english":"egg"}
-{"balanda":"se","english":"fish"}
-{"balanda":"serre","english":"river"}
-{"balanda":"verre","english":"stream"}
-{"balanda":"ngokara","english":"pond"}
-{"balanda":"ngo","english":"water"}
-{"balanda":"muu","english":"rain"}
-{"balanda":"gundiri","english":"wind"}
-{"balanda":"vemuu","english":"cloud"}
-{"balanda":"loli","english":"sky"}
-{"balanda":"li","english":"sun"}
-{"balanda":"fi","english":"moon"}
-{"balanda":"Vosiri","english":"star"}
-{"balanda":"wï","english":"fire"}
-{"balanda":"ngürü","english":"smoke"}
-{"balanda":"vürü","english":"ash"}
-{"balanda":"kpalawï","english":"heat"}
-{"balanda":"sorowo","english":"cold"}
-{"balanda":"taza","english":"shade"}
-{"balanda":"ngbawo","english":"light"}
-{"balanda":"viviliwo","english":"darkness"}
-{"balanda":"jegele","english":"shadow"}
-{"balanda":"sukuruta","english":"hill"}
-{"balanda":"duguluta","english":"valley"}
-{"balanda":"vukuyo","english":"desert"}
-{"balanda":"kuyo","english":"sand"}
-{"balanda":"duu","english":"rock"}
-{"balanda":"dïrï","english":"stone"}
-{"balanda":"guru","english":"hole"}
-{"balanda":"giri","english":"road"}
-{"balanda":"ngurru","english":"path"}
-{"balanda":"tiserre","english":"riverbank"}
-{"balanda":"vetü","english":"mud"}
-{"balanda":"kufulu","english":"dust"}
-{"balanda":"yamo","english":"air"}
-{"balanda":"föö","english":"smell"}
-{"balanda":"wö","english":"time"}
-{"balanda":"liwö","english":"day"}
-{"balanda":"doo","english":"night"}
-{"balanda":"fürüve","english":"morning"}
-{"balanda":"kpatili","english":"afternoon"}
-{"balanda":"yelewo","english":"evening"}
-{"balanda":"ndoo","english":"year"}
-{"balanda":"ngbowö","english":"hour"}
-{"balanda":"nibolo","english":"future"}
-{"balanda":"soni","english":"past"}
-{"balanda":"sorono","english":"present"}
-{"balanda":"wuhu","english":"middle"}
-{"balanda":"suku","english":"end"}
-
-
-{"balanda":"tiyi","english":"house"}
-{"balanda":"baa","english":"home"}
-{"balanda":"vozetde","english":"hut"}
-{"balanda":"njokoji","english":"door"}
-{"balanda":"murutiyi","english":"roof"}
-{"balanda":"sutiyi","english":"wall"}
-{"balanda":"gbata","english":"town"}
-{"balanda":"negu","english":"market"}
-{"balanda":"galla","english":"store"}
-{"balanda":"maraya","english":"school"}
-{"balanda":"kenisa","english":"church"}
-{"balanda":"jubtalia","english":"hospital"}
-{"balanda":"nonvili","english":"vehicle"}
-{"balanda":"turunvili","english":"car"}
-{"balanda":"kese","english":"bicycle"}
-{"balanda":"felenvili","english":"motorcycle"}
-{"balanda":"nvili","english":"engine"}
-{"balanda":"vavura","english":"seat"}
-{"balanda":"kafa","english":"table"}
-{"balanda":"gbatda","english":"bed"}
-{"balanda":"tafi","english":"mat"}
-{"balanda":"vongu","english":"cloth"}
-{"balanda":"tama","english":"shoe"}
-{"balanda":"vonzama","english":"sandal"}
-{"balanda":"joko","english":"bag"}
-{"balanda":"kerre","english":"basket"}
-{"balanda":"fehe","english":"bottle"}
-{"balanda":"garra","english":"cup"}
-{"balanda":"kaze","english":"spoon"}
-{"balanda":"mva","english":"knife"}
-{"balanda":"kalla","english":"pot"}
-{"balanda":"sussu","english":"firewood"}
-{"balanda":"kessi","english":"stove"}
-{"balanda":"yinde","english":"tool"}
-{"balanda":"kango","english":"axe"}
-{"balanda":"wü","english":"rope"}
-{"balanda":"nvuu","english":"net"}
-{"balanda":"tata","english":"trap"}
-{"balanda":"kïssï","english":"lock"}
-{"balanda":"jegele","english":"picture"}
-{"balanda":"gara","english":"bell"}
-{"balanda":"uginda","english":"whistle"}
+{"instruction":"Translate from Balanda to English","input":"wutdu","output":"person"}
+{"instruction":"Translate from Balanda to English","input":"dako","output":"man"}
+{"instruction":"Translate from Balanda to English","input":"niki","output":"woman"}
+{"instruction":"Translate from Balanda to English","input":"wiki","output":"child"}
+{"instruction":"Translate from Balanda to English","input":"nvejo","output":"parent"}
+{"instruction":"Translate from Balanda to English","input":"naa","output":"mother"}
+{"instruction":"Translate from Balanda to English","input":"vuu","output":"father"}
+{"instruction":"Translate from Balanda to English","input":"wanaa","output":"brother"}
+{"instruction":"Translate from Balanda to English","input":"janaa","output":"sister"}
+{"instruction":"Translate from Balanda to English","input":"vakuru","output":"friend"}
+{"instruction":"Translate from Balanda to English","input":"kpotdu","output":"elder"}
+{"instruction":"Translate from Balanda to English","input":"faranga","output":"youth"}
+{"instruction":"Translate from Balanda to English","input":"ülürü","output":"leader"}
+{"instruction":"Translate from Balanda to English","input":"gbiya","output":"chief"}
+{"instruction":"Translate from Balanda to English","input":"nvemande","output":"worker"}
+{"instruction":"Translate from Balanda to English","input":"nvejünjü","output":"farmer"}
+{"instruction":"Translate from Balanda to English","input":"umvamva","output":"hunter"}
+{"instruction":"Translate from Balanda to English","input":"ugose","output":"fisherman"}
+{"instruction":"Translate from Balanda to English","input":"diktor","output":"doctor"}
+{"instruction":"Translate from Balanda to English","input":"nveku","output":"patient"}
+{"instruction":"Translate from Balanda to English","input":"nvejïga","output":"healer"}
+{"instruction":"Translate from Balanda to English","input":"uvanda","output":"guard"}
+{"instruction":"Translate from Balanda to English","input":"bolis","output":"police"}
+{"instruction":"Translate from Balanda to English","input":"umgbanga","output":"judge"}
+{"instruction":"Translate from Balanda to English","input":"nvetu","output":"messenger"}
+{"instruction":"Translate from Balanda to English","input":"nvenomolo","output":"traveler"}
+{"instruction":"Translate from Balanda to English","input":"nvewili","output":"guest"}
+{"instruction":"Translate from Balanda to English","input":"nvemawili","output":"host"}
+{"instruction":"Translate from Balanda to English","input":"ŋayinze","output":"stranger"}
+{"instruction":"Translate from Balanda to English","input":"vuru","output":"citizen"}
+{"instruction":"Translate from Balanda to English","input":"ugbuku","output":"villager"}
+{"instruction":"Translate from Balanda to English","input":"nako","output":"people"}
+{"instruction":"Translate from Balanda to English","input":"nvendere","output":"enemy"}
+{"instruction":"Translate from Balanda to English","input":"nvehe","output":"relative"}
+{"instruction":"Translate from Balanda to English","input":"güü","output":"ancestor"}
+{"instruction":"Translate from Balanda to English","input":"körö","output":"descendant"}
+{"instruction":"Translate from Balanda to English","input":"nawku","output":"widow"}
+{"instruction":"Translate from Balanda to English","input":"njö","output":"orphan"}
+{"instruction":"Translate from Balanda to English","input":"akoti","output":"marriage"}
+{"instruction":"Translate from Balanda to English","input":"roffi wa akoti","output":"wedding"}
+{"instruction":"Translate from Balanda to English","input":"roffi","output":"ceremony"}
+{"instruction":"Translate from Balanda to English","input":"tidina","output":"law"}
+{"instruction":"Translate from Balanda to English","input":"gele","output":"tradition"}
+{"instruction":"Translate from Balanda to English","input":"tagüü","output":"culture"}
+{"instruction":"Translate from Balanda to English","input":"njo","output":"language"}
+{"instruction":"Translate from Balanda to English","input":"njoso","output":"language"}
+{"instruction":"Translate from Balanda to English","input":"voso","output":"word"}
+{"instruction":"Translate from Balanda to English","input":"le","output":"name"}
+{"instruction":"Translate from Balanda to English","input":"takoni","output":"story"}
+{"instruction":"Translate from Balanda to English","input":"se","output":"song"}
+{"instruction":"Translate from Balanda to English","input":"lü","output":"dance"}
+{"instruction":"Translate from Balanda to English","input":"kporo","output":"drum"}
+{"instruction":"Translate from Balanda to English","input":"koso","output":"voice"}
+{"instruction":"Translate from Balanda to English","input":"kele","output":"sound"}
+{"instruction":"Translate from Balanda to English","input":"so","output":"speech"}
+{"instruction":"Translate from Balanda to English","input":"siggi","output":"message"}
+{"instruction":"Translate from Balanda to English","input":"kangu","output":"news"}
+{"instruction":"Translate from Balanda to English","input":"vasugu","output":"information"}
+{"instruction":"Translate from Balanda to English","input":"fara","output":"idea"}
+{"instruction":"Translate from Balanda to English","input":"gbinjo","output":"conflict"}
+{"instruction":"Translate from Balanda to English","input":"yeleso","output":"peace"}
+{"instruction":"Translate from Balanda to English","input":"gö","output":"war"}
+{"instruction":"Translate from Balanda to English","input":"magö","output":"fight"}
+{"instruction":"Translate from Balanda to English","input":"konu","output":"help"}
+{"instruction":"Translate from Balanda to English","input":"fünji","output":"advice"}
+{"instruction":"Translate from Balanda to English","input":"dirri","output":"body"}
+{"instruction":"Translate from Balanda to English","input":"mürü","output":"head"}
+{"instruction":"Translate from Balanda to English","input":"lo","output":"face"}
+{"instruction":"Translate from Balanda to English","input":"volo","output":"eye"}
+{"instruction":"Translate from Balanda to English","input":"sü","output":"ear"}
+{"instruction":"Translate from Balanda to English","input":"ŋo","output":"nose"}
+{"instruction":"Translate from Balanda to English","input":"njo","output":"mouth"}
+{"instruction":"Translate from Balanda to English","input":"votï","output":"tooth"}
+{"instruction":"Translate from Balanda to English","input":"me","output":"tongue"}
+{"instruction":"Translate from Balanda to English","input":"milli","output":"neck"}
+{"instruction":"Translate from Balanda to English","input":"vasilbï","output":"shoulder"}
+{"instruction":"Translate from Balanda to English","input":"lobï","output":"arm"}
+{"instruction":"Translate from Balanda to English","input":"bï","output":"hand"}
+{"instruction":"Translate from Balanda to English","input":"vobï","output":"finger"}
+{"instruction":"Translate from Balanda to English","input":"kürrü","output":"chest"}
+{"instruction":"Translate from Balanda to English","input":"kafi","output":"back"}
+{"instruction":"Translate from Balanda to English","input":"yï","output":"stomach"}
+{"instruction":"Translate from Balanda to English","input":"lehe","output":"heart"}
+{"instruction":"Translate from Balanda to English","input":"nvele","output":"blood"}
+{"instruction":"Translate from Balanda to English","input":"bili","output":"bone"}
+{"instruction":"Translate from Balanda to English","input":"kuhuti","output":"skin"}
+{"instruction":"Translate from Balanda to English","input":"sehe","output":"hair"}
+{"instruction":"Translate from Balanda to English","input":"ngbo","output":"leg"}
+{"instruction":"Translate from Balanda to English","input":"durungbo","output":"knee"}
+{"instruction":"Translate from Balanda to English","input":"kpaangbo","output":"foot"}
+{"instruction":"Translate from Balanda to English","input":"gaguvongbo","output":"toe"}
+{"instruction":"Translate from Balanda to English","input":"kusulu","output":"nail"}
+{"instruction":"Translate from Balanda to English","input":"nvimuru","output":"brain"}
+{"instruction":"Translate from Balanda to English","input":"wala","output":"life"}
+{"instruction":"Translate from Balanda to English","input":"ku","output":"death"}
+{"instruction":"Translate from Balanda to English","input":"ajondo","output":"birth"}
+{"instruction":"Translate from Balanda to English","input":"ŋodirri","output":"health"}
+{"instruction":"Translate from Balanda to English","input":"gogodirri","output":"illness"}
+{"instruction":"Translate from Balanda to English","input":"gogo","output":"pain"}
+{"instruction":"Translate from Balanda to English","input":"kaha","output":"wound"}
+{"instruction":"Translate from Balanda to English","input":"jïgga","output":"medicine"}
+{"instruction":"Translate from Balanda to English","input":"tüyüke","output":"treatment"}
+{"instruction":"Translate from Balanda to English","input":"jubtalia","output":"hospital"}
+{"instruction":"Translate from Balanda to English","input":"gö","output":"hunger"}
+{"instruction":"Translate from Balanda to English","input":"göngo","output":"thirst"}
+{"instruction":"Translate from Balanda to English","input":"woti","output":"strength"}
+{"instruction":"Translate from Balanda to English","input":"fayati","output":"weakness"}
+{"instruction":"Translate from Balanda to English","input":"li","output":"sleep"}
+{"instruction":"Translate from Balanda to English","input":"lï","output":"dream"}
+{"instruction":"Translate from Balanda to English","input":"wöti","output":"rest"}
+{"instruction":"Translate from Balanda to English","input":"nde","output":"work"}
+{"instruction":"Translate from Balanda to English","input":"nonvendo","output":"ability"}
+{"instruction":"Translate from Balanda to English","input":"willimuru","output":"forgetfulness"}
+{"instruction":"Translate from Balanda to English","input":"ndooti","output":"age"}
+{"instruction":"Translate from Balanda to English","input":"kpolo","output":"growth"}
+{"instruction":"Translate from Balanda to English","input":"girri","output":"change"}
+{"instruction":"Translate from Balanda to English","input":"deyeke","output":"development"}
+{"instruction":"Translate from Balanda to English","input":"mgbara","output":"luck"}
+{"instruction":"Translate from Balanda to English","input":"sukumu","output":"destiny"}
+{"instruction":"Translate from Balanda to English","input":"guku","output":"fear"}
+{"instruction":"Translate from Balanda to English","input":"soho","output":"courage"}
+{"instruction":"Translate from Balanda to English","input":"tü","output":"land"}
+{"instruction":"Translate from Balanda to English","input":"murutü","output":"earth"}
+{"instruction":"Translate from Balanda to English","input":"njü","output":"farm"}
+{"instruction":"Translate from Balanda to English","input":"goti","output":"forest"}
+{"instruction":"Translate from Balanda to English","input":"nguu","output":"tree"}
+{"instruction":"Translate from Balanda to English","input":"yabï","output":"branch"}
+{"instruction":"Translate from Balanda to English","input":"kpaa","output":"leaf"}
+{"instruction":"Translate from Balanda to English","input":"tatere","output":"root"}
+{"instruction":"Translate from Balanda to English","input":"wii","output":"flower"}
+{"instruction":"Translate from Balanda to English","input":"linguu","output":"fruit"}
+{"instruction":"Translate from Balanda to English","input":"voŋa","output":"seed"}
+{"instruction":"Translate from Balanda to English","input":"wuu","output":"grass"}
+{"instruction":"Translate from Balanda to English","input":"nanje","output":"animal"}
+{"instruction":"Translate from Balanda to English","input":"delle","output":"goat"}
+{"instruction":"Translate from Balanda to English","input":"voro","output":"dog"}
+{"instruction":"Translate from Balanda to English","input":"bura","output":"cat"}
+{"instruction":"Translate from Balanda to English","input":"keseuŋaa","output":"donkey"}
+{"instruction":"Translate from Balanda to English","input":"nguru","output":"chicken"}
+{"instruction":"Translate from Balanda to English","input":"nanuu","output":"bird"}
+{"instruction":"Translate from Balanda to English","input":"valla","output":"egg"}
+{"instruction":"Translate from Balanda to English","input":"se","output":"fish"}
+{"instruction":"Translate from Balanda to English","input":"serre","output":"river"}
+{"instruction":"Translate from Balanda to English","input":"verre","output":"stream"}
+{"instruction":"Translate from Balanda to English","input":"ngokara","output":"pond"}
+{"instruction":"Translate from Balanda to English","input":"ngo","output":"water"}
+{"instruction":"Translate from Balanda to English","input":"muu","output":"rain"}
+{"instruction":"Translate from Balanda to English","input":"gundiri","output":"wind"}
+{"instruction":"Translate from Balanda to English","input":"vemuu","output":"cloud"}
+{"instruction":"Translate from Balanda to English","input":"loli","output":"sky"}
+{"instruction":"Translate from Balanda to English","input":"li","output":"sun"}
+{"instruction":"Translate from Balanda to English","input":"fi","output":"moon"}
+{"instruction":"Translate from Balanda to English","input":"Vosiri","output":"star"}
+{"instruction":"Translate from Balanda to English","input":"wï","output":"fire"}
+{"instruction":"Translate from Balanda to English","input":"ngürü","output":"smoke"}
+{"instruction":"Translate from Balanda to English","input":"vürü","output":"ash"}
+{"instruction":"Translate from Balanda to English","input":"kpalawï","output":"heat"}
+{"instruction":"Translate from Balanda to English","input":"sorowo","output":"cold"}
+{"instruction":"Translate from Balanda to English","input":"taza","output":"shade"}
+{"instruction":"Translate from Balanda to English","input":"ngbawo","output":"light"}
+{"instruction":"Translate from Balanda to English","input":"viviliwo","output":"darkness"}
+{"instruction":"Translate from Balanda to English","input":"jegele","output":"shadow"}
+{"instruction":"Translate from Balanda to English","input":"sukuruta","output":"hill"}
+{"instruction":"Translate from Balanda to English","input":"duguluta","output":"valley"}
+{"instruction":"Translate from Balanda to English","input":"vukuyo","output":"desert"}
+{"instruction":"Translate from Balanda to English","input":"kuyo","output":"sand"}
+{"instruction":"Translate from Balanda to English","input":"duu","output":"rock"}
+{"instruction":"Translate from Balanda to English","input":"dïrï","output":"stone"}
+{"instruction":"Translate from Balanda to English","input":"guru","output":"hole"}
+{"instruction":"Translate from Balanda to English","input":"giri","output":"road"}
+{"instruction":"Translate from Balanda to English","input":"ngurru","output":"path"}
+{"instruction":"Translate from Balanda to English","input":"tiserre","output":"riverbank"}
+{"instruction":"Translate from Balanda to English","input":"vetü","output":"mud"}
+{"instruction":"Translate from Balanda to English","input":"kufulu","output":"dust"}
+{"instruction":"Translate from Balanda to English","input":"yamo","output":"air"}
+{"instruction":"Translate from Balanda to English","input":"föö","output":"smell"}
+{"instruction":"Translate from Balanda to English","input":"wö","output":"time"}
+{"instruction":"Translate from Balanda to English","input":"liwö","output":"day"}
+{"instruction":"Translate from Balanda to English","input":"doo","output":"night"}
+{"instruction":"Translate from Balanda to English","input":"fürüve","output":"morning"}
+{"instruction":"Translate from Balanda to English","input":"kpatili","output":"afternoon"}
+{"instruction":"Translate from Balanda to English","input":"yelewo","output":"evening"}
+{"instruction":"Translate from Balanda to English","input":"ndoo","output":"year"}
+{"instruction":"Translate from Balanda to English","input":"ngbowö","output":"hour"}
+{"instruction":"Translate from Balanda to English","input":"nibolo","output":"future"}
+{"instruction":"Translate from Balanda to English","input":"soni","output":"past"}
+{"instruction":"Translate from Balanda to English","input":"sorono","output":"present"}
+{"instruction":"Translate from Balanda to English","input":"wuhu","output":"middle"}
+{"instruction":"Translate from Balanda to English","input":"suku","output":"end"}
+{"instruction":"Translate from Balanda to English","input":"tiyi","output":"house"}
+{"instruction":"Translate from Balanda to English","input":"baa","output":"home"}
+{"instruction":"Translate from Balanda to English","input":"vozetde","output":"hut"}
+{"instruction":"Translate from Balanda to English","input":"njokoji","output":"door"}
+{"instruction":"Translate from Balanda to English","input":"murutiyi","output":"roof"}
+{"instruction":"Translate from Balanda to English","input":"sutiyi","output":"wall"}
+{"instruction":"Translate from Balanda to English","input":"gbata","output":"town"}
+{"instruction":"Translate from Balanda to English","input":"negu","output":"market"}
+{"instruction":"Translate from Balanda to English","input":"galla","output":"store"}
+{"instruction":"Translate from Balanda to English","input":"maraya","output":"school"}
+{"instruction":"Translate from Balanda to English","input":"kenisa","output":"church"}
+{"instruction":"Translate from Balanda to English","input":"jubtalia","output":"hospital"}
+{"instruction":"Translate from Balanda to English","input":"nonvili","output":"vehicle"}
+{"instruction":"Translate from Balanda to English","input":"turunvili","output":"car"}
+{"instruction":"Translate from Balanda to English","input":"kese","output":"bicycle"}
+{"instruction":"Translate from Balanda to English","input":"felenvili","output":"motorcycle"}
+{"instruction":"Translate from Balanda to English","input":"nvili","output":"engine"}
+{"instruction":"Translate from Balanda to English","input":"vavura","output":"seat"}
+{"instruction":"Translate from Balanda to English","input":"kafa","output":"table"}
+{"instruction":"Translate from Balanda to English","input":"gbatda","output":"bed"}
+{"instruction":"Translate from Balanda to English","input":"tafi","output":"mat"}
+{"instruction":"Translate from Balanda to English","input":"vongu","output":"cloth"}
+{"instruction":"Translate from Balanda to English","input":"tama","output":"shoe"}
+{"instruction":"Translate from Balanda to English","input":"vonzama","output":"sandal"}
+{"instruction":"Translate from Balanda to English","input":"joko","output":"bag"}
+{"instruction":"Translate from Balanda to English","input":"kerre","output":"basket"}
+{"instruction":"Translate from Balanda to English","input":"fehe","output":"bottle"}
+{"instruction":"Translate from Balanda to English","input":"garra","output":"cup"}
+{"instruction":"Translate from Balanda to English","input":"kaze","output":"spoon"}
+{"instruction":"Translate from Balanda to English","input":"mva","output":"knife"}
+{"instruction":"Translate from Balanda to English","input":"kalla","output":"pot"}
+{"instruction":"Translate from Balanda to English","input":"sussu","output":"firewood"}
+{"instruction":"Translate from Balanda to English","input":"kessi","output":"stove"}
+{"instruction":"Translate from Balanda to English","input":"yinde","output":"tool"}
+{"instruction":"Translate from Balanda to English","input":"kango","output":"axe"}
+{"instruction":"Translate from Balanda to English","input":"wü","output":"rope"}
+{"instruction":"Translate from Balanda to English","input":"nvuu","output":"net"}
+{"instruction":"Translate from Balanda to English","input":"tata","output":"trap"}
+{"instruction":"Translate from Balanda to English","input":"kïssï","output":"lock"}
+{"instruction":"Translate from Balanda to English","input":"jegele","output":"picture"}
+{"instruction":"Translate from Balanda to English","input":"gara","output":"bell"}
+{"instruction":"Translate from Balanda to English","input":"uginda","output":"whistle"}

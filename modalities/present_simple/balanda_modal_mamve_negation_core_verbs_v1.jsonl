@@ -3,72 +3,90 @@
   "grammar_name": "balanda_present_simple_negative_modality_mamve",
   "description": "This file contains Balanda present simple negative modal constructions using 'mamve'. This modality expresses present inability or impossibility and corresponds to the English meaning 'cannot'.",
   "rules": {
-    "core_meaning": "Present inability or impossibility",
-    "modal": "mamve",
-    "verb_form": "bare verb (base form)",
-    "negation": "gba (clause-final)",
-    "affirmative_negative_form": {
-      "structure": "Subject + mamve + VERB + (Object/Complement) + gba",
-      "note": "This construction negates present simple modal ability"
+    "core_meaning": {
+      "function": "core meaning",
+      "structure": "Present inability or impossibility",
+      "notes": ""
     },
-    "tense": "present",
-    "aspect": "simple (non-continuous)",
-    "polarity": "negative",
-    "constraints": [
-      "mamve replaces nonve in negative present modality",
-      "mamve must immediately follow the subject",
-      "The verb must remain in its base form",
-      "No ti- (continuous) or le- (future) prefix may appear in this construction",
-      "gba must appear at the end of the clause",
-      "This construction must not be confused with present continuous negative modality (mamve + dho + ti-VERB + gba)"
-    ]
+    "modal": {
+      "function": "modal",
+      "structure": "mamve",
+      "notes": ""
+    },
+    "verb_form": {
+      "function": "verb form",
+      "structure": "bare verb (base form)",
+      "notes": ""
+    },
+    "negation": {
+      "function": "negation",
+      "structure": "gba (clause-final)",
+      "notes": ""
+    },
+    "affirmative_negative_form": {
+      "function": "affirmative negative form",
+      "structure": "Subject + mamve + VERB + (Object/Complement) + gba",
+      "notes": "This construction negates present simple modal ability"
+    },
+    "tense": {
+      "function": "tense",
+      "structure": "present",
+      "notes": ""
+    },
+    "aspect": {
+      "function": "aspect",
+      "structure": "simple (non-continuous)",
+      "notes": ""
+    },
+    "polarity": {
+      "function": "polarity",
+      "structure": "negative",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "mamve replaces nonve in negative present modality; mamve must immediately follow the subject; The verb must remain in its base form; No ti- (continuous) or le- (future) prefix may appear in this construction; gba must appear at the end of the clause; This construction must not be confused with present continuous negative modality (mamve + dho + ti-VERB + gba)",
+      "notes": ""
+    }
   }
 }
-
-
-{"balanda":"Ne mamve ja nza gba","english":"I cannot eat food."}
-{"balanda":"Ne mamve nzü ngo gba","english":"I cannot drink water."}
-{"balanda":"Ni mamve teli gba","english":"He cannot sleep."}
-{"balanda":"Ne mamve yai a Wau gba","english":"I cannot go to Wau."}
-{"balanda":"Ni mamve dhii agbi tiyi gba","english":"He cannot come to the house."}
-{"balanda":"Wiki mamve nono gbi difo gba","english":"The child cannot walk in the compound."}
-{"balanda":"Ni mamve mande gbi njü gba","english":"He cannot work in the garden."}
-{"balanda":"Danda mamve moliki gba","english":"We cannot play."}
-
-{"balanda":"Ne mamve merego ŋo gba","english":"I cannot love you."}
-{"balanda":"Ne mamve ŋiyi sereso gba","english":"I cannot know the truth."}
-{"balanda":"Ni mamve terei gba","english":"He cannot think."}
-{"balanda":"Ne mamve we ndi gba","english":"I cannot ask them."}
-{"balanda":"Ni mamve vele takoni gba","english":"He cannot tell a story."}
-{"balanda":"Ne mamve baha ŋo gba","english":"I cannot see you."}
-{"balanda":"Ni mamve dhi gba","english":"He cannot hear."}
-
-{"balanda":"Ne mamve sudi kitab gba","english":"I cannot write a book."}
-{"balanda":"Ni mamve dheke kitab gba","english":"He cannot read a book."}
-{"balanda":"Ne mamve sïhï kese gba","english":"I cannot buy a bike."}
-{"balanda":"Ni mamve sadi nza gba","english":"He cannot sell food."}
-{"balanda":"Ne mamve turu linguu gba","english":"I cannot push the fruit."}
-{"balanda":"Ni mamve zaka kporo gba","english":"He cannot pull the drum."}
-{"balanda":"Ni mamve kara kafa gba","english":"He cannot turn the table."}
-
-{"balanda":"Ne mamve keye ti ndi gba","english":"I cannot call them."}
-{"balanda":"Danda mamve wofo takoni gba","english":"We cannot discuss the story."}
-{"balanda":"Ni mamve kolo wiki gba","english":"He cannot hug the child."}
-{"balanda":"Ndi mamve mago gba","english":"They cannot fight."}
-{"balanda":"Ni mamve vanda wiki gba","english":"He cannot protect the child."}
-
-{"balanda":"Ni mamve teta gba","english":"He cannot fall."}
-{"balanda":"Ni mamve girri gba","english":"He cannot change."}
-{"balanda":"Nguu mamve vere gba","english":"The tree cannot darken."}
-{"balanda":"Maraya mamve deye gba","english":"The school cannot develop."}
-{"balanda":"Wiki mamve rengo gba","english":"The child cannot mature."}
-
-{"balanda":"Ni mamve dho gbi tiyi gba","english":"He cannot be in the house."}
-{"balanda":"Ne mamve ma nde gba","english":"I cannot do the work."}
-{"balanda":"Ne mamve wala gbi Wau gba","english":"I cannot live in Wau."}
-{"balanda":"Ne mamve duru ngo gba","english":"I cannot want water."}
-{"balanda":"Ni mamve düŋü kpendii gba","english":"He cannot remain behind."}
-
-{"balanda":"Ni mamve base gba","english":"He cannot sing."}
-{"balanda":"Ni mamve dulu gba","english":"He cannot dance."}
-{"balanda":"Ne mamve loro kananje gba","english":"I cannot watch the animals."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve ja nza gba","output":"I cannot eat food."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve nzü ngo gba","output":"I cannot drink water."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve teli gba","output":"He cannot sleep."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve yai a Wau gba","output":"I cannot go to Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dhii agbi tiyi gba","output":"He cannot come to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki mamve nono gbi difo gba","output":"The child cannot walk in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve mande gbi njü gba","output":"He cannot work in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Danda mamve moliki gba","output":"We cannot play."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve merego ŋo gba","output":"I cannot love you."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve ŋiyi sereso gba","output":"I cannot know the truth."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve terei gba","output":"He cannot think."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve we ndi gba","output":"I cannot ask them."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve vele takoni gba","output":"He cannot tell a story."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve baha ŋo gba","output":"I cannot see you."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dhi gba","output":"He cannot hear."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve sudi kitab gba","output":"I cannot write a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dheke kitab gba","output":"He cannot read a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve sïhï kese gba","output":"I cannot buy a bike."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve sadi nza gba","output":"He cannot sell food."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve turu linguu gba","output":"I cannot push the fruit."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve zaka kporo gba","output":"He cannot pull the drum."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve kara kafa gba","output":"He cannot turn the table."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve keye ti ndi gba","output":"I cannot call them."}
+{"instruction":"Translate from Balanda to English","input":"Danda mamve wofo takoni gba","output":"We cannot discuss the story."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve kolo wiki gba","output":"He cannot hug the child."}
+{"instruction":"Translate from Balanda to English","input":"Ndi mamve mago gba","output":"They cannot fight."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve vanda wiki gba","output":"He cannot protect the child."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve teta gba","output":"He cannot fall."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve girri gba","output":"He cannot change."}
+{"instruction":"Translate from Balanda to English","input":"Nguu mamve vere gba","output":"The tree cannot darken."}
+{"instruction":"Translate from Balanda to English","input":"Maraya mamve deye gba","output":"The school cannot develop."}
+{"instruction":"Translate from Balanda to English","input":"Wiki mamve rengo gba","output":"The child cannot mature."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho gbi tiyi gba","output":"He cannot be in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve ma nde gba","output":"I cannot do the work."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve wala gbi Wau gba","output":"I cannot live in Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve duru ngo gba","output":"I cannot want water."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve düŋü kpendii gba","output":"He cannot remain behind."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve base gba","output":"He cannot sing."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dulu gba","output":"He cannot dance."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve loro kananje gba","output":"I cannot watch the animals."}

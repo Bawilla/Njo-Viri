@@ -4,195 +4,100 @@
   "description": "This file contains the complete Balanda pronoun system, including personal pronouns, inclusive/exclusive distinctions, object usage, possessive constructions, reflexive forms, plural forms, and the impersonal pronoun. Pronouns in Balanda are morphologically simple but semantically and pragmatically rich.",
   "rules": {
     "person_number_system": {
-      "first_person": {
-        "singular": {
-          "form": "Ne",
-          "meaning": "I / me"
-        },
-        "plural": {
-          "exclusive": {
-            "form": "Dhuu",
-            "meaning": "We (excluding the listener)"
-          },
-          "inclusive": {
-            "form": "Danda",
-            "meaning": "We (including the listener)"
-          }
-        }
-      },
-      "second_person": {
-        "singular": {
-          "form": "Ŋo",
-          "meaning": "You (singular)"
-        },
-        "plural": {
-          "form": "Dha",
-          "meaning": "You all"
-        }
-      },
-      "third_person": {
-        "singular": {
-          "form": "Ni",
-          "meaning": "He / She"
-        },
-        "plural": {
-          "form": "Ndi",
-          "meaning": "They"
-        }
-      }
+      "function": "person number system",
+      "structure": "{\"first_person\": {\"singular\": {\"form\": \"Ne\", \"meaning\": \"I / me\"}, \"plural\": {\"exclusive\": {\"form\": \"Dhuu\", \"meaning\": \"We (excluding the listener)\"}, \"inclusive\": {\"form\": \"Danda\", \"meaning\": \"We (including the listener)\"}}}, \"second_person\": {\"singular\": {\"form\": \"Ŋo\", \"meaning\": \"You (singular)\"}, \"plural\": {\"form\": \"Dha\", \"meaning\": \"You all\"}}, \"third_person\": {\"singular\": {\"form\": \"Ni\", \"meaning\": \"He / She\"}, \"plural\": {\"form\": \"Ndi\", \"meaning\": \"They\"}}}",
+      "notes": ""
     },
-
     "impersonal_pronoun": {
-      "form": "Ay",
-      "reference": "non-human, non-animal entities only",
-      "semantic_scope": [
-        "inanimate objects",
-        "substances",
-        "materials",
-        "abstract or unspecified entities"
-      ],
-      "exclusions": [
-        "humans",
-        "animals"
-      ],
-      "examples": [
-        "Ay no muru dühü (It is on the rock)",
-        "Ŋo baha ay (You see it)",
-        "Vara ndo’o no kono (Its oil is here)",
-        "Ay tingoko to’o (It moves itself)"
-      ]
+      "function": "impersonal pronoun",
+      "structure": "{\"form\": \"Ay\", \"reference\": \"non-human, non-animal entities only\", \"semantic_scope\": [\"inanimate objects\", \"substances\", \"materials\", \"abstract or unspecified entities\"], \"exclusions\": [\"humans\", \"animals\"], \"examples\": [\"Ay no muru dühü (It is on the rock)\", \"Ŋo baha ay (You see it)\", \"Vara ndo’o no kono (Its oil is here)\", \"Ay tingoko to’o (It moves itself)\"]}",
+      "notes": "Ay | non-human, non-animal entities only | inanimate objects; substances; materials; abstract or unspecified entities | humans; animals | Ay no muru dühü (It is on the rock); Ŋo baha ay (You see it); Vara ndo’o no kono (Its oil is here); Ay tingoko to’o (It moves itself)"
     },
-
     "syntactic_roles": {
-      "subject": "Pronouns may function as sentence subjects",
-      "object": "The same pronoun forms are used as objects without case change",
-      "example": {
-        "subject": "Ne mande gbi Wau",
-        "object": "Ŋo baha ne"
-      }
+      "function": "syntactic roles",
+      "structure": "{\"subject\": \"Pronouns may function as sentence subjects\", \"object\": \"The same pronoun forms are used as objects without case change\", \"example\": {\"subject\": \"Ne mande gbi Wau\", \"object\": \"Ŋo baha ne\"}}",
+      "notes": "Pronouns may function as sentence subjects | The same pronoun forms are used as objects without case change"
     },
-
     "possessive_constructions": {
-      "possessive_adjective": {
-        "structure": "NOUN + ndi-PRONOUN",
-        "example": "Joko ndi-ne (my bag)"
-      },
-      "possessive_pronoun": {
-        "structure": "ngandi-PRONOUN",
-        "example": "Vili no ngandi-danda (The money is ours)"
-      }
+      "function": "possessive constructions",
+      "structure": "{\"possessive_adjective\": {\"structure\": \"NOUN + ndi-PRONOUN\", \"example\": \"Joko ndi-ne (my bag)\"}, \"possessive_pronoun\": {\"structure\": \"ngandi-PRONOUN\", \"example\": \"Vili no ngandi-danda (The money is ours)\"}}",
+      "notes": ""
     },
-
     "reflexive_pronouns": {
-      "formation": {
-        "structure": "ti-PRONOUN",
-        "function": "Indicates that the subject acts on itself"
-      },
-      "examples": [
-        "Ne merego ti-ne (I love myself)",
-        "Dhuu yirisa ti-dhuu (We respect ourselves, exclusive)",
-        "Danda yirisa ti-danda (We respect ourselves, inclusive)",
-        "Ndi merego ti-ndi (They love themselves)",
-        "Ay tingoko to’o (It moves itself)"
-      ]
+      "function": "reflexive pronouns",
+      "structure": "{\"formation\": {\"structure\": \"ti-PRONOUN\", \"function\": \"Indicates that the subject acts on itself\"}, \"examples\": [\"Ne merego ti-ne (I love myself)\", \"Dhuu yirisa ti-dhuu (We respect ourselves, exclusive)\", \"Danda yirisa ti-danda (We respect ourselves, inclusive)\", \"Ndi merego ti-ndi (They love themselves)\", \"Ay tingoko to’o (It moves itself)\"]}",
+      "notes": "Ne merego ti-ne (I love myself); Dhuu yirisa ti-dhuu (We respect ourselves, exclusive); Danda yirisa ti-danda (We respect ourselves, inclusive); Ndi merego ti-ndi (They love themselves); Ay tingoko to’o (It moves itself)"
     },
-
     "inclusive_exclusive_rule": {
-      "dhuu": "Must be used when the listener is excluded",
-      "danda": "Must be used when the listener is included",
-      "constraint": "Inclusive and exclusive forms are never interchangeable"
+      "function": "inclusive exclusive rule",
+      "structure": "{\"dhuu\": \"Must be used when the listener is excluded\", \"danda\": \"Must be used when the listener is included\", \"constraint\": \"Inclusive and exclusive forms are never interchangeable\"}",
+      "notes": "Must be used when the listener is excluded | Must be used when the listener is included | Inclusive and exclusive forms are never interchangeable"
     },
-
     "agreement_rules": {
-      "verbs": "Verbs do not change form based on pronouns",
-      "copula": "Copula 'no' does not agree with pronouns"
+      "function": "agreement rules",
+      "structure": "{\"verbs\": \"Verbs do not change form based on pronouns\", \"copula\": \"Copula 'no' does not agree with pronouns\"}",
+      "notes": "Verbs do not change form based on pronouns | Copula 'no' does not agree with pronouns"
     },
-
     "question_and_negation": {
-      "questions": "Formed by adding sentence-final 'we?'",
-      "negation": "Formed by adding clause-final 'gba'"
+      "function": "question and negation",
+      "structure": "{\"questions\": \"Formed by adding sentence-final 'we?'\", \"negation\": \"Formed by adding clause-final 'gba'\"}",
+      "notes": "Formed by adding sentence-final 'we?' | Formed by adding clause-final 'gba'"
     },
-
-    "constraints": [
-      "Pronouns are not inflected for case or gender",
-      "Inclusive and exclusive 'we' must be semantically respected",
-      "Reflexive meaning must use ti-PRONOUN, not bare pronouns",
-      "Possessive meaning must use ndi- or ngandi-, not bare pronouns",
-      "Pronouns must not take verb prefixes (A-, ti-, le-)",
-      "Impersonal pronoun 'ay' must never refer to humans or animals",
-      "Animals must use 'Ni' (singular) or 'Ndi' (plural), not 'ay'"
-    ]
+    "constraints": {
+      "function": "constraints",
+      "structure": "Pronouns are not inflected for case or gender; Inclusive and exclusive 'we' must be semantically respected; Reflexive meaning must use ti-PRONOUN, not bare pronouns; Possessive meaning must use ndi- or ngandi-, not bare pronouns; Pronouns must not take verb prefixes (A-, ti-, le-); Impersonal pronoun 'ay' must never refer to humans or animals; Animals must use 'Ni' (singular) or 'Ndi' (plural), not 'ay'",
+      "notes": ""
+    }
   }
 }
-
-
-
 {"instruction":"Translate from Balanda to English","input":"Ne mande gbi Wau.","output":"I work in Wau."}
 {"instruction":"Translate from Balanda to English","input":"Dhuu mande gbi Wau.","output":"We (excluding you) work in Wau."}
 {"instruction":"Translate from Balanda to English","input":"Danda mande gbi Wau.","output":"We (including you) work in Wau."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo baha ne.","output":"You see me."}
 {"instruction":"Translate from Balanda to English","input":"Ni tibaha dhuu.","output":"He sees us (excluding you)."}
 {"instruction":"Translate from Balanda to English","input":"Ni tibaha danda.","output":"He sees us (including you)."}
-
 {"instruction":"Translate from Balanda to English","input":"Joko ndi-ne no kono.","output":"My bag is here."}
 {"instruction":"Translate from Balanda to English","input":"Joko ndi-dhuu no kono.","output":"Our (excluding you) bag is here."}
 {"instruction":"Translate from Balanda to English","input":"Joko ndi-danda no kono.","output":"Our (including you) bag is here."}
-
 {"instruction":"Translate from Balanda to English","input":"Vili no ngandi-ne.","output":"The money is mine."}
 {"instruction":"Translate from Balanda to English","input":"Vili no ngandi-dhuu.","output":"The money is ours (excluding you)."}
 {"instruction":"Translate from Balanda to English","input":"Vili no ngandi-danda.","output":"The money is ours (including you)."}
-
 {"instruction":"Translate from Balanda to English","input":"Ne merego ti-ne.","output":"I love myself."}
 {"instruction":"Translate from Balanda to English","input":"Dhuu yirisa ti-dhuu.","output":"We (excluding you) respect ourselves."}
 {"instruction":"Translate from Balanda to English","input":"Danda yirisa ti-danda.","output":"We (including you) respect ourselves."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo no katiteli.","output":"You were sleeping."}
 {"instruction":"Translate from Balanda to English","input":"Dha tiyai no aka?","output":"Where are you all going?"}
-
 {"instruction":"Translate from Balanda to English","input":"Ni no tiwe ŋo.","output":"She is asking you."}
 {"instruction":"Translate from Balanda to English","input":"Ni no tiwe dha.","output":"She is asking you all."}
-
 {"instruction":"Translate from Balanda to English","input":"Joko ndi-ŋo no kono.","output":"Your bag is here."}
 {"instruction":"Translate from Balanda to English","input":"Joko ndi-dha no kono.","output":"Your (plural) bag is here."}
-
 {"instruction":"Translate from Balanda to English","input":"Kese no ngandi-ŋo.","output":"The bike is yours."}
 {"instruction":"Translate from Balanda to English","input":"Kese no ngandi-dha.","output":"The bike is yours (plural)."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo merego ti-ŋo.","output":"You love yourself."}
 {"instruction":"Translate from Balanda to English","input":"Dha merego ti-dha.","output":"You all love yourselves."}
-
 {"instruction":"Translate from Balanda to English","input":"Ni mande gbi Wau.","output":"He works in Wau."}
 {"instruction":"Translate from Balanda to English","input":"Ndi mande gbi Wau.","output":"They work in Wau."}
-
 {"instruction":"Translate from Balanda to English","input":"Ŋo baha ni.","output":"You see him/her."}
 {"instruction":"Translate from Balanda to English","input":"Ŋo baha ndi.","output":"You see them."}
-
 {"instruction":"Translate from Balanda to English","input":"Nza ndi-ni no kono.","output":"His food is here."}
 {"instruction":"Translate from Balanda to English","input":"Nza ndindi no kono.","output":"Their food is here."}
-
 {"instruction":"Translate from Balanda to English","input":"Limo no ngandi-ni.","output":"The lemon is his/hers."}
 {"instruction":"Translate from Balanda to English","input":"Limo no ngandi-ndi.","output":"The lemon is theirs."}
-
 {"instruction":"Translate from Balanda to English","input":"Ni merego ti-ni (to'o).","output":"He loves himself."}
 {"instruction":"Translate from Balanda to English","input":"Ndi merego ti-ndi.","output":"They love themselves."}
-
 {"instruction":"Translate from Balanda to English","input":"Ay no muru dühü.","output":"It is on the rock."}
 {"instruction":"Translate from Balanda to English","input":"Ŋo baha ay.","output":"You see it."}
 {"instruction":"Translate from Balanda to English","input":"Vara ndo’o no kono.","output":"Its oil is here."}
 {"instruction":"Translate from Balanda to English","input":"Linguu no ngando’o.","output":"The fruit is its."}
 {"instruction":"Translate from Balanda to English","input":"Ay tingoko to’o.","output":"It moves itself."}
-
-{"instruction":"Explain first-person pronouns in Balanda","output":"First-person singular pronoun is Ne (I/me). First-person plural has two forms: Dhuu (exclusive we) and Danda (inclusive we)."}
-{"instruction":"Explain second-person pronouns in Balanda","output":"Second-person singular pronoun is Ŋo (you). Second-person plural pronoun is Dha (you all)."}
-{"instruction":"Explain third-person pronouns in Balanda","output":"Third-person singular pronoun is Ni (he/she/it). Third-person plural pronoun is Ndi (they)."}
-{"instruction":"Explain inclusive vs exclusive 'we' in Balanda","output":"Dhuu is exclusive we (excluding the listener). Danda is inclusive we (including the listener)."}
-
-{"instruction":"Identify the pronoun type","input":"Ti-ne","output":"First person singular reflexive pronoun"}
-{"instruction":"Identify the pronoun type","input":"Ndi-danda","output":"First person plural possessive adjective (inclusive)"}
-{"instruction":"Identify the pronoun type","input":"Ngandi-ŋo","output":"Second person singular possessive pronoun"}
-{"instruction":"Identify the pronoun type","input":"Ti-ndi","output":"Third person plural reflexive pronoun"}
-
+{"instruction":"Explain first-person pronouns in Balanda","input":"","output":"First-person singular pronoun is Ne (I/me). First-person plural has two forms: Dhuu (exclusive we) and Danda (inclusive we)."}
+{"instruction":"Explain second-person pronouns in Balanda","input":"","output":"Second-person singular pronoun is Ŋo (you). Second-person plural pronoun is Dha (you all)."}
+{"instruction":"Explain third-person pronouns in Balanda","input":"","output":"Third-person singular pronoun is Ni (he/she/it). Third-person plural pronoun is Ndi (they)."}
+{"instruction":"Explain inclusive vs exclusive 'we' in Balanda","input":"","output":"Dhuu is exclusive we (excluding the listener). Danda is inclusive we (including the listener)."}
+{"instruction":"Identify the Balanda pronoun type","input":"Ti-ne","output":"First person singular reflexive pronoun"}
+{"instruction":"Identify the Balanda pronoun type","input":"Ndi-danda","output":"First person plural possessive adjective (inclusive)"}
+{"instruction":"Identify the Balanda pronoun type","input":"Ngandi-ŋo","output":"Second person singular possessive pronoun"}
+{"instruction":"Identify the Balanda pronoun type","input":"Ti-ndi","output":"Third person plural reflexive pronoun"}
 {"instruction":"Correct the Balanda sentence","input":"Ne merego ne.","output":"Incorrect reflexive form. Correct form: Ne merego ti-ne."}
 {"instruction":"Correct the Balanda sentence","input":"Danda mande gbi Wau (excluding you).","output":"Incorrect usage. Use Dhuu for exclusive meaning: Dhuu mande gbi Wau."}
 {"instruction":"Correct the Balanda sentence","input":"Ay baha ŋo.","output":"Incorrect word order. Correct form: Ŋo baha ai."}

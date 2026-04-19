@@ -4,93 +4,76 @@
   "description": "This file contains Balanda number and quantity constructions. Number and quantity modify nouns, and plural nouns are formed by prefixing ka- to the noun.",
   "rules": {
     "plural_formation": {
-      "marker": "ka-",
-      "structure": "ka + Noun",
       "function": "Marks plural nouns",
-      "constraints": [
-        "ka- must attach directly to the noun",
-        "Singular nouns appear without ka-",
-        "Plural marking appears on the noun, not on numbers or quantifiers"
-      ]
+      "structure": "ka + Noun",
+      "notes": "ka- | ka- must attach directly to the noun; Singular nouns appear without ka-; Plural marking appears on the noun, not on numbers or quantifiers"
     },
     "numeral_construction": {
+      "function": "numeral construction",
       "structure": "Noun + Numeral (singular) | ka-Noun + Numeral (plural)",
-      "numeral_position": "Numeral follows the noun",
-      "singular_usage": "The numeral 'nzee' (one) is used only with singular nouns",
-      "plural_usage": "Numerals greater than one require ka- on the noun"
+      "notes": "Numeral follows the noun | The numeral 'nzee' (one) is used only with singular nouns | Numerals greater than one require ka- on the noun"
     },
     "quantity_construction": {
+      "function": "quantity construction",
       "structure": "Quantity + (ka-)Noun | Noun + Quantity",
-      "quantity_types": [
-        "koti (many)",
-        "roko (few)",
-        "bihi (some)",
-        "kpi (all)",
-        "willa (none)",
-        "sutu (much)",
-        "fitti (little)"
-      ],
-      "mass_vs_count": "Mass nouns typically do not take ka-; count nouns do",
-      "word_order_variation": "Some quantities precede the noun, others follow the noun depending on lexical item"
+      "notes": "koti (many); roko (few); bihi (some); kpi (all); willa (none); sutu (much); fitti (little) | Mass nouns typically do not take ka-; count nouns do | Some quantities precede the noun, others follow the noun depending on lexical item"
     },
-    "tense_interpretation": "Number and quantity constructions are atemporal and do not encode tense or aspect",
-    "constraints": [
-      "Numerals do not change form for gender or noun class",
-      "Plurality is encoded only by ka-",
-      "Quantity words do not replace plural marking on count nouns",
-      "No copula or verb is used in pure number/quantity expressions"
-    ]
+    "tense_interpretation": {
+      "function": "tense interpretation",
+      "structure": "Number and quantity constructions are atemporal and do not encode tense or aspect",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "Numerals do not change form for gender or noun class; Plurality is encoded only by ka-; Quantity words do not replace plural marking on count nouns; No copula or verb is used in pure number/quantity expressions",
+      "notes": ""
+    }
   }
 }
-
-
-
-[
-  {"balanda":"Wiki nzee","english":"One child"},
-  {"balanda":"Kawiki soo","english":"Two children"},
-  {"balanda":"Kawiki tau","english":"Three children"},
-  {"balanda":"Kawiki nau","english":"Four children"},
-  {"balanda":"Kawiki voo","english":"Five children"},
-  {"balanda":"Kawiki vonzee","english":"Six children"},
-  {"balanda":"Kawiki vosoo","english":"Seven children"},
-  {"balanda":"Kawiki votau","english":"Eight children"},
-  {"balanda":"Kawiki vonau","english":"Nine children"},
-  {"balanda":"Kawiki bikur","english":"Ten children"},
-  {"balanda":"Bura nzee","english":"One cat"},
-  {"balanda":"Kabura soo","english":"Two cats"},
-  {"balanda":"Kabura tau","english":"Three cats"},
-  {"balanda":"Kabura nau","english":"Four cats"},
-  {"balanda":"Kabura voo","english":"Five cats"},
-  {"balanda":"Dhako nzee","english":"One man"},
-  {"balanda":"Kadhako soo","english":"Two men"},
-  {"balanda":"Kadhako tau","english":"Three men"},
-  {"balanda":"Kadhako nau","english":"Four men"},
-  {"balanda":"Kadhako voo","english":"Five men"},
-  {"balanda":"Sutu nza","english":"Much food"},
-  {"balanda":"Fitti nza","english":"Little food"},
-  {"balanda":"Bihi nza","english":"Some food"},
-  {"balanda":"Nza kpi","english":"All the food"},
-  {"balanda":"Nza willa","english":"No food"},
-  {"balanda":"Koti kawiki","english":"Many children"},
-  {"balanda":"Roko kawiki","english":"Few children"},
-  {"balanda":"Koti kabura","english":"Many cats"},
-  {"balanda":"Roko kabura","english":"Few cats"},
-  {"balanda":"Koti kadhako","english":"Many men"},
-  {"balanda":"Bihi kadhako","english":"Some men"},
-  {"balanda":"Kpi kadhako","english":"All men"},
-  {"balanda":"Koti kavongo","english":"Many clothes"},
-  {"balanda":"Roko kavongo","english":"Few clothes"},
-  {"balanda":"Bihi kavongo","english":"Some clothes"},
-  {"balanda":"Kavongo kpi","english":"All clothes"},
-  {"balanda":"Kafa nzee","english":"One table"},
-  {"balanda":"Kakafa soo","english":"Two tables"},
-  {"balanda":"Kakafa tau","english":"Three tables"},
-  {"balanda":"Koti kakafa","english":"Many tables"},
-  {"balanda":"Roko kakafa","english":"Few tables"},
-  {"balanda":"Garra nzee","english":"One phone"},
-  {"balanda":"Kagarra soo","english":"Two phones"},
-  {"balanda":"Koti kagarra","english":"Many phones"},
-  {"balanda":"Roko kagarra","english":"Few phones"},
-  {"balanda":"Bihi kagarra","english":"Some phones"},
-  {"balanda":"Kagarra kpi","english":"All phones"}
-]
+{"instruction":"Translate from Balanda to English","input":"Wiki nzee","output":"One child"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki soo","output":"Two children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki tau","output":"Three children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki nau","output":"Four children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki voo","output":"Five children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki vonzee","output":"Six children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki vosoo","output":"Seven children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki votau","output":"Eight children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki vonau","output":"Nine children"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki bikur","output":"Ten children"}
+{"instruction":"Translate from Balanda to English","input":"Bura nzee","output":"One cat"}
+{"instruction":"Translate from Balanda to English","input":"Kabura soo","output":"Two cats"}
+{"instruction":"Translate from Balanda to English","input":"Kabura tau","output":"Three cats"}
+{"instruction":"Translate from Balanda to English","input":"Kabura nau","output":"Four cats"}
+{"instruction":"Translate from Balanda to English","input":"Kabura voo","output":"Five cats"}
+{"instruction":"Translate from Balanda to English","input":"Dhako nzee","output":"One man"}
+{"instruction":"Translate from Balanda to English","input":"Kadhako soo","output":"Two men"}
+{"instruction":"Translate from Balanda to English","input":"Kadhako tau","output":"Three men"}
+{"instruction":"Translate from Balanda to English","input":"Kadhako nau","output":"Four men"}
+{"instruction":"Translate from Balanda to English","input":"Kadhako voo","output":"Five men"}
+{"instruction":"Translate from Balanda to English","input":"Sutu nza","output":"Much food"}
+{"instruction":"Translate from Balanda to English","input":"Fitti nza","output":"Little food"}
+{"instruction":"Translate from Balanda to English","input":"Bihi nza","output":"Some food"}
+{"instruction":"Translate from Balanda to English","input":"Nza kpi","output":"All the food"}
+{"instruction":"Translate from Balanda to English","input":"Nza willa","output":"No food"}
+{"instruction":"Translate from Balanda to English","input":"Koti kawiki","output":"Many children"}
+{"instruction":"Translate from Balanda to English","input":"Roko kawiki","output":"Few children"}
+{"instruction":"Translate from Balanda to English","input":"Koti kabura","output":"Many cats"}
+{"instruction":"Translate from Balanda to English","input":"Roko kabura","output":"Few cats"}
+{"instruction":"Translate from Balanda to English","input":"Koti kadhako","output":"Many men"}
+{"instruction":"Translate from Balanda to English","input":"Bihi kadhako","output":"Some men"}
+{"instruction":"Translate from Balanda to English","input":"Kpi kadhako","output":"All men"}
+{"instruction":"Translate from Balanda to English","input":"Koti kavongo","output":"Many clothes"}
+{"instruction":"Translate from Balanda to English","input":"Roko kavongo","output":"Few clothes"}
+{"instruction":"Translate from Balanda to English","input":"Bihi kavongo","output":"Some clothes"}
+{"instruction":"Translate from Balanda to English","input":"Kavongo kpi","output":"All clothes"}
+{"instruction":"Translate from Balanda to English","input":"Kafa nzee","output":"One table"}
+{"instruction":"Translate from Balanda to English","input":"Kakafa soo","output":"Two tables"}
+{"instruction":"Translate from Balanda to English","input":"Kakafa tau","output":"Three tables"}
+{"instruction":"Translate from Balanda to English","input":"Koti kakafa","output":"Many tables"}
+{"instruction":"Translate from Balanda to English","input":"Roko kakafa","output":"Few tables"}
+{"instruction":"Translate from Balanda to English","input":"Garra nzee","output":"One phone"}
+{"instruction":"Translate from Balanda to English","input":"Kagarra soo","output":"Two phones"}
+{"instruction":"Translate from Balanda to English","input":"Koti kagarra","output":"Many phones"}
+{"instruction":"Translate from Balanda to English","input":"Roko kagarra","output":"Few phones"}
+{"instruction":"Translate from Balanda to English","input":"Bihi kagarra","output":"Some phones"}
+{"instruction":"Translate from Balanda to English","input":"Kagarra kpi","output":"All phones"}

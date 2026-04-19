@@ -1,486 +1,451 @@
 {
-  "instruction_type": "lexical_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_core_function_and_verb_lexicon",
   "description": "This file contains core Balanda function words and high-frequency verbs, including the copula, auxiliary-like verbs, modal elements, core action verbs, and discourse particles. These items are foundational to sentence structure and meaning.",
   "rules": {
     "lexical_classes": {
-      "copula": {
-        "forms": ["No"],
-        "function": "Links a subject to a noun, adjective, or locative expression",
-        "english_equivalents": ["is", "are"],
-        "example": "Ni no gbiya (He is a chief)"
-      },
-      "possession_verb": {
-        "form": "Abi",
-        "meaning": "has",
-        "example": "Ni abi garra (He has a phone)"
-      },
-      "core_verbs": {
-        "forms": ["baha", "durgu", "iyi", "Dhe", "Zeke", "Duru", "Tima", "Limi", "Dhoti", "Dhii"],
-        "function": "Express actions, states, or processes",
-        "usage": "Appear as bare verbs in finite clauses"
-      },
-      "modal_element": {
-        "form": "kanonmve",
-        "meaning": "would",
-        "function": "Expresses conditional or hypothetical modality",
-        "constraint": "Does not take tense or aspect markers directly"
-      },
-      "discourse_particles": {
-        "forms": ["Sereme", "Fulu"],
-        "functions": {
-          "Sereme": "emphasis or intensity (really)",
-          "Fulu": "gratitude or politeness (thank)"
-        }
-      }
+      "function": "lexical classes",
+      "structure": "{\"copula\": {\"forms\": [\"No\"], \"function\": \"Links a subject to a noun, adjective, or locative expression\", \"english_equivalents\": [\"is\", \"are\"], \"example\": \"Ni no gbiya (He is a chief)\"}, \"possession_verb\": {\"form\": \"Abi\", \"meaning\": \"has\", \"example\": \"Ni abi garra (He has a phone)\"}, \"core_verbs\": {\"forms\": [\"baha\", \"durgu\", \"iyi\", \"Dhe\", \"Zeke\", \"Duru\", \"Tima\", \"Limi\", \"Dhoti\", \"Dhii\"], \"function\": \"Express actions, states, or processes\", \"usage\": \"Appear as bare verbs in finite clauses\"}, \"modal_element\": {\"form\": \"kanonmve\", \"meaning\": \"would\", \"function\": \"Expresses conditional or hypothetical modality\", \"constraint\": \"Does not take tense or aspect markers directly\"}, \"discourse_particles\": {\"forms\": [\"Sereme\", \"Fulu\"], \"functions\": {\"Sereme\": \"emphasis or intensity (really)\", \"Fulu\": \"gratitude or politeness (thank)\"}}}",
+      "notes": ""
     },
     "morphological_properties": {
-      "inflection": "none",
-      "agreement": "none",
-      "tense_marking": "Expressed outside the verb using particles or prefixes already defined"
+      "function": "morphological properties",
+      "structure": "{\"inflection\": \"none\", \"agreement\": \"none\", \"tense_marking\": \"Expressed outside the verb using particles or prefixes already defined\"}",
+      "notes": "none | none | Expressed outside the verb using particles or prefixes already defined"
     },
     "syntactic_usage": {
-      "verb_position": "Follows the subject in basic declarative clauses",
-      "negation": "Negated using clause-final 'gba'",
-      "questions": "Formed by adding sentence-final 'we?'",
-      "aspect": "Continuous aspect uses ti- and dho; not inherent to these verbs"
+      "function": "syntactic usage",
+      "structure": "{\"verb_position\": \"Follows the subject in basic declarative clauses\", \"negation\": \"Negated using clause-final 'gba'\", \"questions\": \"Formed by adding sentence-final 'we?'\", \"aspect\": \"Continuous aspect uses ti- and dho; not inherent to these verbs\"}",
+      "notes": "Follows the subject in basic declarative clauses | Negated using clause-final 'gba' | Formed by adding sentence-final 'we?' | Continuous aspect uses ti- and dho; not inherent to these verbs"
     },
-    "constraints": [
-      "Copula 'No' must not be treated as a lexical action verb",
-      "Function words must not be conjugated",
-      "These verbs must not take the infinitive prefix 'A-' when used as finite verbs",
-      "Modal elements must not be confused with full lexical verbs",
-      "Discourse particles do not function as predicates"
-    ]
+    "constraints": {
+      "function": "constraints",
+      "structure": "Copula 'No' must not be treated as a lexical action verb; Function words must not be conjugated; These verbs must not take the infinitive prefix 'A-' when used as finite verbs; Modal elements must not be confused with full lexical verbs; Discourse particles do not function as predicates",
+      "notes": ""
+    }
   }
 }
-
-
-
-
-{"balanda":"No","english":"is"}
-{"balanda":"No","english":"are"}
-{"balanda":"Abi","english":"has"}
-{"balanda":"baha","english":"see"}
-{"balanda":"durgu","english":"need"}
-{"balanda":"iyi","english":"know"}
-{"balanda":"kanonmve","english":"would"}
-{"balanda":"Dhe","english":"find"}
-{"balanda":"Zeke","english":"take"}
-{"balanda":"Duru","english":"want"}
-{"balanda":"Tima","english":"does"}
-{"balanda":"Limi","english":"learn"}
-{"balanda":"Dhoti","english":"become"}
-{"balanda":"Dhii","english":"come"}
-{"balanda":"Sereme","english":"really"}
-{"balanda":"Fulu","english":"thank"}
-{"balanda":"Suru","english":"create"}
-{"balanda":"Toko","english":"add"}
-{"balanda":"Fogbi","english":"understand"}
-{"balanda":"Zelungu","english":"choose"}
-{"balanda":"Deye","english":"develop"}
-{"balanda":"Tereta","english":"remember"}
-{"balanda":"Kuye","english":"grow"}
-{"balanda":"sibiti","english":"allow"}
-{"balanda":"Dhiita","english":"bring"}
-{"balanda":"kungu","english":"maintain"}
-{"balanda":"Bita","english":"begin"}
-{"balanda":"Vanda","english":"protect"}
-{"balanda":"Sudi","english":"write"}
-{"balanda":"Viyati","english":"avoid"}
-{"balanda":"Ngö","english":"build"}
-{"balanda":"wuwunjo","english":"believe"}
-{"balanda":"Dhovee","english":"seem"}
-{"balanda":"Wofo","english":"discuss"}
-{"balanda":"Wolondi","english":"follow"}
-{"balanda":"keyoro","english":"refer"}
-{"balanda":"Lovo","english":"solve"}
-{"balanda":"Sigiva","english":"describe"}
-{"balanda":"Durusondi","english":"prefer"}
-{"balanda":"Njemeke","english":"discover"}
-{"balanda":"Kurundi","english":"expect"}
-{"balanda":"Veleso","english":"speak"}
-{"balanda":"Ferege","english":"explain"}
-{"balanda":"Gili","english":"lose"}
-{"balanda":"Wunjo","english":"agree"}
-{"balanda":"dhï","english":"hear"}
-{"balanda":"Duui","english":"remain"}
-{"balanda":"Rovandi","english":"represent"}
-{"balanda":"sumeke","english":"apply"}
-{"balanda":"willi","english":"forget"}
-{"balanda":"Vasili","english":"rely"}
-{"balanda":"Yoro","english":"send"}
-{"balanda":"soho","english":"encourage"}
-{"balanda":"Wobere","english":"relax"}
-{"balanda":"mavata","english":"replace"}
-{"balanda":"Rünve","english":"enable"}
-{"balanda":"Ngele","english":"operate"}
-{"balanda":"Remgbe","english":"compare"}
-{"balanda":"Wunjondi","english":"accept"}
-{"balanda":"Mangbili","english":"complain"}
-{"balanda":"Ndirigbi","english":"enter"}
-{"balanda":"Mati","english":"happen"}
-{"balanda":"Yuva","english":"indicate"}
-{"balanda":"votii","english":"survive"}
-{"balanda":"foyi","english":"appreciate"}
-{"balanda":"mere","english":"admire"}
-{"balanda":"adopt","english":"adopt"}
-{"balanda":"Wavasu","english":"announce"}
-{"balanda":"Runzu","english":"approve"}
-{"balanda":"Ngandi","english":"belong"}
-{"balanda":"Yuvö","english":"criticize"}
-{"balanda":"Votigbi","english":"destroy"}
-{"balanda":"Logi","english":"pour"}
-{"balanda":"Tanga","english":"touch"}
-{"balanda":"viyoro","english":"submit"}
-{"balanda":"giriso","english":"translate"}
-{"balanda":"Dho","english":"be"}
-{"balanda":"Lunde","english":"use"}
-{"balanda":"Maa","english":"make"}
-{"balanda":"Koni","english":"help"}
-{"balanda":"Yai","english":"go"}
-{"balanda":"Terei","english":"think"}
-{"balanda":"Dheke","english":"read"}
-{"balanda":"Tuna","english":"start"}
-{"balanda":"Ze","english":"give"}
-{"balanda":"Moliki","english":"play"}
-{"balanda":"Tere","english":"put"}
-{"balanda":"Wayi","english":"say"}
-{"balanda":"Keye","english":"call"}
-{"balanda":"Sïhï","english":"buy"}
-{"balanda":"Dulu","english":"dance"}
-{"balanda":"Lovo","english":"solve"}
-{"balanda":"Sigiva","english":"describe"}
-{"balanda":"Durusondi","english":"prefer"}
-{"balanda":"Njemeke","english":"discover"}
-{"balanda":"Kurundi","english":"expect"}
-{"balanda":"Veleso","english":"speak"}
-{"balanda":"Wovindo","english":"appear"}
-{"balanda":"Ferege","english":"explain"}
-{"balanda":"Gili","english":"lose"}
-{"balanda":"Wunjo","english":"agree"}
-{"balanda":"dhï","english":"hear"}
-{"balanda":"Duui","english":"remain"}
-{"balanda":"Rovandi","english":"represent"}
-{"balanda":"sumeke","english":"apply"}
-{"balanda":"willi","english":"forget"}
-{"balanda":"Vasili","english":"rely"}
-{"balanda":"Yoro","english":"send"}
-{"balanda":"Kurundi","english":"wait"}
-{"balanda":"Fuhu","english":"flow"}
-{"balanda":"Deme","english":"hit"}
-{"balanda":"Ga","english":"shoot"}
-{"balanda":"Tanga","english":"touch"}
-{"balanda":"Vame","english":"cancel"}
-{"balanda":"Togbi","english":"cry"}
-{"balanda":"losi","english":"dump"}
-{"balanda":"Turu","english":"push"}
-{"balanda":"Luku","english":"select"}
-{"balanda":"Teku","english":"die"}
-{"balanda":"Ja","english":"eat"}
-{"balanda":"Tulu","english":"fill"}
-{"balanda":"Wo","english":"jump"}
-{"balanda":"Naka","english":"kick"}
-{"balanda":"Tüyü","english":"treat"}
-{"balanda":"Ganga","english":"abuse"}
-{"balanda":"Gbi","english":"beat"}
-{"balanda":"Tdaka","english":"burn"}
-{"balanda":"Sudili","english":"print"}
-{"balanda":"muku","english":"raise"}
-{"balanda":"Teli","english":"sleep"}
-{"balanda":"Tui","english":"connect"}
-{"balanda":"Sala","english":"fix"}
-{"balanda":"Nji","english":"kill"}
-{"balanda":"tara","english":"tap"}
-{"balanda":"Teta","english":"attack"}
-{"balanda":"juku","english":"drag"}
-{"balanda":"nzu","english":"drink"}
-{"balanda":"Tele","english":"pull"}
-{"balanda":"Yo","english":"wear"}
-{"balanda":"Koni","english":"count"}
-{"balanda":"Nzama","english":"feed"}
-{"balanda":"Karaka","english":"repeat"}
-{"balanda":"Sese","english":"sing"}
-{"balanda":"Lunguru","english":"collect"}
-{"balanda":"Du","english":"dig"}
-{"balanda":"Figgi","english":"divide"}
-{"balanda":"Nomvamva","english":"hunt"}
-{"balanda":"Yelle","english":"tie"}
-{"balanda":"Zati","english":"escape"}
-{"balanda":"Sogo","english":"hate"}
-{"balanda":"Wirindi","english":"repair"}
-{"balanda":"Kewe","english":"scratch"}
-{"balanda":"Modhi","english":"laugh"}
-{"balanda":"Nii","english":"struggle"}
-{"balanda":"Dukai","english":"swim"}
-{"balanda":"Soko","english":"wash"}
-{"balanda":"Ngoko","english":"shake"}
-{"balanda":"nzere","english":"shine"}
-{"balanda":"Mgba","english":"steal"}
-{"balanda":"Nofi","english":"suck"}
-{"balanda":"Taleti","english":"surround"}
-{"balanda":"Zïmvaa","english":"delay"}
-{"balanda":"kowei","english":"hurry"}
-{"balanda":"nzu","english":"kiss"}
-{"balanda":"Kö","english":"marry"}
-{"balanda":"Sese","english":"pray"}
-{"balanda":"Domo","english":"punch"}
-{"balanda":"ngati","english":"resist"}
-{"balanda":"Vonja","english":"rip"}
-{"balanda":"tolo","english":"rub"}
-{"balanda":"sama","english":"spell"}
-{"balanda":"Tiriti","english":"stretch"}
-{"balanda":"jiya","english":"wake"}
-{"balanda":"Wollo","english":"blow"}
-{"balanda":"Wiriki","english":"surprise"}
-{"balanda":"Viyoro","english":"submit"}
-{"balanda":"giriso","english":"translate"}
-{"balanda":"Valawa","english":"command"}
-{"balanda":"Duba","english":"settle"}
-{"balanda":"Goro","english":"smell"}
-{"balanda":"figigbi","english":"distribute"}
-{"balanda":"yamuru","english":"overcome"}
-{"balanda":"Nii nvogo","english":"suffer"}
-{"balanda":"Wa","english":"throw"}
-{"balanda":"Fesi","english":"acquire"}
-{"balanda":"Dodiri","english":"adjust"}
-{"balanda":"Lokoso","english":"argue"}
-{"balanda":"Muku","english":"arise"}
-{"balanda":"Yïundi","english":"confirm"}
-{"balanda":"Kelsere","english":"justify"}
-{"balanda":"wirindi","english":"organize"}
-{"balanda":"seduu","english":"retain"}
-{"balanda":"Neke","english":"shut"}
-{"balanda":"Odere","english":"compete"}
-{"balanda":"Lufigi","english":"deliver"}
-{"balanda":"Weta","english":"investigate"}
-{"balanda":"Tokpenze","english":"negotiate"}
-{"balanda":"Tiduui","english":"remain"}
-{"balanda":"Yeresu","english":"warn"}
-{"balanda":"tubiti","english":"accuse"}
-{"balanda":"admit","english":"admit"}
-{"balanda":"Wavasu","english":"inform"}
-{"balanda":"rofunsi","english":"persuade"}
-{"balanda":"terelo","english":"propose"}
-{"balanda":"Tanga tamuru","english":"remind"}
-{"balanda":"viteri","english":"suppose"}
-{"balanda":"Abi","english":"have"}
-{"balanda":"Lunde","english":"use"}
-{"balanda":"Maa","english":"make"}
-{"balanda":"Bowo","english":"look"}
-{"balanda":"Yai","english":"go"}
-{"balanda":"Terei","english":"think"}
-{"balanda":"Tdeke","english":"read"}
-{"balanda":"Tuna","english":"start"}
-{"balanda":"Ze","english":"give"}
-{"balanda":"Moliki","english":"play"}
-{"balanda":"Tere","english":"put"}
-{"balanda":"Kalla","english":"cut"}
-{"balanda":"Mele","english":"try"}
-{"balanda":"Keye","english":"call"}
-{"balanda":"Tenge","english":"move"}
-{"balanda":"Dafa","english":"pay"}
-{"balanda":"Zidi","english":"increase"}
-{"balanda":"Feleke","english":"turn"}
-{"balanda":"Weke","english":"ask"}
-{"balanda":"Sïhï","english":"buy"}
-{"balanda":"Kurule","english":"guard"}
-{"balanda":"jere","english":"hold"}
-{"balanda":"nitere","english":"offer"}
-{"balanda":"Womolo","english":"travel"}
-{"balanda":"Lotala","english":"cook"}
-{"balanda":"Dulu","english":"dance"}
-{"balanda":"Wala","english":"live"}
-{"balanda":"Singe","english":"purchase"}
-{"balanda":"Novee","english":"mean"}
-{"balanda":"Teta","english":"fall"}
-{"balanda":"Mada","english":"produce"}
-{"balanda":"Fatati","english":"search"}
-{"balanda":"Vele","english":"talk"}
-{"balanda":"Velezi","english":"tell"}
-{"balanda":"Noro","english":"drive"}
-{"balanda":"konubi","english":"support"}
-{"balanda":"Wusuvi","english":"remove"}
-{"balanda":"Dele","english":"return"}
-{"balanda":"Nangele","english":"run"}
-{"balanda":"Dere","english":"reserve"}
-{"balanda":"Lui","english":"reach"}
-{"balanda":"Woti","english":"rest"}
-{"balanda":"Boho","english":"watch"}
-{"balanda":"Wuru","english":"break"}
-{"balanda":"Dovura","english":"stay"}
-{"balanda":"Mawili","english":"visit"}
-{"balanda":"kpiki","english":"cover"}
-{"balanda":"Muku","english":"rise"}
-{"balanda":"Nono","english":"walk"}
-{"balanda":"Lunguru","english":"pick"}
-{"balanda":"Niyehe","english":"lift"}
-{"balanda":"Ro","english":"stop"}
-{"balanda":"Rugu","english":"teach"}
-{"balanda":"Woko","english":"fly"}
-{"balanda":"yudhe","english":"gain"}
-{"balanda":"Kungu","english":"save"}
-{"balanda":"Rota","english":"stand"}
-{"balanda":"Tengo","english":"fail"}
-{"balanda":"Susu","english":"listen"}
-{"balanda":"Sadi","english":"sell"}
-{"balanda":"Turu","english":"finish"}
-{"balanda":"Kpii","english":"press"}
-{"balanda":"dhoko","english":"ride"}
-{"balanda":"Kedi","english":"spread"}
-{"balanda":"Kurundi","english":"wait"}
-{"balanda":"kuluyu","english":"display"}
-{"balanda":"Fuhu","english":"flow"}
-{"balanda":"Deme","english":"hit"}
-{"balanda":"Ga","english":"shoot"}
-{"balanda":"Vame","english":"cancel"}
-{"balanda":"Togbi","english":"cry"}
-{"balanda":"losi","english":"dump"}
-{"balanda":"Luku","english":"select"}
-{"balanda":"Gbinjo","english":"conflict"}
-{"balanda":"Teku","english":"die"}
-{"balanda":"Tulu","english":"fill"}
-{"balanda":"Wo","english":"jump"}
-{"balanda":"Naka","english":"kick"}
-{"balanda":"pitch","english":"pitch"}
-{"balanda":"Tüyü","english":"treat"}
-{"balanda":"Ganga","english":"abuse"}
-{"balanda":"Gbi","english":"beat"}
-{"balanda":"Tdaka","english":"burn"}
-{"balanda":"deposit","english":"deposit"}
-{"balanda":"Sudili","english":"print"}
-{"balanda":"nokulo","english":"advance"}
-{"balanda":"Tui","english":"connect"}
-{"balanda":"darata","english":"consist"}
-{"balanda":"Tokonjobi","english":"contribute"}
-{"balanda":"digele","english":"draw"}
-{"balanda":"Sala","english":"fix"}
-{"balanda":"Nji","english":"kill"}
-{"balanda":"Dovura","english":"sit"}
-{"balanda":"tara","english":"tap"}
-{"balanda":"win","english":"win"}
-{"balanda":"yidia","english":"claim"}
-{"balanda":"yidhebe","english":"guess"}
-{"balanda":"Yo","english":"wear"}
-{"balanda":"yarali","english":"wonder"}
-{"balanda":"Nzama","english":"feed"}
-{"balanda":"impress","english":"impress"}
-{"balanda":"Karaka","english":"repeat"}
-{"balanda":"nova","english":"seek"}
-{"balanda":"zadha","english":"slide"}
-{"balanda":"goduru","english":"wish"}
-{"balanda":"suggu","english":"combine"}
-{"balanda":"Du","english":"dig"}
-{"balanda":"Figgi","english":"divide"}
-{"balanda":"Le","english":"hang"}
-{"balanda":"Nomvamva","english":"hunt"}
-{"balanda":"kele","english":"mention"}
-{"balanda":"Yelle","english":"tie"}
-{"balanda":"Zati","english":"escape"}
-{"balanda":"Sogo","english":"hate"}
-{"balanda":"Wirindi","english":"repair"}
-{"balanda":"Kewe","english":"scratch"}
-{"balanda":"Modhi","english":"laugh"}
-{"balanda":"njegbi","english":"split"}
-{"balanda":"kpatdara","english":"struggle"}
-{"balanda":"Dukai","english":"swim"}
-{"balanda":"ndugu","english":"train"}
-{"balanda":"Soko","english":"wash"}
-{"balanda":"wuturu","english":"waste"}
-{"balanda":"girita","english":"convert"}
-{"balanda":"Wugi","english":"crash"}
-{"balanda":"Falaka","english":"fold"}
-{"balanda":"gami","english":"grab"}
-{"balanda":"Kuru","english":"hide"}
-{"balanda":"Vayi","english":"miss"}
-{"balanda":"velewe","english":"roll"}
-{"balanda":"sink","english":"sink"}
-{"balanda":"vasuluku","english":"slip"}
-{"balanda":"wiya","english":"swing"}
-{"balanda":"ndaraka","english":"twist"}
-{"balanda":"dungili","english":"concentrate"}
-{"balanda":"kenziri","english":"estimate"}
-{"balanda":"Viya","english":"refuse"}
-{"balanda":"viyu","english":"reveal"}
-{"balanda":"Ngoko","english":"shake"}
-{"balanda":"mosere","english":"shift"}
-{"balanda":"nzere","english":"shine"}
-{"balanda":"Mgba","english":"steal"}
-{"balanda":"Nofi","english":"suck"}
-{"balanda":"Taleti","english":"surround"}
-{"balanda":"nii","english":"bear"}
-{"balanda":"Kurundi","english":"wait"}
-{"balanda":"kuluyu","english":"display"}
-{"balanda":"Fuhu","english":"flow"}
-{"balanda":"Deme","english":"hit"}
-{"balanda":"Ga","english":"shoot"}
-{"balanda":"Vame","english":"cancel"}
-{"balanda":"Togbi","english":"cry"}
-{"balanda":"losi","english":"dump"}
-{"balanda":"Luku","english":"select"}
-{"balanda":"Gbinjo","english":"conflict"}
-{"balanda":"Teku","english":"die"}
-{"balanda":"Tulu","english":"fill"}
-{"balanda":"Wo","english":"jump"}
-{"balanda":"Naka","english":"kick"}
-{"balanda":"pitch","english":"pitch"}
-{"balanda":"Tüyü","english":"treat"}
-{"balanda":"Ganga","english":"abuse"}
-{"balanda":"Gbi","english":"beat"}
-{"balanda":"Tdaka","english":"burn"}
-{"balanda":"deposit","english":"deposit"}
-{"balanda":"Sudili","english":"print"}
-{"balanda":"nokulo","english":"advance"}
-{"balanda":"Tui","english":"connect"}
-{"balanda":"darata","english":"consist"}
-{"balanda":"Tokonjobi","english":"contribute"}
-{"balanda":"digele","english":"draw"}
-{"balanda":"Sala","english":"fix"}
-{"balanda":"Nji","english":"kill"}
-{"balanda":"Dovura","english":"sit"}
-{"balanda":"tara","english":"tap"}
-{"balanda":"win","english":"win"}
-{"balanda":"yidia","english":"claim"}
-{"balanda":"yidhebe","english":"guess"}
-{"balanda":"Yo","english":"wear"}
-{"balanda":"yarali","english":"wonder"}
-{"balanda":"Nzama","english":"feed"}
-{"balanda":"Karaka","english":"repeat"}
-{"balanda":"nova","english":"seek"}
-{"balanda":"zadha","english":"slide"}
-{"balanda":"goduru","english":"wish"}
-{"balanda":"Du","english":"dig"}
-{"balanda":"Figgi","english":"divide"}
-{"balanda":"Le","english":"hang"}
-{"balanda":"Nomvamva","english":"hunt"}
-{"balanda":"Yelle","english":"tie"}
-{"balanda":"Zati","english":"escape"}
-{"balanda":"Sogo","english":"hate"}
-{"balanda":"Wirindi","english":"repair"}
-{"balanda":"Kewe","english":"scratch"}
-{"balanda":"Modhi","english":"laugh"}
-{"balanda":"njegbi","english":"split"}
-{"balanda":"Dukai","english":"swim"}
-{"balanda":"ndugu","english":"train"}
-{"balanda":"Soko","english":"wash"}
-{"balanda":"wuturu","english":"waste"}
-{"balanda":"Wugi","english":"crash"}
-{"balanda":"Falaka","english":"fold"}
-{"balanda":"gami","english":"grab"}
-{"balanda":"Kuru","english":"hide"}
-{"balanda":"Vayi","english":"miss"}
-{"balanda":"velewe","english":"roll"}
-{"balanda":"wiya","english":"swing"}
-{"balanda":"ndaraka","english":"twist"}
-{"balanda":"dungili","english":"concentrate"}
-{"balanda":"kenziri","english":"estimate"}
-{"balanda":"Viya","english":"refuse"}
-{"balanda":"viyu","english":"reveal"}
-{"balanda":"rush","english":"rush"}
-{"balanda":"Ngoko","english":"shake"}
-{"balanda":"nzere","english":"shine"}
-{"balanda":"Mgba","english":"steal"}
-{"balanda":"Nofi","english":"suck"}
-{"balanda":"Taleti","english":"surround"}
-
-
+{"instruction":"Translate from Balanda to English","input":"No","output":"is"}
+{"instruction":"Translate from Balanda to English","input":"No","output":"are"}
+{"instruction":"Translate from Balanda to English","input":"Abi","output":"has"}
+{"instruction":"Translate from Balanda to English","input":"baha","output":"see"}
+{"instruction":"Translate from Balanda to English","input":"durgu","output":"need"}
+{"instruction":"Translate from Balanda to English","input":"iyi","output":"know"}
+{"instruction":"Translate from Balanda to English","input":"kanonmve","output":"would"}
+{"instruction":"Translate from Balanda to English","input":"Dhe","output":"find"}
+{"instruction":"Translate from Balanda to English","input":"Zeke","output":"take"}
+{"instruction":"Translate from Balanda to English","input":"Duru","output":"want"}
+{"instruction":"Translate from Balanda to English","input":"Tima","output":"does"}
+{"instruction":"Translate from Balanda to English","input":"Limi","output":"learn"}
+{"instruction":"Translate from Balanda to English","input":"Dhoti","output":"become"}
+{"instruction":"Translate from Balanda to English","input":"Dhii","output":"come"}
+{"instruction":"Translate from Balanda to English","input":"Sereme","output":"really"}
+{"instruction":"Translate from Balanda to English","input":"Fulu","output":"thank"}
+{"instruction":"Translate from Balanda to English","input":"Suru","output":"create"}
+{"instruction":"Translate from Balanda to English","input":"Toko","output":"add"}
+{"instruction":"Translate from Balanda to English","input":"Fogbi","output":"understand"}
+{"instruction":"Translate from Balanda to English","input":"Zelungu","output":"choose"}
+{"instruction":"Translate from Balanda to English","input":"Deye","output":"develop"}
+{"instruction":"Translate from Balanda to English","input":"Tereta","output":"remember"}
+{"instruction":"Translate from Balanda to English","input":"Kuye","output":"grow"}
+{"instruction":"Translate from Balanda to English","input":"sibiti","output":"allow"}
+{"instruction":"Translate from Balanda to English","input":"Dhiita","output":"bring"}
+{"instruction":"Translate from Balanda to English","input":"kungu","output":"maintain"}
+{"instruction":"Translate from Balanda to English","input":"Bita","output":"begin"}
+{"instruction":"Translate from Balanda to English","input":"Vanda","output":"protect"}
+{"instruction":"Translate from Balanda to English","input":"Sudi","output":"write"}
+{"instruction":"Translate from Balanda to English","input":"Viyati","output":"avoid"}
+{"instruction":"Translate from Balanda to English","input":"Ngö","output":"build"}
+{"instruction":"Translate from Balanda to English","input":"wuwunjo","output":"believe"}
+{"instruction":"Translate from Balanda to English","input":"Dhovee","output":"seem"}
+{"instruction":"Translate from Balanda to English","input":"Wofo","output":"discuss"}
+{"instruction":"Translate from Balanda to English","input":"Wolondi","output":"follow"}
+{"instruction":"Translate from Balanda to English","input":"keyoro","output":"refer"}
+{"instruction":"Translate from Balanda to English","input":"Lovo","output":"solve"}
+{"instruction":"Translate from Balanda to English","input":"Sigiva","output":"describe"}
+{"instruction":"Translate from Balanda to English","input":"Durusondi","output":"prefer"}
+{"instruction":"Translate from Balanda to English","input":"Njemeke","output":"discover"}
+{"instruction":"Translate from Balanda to English","input":"Kurundi","output":"expect"}
+{"instruction":"Translate from Balanda to English","input":"Veleso","output":"speak"}
+{"instruction":"Translate from Balanda to English","input":"Ferege","output":"explain"}
+{"instruction":"Translate from Balanda to English","input":"Gili","output":"lose"}
+{"instruction":"Translate from Balanda to English","input":"Wunjo","output":"agree"}
+{"instruction":"Translate from Balanda to English","input":"dhï","output":"hear"}
+{"instruction":"Translate from Balanda to English","input":"Duui","output":"remain"}
+{"instruction":"Translate from Balanda to English","input":"Rovandi","output":"represent"}
+{"instruction":"Translate from Balanda to English","input":"sumeke","output":"apply"}
+{"instruction":"Translate from Balanda to English","input":"willi","output":"forget"}
+{"instruction":"Translate from Balanda to English","input":"Vasili","output":"rely"}
+{"instruction":"Translate from Balanda to English","input":"Yoro","output":"send"}
+{"instruction":"Translate from Balanda to English","input":"soho","output":"encourage"}
+{"instruction":"Translate from Balanda to English","input":"Wobere","output":"relax"}
+{"instruction":"Translate from Balanda to English","input":"mavata","output":"replace"}
+{"instruction":"Translate from Balanda to English","input":"Rünve","output":"enable"}
+{"instruction":"Translate from Balanda to English","input":"Ngele","output":"operate"}
+{"instruction":"Translate from Balanda to English","input":"Remgbe","output":"compare"}
+{"instruction":"Translate from Balanda to English","input":"Wunjondi","output":"accept"}
+{"instruction":"Translate from Balanda to English","input":"Mangbili","output":"complain"}
+{"instruction":"Translate from Balanda to English","input":"Ndirigbi","output":"enter"}
+{"instruction":"Translate from Balanda to English","input":"Mati","output":"happen"}
+{"instruction":"Translate from Balanda to English","input":"Yuva","output":"indicate"}
+{"instruction":"Translate from Balanda to English","input":"votii","output":"survive"}
+{"instruction":"Translate from Balanda to English","input":"foyi","output":"appreciate"}
+{"instruction":"Translate from Balanda to English","input":"mere","output":"admire"}
+{"instruction":"Translate from Balanda to English","input":"adopt","output":"adopt"}
+{"instruction":"Translate from Balanda to English","input":"Wavasu","output":"announce"}
+{"instruction":"Translate from Balanda to English","input":"Runzu","output":"approve"}
+{"instruction":"Translate from Balanda to English","input":"Ngandi","output":"belong"}
+{"instruction":"Translate from Balanda to English","input":"Yuvö","output":"criticize"}
+{"instruction":"Translate from Balanda to English","input":"Votigbi","output":"destroy"}
+{"instruction":"Translate from Balanda to English","input":"Logi","output":"pour"}
+{"instruction":"Translate from Balanda to English","input":"Tanga","output":"touch"}
+{"instruction":"Translate from Balanda to English","input":"viyoro","output":"submit"}
+{"instruction":"Translate from Balanda to English","input":"giriso","output":"translate"}
+{"instruction":"Translate from Balanda to English","input":"Dho","output":"be"}
+{"instruction":"Translate from Balanda to English","input":"Lunde","output":"use"}
+{"instruction":"Translate from Balanda to English","input":"Maa","output":"make"}
+{"instruction":"Translate from Balanda to English","input":"Koni","output":"help"}
+{"instruction":"Translate from Balanda to English","input":"Yai","output":"go"}
+{"instruction":"Translate from Balanda to English","input":"Terei","output":"think"}
+{"instruction":"Translate from Balanda to English","input":"Dheke","output":"read"}
+{"instruction":"Translate from Balanda to English","input":"Tuna","output":"start"}
+{"instruction":"Translate from Balanda to English","input":"Ze","output":"give"}
+{"instruction":"Translate from Balanda to English","input":"Moliki","output":"play"}
+{"instruction":"Translate from Balanda to English","input":"Tere","output":"put"}
+{"instruction":"Translate from Balanda to English","input":"Wayi","output":"say"}
+{"instruction":"Translate from Balanda to English","input":"Keye","output":"call"}
+{"instruction":"Translate from Balanda to English","input":"Sïhï","output":"buy"}
+{"instruction":"Translate from Balanda to English","input":"Dulu","output":"dance"}
+{"instruction":"Translate from Balanda to English","input":"Lovo","output":"solve"}
+{"instruction":"Translate from Balanda to English","input":"Sigiva","output":"describe"}
+{"instruction":"Translate from Balanda to English","input":"Durusondi","output":"prefer"}
+{"instruction":"Translate from Balanda to English","input":"Njemeke","output":"discover"}
+{"instruction":"Translate from Balanda to English","input":"Kurundi","output":"expect"}
+{"instruction":"Translate from Balanda to English","input":"Veleso","output":"speak"}
+{"instruction":"Translate from Balanda to English","input":"Wovindo","output":"appear"}
+{"instruction":"Translate from Balanda to English","input":"Ferege","output":"explain"}
+{"instruction":"Translate from Balanda to English","input":"Gili","output":"lose"}
+{"instruction":"Translate from Balanda to English","input":"Wunjo","output":"agree"}
+{"instruction":"Translate from Balanda to English","input":"dhï","output":"hear"}
+{"instruction":"Translate from Balanda to English","input":"Duui","output":"remain"}
+{"instruction":"Translate from Balanda to English","input":"Rovandi","output":"represent"}
+{"instruction":"Translate from Balanda to English","input":"sumeke","output":"apply"}
+{"instruction":"Translate from Balanda to English","input":"willi","output":"forget"}
+{"instruction":"Translate from Balanda to English","input":"Vasili","output":"rely"}
+{"instruction":"Translate from Balanda to English","input":"Yoro","output":"send"}
+{"instruction":"Translate from Balanda to English","input":"Kurundi","output":"wait"}
+{"instruction":"Translate from Balanda to English","input":"Fuhu","output":"flow"}
+{"instruction":"Translate from Balanda to English","input":"Deme","output":"hit"}
+{"instruction":"Translate from Balanda to English","input":"Ga","output":"shoot"}
+{"instruction":"Translate from Balanda to English","input":"Tanga","output":"touch"}
+{"instruction":"Translate from Balanda to English","input":"Vame","output":"cancel"}
+{"instruction":"Translate from Balanda to English","input":"Togbi","output":"cry"}
+{"instruction":"Translate from Balanda to English","input":"losi","output":"dump"}
+{"instruction":"Translate from Balanda to English","input":"Turu","output":"push"}
+{"instruction":"Translate from Balanda to English","input":"Luku","output":"select"}
+{"instruction":"Translate from Balanda to English","input":"Teku","output":"die"}
+{"instruction":"Translate from Balanda to English","input":"Ja","output":"eat"}
+{"instruction":"Translate from Balanda to English","input":"Tulu","output":"fill"}
+{"instruction":"Translate from Balanda to English","input":"Wo","output":"jump"}
+{"instruction":"Translate from Balanda to English","input":"Naka","output":"kick"}
+{"instruction":"Translate from Balanda to English","input":"Tüyü","output":"treat"}
+{"instruction":"Translate from Balanda to English","input":"Ganga","output":"abuse"}
+{"instruction":"Translate from Balanda to English","input":"Gbi","output":"beat"}
+{"instruction":"Translate from Balanda to English","input":"Tdaka","output":"burn"}
+{"instruction":"Translate from Balanda to English","input":"Sudili","output":"print"}
+{"instruction":"Translate from Balanda to English","input":"muku","output":"raise"}
+{"instruction":"Translate from Balanda to English","input":"Teli","output":"sleep"}
+{"instruction":"Translate from Balanda to English","input":"Tui","output":"connect"}
+{"instruction":"Translate from Balanda to English","input":"Sala","output":"fix"}
+{"instruction":"Translate from Balanda to English","input":"Nji","output":"kill"}
+{"instruction":"Translate from Balanda to English","input":"tara","output":"tap"}
+{"instruction":"Translate from Balanda to English","input":"Teta","output":"attack"}
+{"instruction":"Translate from Balanda to English","input":"juku","output":"drag"}
+{"instruction":"Translate from Balanda to English","input":"nzu","output":"drink"}
+{"instruction":"Translate from Balanda to English","input":"Tele","output":"pull"}
+{"instruction":"Translate from Balanda to English","input":"Yo","output":"wear"}
+{"instruction":"Translate from Balanda to English","input":"Koni","output":"count"}
+{"instruction":"Translate from Balanda to English","input":"Nzama","output":"feed"}
+{"instruction":"Translate from Balanda to English","input":"Karaka","output":"repeat"}
+{"instruction":"Translate from Balanda to English","input":"Sese","output":"sing"}
+{"instruction":"Translate from Balanda to English","input":"Lunguru","output":"collect"}
+{"instruction":"Translate from Balanda to English","input":"Du","output":"dig"}
+{"instruction":"Translate from Balanda to English","input":"Figgi","output":"divide"}
+{"instruction":"Translate from Balanda to English","input":"Nomvamva","output":"hunt"}
+{"instruction":"Translate from Balanda to English","input":"Yelle","output":"tie"}
+{"instruction":"Translate from Balanda to English","input":"Zati","output":"escape"}
+{"instruction":"Translate from Balanda to English","input":"Sogo","output":"hate"}
+{"instruction":"Translate from Balanda to English","input":"Wirindi","output":"repair"}
+{"instruction":"Translate from Balanda to English","input":"Kewe","output":"scratch"}
+{"instruction":"Translate from Balanda to English","input":"Modhi","output":"laugh"}
+{"instruction":"Translate from Balanda to English","input":"Nii","output":"struggle"}
+{"instruction":"Translate from Balanda to English","input":"Dukai","output":"swim"}
+{"instruction":"Translate from Balanda to English","input":"Soko","output":"wash"}
+{"instruction":"Translate from Balanda to English","input":"Ngoko","output":"shake"}
+{"instruction":"Translate from Balanda to English","input":"nzere","output":"shine"}
+{"instruction":"Translate from Balanda to English","input":"Mgba","output":"steal"}
+{"instruction":"Translate from Balanda to English","input":"Nofi","output":"suck"}
+{"instruction":"Translate from Balanda to English","input":"Taleti","output":"surround"}
+{"instruction":"Translate from Balanda to English","input":"Zïmvaa","output":"delay"}
+{"instruction":"Translate from Balanda to English","input":"kowei","output":"hurry"}
+{"instruction":"Translate from Balanda to English","input":"nzu","output":"kiss"}
+{"instruction":"Translate from Balanda to English","input":"Kö","output":"marry"}
+{"instruction":"Translate from Balanda to English","input":"Sese","output":"pray"}
+{"instruction":"Translate from Balanda to English","input":"Domo","output":"punch"}
+{"instruction":"Translate from Balanda to English","input":"ngati","output":"resist"}
+{"instruction":"Translate from Balanda to English","input":"Vonja","output":"rip"}
+{"instruction":"Translate from Balanda to English","input":"tolo","output":"rub"}
+{"instruction":"Translate from Balanda to English","input":"sama","output":"spell"}
+{"instruction":"Translate from Balanda to English","input":"Tiriti","output":"stretch"}
+{"instruction":"Translate from Balanda to English","input":"jiya","output":"wake"}
+{"instruction":"Translate from Balanda to English","input":"Wollo","output":"blow"}
+{"instruction":"Translate from Balanda to English","input":"Wiriki","output":"surprise"}
+{"instruction":"Translate from Balanda to English","input":"Viyoro","output":"submit"}
+{"instruction":"Translate from Balanda to English","input":"giriso","output":"translate"}
+{"instruction":"Translate from Balanda to English","input":"Valawa","output":"command"}
+{"instruction":"Translate from Balanda to English","input":"Duba","output":"settle"}
+{"instruction":"Translate from Balanda to English","input":"Goro","output":"smell"}
+{"instruction":"Translate from Balanda to English","input":"figigbi","output":"distribute"}
+{"instruction":"Translate from Balanda to English","input":"yamuru","output":"overcome"}
+{"instruction":"Translate from Balanda to English","input":"Nii nvogo","output":"suffer"}
+{"instruction":"Translate from Balanda to English","input":"Wa","output":"throw"}
+{"instruction":"Translate from Balanda to English","input":"Fesi","output":"acquire"}
+{"instruction":"Translate from Balanda to English","input":"Dodiri","output":"adjust"}
+{"instruction":"Translate from Balanda to English","input":"Lokoso","output":"argue"}
+{"instruction":"Translate from Balanda to English","input":"Muku","output":"arise"}
+{"instruction":"Translate from Balanda to English","input":"Yïundi","output":"confirm"}
+{"instruction":"Translate from Balanda to English","input":"Kelsere","output":"justify"}
+{"instruction":"Translate from Balanda to English","input":"wirindi","output":"organize"}
+{"instruction":"Translate from Balanda to English","input":"seduu","output":"retain"}
+{"instruction":"Translate from Balanda to English","input":"Neke","output":"shut"}
+{"instruction":"Translate from Balanda to English","input":"Odere","output":"compete"}
+{"instruction":"Translate from Balanda to English","input":"Lufigi","output":"deliver"}
+{"instruction":"Translate from Balanda to English","input":"Weta","output":"investigate"}
+{"instruction":"Translate from Balanda to English","input":"Tokpenze","output":"negotiate"}
+{"instruction":"Translate from Balanda to English","input":"Tiduui","output":"remain"}
+{"instruction":"Translate from Balanda to English","input":"Yeresu","output":"warn"}
+{"instruction":"Translate from Balanda to English","input":"tubiti","output":"accuse"}
+{"instruction":"Translate from Balanda to English","input":"admit","output":"admit"}
+{"instruction":"Translate from Balanda to English","input":"Wavasu","output":"inform"}
+{"instruction":"Translate from Balanda to English","input":"rofunsi","output":"persuade"}
+{"instruction":"Translate from Balanda to English","input":"terelo","output":"propose"}
+{"instruction":"Translate from Balanda to English","input":"Tanga tamuru","output":"remind"}
+{"instruction":"Translate from Balanda to English","input":"viteri","output":"suppose"}
+{"instruction":"Translate from Balanda to English","input":"Abi","output":"have"}
+{"instruction":"Translate from Balanda to English","input":"Lunde","output":"use"}
+{"instruction":"Translate from Balanda to English","input":"Maa","output":"make"}
+{"instruction":"Translate from Balanda to English","input":"Bowo","output":"look"}
+{"instruction":"Translate from Balanda to English","input":"Yai","output":"go"}
+{"instruction":"Translate from Balanda to English","input":"Terei","output":"think"}
+{"instruction":"Translate from Balanda to English","input":"Tdeke","output":"read"}
+{"instruction":"Translate from Balanda to English","input":"Tuna","output":"start"}
+{"instruction":"Translate from Balanda to English","input":"Ze","output":"give"}
+{"instruction":"Translate from Balanda to English","input":"Moliki","output":"play"}
+{"instruction":"Translate from Balanda to English","input":"Tere","output":"put"}
+{"instruction":"Translate from Balanda to English","input":"Kalla","output":"cut"}
+{"instruction":"Translate from Balanda to English","input":"Mele","output":"try"}
+{"instruction":"Translate from Balanda to English","input":"Keye","output":"call"}
+{"instruction":"Translate from Balanda to English","input":"Tenge","output":"move"}
+{"instruction":"Translate from Balanda to English","input":"Dafa","output":"pay"}
+{"instruction":"Translate from Balanda to English","input":"Zidi","output":"increase"}
+{"instruction":"Translate from Balanda to English","input":"Feleke","output":"turn"}
+{"instruction":"Translate from Balanda to English","input":"Weke","output":"ask"}
+{"instruction":"Translate from Balanda to English","input":"Sïhï","output":"buy"}
+{"instruction":"Translate from Balanda to English","input":"Kurule","output":"guard"}
+{"instruction":"Translate from Balanda to English","input":"jere","output":"hold"}
+{"instruction":"Translate from Balanda to English","input":"nitere","output":"offer"}
+{"instruction":"Translate from Balanda to English","input":"Womolo","output":"travel"}
+{"instruction":"Translate from Balanda to English","input":"Lotala","output":"cook"}
+{"instruction":"Translate from Balanda to English","input":"Dulu","output":"dance"}
+{"instruction":"Translate from Balanda to English","input":"Wala","output":"live"}
+{"instruction":"Translate from Balanda to English","input":"Singe","output":"purchase"}
+{"instruction":"Translate from Balanda to English","input":"Novee","output":"mean"}
+{"instruction":"Translate from Balanda to English","input":"Teta","output":"fall"}
+{"instruction":"Translate from Balanda to English","input":"Mada","output":"produce"}
+{"instruction":"Translate from Balanda to English","input":"Fatati","output":"search"}
+{"instruction":"Translate from Balanda to English","input":"Vele","output":"talk"}
+{"instruction":"Translate from Balanda to English","input":"Velezi","output":"tell"}
+{"instruction":"Translate from Balanda to English","input":"Noro","output":"drive"}
+{"instruction":"Translate from Balanda to English","input":"konubi","output":"support"}
+{"instruction":"Translate from Balanda to English","input":"Wusuvi","output":"remove"}
+{"instruction":"Translate from Balanda to English","input":"Dele","output":"return"}
+{"instruction":"Translate from Balanda to English","input":"Nangele","output":"run"}
+{"instruction":"Translate from Balanda to English","input":"Dere","output":"reserve"}
+{"instruction":"Translate from Balanda to English","input":"Lui","output":"reach"}
+{"instruction":"Translate from Balanda to English","input":"Woti","output":"rest"}
+{"instruction":"Translate from Balanda to English","input":"Boho","output":"watch"}
+{"instruction":"Translate from Balanda to English","input":"Wuru","output":"break"}
+{"instruction":"Translate from Balanda to English","input":"Dovura","output":"stay"}
+{"instruction":"Translate from Balanda to English","input":"Mawili","output":"visit"}
+{"instruction":"Translate from Balanda to English","input":"kpiki","output":"cover"}
+{"instruction":"Translate from Balanda to English","input":"Muku","output":"rise"}
+{"instruction":"Translate from Balanda to English","input":"Nono","output":"walk"}
+{"instruction":"Translate from Balanda to English","input":"Lunguru","output":"pick"}
+{"instruction":"Translate from Balanda to English","input":"Niyehe","output":"lift"}
+{"instruction":"Translate from Balanda to English","input":"Ro","output":"stop"}
+{"instruction":"Translate from Balanda to English","input":"Rugu","output":"teach"}
+{"instruction":"Translate from Balanda to English","input":"Woko","output":"fly"}
+{"instruction":"Translate from Balanda to English","input":"yudhe","output":"gain"}
+{"instruction":"Translate from Balanda to English","input":"Kungu","output":"save"}
+{"instruction":"Translate from Balanda to English","input":"Rota","output":"stand"}
+{"instruction":"Translate from Balanda to English","input":"Tengo","output":"fail"}
+{"instruction":"Translate from Balanda to English","input":"Susu","output":"listen"}
+{"instruction":"Translate from Balanda to English","input":"Sadi","output":"sell"}
+{"instruction":"Translate from Balanda to English","input":"Turu","output":"finish"}
+{"instruction":"Translate from Balanda to English","input":"Kpii","output":"press"}
+{"instruction":"Translate from Balanda to English","input":"dhoko","output":"ride"}
+{"instruction":"Translate from Balanda to English","input":"Kedi","output":"spread"}
+{"instruction":"Translate from Balanda to English","input":"Kurundi","output":"wait"}
+{"instruction":"Translate from Balanda to English","input":"kuluyu","output":"display"}
+{"instruction":"Translate from Balanda to English","input":"Fuhu","output":"flow"}
+{"instruction":"Translate from Balanda to English","input":"Deme","output":"hit"}
+{"instruction":"Translate from Balanda to English","input":"Ga","output":"shoot"}
+{"instruction":"Translate from Balanda to English","input":"Vame","output":"cancel"}
+{"instruction":"Translate from Balanda to English","input":"Togbi","output":"cry"}
+{"instruction":"Translate from Balanda to English","input":"losi","output":"dump"}
+{"instruction":"Translate from Balanda to English","input":"Luku","output":"select"}
+{"instruction":"Translate from Balanda to English","input":"Gbinjo","output":"conflict"}
+{"instruction":"Translate from Balanda to English","input":"Teku","output":"die"}
+{"instruction":"Translate from Balanda to English","input":"Tulu","output":"fill"}
+{"instruction":"Translate from Balanda to English","input":"Wo","output":"jump"}
+{"instruction":"Translate from Balanda to English","input":"Naka","output":"kick"}
+{"instruction":"Translate from Balanda to English","input":"pitch","output":"pitch"}
+{"instruction":"Translate from Balanda to English","input":"Tüyü","output":"treat"}
+{"instruction":"Translate from Balanda to English","input":"Ganga","output":"abuse"}
+{"instruction":"Translate from Balanda to English","input":"Gbi","output":"beat"}
+{"instruction":"Translate from Balanda to English","input":"Tdaka","output":"burn"}
+{"instruction":"Translate from Balanda to English","input":"deposit","output":"deposit"}
+{"instruction":"Translate from Balanda to English","input":"Sudili","output":"print"}
+{"instruction":"Translate from Balanda to English","input":"nokulo","output":"advance"}
+{"instruction":"Translate from Balanda to English","input":"Tui","output":"connect"}
+{"instruction":"Translate from Balanda to English","input":"darata","output":"consist"}
+{"instruction":"Translate from Balanda to English","input":"Tokonjobi","output":"contribute"}
+{"instruction":"Translate from Balanda to English","input":"digele","output":"draw"}
+{"instruction":"Translate from Balanda to English","input":"Sala","output":"fix"}
+{"instruction":"Translate from Balanda to English","input":"Nji","output":"kill"}
+{"instruction":"Translate from Balanda to English","input":"Dovura","output":"sit"}
+{"instruction":"Translate from Balanda to English","input":"tara","output":"tap"}
+{"instruction":"Translate from Balanda to English","input":"win","output":"win"}
+{"instruction":"Translate from Balanda to English","input":"yidia","output":"claim"}
+{"instruction":"Translate from Balanda to English","input":"yidhebe","output":"guess"}
+{"instruction":"Translate from Balanda to English","input":"Yo","output":"wear"}
+{"instruction":"Translate from Balanda to English","input":"yarali","output":"wonder"}
+{"instruction":"Translate from Balanda to English","input":"Nzama","output":"feed"}
+{"instruction":"Translate from Balanda to English","input":"impress","output":"impress"}
+{"instruction":"Translate from Balanda to English","input":"Karaka","output":"repeat"}
+{"instruction":"Translate from Balanda to English","input":"nova","output":"seek"}
+{"instruction":"Translate from Balanda to English","input":"zadha","output":"slide"}
+{"instruction":"Translate from Balanda to English","input":"goduru","output":"wish"}
+{"instruction":"Translate from Balanda to English","input":"suggu","output":"combine"}
+{"instruction":"Translate from Balanda to English","input":"Du","output":"dig"}
+{"instruction":"Translate from Balanda to English","input":"Figgi","output":"divide"}
+{"instruction":"Translate from Balanda to English","input":"Le","output":"hang"}
+{"instruction":"Translate from Balanda to English","input":"Nomvamva","output":"hunt"}
+{"instruction":"Translate from Balanda to English","input":"kele","output":"mention"}
+{"instruction":"Translate from Balanda to English","input":"Yelle","output":"tie"}
+{"instruction":"Translate from Balanda to English","input":"Zati","output":"escape"}
+{"instruction":"Translate from Balanda to English","input":"Sogo","output":"hate"}
+{"instruction":"Translate from Balanda to English","input":"Wirindi","output":"repair"}
+{"instruction":"Translate from Balanda to English","input":"Kewe","output":"scratch"}
+{"instruction":"Translate from Balanda to English","input":"Modhi","output":"laugh"}
+{"instruction":"Translate from Balanda to English","input":"njegbi","output":"split"}
+{"instruction":"Translate from Balanda to English","input":"kpatdara","output":"struggle"}
+{"instruction":"Translate from Balanda to English","input":"Dukai","output":"swim"}
+{"instruction":"Translate from Balanda to English","input":"ndugu","output":"train"}
+{"instruction":"Translate from Balanda to English","input":"Soko","output":"wash"}
+{"instruction":"Translate from Balanda to English","input":"wuturu","output":"waste"}
+{"instruction":"Translate from Balanda to English","input":"girita","output":"convert"}
+{"instruction":"Translate from Balanda to English","input":"Wugi","output":"crash"}
+{"instruction":"Translate from Balanda to English","input":"Falaka","output":"fold"}
+{"instruction":"Translate from Balanda to English","input":"gami","output":"grab"}
+{"instruction":"Translate from Balanda to English","input":"Kuru","output":"hide"}
+{"instruction":"Translate from Balanda to English","input":"Vayi","output":"miss"}
+{"instruction":"Translate from Balanda to English","input":"velewe","output":"roll"}
+{"instruction":"Translate from Balanda to English","input":"sink","output":"sink"}
+{"instruction":"Translate from Balanda to English","input":"vasuluku","output":"slip"}
+{"instruction":"Translate from Balanda to English","input":"wiya","output":"swing"}
+{"instruction":"Translate from Balanda to English","input":"ndaraka","output":"twist"}
+{"instruction":"Translate from Balanda to English","input":"dungili","output":"concentrate"}
+{"instruction":"Translate from Balanda to English","input":"kenziri","output":"estimate"}
+{"instruction":"Translate from Balanda to English","input":"Viya","output":"refuse"}
+{"instruction":"Translate from Balanda to English","input":"viyu","output":"reveal"}
+{"instruction":"Translate from Balanda to English","input":"Ngoko","output":"shake"}
+{"instruction":"Translate from Balanda to English","input":"mosere","output":"shift"}
+{"instruction":"Translate from Balanda to English","input":"nzere","output":"shine"}
+{"instruction":"Translate from Balanda to English","input":"Mgba","output":"steal"}
+{"instruction":"Translate from Balanda to English","input":"Nofi","output":"suck"}
+{"instruction":"Translate from Balanda to English","input":"Taleti","output":"surround"}
+{"instruction":"Translate from Balanda to English","input":"nii","output":"bear"}
+{"instruction":"Translate from Balanda to English","input":"Kurundi","output":"wait"}
+{"instruction":"Translate from Balanda to English","input":"kuluyu","output":"display"}
+{"instruction":"Translate from Balanda to English","input":"Fuhu","output":"flow"}
+{"instruction":"Translate from Balanda to English","input":"Deme","output":"hit"}
+{"instruction":"Translate from Balanda to English","input":"Ga","output":"shoot"}
+{"instruction":"Translate from Balanda to English","input":"Vame","output":"cancel"}
+{"instruction":"Translate from Balanda to English","input":"Togbi","output":"cry"}
+{"instruction":"Translate from Balanda to English","input":"losi","output":"dump"}
+{"instruction":"Translate from Balanda to English","input":"Luku","output":"select"}
+{"instruction":"Translate from Balanda to English","input":"Gbinjo","output":"conflict"}
+{"instruction":"Translate from Balanda to English","input":"Teku","output":"die"}
+{"instruction":"Translate from Balanda to English","input":"Tulu","output":"fill"}
+{"instruction":"Translate from Balanda to English","input":"Wo","output":"jump"}
+{"instruction":"Translate from Balanda to English","input":"Naka","output":"kick"}
+{"instruction":"Translate from Balanda to English","input":"pitch","output":"pitch"}
+{"instruction":"Translate from Balanda to English","input":"Tüyü","output":"treat"}
+{"instruction":"Translate from Balanda to English","input":"Ganga","output":"abuse"}
+{"instruction":"Translate from Balanda to English","input":"Gbi","output":"beat"}
+{"instruction":"Translate from Balanda to English","input":"Tdaka","output":"burn"}
+{"instruction":"Translate from Balanda to English","input":"deposit","output":"deposit"}
+{"instruction":"Translate from Balanda to English","input":"Sudili","output":"print"}
+{"instruction":"Translate from Balanda to English","input":"nokulo","output":"advance"}
+{"instruction":"Translate from Balanda to English","input":"Tui","output":"connect"}
+{"instruction":"Translate from Balanda to English","input":"darata","output":"consist"}
+{"instruction":"Translate from Balanda to English","input":"Tokonjobi","output":"contribute"}
+{"instruction":"Translate from Balanda to English","input":"digele","output":"draw"}
+{"instruction":"Translate from Balanda to English","input":"Sala","output":"fix"}
+{"instruction":"Translate from Balanda to English","input":"Nji","output":"kill"}
+{"instruction":"Translate from Balanda to English","input":"Dovura","output":"sit"}
+{"instruction":"Translate from Balanda to English","input":"tara","output":"tap"}
+{"instruction":"Translate from Balanda to English","input":"win","output":"win"}
+{"instruction":"Translate from Balanda to English","input":"yidia","output":"claim"}
+{"instruction":"Translate from Balanda to English","input":"yidhebe","output":"guess"}
+{"instruction":"Translate from Balanda to English","input":"Yo","output":"wear"}
+{"instruction":"Translate from Balanda to English","input":"yarali","output":"wonder"}
+{"instruction":"Translate from Balanda to English","input":"Nzama","output":"feed"}
+{"instruction":"Translate from Balanda to English","input":"Karaka","output":"repeat"}
+{"instruction":"Translate from Balanda to English","input":"nova","output":"seek"}
+{"instruction":"Translate from Balanda to English","input":"zadha","output":"slide"}
+{"instruction":"Translate from Balanda to English","input":"goduru","output":"wish"}
+{"instruction":"Translate from Balanda to English","input":"Du","output":"dig"}
+{"instruction":"Translate from Balanda to English","input":"Figgi","output":"divide"}
+{"instruction":"Translate from Balanda to English","input":"Le","output":"hang"}
+{"instruction":"Translate from Balanda to English","input":"Nomvamva","output":"hunt"}
+{"instruction":"Translate from Balanda to English","input":"Yelle","output":"tie"}
+{"instruction":"Translate from Balanda to English","input":"Zati","output":"escape"}
+{"instruction":"Translate from Balanda to English","input":"Sogo","output":"hate"}
+{"instruction":"Translate from Balanda to English","input":"Wirindi","output":"repair"}
+{"instruction":"Translate from Balanda to English","input":"Kewe","output":"scratch"}
+{"instruction":"Translate from Balanda to English","input":"Modhi","output":"laugh"}
+{"instruction":"Translate from Balanda to English","input":"njegbi","output":"split"}
+{"instruction":"Translate from Balanda to English","input":"Dukai","output":"swim"}
+{"instruction":"Translate from Balanda to English","input":"ndugu","output":"train"}
+{"instruction":"Translate from Balanda to English","input":"Soko","output":"wash"}
+{"instruction":"Translate from Balanda to English","input":"wuturu","output":"waste"}
+{"instruction":"Translate from Balanda to English","input":"Wugi","output":"crash"}
+{"instruction":"Translate from Balanda to English","input":"Falaka","output":"fold"}
+{"instruction":"Translate from Balanda to English","input":"gami","output":"grab"}
+{"instruction":"Translate from Balanda to English","input":"Kuru","output":"hide"}
+{"instruction":"Translate from Balanda to English","input":"Vayi","output":"miss"}
+{"instruction":"Translate from Balanda to English","input":"velewe","output":"roll"}
+{"instruction":"Translate from Balanda to English","input":"wiya","output":"swing"}
+{"instruction":"Translate from Balanda to English","input":"ndaraka","output":"twist"}
+{"instruction":"Translate from Balanda to English","input":"dungili","output":"concentrate"}
+{"instruction":"Translate from Balanda to English","input":"kenziri","output":"estimate"}
+{"instruction":"Translate from Balanda to English","input":"Viya","output":"refuse"}
+{"instruction":"Translate from Balanda to English","input":"viyu","output":"reveal"}
+{"instruction":"Translate from Balanda to English","input":"rush","output":"rush"}
+{"instruction":"Translate from Balanda to English","input":"Ngoko","output":"shake"}
+{"instruction":"Translate from Balanda to English","input":"nzere","output":"shine"}
+{"instruction":"Translate from Balanda to English","input":"Mgba","output":"steal"}
+{"instruction":"Translate from Balanda to English","input":"Nofi","output":"suck"}
+{"instruction":"Translate from Balanda to English","input":"Taleti","output":"surround"}

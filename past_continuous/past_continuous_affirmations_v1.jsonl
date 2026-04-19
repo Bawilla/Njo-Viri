@@ -4,155 +4,99 @@
   "description": "This file defines the Past Continuous tense in Njo Viri (Balanda). The tense is used to express actions that were ongoing at a specific point in the past. It is formed using the auxiliary 'noka' and the verbal prefix 'ti-'.",
   "rules": {
     "general_principle": {
-      "statement": "Past continuous tense in Balanda is marked by the auxiliary 'noka' combined with the prefix 'ti-' attached to the verb. It expresses actions that were in progress in the past."
+      "function": "general principle",
+      "structure": "Past continuous tense in Balanda is marked by the auxiliary 'noka' combined with the prefix 'ti-' attached to the verb. It expresses actions that were in progress in the past.",
+      "notes": ""
     },
-
     "affirmative_structure": {
+      "function": "affirmative structure",
       "structure": "Subject + noka + ti-Verb + (Object / Complement)",
-      "description": "Used to describe an action that was ongoing in the past.",
-      "examples": [
-        "Ne noka tidhe kümü",
-        "Ne noka timoliki gbi difo",
-        "Ni noka tinangele zanga",
-        "Uku noka timande gbi njü",
-        "Ne noka timerego ŋo"
-      ]
+      "notes": "Used to describe an action that was ongoing in the past. | Ne noka tidhe kümü; Ne noka timoliki gbi difo; Ni noka tinangele zanga; Uku noka timande gbi njü; Ne noka timerego ŋo"
     },
-
     "negation": {
-      "description": "Negation in the past continuous can be expressed using two licensed strategies.",
-      "patterns": {
-        "maka_gba_pattern": {
-          "structure": "Subject + maka + ti-Verb + (Object) + gba",
-          "examples": [
-            "Ne maka timoliki gbi difo gba",
-            "Ni maka tinangele zanga gba",
-            "Afo maka timande gbi njü gba"
-          ]
-        },
-        "kawilla_pattern": {
-          "structure": "Subject + kawilla + ti-Verb + (Object)",
-          "examples": [
-            "Ne kawilla timerego ŋo",
-            "Uku kawilla timele vongu"
-          ]
-        }
-      }
+      "function": "negation",
+      "structure": "{\"description\": \"Negation in the past continuous can be expressed using two licensed strategies.\", \"patterns\": {\"maka_gba_pattern\": {\"structure\": \"Subject + maka + ti-Verb + (Object) + gba\", \"examples\": [\"Ne maka timoliki gbi difo gba\", \"Ni maka tinangele zanga gba\", \"Afo maka timande gbi njü gba\"]}, \"kawilla_pattern\": {\"structure\": \"Subject + kawilla + ti-Verb + (Object)\", \"examples\": [\"Ne kawilla timerego ŋo\", \"Uku kawilla timele vongu\"]}}}",
+      "notes": "Negation in the past continuous can be expressed using two licensed strategies."
     },
-
     "questions": {
-      "description": "Yes–no questions in the past continuous are formed by adding the question marker 'we?' at the end of the sentence.",
+      "function": "questions",
       "structure": "Subject + noka + ti-Verb + (Object) + we?",
-      "examples": [
-        "Ne noka timoliki gbi difo we?",
-        "Ni noka tikulu munja we?",
-        "Uku noka timande gbi njü we?"
-      ]
+      "notes": "Yes–no questions in the past continuous are formed by adding the question marker 'we?' at the end of the sentence. | Ne noka timoliki gbi difo we?; Ni noka tikulu munja we?; Uku noka timande gbi njü we?"
     },
-
     "negative_questions": {
-      "description": "Negative past continuous questions retain the negation strategy and add 'we?' sentence-finally.",
-      "examples": [
-        "Yehe ni kawilla tiriki dha we?",
-        "Ne kawilla tiwutduru kese ngande’e ta kavokau we?",
-        "Ni kawilla tiyele tamma we?"
-      ]
+      "function": "negative questions",
+      "structure": "{\"description\": \"Negative past continuous questions retain the negation strategy and add 'we?' sentence-finally.\", \"examples\": [\"Yehe ni kawilla tiriki dha we?\", \"Ne kawilla tiwutduru kese ngande’e ta kavokau we?\", \"Ni kawilla tiyele tamma we?\"]}",
+      "notes": "Negative past continuous questions retain the negation strategy and add 'we?' sentence-finally. | Yehe ni kawilla tiriki dha we?; Ne kawilla tiwutduru kese ngande’e ta kavokau we?; Ni kawilla tiyele tamma we?"
     },
-
     "verb_morphology": {
-      "rule": "The prefix 'ti-' must attach directly to the verb root in all past continuous constructions.",
-      "constraints": [
-        "ti- cannot be omitted",
-        "bare verbs do not express past continuous meaning"
-      ],
-      "examples": [
-        "timande (was working)",
-        "tinangele (was running)",
-        "timerego (was loving)"
-      ]
+      "function": "verb morphology",
+      "structure": "The prefix 'ti-' must attach directly to the verb root in all past continuous constructions.",
+      "notes": "ti- cannot be omitted; bare verbs do not express past continuous meaning | timande (was working); tinangele (was running); timerego (was loving)"
     },
-
     "sentence_identification": {
-      "affirmative": "Subject + noka + ti-Verb",
-      "negative": "Subject + maka + ti-Verb + gba OR Subject + kawilla + ti-Verb",
-      "question": "Subject + noka + ti-Verb + we?",
-      "negative_question": "Negative sentence + we?"
+      "function": "sentence identification",
+      "structure": "{\"affirmative\": \"Subject + noka + ti-Verb\", \"negative\": \"Subject + maka + ti-Verb + gba OR Subject + kawilla + ti-Verb\", \"question\": \"Subject + noka + ti-Verb + we?\", \"negative_question\": \"Negative sentence + we?\"}",
+      "notes": "Subject + noka + ti-Verb | Subject + maka + ti-Verb + gba OR Subject + kawilla + ti-Verb | Subject + noka + ti-Verb + we? | Negative sentence + we?"
     },
-
-    "error_constraints": [
-      "Do not replace 'noka' with 'no'",
-      "Do not omit the prefix 'ti-'",
-      "Do not combine 'maka' and 'kawilla' in the same clause",
-      "Do not place 'we?' inside the sentence",
-      "Do not use bare verb forms for ongoing past actions"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not replace 'noka' with 'no'; Do not omit the prefix 'ti-'; Do not combine 'maka' and 'kawilla' in the same clause; Do not place 'we?' inside the sentence; Do not use bare verb forms for ongoing past actions",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_noka_auxiliary": true,
-      "enforce_ti_prefix": true,
-      "preserve_word_order": true,
-      "allow_dual_negation_strategies": true,
-      "keep_question_marker_final": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_noka_auxiliary\": true, \"enforce_ti_prefix\": true, \"preserve_word_order\": true, \"allow_dual_negation_strategies\": true, \"keep_question_marker_final\": true}",
+      "notes": ""
     }
   }
 }
-
-
-[
-  {"balanda":"Ne noka tija se","english":"I was eating fish"},
-  {"balanda":"Ni noka tinzü ngo","english":"She was drinking water"},
-  {"balanda":"Danda noka titeli muru famvara","english":"We were sleeping on the bed"},
-  {"balanda":"Uku noka tiyai","english":"Uku was going"},
-  {"balanda":"Ngande noka tidhii ba","english":"Ngande was coming home"},
-  {"balanda":"Ndi noka tinonö gbi difo","english":"They were walking in the compound"},
-  {"balanda":"Ni noka tinangele zanga","english":"She was running fast"},
-  {"balanda":"Uku noka timande gbi njü","english":"Uku was working in the garden"},
-  {"balanda":"Wiki noka timoliki gbi difo","english":"The child was playing in the compound"},
-  {"balanda":"Ne noka tiloro voro","english":"I was watching the dog"},
-
-  {"balanda":"Ne noka tivele njo balanda","english":"I was speaking Balanda"},
-  {"balanda":"Wilii noka tisudi kavoso","english":"The girl was writing words"},
-  {"balanda":"Ne noka tidheke kitabu","english":"I was reading a book"},
-  {"balanda":"Ni noka titeri ay","english":"He was thinking about it"},
-  {"balanda":"Ndi noka tiŋiyi ay","english":"They were knowing it"},
-  {"balanda":"Ne noka tiwe ndi","english":"I was asking them"},
-  {"balanda":"Ngande noka tivele zi ndi","english":"Ngande was telling them"},
-  {"balanda":"Wilii noka tikeye ti naa ni","english":"The girl was calling her mother"},
-
-  {"balanda":"Ne noka timerego ŋo","english":"I was loving you"},
-  {"balanda":"Ni noka timaguku ti kpörö","english":"He was fearing the snake"},
-  {"balanda":"Ni noka tisogo dha","english":"She was hating you"},
-  {"balanda":"Ngande noka tiriki ni","english":"Ngande was surprising him"},
-  {"balanda":"Ni noka tidovee kurru","english":"He was seeming calm"},
-
-  {"balanda":"Wilii noka tiyele tamma","english":"The girl was tying the shoe"},
-  {"balanda":"Ni noka tidi kalla","english":"He was cutting the pot"},
-  {"balanda":"Ne noka titele njokoji","english":"I was pulling the door"},
-  {"balanda":"Danda noka tituru songo","english":"We were pushing the box"},
-  {"balanda":"Wilii noka tisoko tamma","english":"The girl was washing the shoe"},
-  {"balanda":"Ne noka tikuru kavokau","english":"I was hiding the beads"},
-
-  {"balanda":"Ngande noka tingö tiyi","english":"Ngande was building a house"},
-  {"balanda":"Ne noka tisuru kavoso","english":"I was creating words"},
-  {"balanda":"Ni noka tigiri kavoso","english":"She was changing the words"},
-  {"balanda":"Ne noka tikara njokoji","english":"I was turning the door"},
-  {"balanda":"Danda noka titoko villi","english":"We were adding money"},
-  {"balanda":"Ne noka tikefo Balanda","english":"I was describing Balanda"},
-
-  {"balanda":"Ndi noka tikonu nvesani","english":"They were helping the poor"},
-  {"balanda":"Ngande noka tindugu mira","english":"Ngande was initiating the project"},
-  {"balanda":"Ne noka timaforo mira","english":"I was contributing to the project"},
-  {"balanda":"Wilii noka tisarwa kumere","english":"The girl was separating trash"},
-  {"balanda":"Danda noka tikiri tidina","english":"We were upholding the law"},
-
-  {"balanda":"Ne noka tiduru ngo","english":"I was wanting water"},
-  {"balanda":"Ni noka tize villi","english":"She was giving money"},
-  {"balanda":"Ne noka tidhe villi","english":"I was finding money"},
-  {"balanda":"Uku noka timele vongu","english":"Uku was trying the cloth"},
-  {"balanda":"Ngande noka tisi ba","english":"Ngande was leaving home"},
-  {"balanda":"Ne noka tilu Wau","english":"I was arriving in Wau"},
-  {"balanda":"Ni noka tifagi mva","english":"He was sharpening the knife"},
-  {"balanda":"Ngande noka tidewe kakpodu","english":"Ngande was imitating adults"},
-  {"balanda":"Danda noka tibita mira","english":"We were starting the project"},
-  {"balanda":"Ni noka titeta","english":"He was falling"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne noka tija se","output":"I was eating fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tinzü ngo","output":"She was drinking water"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka titeli muru famvara","output":"We were sleeping on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku noka tiyai","output":"Uku was going"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tidhii ba","output":"Ngande was coming home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka tinonö gbi difo","output":"They were walking in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tinangele zanga","output":"She was running fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku noka timande gbi njü","output":"Uku was working in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki noka timoliki gbi difo","output":"The child was playing in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiloro voro","output":"I was watching the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tivele njo balanda","output":"I was speaking Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tisudi kavoso","output":"The girl was writing words"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tidheke kitabu","output":"I was reading a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeri ay","output":"He was thinking about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka tiŋiyi ay","output":"They were knowing it"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwe ndi","output":"I was asking them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tivele zi ndi","output":"Ngande was telling them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tikeye ti naa ni","output":"The girl was calling her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka timerego ŋo","output":"I was loving you"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka timaguku ti kpörö","output":"He was fearing the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tisogo dha","output":"She was hating you"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tiriki ni","output":"Ngande was surprising him"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidovee kurru","output":"He was seeming calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tiyele tamma","output":"The girl was tying the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidi kalla","output":"He was cutting the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka titele njokoji","output":"I was pulling the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tituru songo","output":"We were pushing the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tisoko tamma","output":"The girl was washing the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikuru kavokau","output":"I was hiding the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tingö tiyi","output":"Ngande was building a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisuru kavoso","output":"I was creating words"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tigiri kavoso","output":"She was changing the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikara njokoji","output":"I was turning the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka titoko villi","output":"We were adding money"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikefo Balanda","output":"I was describing Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka tikonu nvesani","output":"They were helping the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tindugu mira","output":"Ngande was initiating the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka timaforo mira","output":"I was contributing to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tisarwa kumere","output":"The girl was separating trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tikiri tidina","output":"We were upholding the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiduru ngo","output":"I was wanting water"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tize villi","output":"She was giving money"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tidhe villi","output":"I was finding money"}
+{"instruction":"Translate from Balanda to English","input":"Uku noka timele vongu","output":"Uku was trying the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tisi ba","output":"Ngande was leaving home"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tilu Wau","output":"I was arriving in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tifagi mva","output":"He was sharpening the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tidewe kakpodu","output":"Ngande was imitating adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tibita mira","output":"We were starting the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeta","output":"He was falling"}

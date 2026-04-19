@@ -1,128 +1,50 @@
 {
-  "instruction_type": "orthography_rule",
+  "instruction_type": "grammar_rule",
   "grammar_name": "balanda_alphabet_and_phonology",
   "description": "This file defines the Balanda (Njo Viri) alphabet, pronunciation rules, special letters, vowel distinctions, consonant clusters, and orthographic constraints. All letters and clusters are phonemic and must be preserved exactly as written.",
   "rules": {
     "alphabet_system": {
-      "script": "Latin-based",
-      "status": "phonemic",
-      "principle": "Each letter or cluster represents a meaningful sound contrast"
+      "function": "alphabet system",
+      "structure": "{\"script\": \"Latin-based\", \"status\": \"phonemic\", \"principle\": \"Each letter or cluster represents a meaningful sound contrast\"}",
+      "notes": "Latin-based | phonemic | Each letter or cluster represents a meaningful sound contrast"
     },
-
     "core_letters": {
-      "vowels": [
-        "A", "E", "I", "Ï", "O", "Ö", "U", "Ü"
-      ],
-      "consonants": [
-        "B", "D", "F", "G", "H", "J", "K", "L", "M",
-        "N", "ŋ", "P", "R", "S", "T", "V", "W", "Y", "Z"
-      ]
+      "function": "core letters",
+      "structure": "{\"vowels\": [\"A\", \"E\", \"I\", \"Ï\", \"O\", \"Ö\", \"U\", \"Ü\"], \"consonants\": [\"B\", \"D\", \"F\", \"G\", \"H\", \"J\", \"K\", \"L\", \"M\", \"N\", \"ŋ\", \"P\", \"R\", \"S\", \"T\", \"V\", \"W\", \"Y\", \"Z\"]}",
+      "notes": "A; E; I; Ï; O; Ö; U; Ü | B; D; F; G; H; J; K; L; M; N; ŋ; P; R; S; T; V; W; Y; Z"
     },
-
     "special_letters": {
-      "ŋ": {
-        "type": "nasal consonant",
-        "pronunciation": "/ŋ/",
-        "example": "ŋo (you)",
-        "constraint": "Must never be replaced with 'ng'"
-      },
-      "Ï": {
-        "type": "vowel",
-        "pronunciation": "/ï/",
-        "example": "Lï (dream)",
-        "constraint": "Distinct from I"
-      },
-      "Ö": {
-        "type": "vowel",
-        "pronunciation": "/ö/",
-        "example": "Völö (stubborn)",
-        "constraint": "Distinct from O"
-      },
-      "Ü": {
-        "type": "vowel",
-        "pronunciation": "/ü/",
-        "example": "Ülü (dancer)",
-        "constraint": "Distinct from U"
-      }
+      "function": "special letters",
+      "structure": "{\"ŋ\": {\"type\": \"nasal consonant\", \"pronunciation\": \"/ŋ/\", \"example\": \"ŋo (you)\", \"constraint\": \"Must never be replaced with 'ng'\"}, \"Ï\": {\"type\": \"vowel\", \"pronunciation\": \"/ï/\", \"example\": \"Lï (dream)\", \"constraint\": \"Distinct from I\"}, \"Ö\": {\"type\": \"vowel\", \"pronunciation\": \"/ö/\", \"example\": \"Völö (stubborn)\", \"constraint\": \"Distinct from O\"}, \"Ü\": {\"type\": \"vowel\", \"pronunciation\": \"/ü/\", \"example\": \"Ülü (dancer)\", \"constraint\": \"Distinct from U\"}}",
+      "notes": ""
     },
-
     "capitalization": {
-      "rule": "Capitalization follows standard orthographic norms",
-      "constraint": "Capitalization errors are treated as spelling errors",
-      "example": {
-        "incorrect": "gbito",
-        "correct": "Gbito"
-      }
+      "function": "capitalization",
+      "structure": "Capitalization follows standard orthographic norms",
+      "notes": "Capitalization errors are treated as spelling errors"
     },
-
     "consonant_clusters": {
-      "status": "single phonemic units",
-      "clusters": {
-        "Gb": {
-          "pronunciation": "/gb/",
-          "example": "Gbito (slow)"
-        },
-        "Kp": {
-          "pronunciation": "/kp/",
-          "example": "Kpotdu (elder)"
-        },
-        "Nd": {
-          "pronunciation": "/nd/",
-          "example": "Nde (work)"
-        },
-        "Ng": {
-          "pronunciation": "/ng/",
-          "example": "Ngu (new)"
-        },
-        "Ngb": {
-          "pronunciation": "/ngb/",
-          "example": "Ngba (theft)"
-        },
-        "Dh": {
-          "pronunciation": "/dh/",
-          "example": "Dhe (find)"
-        },
-        "Nj": {
-          "pronunciation": "/nj/",
-          "example": "Njee (one)"
-        },
-        "Nz": {
-          "pronunciation": "/nz/",
-          "example": "Nza (food)"
-        }
-      }
+      "function": "consonant clusters",
+      "structure": "{\"status\": \"single phonemic units\", \"clusters\": {\"Gb\": {\"pronunciation\": \"/gb/\", \"example\": \"Gbito (slow)\"}, \"Kp\": {\"pronunciation\": \"/kp/\", \"example\": \"Kpotdu (elder)\"}, \"Nd\": {\"pronunciation\": \"/nd/\", \"example\": \"Nde (work)\"}, \"Ng\": {\"pronunciation\": \"/ng/\", \"example\": \"Ngu (new)\"}, \"Ngb\": {\"pronunciation\": \"/ngb/\", \"example\": \"Ngba (theft)\"}, \"Dh\": {\"pronunciation\": \"/dh/\", \"example\": \"Dhe (find)\"}, \"Nj\": {\"pronunciation\": \"/nj/\", \"example\": \"Njee (one)\"}, \"Nz\": {\"pronunciation\": \"/nz/\", \"example\": \"Nza (food)\"}}}",
+      "notes": "single phonemic units"
     },
-
-    "orthographic_constraints": [
-      "Letters with diacritics (Ï, Ö, Ü, ŋ) must never be substituted",
-      "Consonant clusters must not be split or simplified",
-      "Phonemic spelling must be preserved even if unfamiliar to English",
-      "Loanword spelling must conform to Balanda phonology",
-      "Lowercase and uppercase errors are orthographic errors",
-      "ŋ is a letter, not a digraph"
-    ],
-
+    "orthographic_constraints": {
+      "function": "orthographic constraints",
+      "structure": "Letters with diacritics (Ï, Ö, Ü, ŋ) must never be substituted; Consonant clusters must not be split or simplified; Phonemic spelling must be preserved even if unfamiliar to English; Loanword spelling must conform to Balanda phonology; Lowercase and uppercase errors are orthographic errors; ŋ is a letter, not a digraph",
+      "notes": ""
+    },
     "validation_rules": {
-      "valid_letter": "Must be listed in the Balanda alphabet",
-      "valid_cluster": "Must be one of the recognized phonemic clusters",
-      "invalid_forms": [
-        "ngo → must be ŋo",
-        "ulu → must be Ülü"
-      ]
+      "function": "validation rules",
+      "structure": "{\"valid_letter\": \"Must be listed in the Balanda alphabet\", \"valid_cluster\": \"Must be one of the recognized phonemic clusters\", \"invalid_forms\": [\"ngo → must be ŋo\", \"ulu → must be Ülü\"]}",
+      "notes": "Must be listed in the Balanda alphabet | Must be one of the recognized phonemic clusters | ngo → must be ŋo; ulu → must be Ülü"
     },
-
     "model_behavior_guidelines": {
-      "do_not_normalize": true,
-      "do_not_romanize": true,
-      "do_not_replace_diacritics": true,
-      "treat_orthography_as_semantic": true
+      "function": "model behavior guidelines",
+      "structure": "{\"do_not_normalize\": true, \"do_not_romanize\": true, \"do_not_replace_diacritics\": true, \"treat_orthography_as_semantic\": true}",
+      "notes": ""
     }
   }
 }
-
-
-
-
 {"instruction":"Identify the Balanda alphabet letter","input":"A","output":"Letter A, pronounced /a/, example: Alimgba (eagle)"}
 {"instruction":"Identify the Balanda alphabet letter","input":"B","output":"Letter B, pronounced /be/, example: Bila (perhaps)"}
 {"instruction":"Identify the Balanda alphabet letter","input":"D","output":"Letter D, pronounced /de/, example: Deye (develop)"}
@@ -150,22 +72,18 @@
 {"instruction":"Identify the Balanda alphabet letter","input":"W","output":"Letter W, pronounced /wa/, example: Wutdu (person)"}
 {"instruction":"Identify the Balanda alphabet letter","input":"Y","output":"Letter Y, pronounced /ya/, example: Yehe (behavior)"}
 {"instruction":"Identify the Balanda alphabet letter","input":"Z","output":"Letter Z, pronounced /ze/, example: Zanga (fast)"}
-
-{"instruction":"Explain the Balanda alphabet","output":"Balanda (Njo Viri) uses a Latin-based alphabet with additional characters such as ŋ, Ï, Ö, and Ü. These letters are phonemic and must not be replaced."}
-
-{"instruction":"Identify special consonant cluster","input":"Gb","output":"Cluster Gb, pronounced /gb/, example: Gbito (slow)"}
-{"instruction":"Identify special consonant cluster","input":"Kp","output":"Cluster Kp, pronounced /kp/, example: Kpotdu (elder)"}
-{"instruction":"Identify special consonant cluster","input":"Nd","output":"Cluster Nd, pronounced /nd/, example: Nde (work)"}
-{"instruction":"Identify special consonant cluster","input":"Ng","output":"Cluster Ng, pronounced /ng/, example: Ngu (new)"}
-{"instruction":"Identify special consonant cluster","input":"Ngb","output":"Cluster Ngb, pronounced /ngb/, example: Ngba (theft)"}
-{"instruction":"Identify special consonant cluster","input":"Dh","output":"Cluster Dh, pronounced /dh/, example: Dhe (find)"}
-{"instruction":"Identify special consonant cluster","input":"Nj","output":"Cluster Nj, pronounced /nj/, example: Njee (one)"}
-{"instruction":"Identify special consonant cluster","input":"Nz","output":"Cluster Nz, pronounced /nz/, example: Nza (food)"}
-
+{"instruction":"Explain the Balanda alphabet","input":"","output":"Balanda (Njo Viri) uses a Latin-based alphabet with additional characters such as ŋ, Ï, Ö, and Ü. These letters are phonemic and must not be replaced."}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Gb","output":"Cluster Gb, pronounced /gb/, example: Gbito (slow)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Kp","output":"Cluster Kp, pronounced /kp/, example: Kpotdu (elder)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Nd","output":"Cluster Nd, pronounced /nd/, example: Nde (work)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Ng","output":"Cluster Ng, pronounced /ng/, example: Ngu (new)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Ngb","output":"Cluster Ngb, pronounced /ngb/, example: Ngba (theft)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Dh","output":"Cluster Dh, pronounced /dh/, example: Dhe (find)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Nj","output":"Cluster Nj, pronounced /nj/, example: Njee (one)"}
+{"instruction":"Identify the Balanda special consonant cluster","input":"Nz","output":"Cluster Nz, pronounced /nz/, example: Nza (food)"}
 {"instruction":"Is this a valid Balanda letter?","input":"ŋ","output":"Yes, ŋ is a valid Balanda letter representing a nasal sound."}
 {"instruction":"Is this a valid Balanda letter?","input":"ï","output":"Yes, ï is a valid vowel in Balanda."}
 {"instruction":"Is this a valid Balanda sound cluster?","input":"kp","output":"Yes, kp is a valid consonant cluster in Balanda."}
-
 {"instruction":"Correct the spelling according to Balanda orthography","input":"ngo","output":"Incorrect. Correct form: ŋo"}
 {"instruction":"Correct the spelling according to Balanda orthography","input":"gbito","output":"Incorrect capitalization. Correct form: Gbito"}
 {"instruction":"Correct the spelling according to Balanda orthography","input":"ulu","output":"Incorrect vowel. Correct form: Ülü"}

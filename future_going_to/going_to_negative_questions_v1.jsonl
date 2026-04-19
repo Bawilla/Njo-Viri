@@ -4,96 +4,74 @@
   "description": "This file defines negative question formation in the Going-to Future construction in Njo Viri (Balanda). These questions ask whether a planned or intended future action will not take place.",
   "rules": {
     "general_principle": {
-      "statement": "Going-to future negative questions in Balanda are formed by keeping the negative going-to structure unchanged and adding the question marker 'we?' at the end of the sentence."
+      "function": "general principle",
+      "structure": "Going-to future negative questions in Balanda are formed by keeping the negative going-to structure unchanged and adding the question marker 'we?' at the end of the sentence.",
+      "notes": ""
     },
-
     "negative_question_structures": {
-      "willa_pattern": {
-        "structure": "Subject + willa + tiyai + va + Verb(base) + (Object / Complement) + we?"
-      },
-      "ma_gba_pattern": {
-        "structure": "Subject + ma + tiyai + va + Verb(base) + (Object / Complement) + gba + we?"
-      }
+      "function": "negative question structures",
+      "structure": "{\"willa_pattern\": {\"structure\": \"Subject + willa + tiyai + va + Verb(base) + (Object / Complement) + we?\"}, \"ma_gba_pattern\": {\"structure\": \"Subject + ma + tiyai + va + Verb(base) + (Object / Complement) + gba + we?\"}}",
+      "notes": ""
     },
-
-    "shared_constraints": [
-      "The verb 'tiyai' must remain unchanged",
-      "The connector 'va' must link to the final base verb",
-      "The final verb must remain in base form",
-      "Word order must not change",
-      "The question marker 'we?' must be sentence-final",
-      "Do not use 'le-'",
-      "Do not use 'ti-' on the final verb",
-      "Do not use 'dheki'"
-    ],
-
+    "shared_constraints": {
+      "function": "shared constraints",
+      "structure": "The verb 'tiyai' must remain unchanged; The connector 'va' must link to the final base verb; The final verb must remain in base form; Word order must not change; The question marker 'we?' must be sentence-final; Do not use 'le-'; Do not use 'ti-' on the final verb; Do not use 'dheki'",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "allow_willa_or_ma_gba": true,
-      "require_va_connector": true,
-      "enforce_base_final_verb": true,
-      "keep_we_sentence_final": true,
-      "map_to_english_going_to_negative_questions": true
+      "function": "model behavior guidelines",
+      "structure": "{\"allow_willa_or_ma_gba\": true, \"require_va_connector\": true, \"enforce_base_final_verb\": true, \"keep_we_sentence_final\": true, \"map_to_english_going_to_negative_questions\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne willa tiyai va ja se we?","english":"Am I not going to eat fish?"},
-  {"balanda":"Ni willa tiyai va nzü ngo we?","english":"Is she not going to drink water?"},
-  {"balanda":"Danda ma tiyai va teli muru famvara gba we?","english":"Are we not going to sleep on the bed?"},
-  {"balanda":"Uku willa tiyai va yai we?","english":"Is Uku not going to go?"},
-  {"balanda":"Ngande ma tiyai va dhii ba gba we?","english":"Is Ngande not going to come home?"},
-
-  {"balanda":"Ndi willa tiyai va nonö gbi difo we?","english":"Are they not going to walk in the compound?"},
-  {"balanda":"Ni willa tiyai va nangele zanga we?","english":"Is she not going to run fast?"},
-  {"balanda":"Uku ma tiyai va mande gbi njü gba we?","english":"Is Uku not going to work in the garden?"},
-  {"balanda":"Wiki willa tiyai va moliki gbi difo we?","english":"Is the child not going to play in the compound?"},
-  {"balanda":"Ne ma tiyai va loro voro gba we?","english":"Am I not going to watch the dog?"},
-
-  {"balanda":"Ne willa tiyai va vele njo balanda we?","english":"Am I not going to speak Balanda?"},
-  {"balanda":"Wilii ma tiyai va sudi kavoso gba we?","english":"Is the girl not going to write words?"},
-  {"balanda":"Ne willa tiyai va dheke kitabu we?","english":"Am I not going to read a book?"},
-  {"balanda":"Ni ma tiyai va teri ay gba we?","english":"Is he not going to think about it?"},
-  {"balanda":"Ndi willa tiyai va ŋiyi ay we?","english":"Are they not going to know it?"},
-
-  {"balanda":"Ne ma tiyai va we ndi gba we?","english":"Am I not going to ask them?"},
-  {"balanda":"Ngande willa tiyai va vele zi ndi we?","english":"Is Ngande not going to tell them?"},
-  {"balanda":"Wilii ma tiyai va keye ti naa ni gba we?","english":"Is the girl not going to call her mother?"},
-
-  {"balanda":"Ne willa tiyai va merego ŋo we?","english":"Am I not going to love you?"},
-  {"balanda":"Ni ma tiyai va maguku ti kpörö gba we?","english":"Is he not going to fear the snake?"},
-  {"balanda":"Ni willa tiyai va sogo ni we?","english":"Is she not going to hate him?"},
-  {"balanda":"Ngande ma tiyai va riki ni gba we?","english":"Is Ngande not going to surprise him?"},
-  {"balanda":"Ni willa tiyai va dovee kurru we?","english":"Is he not going to seem calm?"},
-
-  {"balanda":"Wilii ma tiyai va yele tamma gba we?","english":"Is the girl not going to tie the shoe?"},
-  {"balanda":"Ni willa tiyai va di kalla we?","english":"Is he not going to cut the pot?"},
-  {"balanda":"Ne ma tiyai va tele njokoji gba we?","english":"Am I not going to pull the door?"},
-  {"balanda":"Danda willa tiyai va turu songo we?","english":"Are we not going to push the box?"},
-  {"balanda":"Wilii ma tiyai va soko tamma gba we?","english":"Is the girl not going to wash the shoe?"},
-  {"balanda":"Ne willa tiyai va kuru kavokau we?","english":"Am I not going to hide the beads?"},
-
-  {"balanda":"Ngande ma tiyai va ngö tiyi gba we?","english":"Is Ngande not going to build a house?"},
-  {"balanda":"Ne willa tiyai va suru kavoso we?","english":"Am I not going to create words?"},
-  {"balanda":"Ni ma tiyai va giri kavoso gba we?","english":"Is she not going to change the words?"},
-  {"balanda":"Ne willa tiyai va kara njokoji we?","english":"Am I not going to turn the door?"},
-  {"balanda":"Danda ma tiyai va toko villi gba we?","english":"Are we not going to add money?"},
-  {"balanda":"Ne willa tiyai va kefo Balanda we?","english":"Am I not going to describe Balanda?"},
-
-  {"balanda":"Ndi ma tiyai va konu nvesani gba we?","english":"Are they not going to help the poor?"},
-  {"balanda":"Ngande willa tiyai va ndugu mira we?","english":"Is Ngande not going to initiate the project?"},
-  {"balanda":"Ne ma tiyai va maforo mira gba we?","english":"Am I not going to contribute to the project?"},
-  {"balanda":"Wilii willa tiyai va sarwa kumere we?","english":"Is the girl not going to separate trash?"},
-  {"balanda":"Danda ma tiyai va kiri tidina gba we?","english":"Are we not going to uphold the law?"},
-
-  {"balanda":"Ne willa tiyai va duru ngo we?","english":"Am I not going to want water?"},
-  {"balanda":"Ni ma tiyai va ze villi gba we?","english":"Is she not going to give money?"},
-  {"balanda":"Ne willa tiyai va dhe villi we?","english":"Am I not going to find money?"},
-  {"balanda":"Uku ma tiyai va mele vongu gba we?","english":"Is Uku not going to try the cloth?"},
-  {"balanda":"Ngande willa tiyai va si ba we?","english":"Is Ngande not going to leave home?"},
-  {"balanda":"Ne ma tiyai va lu Wau gba we?","english":"Am I not going to arrive in Wau?"},
-  {"balanda":"Ni willa tiyai va fagi mva we?","english":"Is he not going to sharpen the knife?"},
-  {"balanda":"Ngande ma tiyai va dewe kakpodu gba we?","english":"Is Ngande not going to imitate adults?"},
-  {"balanda":"Danda willa tiyai va bita mira we?","english":"Are we not going to start the project?"},
-  {"balanda":"Ni ma tiyai va teta gba we?","english":"Is he not going to fall?"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va ja se we?","output":"Am I not going to eat fish?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va nzü ngo we?","output":"Is she not going to drink water?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ma tiyai va teli muru famvara gba we?","output":"Are we not going to sleep on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Uku willa tiyai va yai we?","output":"Is Uku not going to go?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ma tiyai va dhii ba gba we?","output":"Is Ngande not going to come home?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tiyai va nonö gbi difo we?","output":"Are they not going to walk in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va nangele zanga we?","output":"Is she not going to run fast?"}
+{"instruction":"Translate from Balanda to English","input":"Uku ma tiyai va mande gbi njü gba we?","output":"Is Uku not going to work in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki willa tiyai va moliki gbi difo we?","output":"Is the child not going to play in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va loro voro gba we?","output":"Am I not going to watch the dog?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va vele njo balanda we?","output":"Am I not going to speak Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va sudi kavoso gba we?","output":"Is the girl not going to write words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va dheke kitabu we?","output":"Am I not going to read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va teri ay gba we?","output":"Is he not going to think about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tiyai va ŋiyi ay we?","output":"Are they not going to know it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va we ndi gba we?","output":"Am I not going to ask them?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande willa tiyai va vele zi ndi we?","output":"Is Ngande not going to tell them?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va keye ti naa ni gba we?","output":"Is the girl not going to call her mother?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va merego ŋo we?","output":"Am I not going to love you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va maguku ti kpörö gba we?","output":"Is he not going to fear the snake?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va sogo ni we?","output":"Is she not going to hate him?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ma tiyai va riki ni gba we?","output":"Is Ngande not going to surprise him?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va dovee kurru we?","output":"Is he not going to seem calm?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va yele tamma gba we?","output":"Is the girl not going to tie the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va di kalla we?","output":"Is he not going to cut the pot?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va tele njokoji gba we?","output":"Am I not going to pull the door?"}
+{"instruction":"Translate from Balanda to English","input":"Danda willa tiyai va turu songo we?","output":"Are we not going to push the box?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va soko tamma gba we?","output":"Is the girl not going to wash the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va kuru kavokau we?","output":"Am I not going to hide the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ma tiyai va ngö tiyi gba we?","output":"Is Ngande not going to build a house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va suru kavoso we?","output":"Am I not going to create words?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va giri kavoso gba we?","output":"Is she not going to change the words?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va kara njokoji we?","output":"Am I not going to turn the door?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ma tiyai va toko villi gba we?","output":"Are we not going to add money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va kefo Balanda we?","output":"Am I not going to describe Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi ma tiyai va konu nvesani gba we?","output":"Are they not going to help the poor?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande willa tiyai va ndugu mira we?","output":"Is Ngande not going to initiate the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va maforo mira gba we?","output":"Am I not going to contribute to the project?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii willa tiyai va sarwa kumere we?","output":"Is the girl not going to separate trash?"}
+{"instruction":"Translate from Balanda to English","input":"Danda ma tiyai va kiri tidina gba we?","output":"Are we not going to uphold the law?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va duru ngo we?","output":"Am I not going to want water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va ze villi gba we?","output":"Is she not going to give money?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va dhe villi we?","output":"Am I not going to find money?"}
+{"instruction":"Translate from Balanda to English","input":"Uku ma tiyai va mele vongu gba we?","output":"Is Uku not going to try the cloth?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande willa tiyai va si ba we?","output":"Is Ngande not going to leave home?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va lu Wau gba we?","output":"Am I not going to arrive in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai va fagi mva we?","output":"Is he not going to sharpen the knife?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ma tiyai va dewe kakpodu gba we?","output":"Is Ngande not going to imitate adults?"}
+{"instruction":"Translate from Balanda to English","input":"Danda willa tiyai va bita mira we?","output":"Are we not going to start the project?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va teta gba we?","output":"Is he not going to fall?"}

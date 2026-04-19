@@ -4,129 +4,84 @@
   "description": "This file defines negation in the Past Continuous tense in Njo Viri (Balanda). Past continuous negation expresses actions that were not ongoing at a specific point in the past. Two negation strategies are grammatically licensed.",
   "rules": {
     "general_principle": {
-      "statement": "Past continuous negation in Balanda preserves the progressive marker 'ti-' and negates the clause using either the discontinuous marker 'maka … gba' or the preverbal negator 'kawilla'."
+      "function": "general principle",
+      "structure": "Past continuous negation in Balanda preserves the progressive marker 'ti-' and negates the clause using either the discontinuous marker 'maka … gba' or the preverbal negator 'kawilla'.",
+      "notes": ""
     },
-
     "negation_strategies": {
-      "maka_gba_strategy": {
-        "function": "standard negation",
-        "structure": "Subject + maka + ti-Verb + (Object / Complement) + gba",
-        "constraints": [
-          "maka must appear before the ti-verb",
-          "gba must appear sentence-final",
-          "maka and gba must co-occur"
-        ],
-        "examples": [
-          "Ne maka timoliki gbi difo gba",
-          "Ni maka tinangele zanga gba"
-        ]
-      },
-
-      "kawilla_strategy": {
-        "function": "emphatic or alternative negation",
-        "structure": "Subject + kawilla + ti-Verb + (Object / Complement)",
-        "constraints": [
-          "kawilla replaces the maka…gba pattern",
-          "gba must not be used with kawilla"
-        ],
-        "examples": [
-          "Ne kawilla timerego ŋo",
-          "Uku kawilla timande gbi njü"
-        ]
-      }
+      "function": "negation strategies",
+      "structure": "{\"maka_gba_strategy\": {\"function\": \"standard negation\", \"structure\": \"Subject + maka + ti-Verb + (Object / Complement) + gba\", \"constraints\": [\"maka must appear before the ti-verb\", \"gba must appear sentence-final\", \"maka and gba must co-occur\"], \"examples\": [\"Ne maka timoliki gbi difo gba\", \"Ni maka tinangele zanga gba\"]}, \"kawilla_strategy\": {\"function\": \"emphatic or alternative negation\", \"structure\": \"Subject + kawilla + ti-Verb + (Object / Complement)\", \"constraints\": [\"kawilla replaces the maka…gba pattern\", \"gba must not be used with kawilla\"], \"examples\": [\"Ne kawilla timerego ŋo\", \"Uku kawilla timande gbi njü\"]}}",
+      "notes": ""
     },
-
     "aspect_preservation": {
-      "rule": "The progressive prefix 'ti-' must be retained in all negated past continuous forms.",
-      "constraints": [
-        "ti- cannot be omitted under negation",
-        "negation does not change aspectual meaning"
-      ]
+      "function": "aspect preservation",
+      "structure": "The progressive prefix 'ti-' must be retained in all negated past continuous forms.",
+      "notes": "ti- cannot be omitted under negation; negation does not change aspectual meaning"
     },
-
     "word_order_rules": {
-      "rule": "Negation markers do not alter core word order.",
-      "canonical_order": [
-        "Subject",
-        "Negation marker",
-        "ti-Verb",
-        "Object / Complement",
-        "Sentence-final gba (if applicable)"
-      ]
+      "function": "word order rules",
+      "structure": "Negation markers do not alter core word order.",
+      "notes": "Subject; Negation marker; ti-Verb; Object / Complement; Sentence-final gba (if applicable)"
     },
-
-    "error_constraints": [
-      "Do not combine 'maka' and 'kawilla' in the same clause",
-      "Do not use 'gba' without 'maka'",
-      "Do not omit 'ti-' in past continuous negation",
-      "Do not insert 'noka' in negated clauses",
-      "Do not move 'gba' from sentence-final position"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not combine 'maka' and 'kawilla' in the same clause; Do not use 'gba' without 'maka'; Do not omit 'ti-' in past continuous negation; Do not insert 'noka' in negated clauses; Do not move 'gba' from sentence-final position",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "preserve_progressive_aspect": true,
-      "enforce_valid_negation_strategy": true,
-      "prevent_marker_mixing": true,
-      "keep_word_order_fixed": true
+      "function": "model behavior guidelines",
+      "structure": "{\"preserve_progressive_aspect\": true, \"enforce_valid_negation_strategy\": true, \"prevent_marker_mixing\": true, \"keep_word_order_fixed\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne maka tija se gba","english":"I was not eating fish"},
-  {"balanda":"Ni maka tinzü ngo gba","english":"She was not drinking water"},
-  {"balanda":"Danda maka titeli muru famvara gba","english":"We were not sleeping on the bed"},
-  {"balanda":"Uku kawilla tiyai","english":"Uku was not going"},
-  {"balanda":"Ngande maka tidhii ba gba","english":"Ngande was not coming home"},
-  {"balanda":"Ndi kawilla tinonö gbi difo","english":"They were not walking in the compound"},
-  {"balanda":"Ni maka tinangele zanga gba","english":"She was not running fast"},
-  {"balanda":"Uku kawilla timande gbi njü","english":"Uku was not working in the garden"},
-  {"balanda":"Wiki maka timoliki gbi difo gba","english":"The child was not playing in the compound"},
-  {"balanda":"Ne kawilla tiloro voro","english":"I was not watching the dog"},
-
-  {"balanda":"Ne maka tivele njo balanda gba","english":"I was not speaking Balanda"},
-  {"balanda":"Wilii kawilla tisudi kavoso","english":"The girl was not writing words"},
-  {"balanda":"Ne maka tidheke kitabu gba","english":"I was not reading a book"},
-  {"balanda":"Ni kawilla titeri ay","english":"He was not thinking about it"},
-  {"balanda":"Ndi maka tiŋiyi ay gba","english":"They were not knowing it"},
-  {"balanda":"Ne kawilla tiwe ndi","english":"I was not asking them"},
-  {"balanda":"Ngande maka tivele zi ndi gba","english":"Ngande was not telling them"},
-  {"balanda":"Wilii kawilla tikeye ti naa ni","english":"The girl was not calling her mother"},
-
-  {"balanda":"Ne maka timerego ŋo gba","english":"I was not loving you"},
-  {"balanda":"Ni kawilla timaguku ti kpörö","english":"He was not fearing the snake"},
-  {"balanda":"Ni maka tisogo ŋo gba","english":"She was not hating you"},
-  {"balanda":"Ngande kawilla tiriki ni","english":"Ngande was not surprising him"},
-  {"balanda":"Ni maka tidovee kurru gba","english":"He was not seeming calm"},
-
-  {"balanda":"Wilii kawilla tiyele tamma","english":"The girl was not tying the shoe"},
-  {"balanda":"Ni maka tidi kalla gba","english":"He was not cutting the pot"},
-  {"balanda":"Ne kawilla titele njokoji","english":"I was not pulling the door"},
-  {"balanda":"Danda maka tituru songo gba","english":"We were not pushing the box"},
-  {"balanda":"Wilii kawilla tisoko tamma","english":"The girl was not washing the shoe"},
-  {"balanda":"Ne maka tikuru kavokau gba","english":"I was not hiding the beads"},
-
-  {"balanda":"Ngande kawilla tingö tiyi","english":"Ngande was not building a house"},
-  {"balanda":"Ne maka tisuru kavoso gba","english":"I was not creating words"},
-  {"balanda":"Ni kawilla tigiri kavoso","english":"She was not changing the words"},
-  {"balanda":"Ne maka tikara njokoji gba","english":"I was not turning the door"},
-  {"balanda":"Danda kawilla titoko villi","english":"We were not adding money"},
-  {"balanda":"Ne maka tikefo Balanda gba","english":"I was not describing Balanda"},
-
-  {"balanda":"Ndi kawilla tikonu nvesani","english":"They were not helping the poor"},
-  {"balanda":"Ngande maka tindugu mira gba","english":"Ngande was not initiating the project"},
-  {"balanda":"Ne kawilla timaforo mira","english":"I was not contributing to the project"},
-  {"balanda":"Wilii maka tisarwa kumere gba","english":"The girl was not separating trash"},
-  {"balanda":"Danda kawilla tikiri tidina","english":"We were not upholding the law"},
-
-  {"balanda":"Ne maka tiduru ngo gba","english":"I was not wanting water"},
-  {"balanda":"Ni kawilla tize villi","english":"She was not giving money"},
-  {"balanda":"Ne maka tidhe villi gba","english":"I was not finding money"},
-  {"balanda":"Uku kawilla timele vongu","english":"Uku was not trying the cloth"},
-  {"balanda":"Ngande maka tisi ba gba","english":"Ngande was not leaving home"},
-  {"balanda":"Ne kawilla tilu Wau","english":"I was not arriving in Wau"},
-  {"balanda":"Ni maka tifagi mva gba","english":"He was not sharpening the knife"},
-  {"balanda":"Ngande kawilla tidewe kakpodu","english":"Ngande was not imitating adults"},
-  {"balanda":"Danda maka tibita mira gba","english":"We were not starting the project"},
-  {"balanda":"Ni kawilla titeta","english":"He was not falling"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne maka tija se gba","output":"I was not eating fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tinzü ngo gba","output":"She was not drinking water"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka titeli muru famvara gba","output":"We were not sleeping on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku kawilla tiyai","output":"Uku was not going"}
+{"instruction":"Translate from Balanda to English","input":"Ngande maka tidhii ba gba","output":"Ngande was not coming home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kawilla tinonö gbi difo","output":"They were not walking in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tinangele zanga gba","output":"She was not running fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku kawilla timande gbi njü","output":"Uku was not working in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka timoliki gbi difo gba","output":"The child was not playing in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla tiloro voro","output":"I was not watching the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tivele njo balanda gba","output":"I was not speaking Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tisudi kavoso","output":"The girl was not writing words"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tidheke kitabu gba","output":"I was not reading a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla titeri ay","output":"He was not thinking about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi maka tiŋiyi ay gba","output":"They were not knowing it"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla tiwe ndi","output":"I was not asking them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande maka tivele zi ndi gba","output":"Ngande was not telling them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tikeye ti naa ni","output":"The girl was not calling her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka timerego ŋo gba","output":"I was not loving you"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla timaguku ti kpörö","output":"He was not fearing the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tisogo ŋo gba","output":"She was not hating you"}
+{"instruction":"Translate from Balanda to English","input":"Ngande kawilla tiriki ni","output":"Ngande was not surprising him"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidovee kurru gba","output":"He was not seeming calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tiyele tamma","output":"The girl was not tying the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidi kalla gba","output":"He was not cutting the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla titele njokoji","output":"I was not pulling the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka tituru songo gba","output":"We were not pushing the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tisoko tamma","output":"The girl was not washing the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikuru kavokau gba","output":"I was not hiding the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande kawilla tingö tiyi","output":"Ngande was not building a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisuru kavoso gba","output":"I was not creating words"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla tigiri kavoso","output":"She was not changing the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikara njokoji gba","output":"I was not turning the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda kawilla titoko villi","output":"We were not adding money"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikefo Balanda gba","output":"I was not describing Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kawilla tikonu nvesani","output":"They were not helping the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande maka tindugu mira gba","output":"Ngande was not initiating the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla timaforo mira","output":"I was not contributing to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii maka tisarwa kumere gba","output":"The girl was not separating trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda kawilla tikiri tidina","output":"We were not upholding the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiduru ngo gba","output":"I was not wanting water"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla tize villi","output":"She was not giving money"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tidhe villi gba","output":"I was not finding money"}
+{"instruction":"Translate from Balanda to English","input":"Uku kawilla timele vongu","output":"Uku was not trying the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande maka tisi ba gba","output":"Ngande was not leaving home"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla tilu Wau","output":"I was not arriving in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tifagi mva gba","output":"He was not sharpening the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande kawilla tidewe kakpodu","output":"Ngande was not imitating adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka tibita mira gba","output":"We were not starting the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla titeta","output":"He was not falling"}

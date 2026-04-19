@@ -4,110 +4,69 @@
   "description": "This file defines the two verbs used to express the meaning of 'to have' in Njo Viri (Balanda): 'abi' and 'ati'. These verbs are not interchangeable and are selected based on the semantic type of possession or state.",
   "rules": {
     "general_principle": {
-      "statement": "Balanda expresses the concept of 'to have' using two distinct verbs: 'abi' for physical possession and obligation, and 'ati' for non-physical states, conditions, and bodily or emotional experiences."
+      "function": "general principle",
+      "structure": "Balanda expresses the concept of 'to have' using two distinct verbs: 'abi' for physical possession and obligation, and 'ati' for non-physical states, conditions, and bodily or emotional experiences.",
+      "notes": ""
     },
-
     "abi": {
-      "meaning": "to have (physical possession or obligation)",
-      "semantic_scope": [
-        "physical objects",
-        "jobs or roles",
-        "necessity or obligation (have to)"
-      ],
+      "function": "abi",
       "structure": "Abi + Subject + no + Noun / Verb phrase",
-      "constraints": [
-        "Used for tangible items or concrete possessions",
-        "Used to express obligation or necessity",
-        "Not used for feelings, illnesses, or abstract states"
-      ],
-      "examples": [
-        "Abi ne no tamma",
-        "Abi ni no kese",
-        "Abi ndi no ayai",
-        "Abi Uku no nde"
-      ]
+      "notes": "to have (physical possession or obligation) | physical objects; jobs or roles; necessity or obligation (have to) | Used for tangible items or concrete possessions; Used to express obligation or necessity; Not used for feelings, illnesses, or abstract states | Abi ne no tamma; Abi ni no kese; Abi ndi no ayai; Abi Uku no nde"
     },
-
     "ati": {
-      "meaning": "to have (non-physical states or conditions)",
-      "semantic_scope": [
-        "feelings and sensations",
-        "illness or bodily conditions",
-        "states or qualities",
-        "asking what is wrong with someone"
-      ],
+      "function": "ati",
       "structure": "Ati + Subject + no + State / Condition",
-      "constraints": [
-        "Used only for non-physical or abstract conditions",
-        "Commonly used for hunger, pain, sickness, emotions, and states",
-        "Cannot be used for physical possession"
-      ],
-      "examples": [
-        "Ati ne no goho",
-        "Ati ni no kumuru",
-        "Ati ŋo no veti",
-        "Ati ŋo no yini?"
-      ]
+      "notes": "to have (non-physical states or conditions) | feelings and sensations; illness or bodily conditions; states or qualities; asking what is wrong with someone | Used only for non-physical or abstract conditions; Commonly used for hunger, pain, sickness, emotions, and states; Cannot be used for physical possession | Ati ne no goho; Ati ni no kumuru; Ati ŋo no veti; Ati ŋo no yini?"
     },
-
     "copula_usage": {
-      "rule": "Both 'abi' and 'ati' require the copula 'no' to link the subject with the possessed item or state.",
-      "note": "The copula agrees with present-time statements."
+      "function": "copula usage",
+      "structure": "Both 'abi' and 'ati' require the copula 'no' to link the subject with the possessed item or state.",
+      "notes": "The copula agrees with present-time statements."
     },
-
-    "error_constraints": [
-      "Do not use 'ati' for physical objects",
-      "Do not use 'abi' for feelings, sickness, or states",
-      "Do not omit the copula 'no'",
-      "Do not interchange 'abi' and 'ati'"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not use 'ati' for physical objects; Do not use 'abi' for feelings, sickness, or states; Do not omit the copula 'no'; Do not interchange 'abi' and 'ati'",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "treat_abi_and_ati_as_distinct_verbs": true,
-      "enforce_semantic_selection": true,
-      "preserve_copula_no": true,
-      "map_to_english_have_contextually": true
+      "function": "model behavior guidelines",
+      "structure": "{\"treat_abi_and_ati_as_distinct_verbs\": true, \"enforce_semantic_selection\": true, \"preserve_copula_no\": true, \"map_to_english_have_contextually\": true}",
+      "notes": ""
     }
   }
 }
-
-
-
-[
-  {"balanda":"Abi ne no tamma","english":"I have a shoe"},
-  {"balanda":"Abi ni no kese","english":"He has a bike"},
-  {"balanda":"Abi ndi no villi","english":"They have money"},
-  {"balanda":"Abi Uku no nde","english":"Uku has a job"},
-  {"balanda":"Abi wilii no kavokau","english":"The girl has beads"},
-  {"balanda":"Abi ne no fökpaa","english":"I have a book"},
-  {"balanda":"Abi ni no turünvili","english":"He has a car"},
-  {"balanda":"Abi danda no tiyi","english":"We have a house"},
-  {"balanda":"Abi wiki no munza","english":"The child has a guitar"},
-  {"balanda":"Abi ndi no famvara","english":"They have a bed"},
-  {"balanda":"Abi ne no kporo","english":"I have a drum"},
-  {"balanda":"Abi ni no songo","english":"He has a box"},
-  {"balanda":"Abi wilii no vongu","english":"The girl has clothes"},
-  {"balanda":"Abi Uku no njokoji","english":"Uku has a door"},
-  {"balanda":"Abi danda no mva","english":"We have a knife"},
-  {"balanda":"Abi ne no ayai","english":"I have to go"},
-  {"balanda":"Abi ni no amande","english":"He has to work"},
-  {"balanda":"Abi ndi no anangele","english":"They have to run"},
-  {"balanda":"Abi wilii no asudi","english":"The girl has to write"},
-  {"balanda":"Abi Uku no ayai","english":"Uku has to leave"},
-
-  {"balanda":"Ati ne no goho","english":"I am hungry"},
-  {"balanda":"Ati ni no kumuru","english":"She has a headache"},
-  {"balanda":"Ati ŋo no veti","english":"You are dirty"},
-  {"balanda":"Ati wiki no ku","english":"The child is sick"},
-  {"balanda":"Ati ne no yiviwo","english":"I am happy"},
-  {"balanda":"Ati ndi no guku","english":"They are afraid"},
-  {"balanda":"Ati wilii no kpö","english":"The girl feels lazy"},
-  {"balanda":"Ati ne no woti","english":"I feel energetic"},
-  {"balanda":"Ati danda no yini","english":"what is wrong with us?"},
-  {"balanda":"Ati wiki no goho","english":"The child is hungry"},
-  {"balanda":"Ati ŋo no kumuru","english":"You have a headache"},
-  {"balanda":"Ati ndi no Yiviwo","english":"They are happy"},
-  {"balanda":"Ati wilii no veti","english":"The girl is dirty"},
-  {"balanda":"Ati ne no ku","english":"I am sick"},
-  {"balanda":"Ati ŋo no yini?","english":"What is wrong with you?"}
-]
+{"instruction":"Translate from Balanda to English","input":"Abi ne no tamma","output":"I have a shoe"}
+{"instruction":"Translate from Balanda to English","input":"Abi ni no kese","output":"He has a bike"}
+{"instruction":"Translate from Balanda to English","input":"Abi ndi no villi","output":"They have money"}
+{"instruction":"Translate from Balanda to English","input":"Abi Uku no nde","output":"Uku has a job"}
+{"instruction":"Translate from Balanda to English","input":"Abi wilii no kavokau","output":"The girl has beads"}
+{"instruction":"Translate from Balanda to English","input":"Abi ne no fökpaa","output":"I have a book"}
+{"instruction":"Translate from Balanda to English","input":"Abi ni no turünvili","output":"He has a car"}
+{"instruction":"Translate from Balanda to English","input":"Abi danda no tiyi","output":"We have a house"}
+{"instruction":"Translate from Balanda to English","input":"Abi wiki no munza","output":"The child has a guitar"}
+{"instruction":"Translate from Balanda to English","input":"Abi ndi no famvara","output":"They have a bed"}
+{"instruction":"Translate from Balanda to English","input":"Abi ne no kporo","output":"I have a drum"}
+{"instruction":"Translate from Balanda to English","input":"Abi ni no songo","output":"He has a box"}
+{"instruction":"Translate from Balanda to English","input":"Abi wilii no vongu","output":"The girl has clothes"}
+{"instruction":"Translate from Balanda to English","input":"Abi Uku no njokoji","output":"Uku has a door"}
+{"instruction":"Translate from Balanda to English","input":"Abi danda no mva","output":"We have a knife"}
+{"instruction":"Translate from Balanda to English","input":"Abi ne no ayai","output":"I have to go"}
+{"instruction":"Translate from Balanda to English","input":"Abi ni no amande","output":"He has to work"}
+{"instruction":"Translate from Balanda to English","input":"Abi ndi no anangele","output":"They have to run"}
+{"instruction":"Translate from Balanda to English","input":"Abi wilii no asudi","output":"The girl has to write"}
+{"instruction":"Translate from Balanda to English","input":"Abi Uku no ayai","output":"Uku has to leave"}
+{"instruction":"Translate from Balanda to English","input":"Ati ne no goho","output":"I am hungry"}
+{"instruction":"Translate from Balanda to English","input":"Ati ni no kumuru","output":"She has a headache"}
+{"instruction":"Translate from Balanda to English","input":"Ati ŋo no veti","output":"You are dirty"}
+{"instruction":"Translate from Balanda to English","input":"Ati wiki no ku","output":"The child is sick"}
+{"instruction":"Translate from Balanda to English","input":"Ati ne no yiviwo","output":"I am happy"}
+{"instruction":"Translate from Balanda to English","input":"Ati ndi no guku","output":"They are afraid"}
+{"instruction":"Translate from Balanda to English","input":"Ati wilii no kpö","output":"The girl feels lazy"}
+{"instruction":"Translate from Balanda to English","input":"Ati ne no woti","output":"I feel energetic"}
+{"instruction":"Translate from Balanda to English","input":"Ati danda no yini","output":"what is wrong with us?"}
+{"instruction":"Translate from Balanda to English","input":"Ati wiki no goho","output":"The child is hungry"}
+{"instruction":"Translate from Balanda to English","input":"Ati ŋo no kumuru","output":"You have a headache"}
+{"instruction":"Translate from Balanda to English","input":"Ati ndi no Yiviwo","output":"They are happy"}
+{"instruction":"Translate from Balanda to English","input":"Ati wilii no veti","output":"The girl is dirty"}
+{"instruction":"Translate from Balanda to English","input":"Ati ne no ku","output":"I am sick"}
+{"instruction":"Translate from Balanda to English","input":"Ati ŋo no yini?","output":"What is wrong with you?"}

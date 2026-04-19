@@ -3,73 +3,90 @@
   "grammar_name": "balanda_present_simple_modal_questions_nonve",
   "description": "This file contains Balanda present simple modal questions using 'nonve'. These sentences express present ability or possibility in interrogative form and correspond to the English meaning 'can'.",
   "rules": {
-    "core_meaning": "Present ability or possibility (interrogative)",
-    "modal": "nonve",
-    "verb_form": "bare verb (base form)",
-    "question_form": {
-      "structure": "Subject + nonve + VERB + (Object/Complement) + we?",
-      "note": "Questions are formed by adding the sentence-final particle 'we?' with no change in word order"
+    "core_meaning": {
+      "function": "core meaning",
+      "structure": "Present ability or possibility (interrogative)",
+      "notes": ""
     },
-    "tense": "present",
-    "aspect": "simple (non-continuous)",
-    "polarity": "affirmative",
-    "question_marker": "we?",
-    "constraints": [
-      "nonve must immediately follow the subject",
-      "The verb must remain in its base form",
-      "No ti- (continuous) or le- (future) prefix may appear",
-      "No inversion or auxiliary movement occurs in questions",
-      "we? must always appear at the end of the clause",
-      "This construction must not be confused with present continuous modal questions (nonve + dho + ti-VERB + we?)"
-    ]
+    "modal": {
+      "function": "modal",
+      "structure": "nonve",
+      "notes": ""
+    },
+    "verb_form": {
+      "function": "verb form",
+      "structure": "bare verb (base form)",
+      "notes": ""
+    },
+    "question_form": {
+      "function": "question form",
+      "structure": "Subject + nonve + VERB + (Object/Complement) + we?",
+      "notes": "Questions are formed by adding the sentence-final particle 'we?' with no change in word order"
+    },
+    "tense": {
+      "function": "tense",
+      "structure": "present",
+      "notes": ""
+    },
+    "aspect": {
+      "function": "aspect",
+      "structure": "simple (non-continuous)",
+      "notes": ""
+    },
+    "polarity": {
+      "function": "polarity",
+      "structure": "affirmative",
+      "notes": ""
+    },
+    "question_marker": {
+      "function": "question marker",
+      "structure": "we?",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "nonve must immediately follow the subject; The verb must remain in its base form; No ti- (continuous) or le- (future) prefix may appear; No inversion or auxiliary movement occurs in questions; we? must always appear at the end of the clause; This construction must not be confused with present continuous modal questions (nonve + dho + ti-VERB + we?)",
+      "notes": ""
+    }
   }
 }
-
-
-
-{"balanda":"Ne nonve ja nza we?","english":"Can I eat food?"}
-{"balanda":"Ne nonve nzü ngo we?","english":"Can I drink water?"}
-{"balanda":"Ni nonve teli we?","english":"Can he sleep?"}
-{"balanda":"Ne nonve yai a Wau we?","english":"Can I go to Wau?"}
-{"balanda":"Ni nonve dhii agbi tiyi we?","english":"Can he come to the house?"}
-{"balanda":"Wiki nonve nono gbi difo we?","english":"Can the child walk in the compound?"}
-{"balanda":"Ni nonve mande gbi njü we?","english":"Can he work in the garden?"}
-{"balanda":"Danda nonve moliki we?","english":"Can we play?"}
-
-{"balanda":"Ne nonve merego ŋo we?","english":"Can I love you?"}
-{"balanda":"Ne nonve ŋiyi sereso we?","english":"Can I know the truth?"}
-{"balanda":"Ni nonve terei we?","english":"Can he think?"}
-{"balanda":"Ne nonve we ndi we?","english":"Can I ask them?"}
-{"balanda":"Ni nonve vele takoni we?","english":"Can he tell a story?"}
-{"balanda":"Ne nonve baha ŋo we?","english":"Can I see you?"}
-{"balanda":"Ni nonve dhi we?","english":"Can he hear?"}
-
-{"balanda":"Ne nonve sudi kitab we?","english":"Can I write a book?"}
-{"balanda":"Ni nonve dheke kitab we?","english":"Can he read a book?"}
-{"balanda":"Ne nonve sïhï kese we?","english":"Can I buy a bike?"}
-{"balanda":"Ni nonve sadi nza we?","english":"Can he sell food?"}
-{"balanda":"Ne nonve turu linguu we?","english":"Can I push the fruit?"}
-{"balanda":"Ni nonve zaka kporo we?","english":"Can he pull the drum?"}
-{"balanda":"Ni nonve kara kafa we?","english":"Can he turn the table?"}
-
-{"balanda":"Ne nonve keye ti ndi we?","english":"Can I call them?"}
-{"balanda":"Danda nonve wofo takoni we?","english":"Can we discuss the story?"}
-{"balanda":"Ni nonve kolo wiki we?","english":"Can he hug the child?"}
-{"balanda":"Ndi nonve mago we?","english":"Can they fight?"}
-{"balanda":"Ni nonve vanda wiki we?","english":"Can he protect the child?"}
-
-{"balanda":"Ni nonve teta we?","english":"Can he fall?"}
-{"balanda":"Ni nonve girri we?","english":"Can he change?"}
-{"balanda":"Nguu nonve vere we?","english":"Can the tree darken?"}
-{"balanda":"Maraya nonve deye we?","english":"Can the school develop?"}
-{"balanda":"Wiki nonve rengo we?","english":"Can the child mature?"}
-
-{"balanda":"Ni nonve dho gbi tiyi we?","english":"Can he be in the house?"}
-{"balanda":"Ne nonve ma nde we?","english":"Can I do the work?"}
-{"balanda":"Ne nonve wala gbi Wau we?","english":"Can I live in Wau?"}
-{"balanda":"Ne nonve duru ngo we?","english":"Can I want water?"}
-{"balanda":"Ni nonve düŋü kpendii we?","english":"Can he remain behind?"}
-
-{"balanda":"Ni nonve base we?","english":"Can he sing?"}
-{"balanda":"Ni nonve dulu we?","english":"Can he dance?"}
-{"balanda":"Ne nonve loro kananje we?","english":"Can I watch the animals?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve ja nza we?","output":"Can I eat food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve nzü ngo we?","output":"Can I drink water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve teli we?","output":"Can he sleep?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve yai a Wau we?","output":"Can I go to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dhii agbi tiyi we?","output":"Can he come to the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve nono gbi difo we?","output":"Can the child walk in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve mande gbi njü we?","output":"Can he work in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve moliki we?","output":"Can we play?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve merego ŋo we?","output":"Can I love you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve ŋiyi sereso we?","output":"Can I know the truth?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve terei we?","output":"Can he think?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve we ndi we?","output":"Can I ask them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve vele takoni we?","output":"Can he tell a story?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve baha ŋo we?","output":"Can I see you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dhi we?","output":"Can he hear?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve sudi kitab we?","output":"Can I write a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dheke kitab we?","output":"Can he read a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve sïhï kese we?","output":"Can I buy a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve sadi nza we?","output":"Can he sell food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve turu linguu we?","output":"Can I push the fruit?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve zaka kporo we?","output":"Can he pull the drum?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve kara kafa we?","output":"Can he turn the table?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve keye ti ndi we?","output":"Can I call them?"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve wofo takoni we?","output":"Can we discuss the story?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve kolo wiki we?","output":"Can he hug the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi nonve mago we?","output":"Can they fight?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve vanda wiki we?","output":"Can he protect the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve teta we?","output":"Can he fall?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve girri we?","output":"Can he change?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu nonve vere we?","output":"Can the tree darken?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya nonve deye we?","output":"Can the school develop?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve rengo we?","output":"Can the child mature?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho gbi tiyi we?","output":"Can he be in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve ma nde we?","output":"Can I do the work?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve wala gbi Wau we?","output":"Can I live in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve duru ngo we?","output":"Can I want water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve düŋü kpendii we?","output":"Can he remain behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve base we?","output":"Can he sing?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dulu we?","output":"Can he dance?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve loro kananje we?","output":"Can I watch the animals?"}

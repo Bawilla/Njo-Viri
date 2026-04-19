@@ -4,115 +4,84 @@
   "description": "This file defines negation in the Future Perfect tense in Njo Viri (Balanda). Future perfect negation expresses actions that will not have been completed by a future time.",
   "rules": {
     "general_principle": {
-      "statement": "Future perfect negation in Balanda is formed by retaining the future prefix 'le-' and the completion marker 'dheki', and adding the negation marker 'gba' sentence-finally."
+      "function": "general principle",
+      "structure": "Future perfect negation in Balanda is formed by retaining the future prefix 'le-' and the completion marker 'dheki', and adding the negation marker 'gba' sentence-finally.",
+      "notes": ""
     },
-
     "negation_structure": {
+      "function": "negation structure",
       "structure": "Subject + le-Verb(base) + (Object / Complement) + dheki + gba",
-      "description": "Used to express that an action will not have been completed in the future.",
-      "constraints": [
-        "The future prefix 'le-' must attach to the verb base",
-        "The verb must remain in base form",
-        "The completion marker 'dheki' must be retained",
-        "The negation marker 'gba' must appear sentence-final"
-      ]
+      "notes": "Used to express that an action will not have been completed in the future. | The future prefix 'le-' must attach to the verb base; The verb must remain in base form; The completion marker 'dheki' must be retained; The negation marker 'gba' must appear sentence-final"
     },
-
     "tense_and_aspect_distinction": {
-      "rule": "Future perfect negation encodes future tense and non-completion.",
-      "note": [
-        "'le-' encodes future tense",
-        "'dheki' encodes completion (negated by 'gba')"
-      ]
+      "function": "tense and aspect distinction",
+      "structure": "Future perfect negation encodes future tense and non-completion.",
+      "notes": "'le-' encodes future tense; 'dheki' encodes completion (negated by 'gba')"
     },
-
     "word_order_rules": {
-      "canonical_order": [
-        "Subject",
-        "le-Verb",
-        "Object / Complement",
-        "dheki",
-        "gba"
-      ]
+      "function": "word order rules",
+      "structure": "{\"canonical_order\": [\"Subject\", \"le-Verb\", \"Object / Complement\", \"dheki\", \"gba\"]}",
+      "notes": "Subject; le-Verb; Object / Complement; dheki; gba"
     },
-
-    "error_constraints": [
-      "Do not omit 'le-'",
-      "Do not omit 'dheki'",
-      "Do not use the progressive prefix 'ti-'",
-      "Do not use the copula 'ma'",
-      "Do not move 'gba' from sentence-final position",
-      "Do not use past markers"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit 'le-'; Do not omit 'dheki'; Do not use the progressive prefix 'ti-'; Do not use the copula 'ma'; Do not move 'gba' from sentence-final position; Do not use past markers",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_le_prefix": true,
-      "enforce_base_verb": true,
-      "require_dheki": true,
-      "require_sentence_final_gba": true,
-      "block_other_tense_aspect_markers": true,
-      "map_to_english_future_perfect_negation": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_le_prefix\": true, \"enforce_base_verb\": true, \"require_dheki\": true, \"require_sentence_final_gba\": true, \"block_other_tense_aspect_markers\": true, \"map_to_english_future_perfect_negation\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne leja se dheki gba","english":"I will not have eaten fish"},
-  {"balanda":"Ni lenzü ngo dheki gba","english":"She will not have drunk water"},
-  {"balanda":"Danda leteli muru famvara dheki gba","english":"We will not have slept on the bed"},
-  {"balanda":"Uku leyai dheki gba","english":"Uku will not have gone"},
-  {"balanda":"Ngande ledhii ba dheki gba","english":"Ngande will not have come home"},
-
-  {"balanda":"Ndi lenonö gbi difo dheki gba","english":"They will not have walked in the compound"},
-  {"balanda":"Ni lenangele zanga dheki gba","english":"She will not have run fast"},
-  {"balanda":"Uku lemande gbi njü dheki gba","english":"Uku will not have worked in the garden"},
-  {"balanda":"Wiki lemoliki gbi difo dheki gba","english":"The child will not have played in the compound"},
-  {"balanda":"Ne leloro voro dheki gba","english":"I will not have watched the dog"},
-
-  {"balanda":"Ne levele njo balanda dheki gba","english":"I will not have spoken Balanda"},
-  {"balanda":"Wilii lesudi kavoso dheki gba","english":"The girl will not have written words"},
-  {"balanda":"Ne ledheke kitabu dheki gba","english":"I will not have read a book"},
-  {"balanda":"Ni leteri ay dheki gba","english":"He will not have thought about it"},
-  {"balanda":"Ndi leŋiyi ay dheki gba","english":"They will not have known it"},
-
-  {"balanda":"Ne lewe ndi dheki gba","english":"I will not have asked them"},
-  {"balanda":"Ngande levele zi ndi dheki gba","english":"Ngande will not have told them"},
-  {"balanda":"Wilii lekeye ti naa ni dheki gba","english":"The girl will not have called her mother"},
-
-  {"balanda":"Ne lemerego ŋo dheki gba","english":"I will not have loved you"},
-  {"balanda":"Ni lemaguku ti kpörö dheki gba","english":"He will not have feared the snake"},
-  {"balanda":"Ni lesogo ni dheki gba","english":"She will not have hated him"},
-  {"balanda":"Ngande leriki ni dheki gba","english":"Ngande will not have surprised him"},
-  {"balanda":"Ni ledovee kurru dheki gba","english":"He will not have seemed calm"},
-
-  {"balanda":"Wilii leyele tamma dheki gba","english":"The girl will not have tied the shoe"},
-  {"balanda":"Ni ledi kalla dheki gba","english":"He will not have cut the pot"},
-  {"balanda":"Ne letele njokoji dheki gba","english":"I will not have pulled the door"},
-  {"balanda":"Danda leturu songo dheki gba","english":"We will not have pushed the box"},
-  {"balanda":"Wilii lesoko tamma dheki gba","english":"The girl will not have washed the shoe"},
-  {"balanda":"Ne lekuru kavokau dheki gba","english":"I will not have hidden the beads"},
-
-  {"balanda":"Ngande lengö tiyi dheki gba","english":"Ngande will not have built a house"},
-  {"balanda":"Ne lesuru kavoso dheki gba","english":"I will not have created words"},
-  {"balanda":"Ni legiri kavoso dheki gba","english":"She will not have changed the words"},
-  {"balanda":"Ne lekara njokoji dheki gba","english":"I will not have turned the door"},
-  {"balanda":"Danda letoko villi dheki gba","english":"We will not have added money"},
-  {"balanda":"Ne lekefo Balanda dheki gba","english":"I will not have described Balanda"},
-
-  {"balanda":"Ndi lekonu nvesani dheki gba","english":"They will not have helped the poor"},
-  {"balanda":"Ngande lendugu mira dheki gba","english":"Ngande will not have initiated the project"},
-  {"balanda":"Ne lemaforo mira dheki gba","english":"I will not have contributed to the project"},
-  {"balanda":"Wilii lesarwa kumere dheki gba","english":"The girl will not have separated trash"},
-  {"balanda":"Danda lekiri tidina dheki gba","english":"We will not have upheld the law"},
-
-  {"balanda":"Ne leduru ngo dheki gba","english":"I will not have wanted water"},
-  {"balanda":"Ni leze villi dheki gba","english":"She will not have given money"},
-  {"balanda":"Ne ledhe villi dheki gba","english":"I will not have found money"},
-  {"balanda":"Uku lemele vongu dheki gba","english":"Uku will not have tried the cloth"},
-  {"balanda":"Ngande lesi ba dheki gba","english":"Ngande will not have left home"},
-  {"balanda":"Ne lelu Wau dheki gba","english":"I will not have arrived in Wau"},
-  {"balanda":"Ni lefagi mva dheki gba","english":"He will not have sharpened the knife"},
-  {"balanda":"Ngande ledewe kakpodu dheki gba","english":"Ngande will not have imitated adults"},
-  {"balanda":"Danda lebita mira dheki gba","english":"We will not have started the project"},
-  {"balanda":"Ni leteta dheki gba","english":"He will not have fallen"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne leja se dheki gba","output":"I will not have eaten fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni lenzü ngo dheki gba","output":"She will not have drunk water"}
+{"instruction":"Translate from Balanda to English","input":"Danda leteli muru famvara dheki gba","output":"We will not have slept on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai dheki gba","output":"Uku will not have gone"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledhii ba dheki gba","output":"Ngande will not have come home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi lenonö gbi difo dheki gba","output":"They will not have walked in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni lenangele zanga dheki gba","output":"She will not have run fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemande gbi njü dheki gba","output":"Uku will not have worked in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki lemoliki gbi difo dheki gba","output":"The child will not have played in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne leloro voro dheki gba","output":"I will not have watched the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne levele njo balanda dheki gba","output":"I will not have spoken Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesudi kavoso dheki gba","output":"The girl will not have written words"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke kitabu dheki gba","output":"I will not have read a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni leteri ay dheki gba","output":"He will not have thought about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi leŋiyi ay dheki gba","output":"They will not have known it"}
+{"instruction":"Translate from Balanda to English","input":"Ne lewe ndi dheki gba","output":"I will not have asked them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande levele zi ndi dheki gba","output":"Ngande will not have told them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni dheki gba","output":"The girl will not have called her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne lemerego ŋo dheki gba","output":"I will not have loved you"}
+{"instruction":"Translate from Balanda to English","input":"Ni lemaguku ti kpörö dheki gba","output":"He will not have feared the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni lesogo ni dheki gba","output":"She will not have hated him"}
+{"instruction":"Translate from Balanda to English","input":"Ngande leriki ni dheki gba","output":"Ngande will not have surprised him"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledovee kurru dheki gba","output":"He will not have seemed calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii leyele tamma dheki gba","output":"The girl will not have tied the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledi kalla dheki gba","output":"He will not have cut the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne letele njokoji dheki gba","output":"I will not have pulled the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda leturu songo dheki gba","output":"We will not have pushed the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesoko tamma dheki gba","output":"The girl will not have washed the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekuru kavokau dheki gba","output":"I will not have hidden the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lengö tiyi dheki gba","output":"Ngande will not have built a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne lesuru kavoso dheki gba","output":"I will not have created words"}
+{"instruction":"Translate from Balanda to English","input":"Ni legiri kavoso dheki gba","output":"She will not have changed the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekara njokoji dheki gba","output":"I will not have turned the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda letoko villi dheki gba","output":"We will not have added money"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekefo Balanda dheki gba","output":"I will not have described Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu nvesani dheki gba","output":"They will not have helped the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lendugu mira dheki gba","output":"Ngande will not have initiated the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne lemaforo mira dheki gba","output":"I will not have contributed to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesarwa kumere dheki gba","output":"The girl will not have separated trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda lekiri tidina dheki gba","output":"We will not have upheld the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne leduru ngo dheki gba","output":"I will not have wanted water"}
+{"instruction":"Translate from Balanda to English","input":"Ni leze villi dheki gba","output":"She will not have given money"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledhe villi dheki gba","output":"I will not have found money"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemele vongu dheki gba","output":"Uku will not have tried the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lesi ba dheki gba","output":"Ngande will not have left home"}
+{"instruction":"Translate from Balanda to English","input":"Ne lelu Wau dheki gba","output":"I will not have arrived in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni lefagi mva dheki gba","output":"He will not have sharpened the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledewe kakpodu dheki gba","output":"Ngande will not have imitated adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda lebita mira dheki gba","output":"We will not have started the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni leteta dheki gba","output":"He will not have fallen"}

@@ -4,108 +4,84 @@
   "description": "This file defines affirmative sentences in the Future Simple tense in Njo Viri (Balanda). The future simple tense expresses actions that will take place after the moment of speaking.",
   "rules": {
     "general_principle": {
-      "statement": "Future simple affirmative sentences in Balanda are formed by attaching the future prefix 'le-' directly to the base form of the verb. No auxiliary verb is used."
+      "function": "general principle",
+      "structure": "Future simple affirmative sentences in Balanda are formed by attaching the future prefix 'le-' directly to the base form of the verb. No auxiliary verb is used.",
+      "notes": ""
     },
-
     "affirmative_structure": {
+      "function": "affirmative structure",
       "structure": "Subject + le-Verb(base) + (Object / Complement)",
-      "description": "Used to express a definite, planned, or expected future action.",
-      "constraints": [
-        "The prefix 'le-' must attach directly to the verb base",
-        "The verb must not carry any other tense or aspect markers",
-        "Objects and complements follow the verb normally"
-      ]
+      "notes": "Used to express a definite, planned, or expected future action. | The prefix 'le-' must attach directly to the verb base; The verb must not carry any other tense or aspect markers; Objects and complements follow the verb normally"
     },
-
     "tense_and_aspect_distinction": {
-      "rule": "Future simple in Balanda encodes tense only and does not encode aspect.",
-      "note": "The progressive prefix 'ti-' and the result marker 'dheki' must not be used."
+      "function": "tense and aspect distinction",
+      "structure": "Future simple in Balanda encodes tense only and does not encode aspect.",
+      "notes": "The progressive prefix 'ti-' and the result marker 'dheki' must not be used."
     },
-
     "word_order_rules": {
-      "rule": "Word order in future simple affirmatives is identical to basic declarative sentences.",
-      "canonical_order": [
-        "Subject",
-        "le-Verb",
-        "Object / Complement"
-      ]
+      "function": "word order rules",
+      "structure": "Word order in future simple affirmatives is identical to basic declarative sentences.",
+      "notes": "Subject; le-Verb; Object / Complement"
     },
-
-    "error_constraints": [
-      "Do not omit the prefix 'le-' when expressing future meaning",
-      "Do not use the copula 'ma' in affirmative future simple",
-      "Do not add the negation marker 'gba'",
-      "Do not use the progressive prefix 'ti-'",
-      "Do not use the result marker 'dheki'"
-    ],
-
+    "error_constraints": {
+      "function": "error constraints",
+      "structure": "Do not omit the prefix 'le-' when expressing future meaning; Do not use the copula 'ma' in affirmative future simple; Do not add the negation marker 'gba'; Do not use the progressive prefix 'ti-'; Do not use the result marker 'dheki'",
+      "notes": ""
+    },
     "model_behavior_guidelines": {
-      "enforce_le_prefix": true,
-      "enforce_base_verb": true,
-      "block_other_tense_markers": true,
-      "preserve_word_order": true,
-      "map_to_english_future_simple": true
+      "function": "model behavior guidelines",
+      "structure": "{\"enforce_le_prefix\": true, \"enforce_base_verb\": true, \"block_other_tense_markers\": true, \"preserve_word_order\": true, \"map_to_english_future_simple\": true}",
+      "notes": ""
     }
   }
 }
-
-[
-  {"balanda":"Ne leja se","english":"I will eat fish"},
-  {"balanda":"Ni lenzü ngo","english":"She will drink water"},
-  {"balanda":"Danda leteli muru famvara","english":"We will sleep on the bed"},
-  {"balanda":"Uku leyai agbi maraya","english":"Uku will go to school"},
-  {"balanda":"Ngande ledhii ba","english":"Ngande will come home"},
-
-  {"balanda":"Ndi lenonö gbi difo","english":"They will walk in the compound"},
-  {"balanda":"Ni lenangele zanga","english":"She will run fast"},
-  {"balanda":"Uku lemande gbi njü","english":"Uku will work in the garden"},
-  {"balanda":"Wiki lemoliki gbi difo","english":"The child will play in the compound"},
-  {"balanda":"Ne leloro voro","english":"I will watch the dog"},
-
-  {"balanda":"Ne levele njo balanda","english":"I will speak Balanda"},
-  {"balanda":"Wilii lesudi kavoso","english":"The girl will write words"},
-  {"balanda":"Ne ledheke kitabu","english":"I will read a book"},
-  {"balanda":"Ni leteri ay","english":"He will think about it"},
-  {"balanda":"Ndi leŋiyi ay","english":"They will know it"},
-
-  {"balanda":"Ne lewe ndi","english":"I will ask them"},
-  {"balanda":"Ngande levele zi ndi","english":"Ngande will tell them"},
-  {"balanda":"Wilii lekeye ti naa ni","english":"The girl will call her mother"},
-
-  {"balanda":"Ne lemerego ŋo","english":"I will love you"},
-  {"balanda":"Ni lemaguku ti kpörö","english":"He will fear the snake"},
-  {"balanda":"Ni lesogo ni","english":"She will hate him"},
-  {"balanda":"Ngande leriki ni","english":"Ngande will surprise him"},
-  {"balanda":"Ni ledovee kurru","english":"He will seem calm"},
-
-  {"balanda":"Wilii leyele tamma","english":"The girl will tie the shoe"},
-  {"balanda":"Ni ledi kalla","english":"He will cut the pot"},
-  {"balanda":"Ne letele njokoji","english":"I will pull the door"},
-  {"balanda":"Danda leturu songo","english":"We will push the box"},
-  {"balanda":"Wilii lesoko tamma","english":"The girl will wash the shoe"},
-  {"balanda":"Ne lekuru kavokau","english":"I will hide the beads"},
-
-  {"balanda":"Ngande lengö tiyi","english":"Ngande will build a house"},
-  {"balanda":"Ne lesuru kavoso","english":"I will create words"},
-  {"balanda":"Ni legiri kavoso","english":"She will change the words"},
-  {"balanda":"Ne lekara njokoji","english":"I will turn the door"},
-  {"balanda":"Danda letoko villi","english":"We will add money"},
-  {"balanda":"Ne lekefo Balanda","english":"I will describe Balanda"},
-
-  {"balanda":"Ndi lekonu nvesani","english":"They will help the poor"},
-  {"balanda":"Ngande lendugu mira","english":"Ngande will initiate the project"},
-  {"balanda":"Ne lemaforo mira","english":"I will contribute to the project"},
-  {"balanda":"Wilii lesarwa kumere","english":"The girl will separate trash"},
-  {"balanda":"Danda lekiri tidina","english":"We will uphold the law"},
-
-  {"balanda":"Ne leduru ngo","english":"I will want water"},
-  {"balanda":"Ni leze villi","english":"She will give money"},
-  {"balanda":"Ne ledhe villi","english":"I will find money"},
-  {"balanda":"Uku lemele vongu","english":"Uku will try the cloth"},
-  {"balanda":"Ngande lesi ba","english":"Ngande will leave home"},
-  {"balanda":"Ne lelu Wau","english":"I will arrive in Wau"},
-  {"balanda":"Ni lefagi mva","english":"He will sharpen the knife"},
-  {"balanda":"Ngande ledewe kakpodu","english":"Ngande will imitate adults"},
-  {"balanda":"Danda lebita mira","english":"We will start the project"},
-  {"balanda":"Ni leteta","english":"He will fall"}
-]
+{"instruction":"Translate from Balanda to English","input":"Ne leja se","output":"I will eat fish"}
+{"instruction":"Translate from Balanda to English","input":"Ni lenzü ngo","output":"She will drink water"}
+{"instruction":"Translate from Balanda to English","input":"Danda leteli muru famvara","output":"We will sleep on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai agbi maraya","output":"Uku will go to school"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledhii ba","output":"Ngande will come home"}
+{"instruction":"Translate from Balanda to English","input":"Ndi lenonö gbi difo","output":"They will walk in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ni lenangele zanga","output":"She will run fast"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemande gbi njü","output":"Uku will work in the garden"}
+{"instruction":"Translate from Balanda to English","input":"Wiki lemoliki gbi difo","output":"The child will play in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ne leloro voro","output":"I will watch the dog"}
+{"instruction":"Translate from Balanda to English","input":"Ne levele njo balanda","output":"I will speak Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesudi kavoso","output":"The girl will write words"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledheke kitabu","output":"I will read a book"}
+{"instruction":"Translate from Balanda to English","input":"Ni leteri ay","output":"He will think about it"}
+{"instruction":"Translate from Balanda to English","input":"Ndi leŋiyi ay","output":"They will know it"}
+{"instruction":"Translate from Balanda to English","input":"Ne lewe ndi","output":"I will ask them"}
+{"instruction":"Translate from Balanda to English","input":"Ngande levele zi ndi","output":"Ngande will tell them"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni","output":"The girl will call her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne lemerego ŋo","output":"I will love you"}
+{"instruction":"Translate from Balanda to English","input":"Ni lemaguku ti kpörö","output":"He will fear the snake"}
+{"instruction":"Translate from Balanda to English","input":"Ni lesogo ni","output":"She will hate him"}
+{"instruction":"Translate from Balanda to English","input":"Ngande leriki ni","output":"Ngande will surprise him"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledovee kurru","output":"He will seem calm"}
+{"instruction":"Translate from Balanda to English","input":"Wilii leyele tamma","output":"The girl will tie the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledi kalla","output":"He will cut the pot"}
+{"instruction":"Translate from Balanda to English","input":"Ne letele njokoji","output":"I will pull the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda leturu songo","output":"We will push the box"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesoko tamma","output":"The girl will wash the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekuru kavokau","output":"I will hide the beads"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lengö tiyi","output":"Ngande will build a house"}
+{"instruction":"Translate from Balanda to English","input":"Ne lesuru kavoso","output":"I will create words"}
+{"instruction":"Translate from Balanda to English","input":"Ni legiri kavoso","output":"She will change the words"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekara njokoji","output":"I will turn the door"}
+{"instruction":"Translate from Balanda to English","input":"Danda letoko villi","output":"We will add money"}
+{"instruction":"Translate from Balanda to English","input":"Ne lekefo Balanda","output":"I will describe Balanda"}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu nvesani","output":"They will help the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lendugu mira","output":"Ngande will initiate the project"}
+{"instruction":"Translate from Balanda to English","input":"Ne lemaforo mira","output":"I will contribute to the project"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesarwa kumere","output":"The girl will separate trash"}
+{"instruction":"Translate from Balanda to English","input":"Danda lekiri tidina","output":"We will uphold the law"}
+{"instruction":"Translate from Balanda to English","input":"Ne leduru ngo","output":"I will want water"}
+{"instruction":"Translate from Balanda to English","input":"Ni leze villi","output":"She will give money"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledhe villi","output":"I will find money"}
+{"instruction":"Translate from Balanda to English","input":"Uku lemele vongu","output":"Uku will try the cloth"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lesi ba","output":"Ngande will leave home"}
+{"instruction":"Translate from Balanda to English","input":"Ne lelu Wau","output":"I will arrive in Wau"}
+{"instruction":"Translate from Balanda to English","input":"Ni lefagi mva","output":"He will sharpen the knife"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledewe kakpodu","output":"Ngande will imitate adults"}
+{"instruction":"Translate from Balanda to English","input":"Danda lebita mira","output":"We will start the project"}
+{"instruction":"Translate from Balanda to English","input":"Ni leteta","output":"He will fall"}

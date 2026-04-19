@@ -36,26 +36,17 @@
     "dize": {
       "function": "noun / pronoun coordinator",
       "structure": "Noun/Pronoun + dize + Noun/Pronoun",
-      "notes": "Equivalent to 'and' for nouns and pronouns only. Cannot chain verbs or clauses. Does not interact with tense markers.",
-      "examples": ["avele dize maize (cassava and maize)", "ne dize ni (me and him/her)"]
+      "notes": "Equivalent to 'and' for nouns and pronouns only. Cannot chain verbs or clauses. Does not interact with tense markers. | avele dize maize (cassava and maize); ne dize ni (me and him/her)"
     },
     "dii-": {
       "function": "verbal converb prefix — sequential action chainer",
       "structure": "Subject + [tense]-Verb1 + dii-Verb2 (+ dii-Verb3 ...)",
-      "notes": "Chains sequential actions by the same subject. First verb carries the tense marker (taa- past, le- future, bare present/habitual). dii- strips tense from all chained verbs. Optional on middle verbs, preferred on the final chained verb. Cannot be used with different subjects or simultaneous events.",
-      "examples": ["taadheke diiteli (had read and then slept)", "taajiya soko te'e diiyai agbi nde (greeted the guests and then went to work)"]
+      "notes": "Chains sequential actions by the same subject. First verb carries the tense marker (taa- past, le- future, bare present/habitual). dii- strips tense from all chained verbs. Optional on middle verbs, preferred on the final chained verb. Cannot be used with different subjects or simultaneous events. | taadheke diiteli (had read and then slept); taajiya soko te'e diiyai agbi nde (greeted the guests and then went to work)"
     },
     "wu": {
       "function": "clause coordinator — independent / non-sequential",
       "structure": "Subject1 + [tense]-Verb1 + wu + Subject2 + [tense]-Verb2",
-      "notes": "Borrowed from Arabic wa. Connects independent clauses typically with different subjects, simultaneous actions, or habitual/general truths. Both verbs keep their own full tense markers. Cannot be used for same-subject sequential chaining (use dii- instead).",
-      "examples": ["ne taadheke wu ni taateli (I had read and he had slept)"],
-      "comparison_table": {
-        "note": "The three 'and' markers reflect a genuine grammatical distinction that English collapses into one word.",
-        "dize": {"same_subject": "nouns only", "sequential": false, "both_verbs_tensed": false},
-        "dii-": {"same_subject": true, "sequential": true, "both_verbs_tensed": false},
-        "wu":   {"same_subject": false, "sequential": false, "both_verbs_tensed": true}
-      }
+      "notes": "Borrowed from Arabic wa. Connects independent clauses typically with different subjects, simultaneous actions, or habitual/general truths. Both verbs keep their own full tense markers. Cannot be used for same-subject sequential chaining (use dii- instead). | ne taadheke wu ni taateli (I had read and he had slept)"
     }
   }
 }
@@ -205,7 +196,6 @@
 {"instruction":"Translate from English to Balanda","input":"The child reads the book with the teacher.","output":"Wihi tidheke fökpaa ta nverugu."}
 {"instruction":"Translate from English to Balanda","input":"I called you with the phone.","output":"Ne taakeye ti ŋo ta garra."}
 {"instruction":"Translate from English to Balanda","input":"She would go with me or stay at home.","output":"Ni kanonmve yai ta ne wala ni kanonmve teli agbi tiyi."}
-{"instruction_type":"grammar_rule","grammar_name":"balanda_and_coordinators_three_way_distinction","description":"Balanda expresses the English word 'and' through three distinct grammatical markers, each encoding a different structural relationship. English collapses all three into a single word; Balanda keeps them strictly separate.","rules":{"dize":{"function":"Noun and pronoun coordinator","meaning":"and (for things/persons)","structure":"Noun/Pronoun + dize + Noun/Pronoun","constraints":["Connects nouns and pronouns only","Cannot be used to chain verbs or clauses","Does not carry or interact with tense markers"],"examples":["avele dize maize (cassava and maize)","ne dize ni (me and him/her)"]},"dii":{"function":"Verbal converb prefix — sequential action chainer","meaning":"and then","structure":"Subject + [tense]-Verb1 + dii-Verb2 (+ dii-Verb3 ...)","constraints":["Same subject required across all chained verbs","First verb carries the tense marker (taa- past, le- future, bare present/habitual)","dii- strips tense from all chained verbs","dii- is optional on middle verbs but preferred on the final chained verb","Cannot be used with different subjects or simultaneous events"],"examples":["taadheke diiteli (had read and then slept)","taajiya soko te'e diiyai agbi nde (greeted the guests and then went to work)"]},"wu":{"function":"Clause coordinator — borrowed from Arabic wa","meaning":"and (independent, non-sequential)","structure":"Subject1 + [tense]-Verb1 + wu + Subject2 + [tense]-Verb2","constraints":["Typically connects clauses with different subjects","Used for simultaneous actions, habitual truths, or general statements","Both verbs keep their own full tense markers","Cannot be used for same-subject sequential chaining (use dii- instead)"],"examples":["ne taadheke wu ni taateli (I had read and he had slept)"]},"comparison_table":{"same_subject":{"dize":"nouns only","dii":"yes","wu":"no"},"sequential_actions":{"dize":"no","dii":"yes","wu":"no"},"both_verbs_tensed":{"dize":"no","dii":"no","wu":"yes"},"key_insight":"The three markers reflect a genuine grammatical distinction that English collapses into one word 'and'."}}}
 {"instruction":"Translate from Balanda to English","input":"Ni taayai agbi negu diidheke fökpaa.","output":"He went to the market and then read the book."}
 {"instruction":"Translate from Balanda to English","input":"Ne taaja nja diiteli.","output":"I ate food and then slept."}
 {"instruction":"Translate from Balanda to English","input":"Wihi taanangele zanga diiyai agbi maraya.","output":"The child ran fast and then went to school."}

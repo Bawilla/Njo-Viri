@@ -3,203 +3,208 @@
   "grammar_name": "balanda_past_continuous",
   "description": "This file contains Balanda past continuous sentences. Past continuous is formed using a past copula plus a present verb form.",
   "rules": {
-    "affirmative_structure": "S + noka + ti-VERB + (Object/Complement)",
-    "negative_structure": "S + maka + ti-VERB + (Object/Complement) + gba",
-    "question_structure": "(affirmative_or_negative_clause) + we?",
-    "tense": "past",
-    "aspect": "continuous",
-    "copula_affirmative": "noka",
-    "copula_negative": "maka",
-    "verb_form": "ti-VERB (present form retained)",
-    "negation": "gba (clause-final)",
-    "question_particle": "we? (sentence-final)",
-    "constraints": [
-      "No word order change in questions",
-      "ti- must not be removed in negation",
-      "Past time reference is carried only by noka/maka",
-      "gba always appears at the end of the clause",
-      "we? always appears at the very end of the clause"
-    ]
+    "affirmative_structure": {
+      "function": "affirmative structure",
+      "structure": "S + noka + ti-VERB + (Object/Complement)",
+      "notes": ""
+    },
+    "negative_structure": {
+      "function": "negative structure",
+      "structure": "S + maka + ti-VERB + (Object/Complement) + gba",
+      "notes": ""
+    },
+    "question_structure": {
+      "function": "question structure",
+      "structure": "(affirmative_or_negative_clause) + we?",
+      "notes": ""
+    },
+    "tense": {
+      "function": "tense",
+      "structure": "past",
+      "notes": ""
+    },
+    "aspect": {
+      "function": "aspect",
+      "structure": "continuous",
+      "notes": ""
+    },
+    "copula_affirmative": {
+      "function": "copula affirmative",
+      "structure": "noka",
+      "notes": ""
+    },
+    "copula_negative": {
+      "function": "copula negative",
+      "structure": "maka",
+      "notes": ""
+    },
+    "verb_form": {
+      "function": "verb form",
+      "structure": "ti-VERB (present form retained)",
+      "notes": ""
+    },
+    "negation": {
+      "function": "negation",
+      "structure": "gba (clause-final)",
+      "notes": ""
+    },
+    "question_particle": {
+      "function": "question particle",
+      "structure": "we? (sentence-final)",
+      "notes": ""
+    },
+    "constraints": {
+      "function": "constraints",
+      "structure": "No word order change in questions; ti- must not be removed in negation; Past time reference is carried only by noka/maka; gba always appears at the end of the clause; we? always appears at the very end of the clause",
+      "notes": ""
+    }
   }
 }
-
-
-{"balanda":"Ne noka tija nza","english":"I was eating food."}
-{"balanda":"Ne noka tinzü ngo","english":"I was drinking water."}
-{"balanda":"Ni noka titeli","english":"He was sleeping."}
-{"balanda":"Ne noka tiyai a Wau","english":"I was going to Wau."}
-{"balanda":"Ni noka tidhii agbi tiyi","english":"He was coming to the house."}
-{"balanda":"Wiki noka tinono gbi difo","english":"The child was walking in the compound."}
-{"balanda":"Ni noka timande gbi njü","english":"He was working in the garden."}
-{"balanda":"Danda noka timoliki","english":"We were playing."}
-
-{"balanda":"Ne noka timerego ŋo","english":"I was loving you."}
-{"balanda":"Ne noka tiŋiyi sereso","english":"I was knowing the truth."}
-{"balanda":"Ni noka titerii","english":"He was thinking."}
-{"balanda":"Ne noka tiwe ndi","english":"I was asking them."}
-{"balanda":"Ni noka tivele takoni","english":"He was telling a story."}
-{"balanda":"Ne noka tibaha ŋo","english":"I was seeing you."}
-{"balanda":"Ni noka tidhi","english":"He was hearing."}
-
-{"balanda":"Ne noka tisudi kitab","english":"I was writing a book."}
-{"balanda":"Ni noka tidheke kitab","english":"He was reading a book."}
-{"balanda":"Ne noka tisïhï kese","english":"I was buying a bike."}
-{"balanda":"Ni noka tisadi nza","english":"He was selling food."}
-{"balanda":"Ne noka tituru linguu","english":"I was pushing the fruit."}
-{"balanda":"Ni noka tizaka kporo","english":"He was pulling the drum."}
-{"balanda":"Ni noka tikara kafa","english":"He was turning the table."}
-
-{"balanda":"Ne noka tikeye ti ndi","english":"I was calling them."}
-{"balanda":"Danda noka tiwofo takoni","english":"We were discussing the story."}
-{"balanda":"Ni noka tikolo wiki","english":"He was hugging the child."}
-{"balanda":"Ndi noka timago","english":"They were fighting."}
-{"balanda":"Ni noka tivanda wiki","english":"He was protecting the child."}
-
-{"balanda":"Ni noka titeta","english":"He was falling."}
-{"balanda":"Ni noka tigirri","english":"He was changing."}
-{"balanda":"Nguu noka tivere","english":"The tree was darkening."}
-{"balanda":"Maraya noka tideye","english":"The school was developing."}
-{"balanda":"Wiki noka tirengo","english":"The child was maturing."}
-
-{"balanda":"Ni noka tidho gbi tiyi","english":"He was being in the house."}
-{"balanda":"Ne noka tima nde","english":"I was doing the work."}
-{"balanda":"Ne noka tiwala gbi Wau","english":"I was living in Wau."}
-{"balanda":"Ne noka tiduru ngo","english":"I was wanting water."}
-{"balanda":"Ni noka tidüŋü kpendii","english":"He was remaining behind."}
-
-Negations
-
-{"balanda":"Ne maka tija nza gba","english":"I was not eating food."}
-{"balanda":"Ne maka tinzü ngo gba","english":"I was not drinking water."}
-{"balanda":"Ni maka titeli gba","english":"He was not sleeping."}
-{"balanda":"Ne maka tiyai a Wau gba","english":"I was not going to Wau."}
-{"balanda":"Ni maka tidhii agbi tiyi gba","english":"He was not coming to the house."}
-{"balanda":"Wiki maka tinono gbi difo gba","english":"The child was not walking in the compound."}
-{"balanda":"Ni maka timande gbi njü gba","english":"He was not working in the garden."}
-{"balanda":"Danda maka timoliki gba","english":"We were not playing."}
-
-{"balanda":"Ne maka timerego ŋo gba","english":"I was not loving you."}
-{"balanda":"Ne maka tiŋiyi sereso gba","english":"I was not knowing the truth."}
-{"balanda":"Ni maka titerii gba","english":"He was not thinking."}
-{"balanda":"Ne maka tiwe ndi gba","english":"I was not asking them."}
-{"balanda":"Ni maka tivele takoni gba","english":"He was not telling a story."}
-{"balanda":"Ne maka tibaha ŋo gba","english":"I was not seeing you."}
-{"balanda":"Ni maka tidhi gba","english":"He was not hearing."}
-
-{"balanda":"Ne maka tisudi kitab gba","english":"I was not writing a book."}
-{"balanda":"Ni maka tidheke kitab gba","english":"He was not reading a book."}
-{"balanda":"Ne maka tisïhï kese gba","english":"I was not buying a bike."}
-{"balanda":"Ni maka tisadi nza gba","english":"He was not selling food."}
-{"balanda":"Ne maka tituru linguu gba","english":"I was not pushing the fruit."}
-{"balanda":"Ni maka tizaka kporo gba","english":"He was not pulling the drum."}
-{"balanda":"Ni maka tikara kafa gba","english":"He was not turning the table."}
-
-{"balanda":"Ne maka tikeye ti ndi gba","english":"I was not calling them."}
-{"balanda":"Danda maka tiwofo takoni gba","english":"We were not discussing the story."}
-{"balanda":"Ni maka tikolo wiki gba","english":"He was not hugging the child."}
-{"balanda":"Ndi maka timago gba","english":"They were not fighting."}
-{"balanda":"Ni maka tivanda wiki gba","english":"He was not protecting the child."}
-
-{"balanda":"Ni maka titeta gba","english":"He was not falling."}
-{"balanda":"Ni maka tigirri gba","english":"He was not changing."}
-{"balanda":"Nguu maka tivere gba","english":"The tree was not darkening."}
-{"balanda":"Maraya maka tideye gba","english":"The school was not developing."}
-{"balanda":"Wiki maka tirengo gba","english":"The child was not maturing."}
-
-{"balanda":"Ni maka tidho gbi tiyi gba","english":"He was not being in the house."}
-{"balanda":"Ne maka tima nde gba","english":"I was not doing the work."}
-{"balanda":"Ne maka tiwala gbi Wau gba","english":"I was not living in Wau."}
-{"balanda":"Ne maka tiduru ngo gba","english":"I was not wanting water."}
-{"balanda":"Ni maka tidüŋü kpendii gba","english":"He was not remaining behind."}
-
-
-questions
-
-{"balanda":"Ne noka tija nza we?","english":"Was I eating food?"}
-{"balanda":"Ne noka tinzü ngo we?","english":"Was I drinking water?"}
-{"balanda":"Ni noka titeli we?","english":"Was he sleeping?"}
-{"balanda":"Ne noka tiyai a Wau we?","english":"Was I going to Wau?"}
-{"balanda":"Ni noka tidhii agbi tiyi we?","english":"Was he coming to the house?"}
-{"balanda":"Wiki noka tinono gbi difo we?","english":"Was the child walking in the compound?"}
-{"balanda":"Ni noka timande gbi njü we?","english":"Was he working in the garden?"}
-{"balanda":"Danda noka timoliki we?","english":"Were we playing?"}
-
-{"balanda":"Ne noka timerego ŋo we?","english":"Was I loving you?"}
-{"balanda":"Ne noka tiŋiyi sereso we?","english":"Was I knowing the truth?"}
-{"balanda":"Ni noka titerii we?","english":"Was he thinking?"}
-{"balanda":"Ne noka tiwe ndi we?","english":"Was I asking them?"}
-{"balanda":"Ni noka tivele takoni we?","english":"Was he telling a story?"}
-{"balanda":"Ne noka tibaha ŋo we?","english":"Was I seeing you?"}
-{"balanda":"Ni noka tidhi we?","english":"Was he hearing?"}
-
-{"balanda":"Ne noka tisudi kitab we?","english":"Was I writing a book?"}
-{"balanda":"Ni noka tidheke kitab we?","english":"Was he reading a book?"}
-{"balanda":"Ne noka tisïhï kese we?","english":"Was I buying a bike?"}
-{"balanda":"Ni noka tisadi nza we?","english":"Was he selling food?"}
-{"balanda":"Ne noka tituru linguu we?","english":"Was I pushing the fruit?"}
-{"balanda":"Ni noka tizaka kporo we?","english":"Was he pulling the drum?"}
-{"balanda":"Ni noka tikara kafa we?","english":"Was he turning the table?"}
-
-{"balanda":"Ne noka tikeye ti ndi we?","english":"Was I calling them?"}
-{"balanda":"Danda noka tiwofo takoni we?","english":"Were we discussing the story?"}
-{"balanda":"Ni noka tikolo wiki we?","english":"Was he hugging the child?"}
-{"balanda":"Ndi noka timago we?","english":"Were they fighting?"}
-{"balanda":"Ni noka tivanda wiki we?","english":"Was he protecting the child?"}
-
-{"balanda":"Ni noka titeta we?","english":"Was he falling?"}
-{"balanda":"Ni noka tigirri we?","english":"Was he changing?"}
-{"balanda":"Nguu noka tivere we?","english":"Was the tree darkening?"}
-{"balanda":"Maraya noka tideye we?","english":"Was the school developing?"}
-{"balanda":"Wiki noka tirengo we?","english":"Was the child maturing?"}
-
-{"balanda":"Ni noka tidho gbi tiyi we?","english":"Was he being in the house?"}
-{"balanda":"Ne noka tima nde we?","english":"Was I doing the work?"}
-{"balanda":"Ne noka tiwala gbi Wau we?","english":"Was I living in Wau?"}
-{"balanda":"Ne noka tiduru ngo we?","english":"Was I wanting water?"}
-{"balanda":"Ni noka tidüŋü kpendii we?","english":"Was he remaining behind?"}
-
-
-negative questions
-
-{"balanda":"Ne maka tija nza gba we?","english":"Was I not eating food?"}
-{"balanda":"Ne maka tinzü ngo gba we?","english":"Was I not drinking water?"}
-{"balanda":"Ni maka titeli gba we?","english":"Was he not sleeping?"}
-{"balanda":"Ne maka tiyai a Wau gba we?","english":"Was I not going to Wau?"}
-{"balanda":"Ni maka tidhii agbi tiyi gba we?","english":"Was he not coming to the house?"}
-{"balanda":"Wiki maka tinono gbi difo gba we?","english":"Was the child not walking in the compound?"}
-{"balanda":"Ni maka timande gbi njü gba we?","english":"Was he not working in the garden?"}
-{"balanda":"Danda maka timoliki gba we?","english":"Were we not playing?"}
-
-{"balanda":"Ne maka timerego ŋo gba we?","english":"Was I not loving you?"}
-{"balanda":"Ne maka tiŋiyi sereso gba we?","english":"Was I not knowing the truth?"}
-{"balanda":"Ni maka titerii gba we?","english":"Was he not thinking?"}
-{"balanda":"Ne maka tiwe ndi gba we?","english":"Was I not asking them?"}
-{"balanda":"Ni maka tivele takoni gba we?","english":"Was he not telling a story?"}
-{"balanda":"Ne maka tibaha ŋo gba we?","english":"Was I not seeing you?"}
-{"balanda":"Ni maka tidhi gba we?","english":"Was he not hearing?"}
-
-{"balanda":"Ne maka tisudi kitab gba we?","english":"Was I not writing a book?"}
-{"balanda":"Ni maka tidheke kitab gba we?","english":"Was he not reading a book?"}
-{"balanda":"Ne maka tisïhï kese gba we?","english":"Was I not buying a bike?"}
-{"balanda":"Ni maka tisadi nza gba we?","english":"Was he not selling food?"}
-{"balanda":"Ne maka tituru linguu gba we?","english":"Was I not pushing the fruit?"}
-{"balanda":"Ni maka tizaka kporo gba we?","english":"Was he not pulling the drum?"}
-{"balanda":"Ni maka tikara kafa gba we?","english":"Was he not turning the table?"}
-
-{"balanda":"Ne maka tikeye ti ndi gba we?","english":"Was I not calling them?"}
-{"balanda":"Danda maka tiwofo takoni gba we?","english":"Were we not discussing the story?"}
-{"balanda":"Ni maka tikolo wiki gba we?","english":"Was he not hugging the child?"}
-{"balanda":"Ndi maka timago gba we?","english":"Were they not fighting?"}
-{"balanda":"Ni maka tivanda wiki gba we?","english":"Was he not protecting the child?"}
-
-{"balanda":"Ni maka titeta gba we?","english":"Was he not falling?"}
-{"balanda":"Ni maka tigirri gba we?","english":"Was he not changing?"}
-{"balanda":"Nguu maka tivere gba we?","english":"Was the tree not darkening?"}
-{"balanda":"Maraya maka tideye gba we?","english":"Was the school not developing?"}
-{"balanda":"Wiki maka tirengo gba we?","english":"Was the child not maturing?"}
-
-{"balanda":"Ni maka tidho gbi tiyi gba we?","english":"Was he not being in the house?"}
-{"balanda":"Ne maka tima nde gba we?","english":"Was I not doing the work?"}
-{"balanda":"Ne maka tiwala gbi Wau gba we?","english":"Was I not living in Wau?"}
-{"balanda":"Ne maka tiduru ngo gba we?","english":"Was I not wanting water?"}
-{"balanda":"Ni maka tidüŋü kpendii gba we?","english":"Was he not remaining behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tija nza","output":"I was eating food."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tinzü ngo","output":"I was drinking water."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeli","output":"He was sleeping."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiyai a Wau","output":"I was going to Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidhii agbi tiyi","output":"He was coming to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki noka tinono gbi difo","output":"The child was walking in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka timande gbi njü","output":"He was working in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Danda noka timoliki","output":"We were playing."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka timerego ŋo","output":"I was loving you."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiŋiyi sereso","output":"I was knowing the truth."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titerii","output":"He was thinking."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwe ndi","output":"I was asking them."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tivele takoni","output":"He was telling a story."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tibaha ŋo","output":"I was seeing you."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidhi","output":"He was hearing."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisudi kitab","output":"I was writing a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidheke kitab","output":"He was reading a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisïhï kese","output":"I was buying a bike."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tisadi nza","output":"He was selling food."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tituru linguu","output":"I was pushing the fruit."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tizaka kporo","output":"He was pulling the drum."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tikara kafa","output":"He was turning the table."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikeye ti ndi","output":"I was calling them."}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tiwofo takoni","output":"We were discussing the story."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tikolo wiki","output":"He was hugging the child."}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka timago","output":"They were fighting."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tivanda wiki","output":"He was protecting the child."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeta","output":"He was falling."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tigirri","output":"He was changing."}
+{"instruction":"Translate from Balanda to English","input":"Nguu noka tivere","output":"The tree was darkening."}
+{"instruction":"Translate from Balanda to English","input":"Maraya noka tideye","output":"The school was developing."}
+{"instruction":"Translate from Balanda to English","input":"Wiki noka tirengo","output":"The child was maturing."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidho gbi tiyi","output":"He was being in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tima nde","output":"I was doing the work."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwala gbi Wau","output":"I was living in Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiduru ngo","output":"I was wanting water."}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidüŋü kpendii","output":"He was remaining behind."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tija nza gba","output":"I was not eating food."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tinzü ngo gba","output":"I was not drinking water."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titeli gba","output":"He was not sleeping."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiyai a Wau gba","output":"I was not going to Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidhii agbi tiyi gba","output":"He was not coming to the house."}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tinono gbi difo gba","output":"The child was not walking in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka timande gbi njü gba","output":"He was not working in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Danda maka timoliki gba","output":"We were not playing."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka timerego ŋo gba","output":"I was not loving you."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiŋiyi sereso gba","output":"I was not knowing the truth."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titerii gba","output":"He was not thinking."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiwe ndi gba","output":"I was not asking them."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tivele takoni gba","output":"He was not telling a story."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tibaha ŋo gba","output":"I was not seeing you."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidhi gba","output":"He was not hearing."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisudi kitab gba","output":"I was not writing a book."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidheke kitab gba","output":"He was not reading a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisïhï kese gba","output":"I was not buying a bike."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tisadi nza gba","output":"He was not selling food."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tituru linguu gba","output":"I was not pushing the fruit."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tizaka kporo gba","output":"He was not pulling the drum."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tikara kafa gba","output":"He was not turning the table."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikeye ti ndi gba","output":"I was not calling them."}
+{"instruction":"Translate from Balanda to English","input":"Danda maka tiwofo takoni gba","output":"We were not discussing the story."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tikolo wiki gba","output":"He was not hugging the child."}
+{"instruction":"Translate from Balanda to English","input":"Ndi maka timago gba","output":"They were not fighting."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tivanda wiki gba","output":"He was not protecting the child."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titeta gba","output":"He was not falling."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tigirri gba","output":"He was not changing."}
+{"instruction":"Translate from Balanda to English","input":"Nguu maka tivere gba","output":"The tree was not darkening."}
+{"instruction":"Translate from Balanda to English","input":"Maraya maka tideye gba","output":"The school was not developing."}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tirengo gba","output":"The child was not maturing."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidho gbi tiyi gba","output":"He was not being in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tima nde gba","output":"I was not doing the work."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiwala gbi Wau gba","output":"I was not living in Wau."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiduru ngo gba","output":"I was not wanting water."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidüŋü kpendii gba","output":"He was not remaining behind."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tija nza we?","output":"Was I eating food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tinzü ngo we?","output":"Was I drinking water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeli we?","output":"Was he sleeping?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiyai a Wau we?","output":"Was I going to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidhii agbi tiyi we?","output":"Was he coming to the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki noka tinono gbi difo we?","output":"Was the child walking in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka timande gbi njü we?","output":"Was he working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka timoliki we?","output":"Were we playing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka timerego ŋo we?","output":"Was I loving you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiŋiyi sereso we?","output":"Was I knowing the truth?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titerii we?","output":"Was he thinking?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwe ndi we?","output":"Was I asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tivele takoni we?","output":"Was he telling a story?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tibaha ŋo we?","output":"Was I seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidhi we?","output":"Was he hearing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisudi kitab we?","output":"Was I writing a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidheke kitab we?","output":"Was he reading a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tisïhï kese we?","output":"Was I buying a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tisadi nza we?","output":"Was he selling food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tituru linguu we?","output":"Was I pushing the fruit?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tizaka kporo we?","output":"Was he pulling the drum?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tikara kafa we?","output":"Was he turning the table?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikeye ti ndi we?","output":"Was I calling them?"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tiwofo takoni we?","output":"Were we discussing the story?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tikolo wiki we?","output":"Was he hugging the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi noka timago we?","output":"Were they fighting?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tivanda wiki we?","output":"Was he protecting the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeta we?","output":"Was he falling?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tigirri we?","output":"Was he changing?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu noka tivere we?","output":"Was the tree darkening?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya noka tideye we?","output":"Was the school developing?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki noka tirengo we?","output":"Was the child maturing?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidho gbi tiyi we?","output":"Was he being in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tima nde we?","output":"Was I doing the work?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwala gbi Wau we?","output":"Was I living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiduru ngo we?","output":"Was I wanting water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka tidüŋü kpendii we?","output":"Was he remaining behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tija nza gba we?","output":"Was I not eating food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tinzü ngo gba we?","output":"Was I not drinking water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titeli gba we?","output":"Was he not sleeping?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiyai a Wau gba we?","output":"Was I not going to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidhii agbi tiyi gba we?","output":"Was he not coming to the house?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tinono gbi difo gba we?","output":"Was the child not walking in the compound?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka timande gbi njü gba we?","output":"Was he not working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka timoliki gba we?","output":"Were we not playing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka timerego ŋo gba we?","output":"Was I not loving you?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiŋiyi sereso gba we?","output":"Was I not knowing the truth?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titerii gba we?","output":"Was he not thinking?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiwe ndi gba we?","output":"Was I not asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tivele takoni gba we?","output":"Was he not telling a story?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tibaha ŋo gba we?","output":"Was I not seeing you?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidhi gba we?","output":"Was he not hearing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisudi kitab gba we?","output":"Was I not writing a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidheke kitab gba we?","output":"Was he not reading a book?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisïhï kese gba we?","output":"Was I not buying a bike?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tisadi nza gba we?","output":"Was he not selling food?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tituru linguu gba we?","output":"Was I not pushing the fruit?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tizaka kporo gba we?","output":"Was he not pulling the drum?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tikara kafa gba we?","output":"Was he not turning the table?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tikeye ti ndi gba we?","output":"Was I not calling them?"}
+{"instruction":"Translate from Balanda to English","input":"Danda maka tiwofo takoni gba we?","output":"Were we not discussing the story?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tikolo wiki gba we?","output":"Was he not hugging the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi maka timago gba we?","output":"Were they not fighting?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tivanda wiki gba we?","output":"Was he not protecting the child?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka titeta gba we?","output":"Was he not falling?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tigirri gba we?","output":"Was he not changing?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu maka tivere gba we?","output":"Was the tree not darkening?"}
+{"instruction":"Translate from Balanda to English","input":"Maraya maka tideye gba we?","output":"Was the school not developing?"}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tirengo gba we?","output":"Was the child not maturing?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidho gbi tiyi gba we?","output":"Was he not being in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tima nde gba we?","output":"Was I not doing the work?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiwala gbi Wau gba we?","output":"Was I not living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tiduru ngo gba we?","output":"Was I not wanting water?"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidüŋü kpendii gba we?","output":"Was he not remaining behind?"}
