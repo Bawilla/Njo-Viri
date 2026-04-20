@@ -1,0 +1,349 @@
+{"instruction":"Translate from Balanda to English","input":"Nguu noka tivere","output":"The tree was darkening."}
+{"instruction":"Translate from Balanda to English","input":"Wilii kawilla tiyele tamma","output":"The girl was not tying the shoe"}
+{"instruction":"Translate from Balanda to English","input":"Ni kadho gbi tiyi","output":"He was in the house."}
+{"instruction":"Correct the Balanda sentence","input":"Ne merego ne.","output":"Incorrect reflexive form. Correct form: Ne merego ti-ne."}
+{"instruction":"Explain the Balanda modal question_form","input":"question_form","output":"question_form — Forms yes/no questions expressing past inability. Structure: Subject + kamamve + VERB + (Object/Complement) + gba + we?."}
+{"instruction":"Translate from Balanda to English","input":"kunguti","output":"maintain"}
+{"instruction":"Translate from Balanda to English","input":"Bikur","output":"Ten"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve vele takoni we?","output":"Can he tell a story?"}
+{"instruction":"Explain the Balanda tense negation_structure","input":"negation_structure","output":"negation_structure — negation structure. The verb must remain in base form; The marker 'dheki' must be retained; The negation marker 'gba' must appear sentence-final; The copula 'ma' must not be used Structure: Subject + Verb(base) + (Object / Complement) + dheki + gba."}
+{"instruction":"Translate from Balanda to English","input":"Ne taasi ba","output":"I had left home"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dheke kitab gba","output":"He couldn’t read a book."}
+{"instruction":"Translate from Balanda to English","input":"Mva no aka?","output":"Where is the knife?"}
+{"instruction":"Explain the Balanda verb object_behavior","input":"object_behavior","output":"object_behavior — object behavior. Structure: Object is optional and follows the verb."}
+{"instruction":"Translate from Balanda to English","input":"Ne maka tisïhï kese gba","output":"I was not buying a bike."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve lesïhï kese gba","output":"I will not be able to buy a bike."}
+{"instruction":"Translate from Balanda to English","input":"golo","output":"tomb"}
+{"instruction":"Translate from Balanda to English","input":"Jo","output":"born"}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va lu Wau gba we?","output":"Am I not going to arrive in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve leja nza gba we?","output":"Will I not be able to eat food?"}
+{"instruction":"Translate from Balanda to English","input":"riki","output":"surprise"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve leterei gba we?","output":"Will he not be able to think?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeri ay gba we?","output":"Will he not be thinking about it?"}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai agbi maraya gba","output":"Uku will not go to school"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sarwa kumere dheki","output":"The girl has separated trash"}
+{"instruction":"Translate from Balanda to English","input":"Kawiki votau","output":"Eight children"}
+{"instruction":"Correct the question sentence","input":"Ne merego we ŋo?","output":"Incorrect word order. Correct form: Ne merego ŋo we?"}
+{"instruction":"Translate from Balanda to English","input":"ngilimuru","output":"come together"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tikuru kavokau we?","output":"Will I be hiding the beads?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dhii agbi tiyi we?","output":"Can he come to the house?"}
+{"instruction":"Translate from Balanda to English","input":"Kese no ngandi-ŋo.","output":"The bike is yours."}
+{"instruction":"Translate from Balanda to English","input":"kpiki","output":"cover"}
+{"instruction":"Translate from Balanda to English","input":"Ati wilii no veti","output":"The girl is dirty"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaja nja diiteli.","output":"I ate food and then slept."}
+{"instruction":"Translate from Balanda to English","input":"Ne kayai a Wau gba we?","output":"Did I not go to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"nanze","output":"animal"}
+{"instruction":"Translate from Balanda to English","input":"bihi","output":"some"}
+{"instruction":"Translate from English to Balanda","input":"I drink water with the doctor.","output":"Ne nzü ngo ta diktor."}
+{"instruction":"Translate from Balanda to English","input":"sumeke","output":"apply"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamele vongu gba","output":"I had not tried the cloth"}
+{"instruction":"Translate from Balanda to English","input":"sini","output":"curse"}
+{"instruction":"Identify the Balanda conjunction","input":"ta","output":"ta — with (association / accompaniment). Marks accompaniment, instrument, or shared participation. Structure: Verb phrase + ta + companion/instrument. Example: Ni yai agbi negu ta kawihi. — She goes to the market with the children."}
+{"instruction":"Translate from Balanda to English","input":"Dhii","output":"come"}
+{"instruction":"Explain the Balanda pronoun agreement_rules","input":"agreement_rules","output":"agreement_rules — agreement rules. Verbs do not change form based on pronouns | Copula 'no' does not agree with pronouns Structure: {\"verbs\": \"Verbs do not change form based on pronouns\", \"copula\": \"Copula 'no' does not agree with pronouns\"}."}
+{"instruction":"Translate from Balanda to English","input":"Dhako baha maraya","output":"The man sees the school"}
+{"instruction":"Translate from Balanda to English","input":"wunjondi","output":"accept"}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve loro kananje","output":"I could watch the animals."}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledhii ba gba","output":"Ngande will not come home"}
+{"instruction":"Translate from Balanda to English","input":"tokoru","output":"greeting"}
+{"instruction":"Translate from Balanda to English","input":"Uku noka timande gbi njü we?","output":"Was Uku working in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"logi","output":"pour"}
+{"instruction":"Explain the Balanda verb copula_usage","input":"copula_usage","output":"copula_usage — copula usage. The copula agrees with present-time statements. Structure: Both 'abi' and 'ati' require the copula 'no' to link the subject with the possessed item or state.."}
+{"instruction":"Explain the Balanda tense general_principle","input":"general_principle","output":"general_principle — general principle. Structure: Future continuous negation in Balanda is formed by retaining the future marker 'le-', the auxiliary 'dho' (be), and the progressive prefix 'ti-', and adding the negation marker 'gba' sentence-finally.."}
+{"instruction":"Translate from Balanda to English","input":"Tagbi","output":"through"}
+{"instruction":"Explain the Balanda tense tense_and_aspect_roles","input":"tense_and_aspect_roles","output":"tense_and_aspect_roles — tense and aspect roles. le- | dho (be) | ti- (progressive) Structure: {\"future_marker\": \"le-\", \"auxiliary\": \"dho (be)\", \"aspect_marker\": \"ti- (progressive)\"}."}
+{"instruction":"Explain the Balanda modal question_form","input":"question_form","output":"question_form — Forms yes/no questions expressing past ability or possibility. Structure: Subject + nokanve + dho + ti-VERB + (Object/Complement) + we?."}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni dheki gba","output":"The girl will not have called her mother"}
+{"instruction":"Explain the Balanda modal affirmative_form","input":"affirmative_form","output":"affirmative_form — affirmative form. This construction expresses future modal ability Structure: Subject + nonve + le-VERB + (Object/Complement)."}
+{"instruction":"Translate from Balanda to English","input":"Ngo kadhii no dhogbi gotii","output":"The water came out of the mountain."}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"require_no_copula\": true, \"require_tiyai_motion\": true, \"require_va_connector\": true, \"enforce_base_final_verb\": true, \"map_to_english_going_to_future\": true}."}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"enforce_le_prefix\": true, \"enforce_base_verb\": true, \"require_dheki\": true, \"require_gba_before_we\": true, \"keep_we_sentence_final\": true, \"block_other_tense_aspect_markers\": true, \"map_to_english_future_perfect_negative_questions\": true}."}
+{"instruction":"Translate from Balanda to English","input":"Li mamgbala","output":"The sun is bright"}
+{"instruction":"Translate from Balanda to English","input":"votigbi","output":"destroy"}
+{"instruction":"Translate from Balanda to English","input":"ŋariki","output":"interjection"}
+{"instruction":"Identify the Balanda pronoun type","input":"Ti-ne","output":"First person singular reflexive pronoun"}
+{"instruction":"Translate from Balanda to English","input":"Wiki moliki gbi difo dheki","output":"The child has played in the compound"}
+{"instruction":"Explain the Balanda conjunction wamina","input":"wamina","output":"wamina — logical conclusion / therefore. Draws a logical conclusion from the preceding clause. More formal than ana. Structure: [Premise]; wamina [Conclusion]."}
+{"instruction":"Identify the Balanda sentence type","input":"Mehe","output":"Casual greeting"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve dho tima nde gba","output":"I cannot be doing the work."}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve düŋü kpendii gba we?","output":"Couldn’t he remain behind?"}
+{"instruction":"Translate from Balanda to English","input":"Legere","output":"just"}
+{"instruction":"Translate from Balanda to English","input":"majï","output":"dry"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lekeye ti naa ni","output":"The girl will call her mother"}
+{"instruction":"Translate from Balanda to English","input":"mamusi,musi","output":"worry"}
+{"instruction":"Translate from Balanda to English","input":"Gamara dhako","output":"Old man"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledhe villi gba we?","output":"Will I not find money?"}
+{"instruction":"Explain the Balanda modal future_marker","input":"future_marker","output":"future_marker — future marker. Structure: le- (prefix attached to verb)."}
+{"instruction":"Translate from English to Balanda","input":"Seven","output":"Vosoo"}
+{"instruction":"Translate from Balanda to English","input":"Gbiya kadhii no andiso kaküma kawunjo ki.","output":"The chief came because the heroes agreed."}
+{"instruction":"Translate from Balanda to English","input":"Kpidhiri","output":"narrow"}
+{"instruction":"Translate from Balanda to English","input":"Ni kasadi nza gba","output":"He did not sell food."}
+{"instruction":"Explain the Balanda tense general_principle","input":"general_principle","output":"general_principle — general principle. Structure: Going-to future negative questions in Balanda are formed by keeping the negative going-to structure unchanged and adding the question marker 'we?' at the end of the sentence.."}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidho gbi tiyi gba","output":"He was not being in the house."}
+{"instruction":"Translate from Balanda to English","input":"Ni lesogo ni dheki gba","output":"She will not have hated him"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tinangele zanga gba we?","output":"Was she not running fast?"}
+{"instruction":"Translate from Balanda to English","input":"Nzee","output":"One"}
+{"instruction":"Translate from Balanda to English","input":"doo","output":"night"}
+{"instruction":"Explain the Balanda tense word_order_rules","input":"word_order_rules","output":"word_order_rules — word order rules. Subject; le-Verb; Object / Complement; dheki; we? Structure: {\"canonical_order\": [\"Subject\", \"le-Verb\", \"Object / Complement\", \"dheki\", \"we?\"]}."}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai va we ndi","output":"I am going to ask them"}
+{"instruction":"Explain the Balanda noun part_of_speech","input":"part_of_speech","output":"part_of_speech — part of speech. Structure: noun."}
+{"instruction":"Identify the Balanda alphabet letter","input":"S","output":"Letter S, pronounced /se/, example: Siggi (message)"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve ledhi we?","output":"Will he be able to hear?"}
+{"instruction":"Translate from Balanda to English","input":"dhereke","output":"stage"}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"enforce_le_prefix\": true, \"keep_word_order_fixed\": true, \"keep_we_sentence_final\": true, \"allow_affirmative_and_negative_questions\": true, \"map_to_english_future_simple_questions\": true}."}
+{"instruction":"Translate from Balanda to English","input":"Kafa ngandi wutdu","output":"The person's table"}
+{"instruction":"Translate from Balanda to English","input":"Wilii no tiyai va sudi kavoso","output":"The girl is going to write words"}
+{"instruction":"Explain the Balanda noun possessor_type","input":"possessor_type","output":"possessor_type — possessor type. Structure: pronoun; common noun; proper noun."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve levanda wiki gba","output":"He will not be able to protect the child."}
+{"instruction":"Translate from Balanda to English","input":"Danda no tiyai va teli muru famvara we?","output":"Are we going to sleep on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tibase gba","output":"He couldn’t be singing."}
+{"instruction":"Translate from Balanda to English","input":"dinvo","output":"draw / sketch"}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve dho tiwe ndi we?","output":"Could I be asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taanzü ngo","output":"I had drunk water."}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho gbi tiyi we?","output":"Could he be in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ati wiki no goho","output":"The child is hungry"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tisogo ŋo gba","output":"She was not hating you"}
+{"instruction":"Translate from Balanda to English","input":"Wilii noka tiyele tamma we?","output":"Was the girl tying the shoe?"}
+{"instruction":"Translate from Balanda to English","input":"Ne lu Wau dheki we?","output":"Have I arrived in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi konu nvesani dheki gba we?","output":"Have they not helped the poor?"}
+{"instruction":"Translate from Balanda to English","input":"Bura no kosere tiyi","output":"The cat is beside the house."}
+{"instruction":"Translate from Balanda to English","input":"Wihi tidheke fökpaa ta nverugu.","output":"The child reads the book with the teacher."}
+{"instruction":"Translate from Balanda to English","input":"Vongo ngandi niki","output":"The woman's cloth"}
+{"instruction":"Translate from Balanda to English","input":"Yarangamuru","output":"commit"}
+{"instruction":"Explain the Balanda modal affirmative_form","input":"affirmative_form","output":"affirmative_form — affirmative form. This construction is inherently negative in meaning Structure: Subject + kamamve + dho + ti-VERB + (Object/Complement) + gba."}
+{"instruction":"Translate from Balanda to English","input":"Ne kanzü ngo gba we?","output":"Did I not drink water?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii lesoko tamma dheki gba","output":"The girl will not have washed the shoe"}
+{"instruction":"Translate from Balanda to English","input":"jü","output":"rat"}
+{"instruction":"Create a present continuous question in Balanda","input":"","output":"Ne no timerego ŋo we?"}
+{"instruction":"Translate from Balanda to English","input":"nzama","output":"feed"}
+{"instruction":"Translate from Balanda to English","input":"nza","output":"food / rice"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawala gbi Wau we?","output":"Did I live in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"dukai","output":"swim"}
+{"instruction":"Translate from Balanda to English","input":"siggite","output":"communication"}
+{"instruction":"Translate from Balanda to English","input":"Uku no tiyai va mande gbi njü we?","output":"Is Uku going to work in the garden?"}
+{"instruction":"Translate from Balanda to English","input":"Fökpaa ma muru kafa gba","output":"The book is not on the table."}
+{"instruction":"Translate from Balanda to English","input":"Avere","output":"to darken"}
+{"instruction":"Explain the Balanda modal core_meaning","input":"core_meaning","output":"core_meaning — core meaning. Structure: Past ability or possibility."}
+{"instruction":"Explain the Balanda modal core_meaning","input":"core_meaning","output":"core_meaning — core meaning. Structure: Present inability or impossibility."}
+{"instruction":"Translate from Balanda to English","input":"Aförö","output":"to sprinkle"}
+{"instruction":"Translate from Balanda to English","input":"Ni noka titeli","output":"He was sleeping."}
+{"instruction":"Translate from Balanda to English","input":"Vita","output":"down"}
+{"instruction":"Translate from Balanda to English","input":"vavura","output":"seat / chair"}
+{"instruction":"Explain the Balanda tense negative_structure","input":"negative_structure","output":"negative_structure — negative structure. Structure: S + maka + ti-VERB + (Object/Complement) + gba."}
+{"instruction":"Translate from Balanda to English","input":"Adheke","output":"to read"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasogo dha gba we?","output":"Had I not hated it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve dho tiduru ngo","output":"I could be wanting water."}
+{"instruction":"Explain the Balanda tense affirmative_structure","input":"affirmative_structure","output":"affirmative_structure — affirmative structure. Structure: S + ka-VERB + (Object/Complement)."}
+{"instruction":"Translate from Balanda to English","input":"Ni kulu munja gba","output":"He doesn’t play guitar"}
+{"instruction":"Translate from Balanda to English","input":"Ne taangö tiyi gba","output":"I had not built a house"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve base gba","output":"He couldn’t sing."}
+{"instruction":"Correct the Balanda verb form","input":"dulu","output":"Incorrect infinitive. Correct form: Adülü"}
+{"instruction":"Translate from Balanda to English","input":"Ni lefagi mva","output":"He will sharpen the knife"}
+{"instruction":"Translate from Balanda to English","input":"suku","output":"last"}
+{"instruction":"Translate from Balanda to English","input":"Ne kamamve dho tiyai a Wau gba we?","output":"Couldn’t I be going to Wau?"}
+{"instruction":"Translate from Balanda to English","input":"awoho","output":"to jump"}
+{"instruction":"Explain the Balanda verb usage_constraints","input":"usage_constraints","output":"usage_constraints — usage constraints. Structure: Infinitive verbs must not take tense markers (noka, le-, ka-); Infinitive verbs must not take aspect markers (ti-, dho); Infinitive verbs must not combine with modal verbs (nonve, nokanve, mamve, kamamve); Infinitive verbs must not be used as finite predicates in sentences; The prefix 'A-' must be removed when the verb is used in a finite clause."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tiwe ndi we?","output":"Will I be asking them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni leteta we?","output":"Will he fall?"}
+{"instruction":"Explain the Balanda greeting usage_principles","input":"usage_principles","output":"usage_principles — usage principles. Most greetings and social expressions are lexicalized and should not be reordered or inflected | Some greetings are formal (e.g. Muruti), while others are casual (e.g. Mehe) | Greetings using 'Yivi' are tied to time of day | Expressions like 'fulu ŋo' are used to mark politeness and gratitude Structure: {\"fixed_expressions\": \"Most greetings and social expressions are lexicalized and should not be reordered or inflected\", \"register_sensitivity\": \"Some greetings are formal (e.g. Muruti), while others are casual (e.g. Mehe)\", \"time_specificity\": \"Greetings using 'Yivi' are tied to time of day\", \"politeness_markers\": \"Expressions like 'fulu ŋo' are used to mark politeness and gratitude\"}."}
+{"instruction":"Translate from Balanda to English","input":"Kese mazanga","output":"The bike is fast"}
+{"instruction":"Translate from Balanda to English","input":"fagï","output":"recite"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamamve dho tigirri gba","output":"He couldn’t be changing."}
+{"instruction":"Translate from English to Balanda","input":"We will make food and then eat.","output":"Dhuu lemaa nja diija."}
+{"instruction":"Explain the Balanda tense negative_question_structure","input":"negative_question_structure","output":"negative_question_structure — negative question structure. The future prefix 'le-' must remain attached to the verb; The verb must be in base form; The negation marker 'gba' must appear before 'we?'; The question marker 'we?' must be sentence-final; Word order must not change Structure: Subject + le-Verb(base) + (Object / Complement) + gba + we?."}
+{"instruction":"Translate from Balanda to English","input":"Ni kanonmve yai ta ne wala ni kanonmve teli agbi tiyi.","output":"She would go with me or stay at home."}
+{"instruction":"Translate from Balanda to English","input":"Fitti nza","output":"Little food"}
+{"instruction":"Translate from Balanda to English","input":"Takoni","output":"story"}
+{"instruction":"Translate from Balanda to English","input":"Bihi kadhako","output":"Some men"}
+{"instruction":"Explain the Balanda tense aspectual_distinction","input":"aspectual_distinction","output":"aspectual_distinction — aspectual distinction. Structure: Present perfect negative questions do not use 'ti-' and do not use the copula 'ma'.."}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve duru ngo","output":"I can want water."}
+{"instruction":"Translate from Balanda to English","input":"Wilii ma tiyai va keye ti naa ni gba","output":"The girl is not going to call her mother"}
+{"instruction":"Translate from Balanda to English","input":"Ne ja se dheki gba we?","output":"Have I not eaten fish?"}
+{"instruction":"Translate from Balanda to English","input":"bowo","output":"look"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titoko villi","output":"We will be adding money"}
+{"instruction":"Translate from Balanda to English","input":"Danda ledho titeli muru famvara gba","output":"We will not be sleeping on the bed"}
+{"instruction":"Translate from Balanda to English","input":"Danda leteli muru famvara dheki gba we?","output":"Will we not have slept on the bed?"}
+{"instruction":"Translate from Balanda to English","input":"Gbito bura ja nza","output":"The slow cat eats food"}
+{"instruction":"Translate from Balanda to English","input":"Keselihi","output":"bicycle"}
+{"instruction":"Translate from Balanda to English","input":"Le-","output":"will (future marker)"}
+{"instruction":"Translate from Balanda to English","input":"Danda leturu songo we?","output":"Will we push the box?"}
+{"instruction":"Explain the Balanda tense preposition_behavior","input":"preposition_behavior","output":"preposition_behavior — preposition behavior. gbi famvara gba; ti vili gba Structure: All prepositions remain unchanged under negation.."}
+{"instruction":"Translate from Balanda to English","input":"Ni ledho titeta gba we?","output":"Will he not be falling?"}
+{"instruction":"Translate from English to Balanda","input":"You cooked food, so I didn't eat.","output":"Dha taalo nja ana ne taaja gba."}
+{"instruction":"Translate from Balanda to English","input":"Ne lewe ndi gba we?","output":"Will I not ask them?"}
+{"instruction":"Translate from Balanda to English","input":"Danda no tiyai va kiri tidina we?","output":"Are we going to uphold the law?"}
+{"instruction":"Is this a valid Balanda letter?","input":"ï","output":"Yes, ï is a valid vowel in Balanda."}
+{"instruction":"Translate from Balanda to English","input":"Tama ngandi dhako","output":"The man's shoe"}
+{"instruction":"Explain the Balanda preposition model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"treat_prepositions_as_semantic\": true, \"do_not_generalize_direction\": true, \"preserve_preposition_choice\": true}."}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"allow_willa_or_ma_gba\": true, \"require_va_connector\": true, \"enforce_base_final_verb\": true, \"map_to_english_going_to_negation\": true}."}
+{"instruction":"Translate from Balanda to English","input":"Asï","output":"to buy"}
+{"instruction":"Translate from Balanda to English","input":"Ni kamande gbi njü","output":"He worked in the garden."}
+{"instruction":"Translate from Balanda to English","input":"Ni giri kavoso dheki gba we?","output":"Has she not changed the words?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii ledho tisarwa kumere","output":"The girl will be separating trash"}
+{"instruction":"Translate from Balanda to English","input":"Ndi lekonu nvesani dheki","output":"They will have helped the poor"}
+{"instruction":"Translate from Balanda to English","input":"Ne taadheke kitabu gba we?","output":"Had I not read a book?"}
+{"instruction":"Explain the Balanda tense general_principle","input":"general_principle","output":"general_principle — general principle. Structure: Future simple negation in Balanda is formed by retaining the future prefix 'le-' on the verb and adding the negation marker 'gba' sentence-finally.."}
+{"instruction":"Translate from Balanda to English","input":"Nza ndindi no kono.","output":"Their food is here."}
+{"instruction":"Translate from Balanda to English","input":"Ne leja se dheki we?","output":"Will I have eaten fish?"}
+{"instruction":"Translate from Balanda to English","input":"nvemoliki","output":"player"}
+{"instruction":"Explain the Balanda tense affirmative_structure","input":"affirmative_structure","output":"affirmative_structure — affirmative structure. Used to express that an action will have been completed in the future. | The future prefix 'le-' must attach directly to the verb base; The verb must remain in base form; The result marker 'dheki' must appear sentence-final; Objects and complements must appear before 'dheki' Structure: Subject + le-Verb(base) + (Object / Complement) + dheki."}
+{"instruction":"Translate from Balanda to English","input":"yöngö","output":"big snake"}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve we ndi we?","output":"Could I ask them?"}
+{"instruction":"Translate from Balanda to English","input":"Ni kawilla timaguku ti kpörö we?","output":"Was he not fearing the snake?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taamaguku ti dha we?","output":"Had I feared it?"}
+{"instruction":"Explain the Balanda tense general_principle","input":"general_principle","output":"general_principle — general principle. Structure: Future continuous questions in Balanda are formed by keeping the future continuous structure unchanged and adding the question marker 'we?' at the end of the sentence.."}
+{"instruction":"Translate from Balanda to English","input":"ŋodirri","output":"health"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve dho tituru linguu we?","output":"Can I be pushing the fruit?"}
+{"instruction":"Explain the Balanda tense aspect_preservation","input":"aspect_preservation","output":"aspect_preservation — aspect preservation. ti- cannot be omitted under negation; negation does not change aspectual meaning Structure: The progressive prefix 'ti-' must be retained in all negated past continuous forms.."}
+{"instruction":"Translate from Balanda to English","input":"Munza ma muru vavura gba","output":"The guitar is not on the seat."}
+{"instruction":"Identify the Balanda alphabet letter","input":"Ö","output":"Letter Ö, pronounced /ö/, example: Völö (stubborn)"}
+{"instruction":"Translate from Balanda to English","input":"Wihi dheke fökpaa diisüsü nverugu.","output":"The child reads the book and then listens to the teacher."}
+{"instruction":"Identify the Balanda sentence type","input":"Ni nangele zanga","output":"Affirmative present simple"}
+{"instruction":"Translate from Balanda to English","input":"Ni kadüŋü kpendii gba we?","output":"Did he not remain behind?"}
+{"instruction":"Translate from Balanda to English","input":"Ni leze villi we?","output":"Will she give money?"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve zaka kporo","output":"He can pull the drum."}
+{"instruction":"Explain the Balanda letter special_letters","input":"special_letters","output":"special_letters — special letters. Structure: {\"ŋ\": {\"type\": \"nasal consonant\", \"pronunciation\": \"/ŋ/\", \"example\": \"ŋo (you)\", \"constraint\": \"Must never be replaced with 'ng'\"}, \"Ï\": {\"type\": \"vowel\", \"pronunciation\": \"/ï/\", \"example\": \"Lï (dream)\", \"constraint\": \"Distinct from I\"}, \"Ö\": {\"type\": \"vowel\", \"pronunciation\": \"/ö/\", \"example\": \"Völö (stubborn)\", \"constraint\": \"Distinct from O\"}, \"Ü\": {\"type\": \"vowel\", \"pronunciation\": \"/ü/\", \"example\": \"Ülü (dancer)\", \"constraint\": \"Distinct from U\"}}."}
+{"instruction":"Translate from Balanda to English","input":"Maraya mamve deye gba we?","output":"Can't the school develop?"}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho timerego ŋo","output":"I will be loving you"}
+{"instruction":"Translate from Balanda to English","input":"gasudi","output":"sign"}
+{"instruction":"Explain the Balanda pronoun possessive_formation","input":"possessive_formation","output":"possessive_formation — possessive formation. Personal pronouns do NOT mark possession by themselves. | Noun of Pronoun Structure: Noun + ngandi + Pronoun."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve teli gba","output":"He cannot sleep."}
+{"instruction":"Translate from Balanda to English","input":"Ne nzü ngo diiteli.","output":"I drink water and then sleep."}
+{"instruction":"Translate from Balanda to English","input":"njo","output":"language"}
+{"instruction":"Translate from Balanda to English","input":"gbito kese","output":"Slow bike"}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tidulu gba we?","output":"Can he not be dancing?"}
+{"instruction":"Translate from Balanda to English","input":"Ne nokanve nzü ngo we?","output":"Could I drink water?"}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho tiwofo takoni we?","output":"Can we be discussing the story?"}
+{"instruction":"Translate from Balanda to English","input":"kerre","output":"basket"}
+{"instruction":"Correct the Balanda sentence","input":"Ŋo aka no tagiri?","output":"Incorrect word order. Correct form: Ŋo no tagiri aka?"}
+{"instruction":"Translate from Balanda to English","input":"Nguu maka tivere gba we?","output":"Was the tree not darkening?"}
+{"instruction":"Translate from Balanda to English","input":"sene","output":"scorpion"}
+{"instruction":"Translate from Balanda to English","input":"Ngande noka tidhii ba","output":"Ngande was coming home"}
+{"instruction":"Translate from Balanda to English","input":"Wiki no ata kafa","output":"The child is under the table"}
+{"instruction":"Translate from Balanda to English","input":"Nguu nokanve dho tivere","output":"The tree could be darkening."}
+{"instruction":"Explain the Balanda modal core_meaning","input":"core_meaning","output":"core_meaning — core meaning. Structure: Present ability or possibility during an ongoing action."}
+{"instruction":"Explain the Balanda modal question_form","input":"question_form","output":"question_form — question form. Questions are formed by adding the sentence-final particle 'we?' with no change in word order Structure: Subject + nonve + VERB + (Object/Complement) + we?."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tivel e takoni gba we?","output":"Can he not be telling a story?"}
+{"instruction":"Translate from Balanda to English","input":"küma","output":"hero"}
+{"instruction":"Translate from Balanda to English","input":"Ngande si ba dheki we?","output":"Has Ngande left home?"}
+{"instruction":"Translate from Balanda to English","input":"gitdi","output":"count"}
+{"instruction":"Explain the Balanda tense question_structure","input":"question_structure","output":"question_structure — question structure. The prefix 'taa-' must remain attached to the verb; 'we?' must appear sentence-final; No auxiliary verbs are introduced; Word order remains identical to the affirmative form Structure: Subject + taa-Verb + (Object / Complement) + we?."}
+{"instruction":"Translate from Balanda to English","input":"noro","output":"drive"}
+{"instruction":"Translate from Balanda to English","input":"Ne dheke kitabu dheki gba","output":"I have not read a book"}
+{"instruction":"Translate from Balanda to English","input":"vowu","output":"string"}
+{"instruction":"Translate from Balanda to English","input":"Ngande kawilla tiriki ni","output":"Ngande was not surprising him"}
+{"instruction":"Translate from English to Balanda","input":"We cooked food with the children beside the house.","output":"Dhuu taalo nja ta kawihi kosere tiyi."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho tidhe villi gba","output":"I will not be finding money"}
+{"instruction":"Translate from Balanda to English","input":"Ndi toko ti nde we?","output":"Do they add to the work?"}
+{"instruction":"Translate from Balanda to English","input":"agami","output":"to grab"}
+{"instruction":"Translate from Balanda to English","input":"bura","output":"cat"}
+{"instruction":"Translate from Balanda to English","input":"amuka","output":"rhinoceros"}
+{"instruction":"Explain negation in present continuous tense in Balanda","input":"","output":"Negation is formed by using ma before the ti-verb and gba at the end, or by using willa before the ti-verb."}
+{"instruction":"Translate from Balanda to English","input":"windinaa","output":"aunt (mother's side)"}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve ja nza gba we?","output":"Can't I eat food?"}
+{"instruction":"Translate from Balanda to English","input":"muruwo","output":"mystery / phenomenon"}
+{"instruction":"Translate from Balanda to English","input":"Ndi willa tirunga nveku","output":"They are not isolating the sick"}
+{"instruction":"Translate from Balanda to English","input":"Ne taasudi kavoso","output":"I had written words"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledewe kakpodu dheki we?","output":"Will Ngande have imitated adults?"}
+{"instruction":"Translate from Balanda to English","input":"Danda leturu songo dheki gba we?","output":"Will we not have pushed the box?"}
+{"instruction":"Translate from Balanda to English","input":"Bura no kosere nguu","output":"The cat is beside the tree"}
+{"instruction":"Translate from Balanda to English","input":"fulu","output":"thank"}
+{"instruction":"Translate from Balanda to English","input":"Wiki maka tinono gbi difo gba","output":"The child was not walking in the compound."}
+{"instruction":"Translate from Balanda to English","input":"Ne taamoliki gbi difo we?","output":"Had I played in the compound?"}
+{"instruction":"Explain the Balanda tense negative_question_structure","input":"negative_question_structure","output":"negative_question_structure — negative question structure. The prefix 'taa-' must remain attached to the verb; 'gba' must appear before 'we?'; 'we?' must be sentence-final; Word order remains identical to affirmative clauses Structure: Subject + taa-Verb + (Object / Complement) + gba we?."}
+{"instruction":"Translate from Balanda to English","input":"gündirimu","output":"storm"}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve lesadi nza","output":"He will be able to sell food."}
+{"instruction":"Translate from Balanda to English","input":"Danda lebita mira","output":"We will start the project"}
+{"instruction":"Translate from Balanda to English","input":"Ngande lengö tiyi dheki","output":"Ngande will have built a house"}
+{"instruction":"Explain the Balanda number quantity_construction","input":"quantity_construction","output":"quantity_construction — quantity construction. koti (many); roko (few); bihi (some); kpi (all); willa (none); sutu (much); fitti (little) | Mass nouns typically do not take ka-; count nouns do | Some quantities precede the noun, others follow the noun depending on lexical item Structure: Quantity + (ka-)Noun | Noun + Quantity."}
+{"instruction":"Translate from Balanda to English","input":"Alürü","output":"to lead"}
+{"instruction":"Explain the Balanda tense akati","input":"akati","output":"akati — akati. ati | akati | had (non-physical states or conditions in the past) | past feelings or sensations; past illness or bodily conditions; past states or qualities | Used only for non-physical or abstract states; Cannot be used for physical possession; Commonly used for hunger, pain, sickness, emotions, and conditions | Akati ne no goho; Akati ni no kumuru; Akati ŋo no veti Structure: Akati + Subject + no + State / Condition."}
+{"instruction":"Translate from Balanda to English","input":"Danda nonve dho tiwofo takoni","output":"We can be discussing the story."}
+{"instruction":"Translate from Balanda to English","input":"Wiki lemoliki gbi difo gba","output":"The child will not play in the compound"}
+{"instruction":"Translate from Balanda to English","input":"Ayoro","output":"to send"}
+{"instruction":"Explain the Balanda tense aspect_preservation","input":"aspect_preservation","output":"aspect_preservation — aspect preservation. ti- cannot be omitted; questions do not change aspectual meaning Structure: The progressive prefix 'ti-' is mandatory in all past continuous questions.."}
+{"instruction":"Translate from Balanda to English","input":"Ni mamve dho tibase gba we?","output":"Can he not be singing?"}
+{"instruction":"Translate from Balanda to English","input":"Gbito wiki ja nza","output":"The slow child eats food"}
+{"instruction":"Translate from Balanda to English","input":"Wilii dheke kitab","output":"The girl reads a book"}
+{"instruction":"Translate from Balanda to English","input":"Danda noka tituru songo","output":"We were pushing the box"}
+{"instruction":"Explain the Balanda adjective agreement","input":"agreement","output":"agreement — agreement. Structure: No agreement marking appears on the adjective for number, gender, or person."}
+{"instruction":"Explain the Balanda locative word_order","input":"word_order","output":"word_order — word order. Structure: Fixed; no inversion or movement."}
+{"instruction":"Translate from Balanda to English","input":"Ni nokanve dho tikara kafa we?","output":"Could he be turning the table?"}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"enforce_taa_prefix\": true, \"preserve_word_order\": true, \"restrict_to_completed_actions\": true}."}
+{"instruction":"Create a Balanda number for 18","input":"","output":"Bikur votau"}
+{"instruction":"Translate from Balanda to English","input":"mgbeemuru","output":"congratulation"}
+{"instruction":"Explain the Balanda tense semantic_function","input":"semantic_function","output":"semantic_function — semantic function. asks about intention, plan, or expected future action Structure: {\"meaning\": \"asks about intention, plan, or expected future action\"}."}
+{"instruction":"Translate from Balanda to English","input":"Ndi kamamve mago gba","output":"They couldn’t fight."}
+{"instruction":"Identify the Balanda sentence type","input":"Ne no timande gbi njü","output":"Affirmative present continuous"}
+{"instruction":"Translate from Balanda to English","input":"Toronvilo magbataka","output":"The soap is slippery"}
+{"instruction":"Translate from Balanda to English","input":"Le ne no Dangi","output":"My name is Dangi."}
+{"instruction":"Translate from Balanda to English","input":"Danda kamoliki gba","output":"We did not play."}
+{"instruction":"Translate from Balanda to English","input":"Lona","output":"gap"}
+{"instruction":"Translate from Balanda to English","input":"nokolo","output":"flexible"}
+{"instruction":"Translate from Balanda to English","input":"Ni taaterii","output":"He had thought."}
+{"instruction":"Translate from Balanda to English","input":"Uku leyai dheki we?","output":"Will Uku have gone?"}
+{"instruction":"Explain the Balanda preposition error_constraints","input":"error_constraints","output":"error_constraints — error constraints. Structure: Do not substitute one spatial preposition for another; Do not use dhobi for places; Do not use tagiri for people; Do not use masüü as a preposition; Do not change prepositions in negation or questions."}
+{"instruction":"Translate from Balanda to English","input":"njafürüve","output":"breakfast"}
+{"instruction":"Translate from Balanda to English","input":"Adhota","output":"to sit"}
+{"instruction":"Translate from Balanda to English","input":"Tama no yeemuru nguu","output":"The shoe is above the tree"}
+{"instruction":"Explain the Balanda locative examples","input":"examples","output":"examples — examples."}
+{"instruction":"Translate from Balanda to English","input":"Ne ma tiyai va loro voro gba we?","output":"Am I not going to watch the dog?"}
+{"instruction":"Explain the Balanda modal constraints","input":"constraints","output":"constraints — constraints. Structure: mamve replaces nonve in negative modality; mamve must immediately follow the subject; The verb must remain in its base form; No ti- (continuous) or le- (future) prefix may appear; gba must appear before the question particle; No inversion or auxiliary movement occurs in questions; we? must always appear at the end of the clause; This construction must not be confused with present continuous negative modal questions (mamve + dho + ti-VERB + gba + we?)."}
+{"instruction":"Translate from Balanda to English","input":"Ngande leriki ni dheki","output":"Ngande will have surprised him"}
+{"instruction":"Translate from Balanda to English","input":"Vetere nanje","output":"Black animal"}
+{"instruction":"Translate from Balanda to English","input":"Ne no tiyai va tele njokoji","output":"I am going to pull the door"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tiyai va teri ay gba we?","output":"Is he not going to think about it?"}
+{"instruction":"Translate from Balanda to English","input":"Ne willa tiyai va kefo Balanda","output":"I am not going to describe Balanda"}
+{"instruction":"Explain the Balanda adjective semantic_categories","input":"semantic_categories","output":"semantic_categories — semantic categories. mayivi; mavö; makiti; makpokoro | maga; manjite; manza; lotü; mafere; makpidiri | mazanga; mabito | ngu; magamara; mazongo | mamgbala; maveti; madoko; majï | wunga | mamgbara; madhiki | madingili; magbaka; matara | makeŋi; mamïtïrï | makoti; maroko; kpi; bihi | kokono; suku; kpendele | gama; kelegere; kala | manayi; manoko Structure: {\"quality\": [\"mayivi\", \"mavö\", \"makiti\", \"makpokoro\"], \"size_dimension\": [\"maga\", \"manjite\", \"manza\", \"lotü\", \"mafere\", \"makpidiri\"], \"speed\": [\"mazanga\", \"mabito\"], \"age_state\": [\"ngu\", \"magamara\", \"mazongo\"], \"cleanliness_condition\": [\"mamgbala\", \"maveti\", \"madoko\", \"majï\"], \"life_state\": [\"wunga\"], \"light_visual\": [\"mamgbara\", \"madhiki\"], \"shape_form\": [\"madingili\", \"magbaka\", \"matara\"], \"thickness\": [\"makeŋi\", \"mamïtïrï\"], \"quantity_determiner\": [\"makoti\", \"maroko\", \"kpi\", \"bihi\"], \"order_relation\": [\"kokono\", \"suku\", \"kpendele\"], \"focus_emphasis\": [\"gama\", \"kelegere\", \"kala\"], \"emotional_state\": [\"manayi\", \"manoko\"]}."}
+{"instruction":"Explain the Balanda modal question_form","input":"question_form","output":"question_form — Forms yes/no questions expressing present ability or possibility. Structure: Subject + nonve + VERB + (Object/Complement) + we?."}
+{"instruction":"Translate from Balanda to English","input":"Ni willa tiyai a Wau","output":"He is not going to Wau."}
+{"instruction":"Explain the Balanda tense tense_and_aspect_distinction","input":"tense_and_aspect_distinction","output":"tense_and_aspect_distinction — tense and aspect distinction. The progressive prefix 'ti-' and the result marker 'dheki' must not be used. Structure: Future simple in Balanda encodes tense only and does not encode aspect.."}
+{"instruction":"Explain the Balanda tense verb_morphology","input":"verb_morphology","output":"verb_morphology — verb morphology. ti- cannot be omitted; bare verbs do not express past continuous meaning | timande (was working); tinangele (was running); timerego (was loving) Structure: The prefix 'ti-' must attach directly to the verb root in all past continuous constructions.."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiloro voro we?","output":"Was I watching the dog?"}
+{"instruction":"Translate from Balanda to English","input":"Ne kawilla titele njokoji we?","output":"Was I not pulling the door?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaze vili we?","output":"Had I given money?"}
+{"instruction":"Translate from Balanda to English","input":"Ni teta dheki","output":"He has fallen"}
+{"instruction":"Translate from Balanda to English","input":"Ne nonve lesudi kitab","output":"I will be able to write a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne ledho titele njokoji gba","output":"I will not be pulling the door"}
+{"instruction":"Explain the Balanda number number_formation","input":"number_formation","output":"number_formation — number formation. Structure: {\"11_to_19\": {\"structure\": \"Bikur + Unit\", \"rule\": \"Numbers from 11 to 19 are formed by combining 'Bikur' (ten) with a unit number\", \"example\": \"Bikur nzee = eleven\"}, \"21_to_29\": {\"structure\": \"Vetdi + Unit\", \"rule\": \"Numbers from 21 to 29 are formed by combining 'Vetdi' (twenty) with a unit number\", \"example\": \"Vetdi tau = twenty-three\"}}."}
+{"instruction":"Translate from Balanda to English","input":"Ne taasogo dha gba","output":"I had not hated it"}
+{"instruction":"Translate from Balanda to English","input":"Ne taatele njokoji gba we?","output":"Had I not pulled the door?"}
+{"instruction":"Translate from Balanda to English","input":"Asoko","output":"to wash"}
+{"instruction":"Explain the Balanda tense semantic_scope","input":"semantic_scope","output":"semantic_scope — semantic scope. completed action with present relevance; life experience; result-focused completion; actions without specified past time Structure: {\"functions\": [\"completed action with present relevance\", \"life experience\", \"result-focused completion\", \"actions without specified past time\"]}."}
+{"instruction":"Translate from Balanda to English","input":"Ne mamve turu linguu gba","output":"I cannot push the fruit."}
+{"instruction":"Translate from Balanda to English","input":"Asiso","output":"to hold on"}
+{"instruction":"Explain the Balanda demonstrative model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"enforce_distance_distinction\": true, \"require_plural_prefix_for_plural\": true, \"preserve_copula_no\": true}."}
+{"instruction":"Translate from Balanda to English","input":"Vala, va","output":"crack"}
+{"instruction":"Translate from Balanda to English","input":"Ne tele njokoji dheki gba","output":"I have not pulled the door"}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tikefo Balanda","output":"I was describing Balanda"}
+{"instruction":"Translate from Balanda to English","input":"zeke","output":"take"}
+{"instruction":"Translate from Balanda to English","input":"Danda willa tiyai va turu songo","output":"We are not going to push the box"}
+{"instruction":"Explain the Balanda tense model_behavior_guidelines","input":"model_behavior_guidelines","output":"model_behavior_guidelines — model behavior guidelines. Structure: {\"preserve_progressive_aspect\": true, \"enforce_valid_negation_strategy\": true, \"keep_question_marker_final\": true}."}
+{"instruction":"Translate from Balanda to English","input":"Nguu no yee tiyi we?","output":"Is the tree above the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ne taaturu songo","output":"I had pushed the box"}
+{"instruction":"Translate from Balanda to English","input":"Varra","output":"oil"}
+{"instruction":"Translate from Balanda to English","input":"Ne levele njo balanda gba we?","output":"Will I not speak Balanda?"}
+{"instruction":"Translate from Balanda to English","input":"Wilii sarwa kumere dheki we?","output":"Has the girl separated trash?"}
+{"instruction":"Translate from Balanda to English","input":"fürüve","output":"morning"}
+{"instruction":"Translate from Balanda to English","input":"Ne lesuru kavoso dheki gba we?","output":"Will I not have created words?"}
+{"instruction":"Translate from Balanda to English","input":"Ndi kamamve dho timago gba we?","output":"Couldn’t they be fighting?"}
+{"instruction":"Translate from Balanda to English","input":"Taha","output":"place"}
+{"instruction":"Translate from Balanda to English","input":"Mehe","output":"What’s up? (casual)"}
+{"instruction":"Translate from Balanda to English","input":"Ni maka tidho gbi tiyi gba we?","output":"Was he not being in the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidewe kakpodu gba we?","output":"Will Ngande not be imitating adults?"}
+{"instruction":"Translate from Balanda to English","input":"Bura willa tiyai tagbi tiyi we?","output":"Is the cat not going through the house?"}
+{"instruction":"Translate from Balanda to English","input":"Ni ze villi dheki gba","output":"She has not given money"}
+{"instruction":"Translate from Balanda to English","input":"ndugu","output":"initiate"}
+{"instruction":"Explain the Balanda tense word_order_rules","input":"word_order_rules","output":"word_order_rules — word order rules. Subject; le-Verb; Object / Complement; dheki; gba Structure: {\"canonical_order\": [\"Subject\", \"le-Verb\", \"Object / Complement\", \"dheki\", \"gba\"]}."}
+{"instruction":"Explain the Balanda tense question_structure","input":"question_structure","output":"question_structure — question structure. The verb must remain in base form; The marker 'dheki' must be retained; The question marker 'we?' must appear sentence-final; No auxiliary inversion is used Structure: Subject + Verb(base) + (Object / Complement) + dheki + we?."}
+{"instruction":"Translate from Balanda to English","input":"Wilii yai agbi negu","output":"The girl goes to the market"}
+{"instruction":"Translate from Balanda to English","input":"Ni ma tikulu munja gba","output":"He is not playing guitar"}
+{"instruction":"Translate from Balanda to English","input":"Wiki nonve lenono gbi difo","output":"The child will be able to walk in the compound."}
+{"instruction":"Explain the Balanda modal core_meaning","input":"core_meaning","output":"core_meaning — core meaning. Structure: Present inability or impossibility during an ongoing action."}
+{"instruction":"Translate from Balanda to English","input":"Ni nonve dho tidheke kitab","output":"He can be reading a book."}
+{"instruction":"Translate from Balanda to English","input":"Ne noka tiwala gbi Wau we?","output":"Was I living in Wau?"}
+{"instruction":"Translate from Balanda to English","input":"Ngande ledho tidhii ba we?","output":"Will Ngande be coming home?"}
+{"instruction":"Explain the Balanda tense negative_question_structure","input":"negative_question_structure","output":"negative_question_structure — negative question structure. The future marker 'le-' must attach to 'dho'; The auxiliary 'dho' must be present; The progressive prefix 'ti-' must be present; The negation marker 'gba' must appear before 'we?'; The question marker 'we?' must be sentence-final; Word order must not change Structure: Subject + le-dho + ti-Verb + (Object / Complement) + gba + we?."}
+{"instruction":"Translate from Balanda to English","input":"mgbi","output":"completely / forever"}
+{"instruction":"Translate from Balanda to English","input":"Tavai nzee","output":"once"}
+{"instruction":"Translate from Balanda to English","input":"bü","output":"termite"}
