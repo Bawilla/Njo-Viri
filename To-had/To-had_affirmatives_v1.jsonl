@@ -40,3 +40,157 @@
     }
   }
 }
+{"instruction":"Translate from Balanda to English","input":"akabi ne no tamma","output":"I had a shoe"}
+{"instruction":"Translate from English to Balanda","input":"I had a shoe","output":"akabi ne no tamma"}
+{"instruction":"Translate from Balanda to English","input":"akabe'e no tamma","output":"I had a shoe"}
+{"instruction":"Translate from English to Balanda","input":"I had a shoe","output":"akabe'e no tamma"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ni no kese","output":"He had a bike"}
+{"instruction":"Translate from English to Balanda","input":"He had a bike","output":"akabi ni no kese"}
+{"instruction":"Translate from Balanda to English","input":"akabo'o no kese","output":"He had a bike"}
+{"instruction":"Translate from English to Balanda","input":"He had a bike","output":"akabo'o no kese"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ndi no villi","output":"They had money"}
+{"instruction":"Translate from English to Balanda","input":"They had money","output":"akabi ndi no villi"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi Uku no nde","output":"Uku had a job"}
+{"instruction":"Translate from English to Balanda","input":"Uku had a job","output":"akabi Uku no nde"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi wilii no kavokau","output":"The girl had beads"}
+{"instruction":"Translate from English to Balanda","input":"The girl had beads","output":"akabi wilii no kavokau"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ne no fökpaa","output":"I had a book"}
+{"instruction":"Translate from English to Balanda","input":"I had a book","output":"akabi ne no fökpaa"}
+{"instruction":"Translate from Balanda to English","input":"akabe'e no fökpaa","output":"I had a book"}
+{"instruction":"Translate from English to Balanda","input":"I had a book","output":"akabe'e no fökpaa"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ni no turunvili","output":"He had a car"}
+{"instruction":"Translate from English to Balanda","input":"He had a car","output":"akabi ni no turunvili"}
+{"instruction":"Translate from Balanda to English","input":"akabo'o no turunvili","output":"He had a car"}
+{"instruction":"Translate from English to Balanda","input":"He had a car","output":"akabo'o no turunvili"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi danda no tiyi","output":"We had a house"}
+{"instruction":"Translate from English to Balanda","input":"We had a house","output":"akabi danda no tiyi"}
+
+{"instruction":"Translate from Balanda to English","input":"Akabi ŋo no adülü","output":"You had to dance"}
+{"instruction":"Translate from English to Balanda","input":"You had to dance","output":"Akabi ŋo no adülü"}
+{"instruction":"Translate from Balanda to English","input":"Akabo'ŋ no adülü","output":"You had to dance"}
+{"instruction":"Translate from English to Balanda","input":"You had to dance","output":"Akabo'ŋ no adülü"}
+
+{"instruction":"Translate from Balanda to English","input":"Akabi ŋo no ateli","output":"You had to sleep"}
+{"instruction":"Translate from English to Balanda","input":"You had to sleep","output":"Akabi ŋo no ateli"}
+{"instruction":"Translate from Balanda to English","input":"Akabo'ŋ no ateli","output":"You had to sleep"}
+{"instruction":"Translate from English to Balanda","input":"You had to sleep","output":"Akabo'ŋ no ateli"}
+
+{"instruction":"Translate from Balanda to English","input":"Akabi dhuu no amande","output":"We had to work"}
+{"instruction":"Translate from English to Balanda","input":"We had to work","output":"Akabi dhuu no amande"}
+
+{"instruction":"Translate from Balanda to English","input":"Akabi dhuu no arota","output":"We had to stand"}
+{"instruction":"Translate from English to Balanda","input":"We had to stand","output":"Akabi dhuu no arota"}
+
+
+{"instruction":"Translate from Balanda to English","input":"akabi wiki no munza","output":"The child had a guitar"}
+{"instruction":"Translate from English to Balanda","input":"The child had a guitar","output":"akabi wiki no munza"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ndi no famvara","output":"They had a bed"}
+{"instruction":"Translate from English to Balanda","input":"They had a bed","output":"akabi ndi no famvara"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ne no kporo","output":"I had a drum"}
+{"instruction":"Translate from English to Balanda","input":"I had a drum","output":"akabi ne no kporo"}
+{"instruction":"Translate from Balanda to English","input":"akabe'e no kporo","output":"I had a drum"}
+{"instruction":"Translate from English to Balanda","input":"I had a drum","output":"akabe'e no kporo"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ni no songo","output":"He had a box"}
+{"instruction":"Translate from English to Balanda","input":"He had a box","output":"akabi ni no songo"}
+{"instruction":"Translate from Balanda to English","input":"akabo'o no songo","output":"He had a box"}
+{"instruction":"Translate from English to Balanda","input":"He had a box","output":"akabo'o no songo"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi wilii no vongu","output":"The girl had clothes"}
+{"instruction":"Translate from English to Balanda","input":"The girl had clothes","output":"akabi wilii no vongu"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi Uku no njokoji","output":"Uku had a door"}
+{"instruction":"Translate from English to Balanda","input":"Uku had a door","output":"akabi Uku no njokoji"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi danda no mva","output":"We had a knife"}
+{"instruction":"Translate from English to Balanda","input":"We had a knife","output":"akabi danda no mva"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ne no ayai","output":"I had to go"}
+{"instruction":"Translate from English to Balanda","input":"I had to go","output":"akabi ne no ayai"}
+{"instruction":"Translate from Balanda to English","input":"akabe'e no ayai","output":"I had to go"}
+{"instruction":"Translate from English to Balanda","input":"I had to go","output":"akabe'e no ayai"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ni no amande","output":"He had to work"}
+{"instruction":"Translate from English to Balanda","input":"He had to work","output":"akabi ni no amande"}
+{"instruction":"Translate from Balanda to English","input":"akabo'o no amande","output":"He had to work"}
+{"instruction":"Translate from English to Balanda","input":"He had to work","output":"akabo'o no amande"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi ndi no anangele","output":"They had to run"}
+{"instruction":"Translate from English to Balanda","input":"They had to run","output":"akabi ndi no anangele"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi wilii no asudi","output":"The girl had to write"}
+{"instruction":"Translate from English to Balanda","input":"The girl had to write","output":"akabi wilii no asudi"}
+
+{"instruction":"Translate from Balanda to English","input":"akabi Uku no ayai","output":"Uku had to leave"}
+{"instruction":"Translate from English to Balanda","input":"Uku had to leave","output":"akabi Uku no ayai"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ne no goho","output":"I was hungry"}
+{"instruction":"Translate from English to Balanda","input":"I was hungry","output":"akati ne no goho"}
+{"instruction":"Translate from Balanda to English","input":"akate'e no goho","output":"I was hungry"}
+{"instruction":"Translate from English to Balanda","input":"I was hungry","output":"akate'e no goho"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ni no kumuru","output":"She had a headache"}
+{"instruction":"Translate from English to Balanda","input":"She had a headache","output":"akati ni no kumuru"}
+{"instruction":"Translate from Balanda to English","input":"akato'o no kumuru","output":"She had a headache"}
+{"instruction":"Translate from English to Balanda","input":"She had a headache","output":"akato'o no kumuru"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ŋo no veti","output":"You were dirty"}
+{"instruction":"Translate from English to Balanda","input":"You were dirty","output":"akati ŋo no veti"}
+{"instruction":"Translate from Balanda to English","input":"akato'ŋ no veti","output":"You were dirty"}
+{"instruction":"Translate from English to Balanda","input":"You were dirty","output":"akato'ŋ no veti"}
+
+{"instruction":"Translate from Balanda to English","input":"akati wiki no ku","output":"The child was sick"}
+{"instruction":"Translate from English to Balanda","input":"The child was sick","output":"akati wiki no ku"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ne no yiviwo","output":"I was happy"}
+{"instruction":"Translate from English to Balanda","input":"I was happy","output":"akati ne no yiviwo"}
+{"instruction":"Translate from Balanda to English","input":"akate'e no yiviwo","output":"I was happy"}
+{"instruction":"Translate from English to Balanda","input":"I was happy","output":"akate'e no yiviwo"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ndi no guku","output":"They were afraid"}
+{"instruction":"Translate from English to Balanda","input":"They were afraid","output":"akati ndi no guku"}
+
+{"instruction":"Translate from Balanda to English","input":"akati wilii no kpö","output":"The girl was lazy"}
+{"instruction":"Translate from English to Balanda","input":"The girl was lazy","output":"akati wilii no kpö"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ne no woti","output":"I felt energetic"}
+{"instruction":"Translate from English to Balanda","input":"I felt energetic","output":"akati ne no woti"}
+{"instruction":"Translate from Balanda to English","input":"akate'e no woti","output":"I felt energetic"}
+{"instruction":"Translate from English to Balanda","input":"I felt energetic","output":"akate'e no woti"}
+
+{"instruction":"Translate from Balanda to English","input":"akati danda no yini","output":"what was wrong with us?"}
+{"instruction":"Translate from English to Balanda","input":"what was wrong with us?","output":"akati danda no yini"}
+
+{"instruction":"Translate from Balanda to English","input":"akati wiki no goho","output":"The child was hungry"}
+{"instruction":"Translate from English to Balanda","input":"The child was hungry","output":"akati wiki no goho"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ŋo no kumuru","output":"You had a headache"}
+{"instruction":"Translate from English to Balanda","input":"You had a headache","output":"akati ŋo no kumuru"}
+{"instruction":"Translate from Balanda to English","input":"akato'ŋ no kumuru","output":"You had a headache"}
+{"instruction":"Translate from English to Balanda","input":"You had a headache","output":"akato'ŋ no kumuru"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ndi no Yiviwo","output":"They were happy"}
+{"instruction":"Translate from English to Balanda","input":"They were happy","output":"akati ndi no Yiviwo"}
+
+{"instruction":"Translate from Balanda to English","input":"akati wilii no veti","output":"The girl was dirty"}
+{"instruction":"Translate from English to Balanda","input":"The girl was dirty","output":"akati wilii no veti"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ne no ku","output":"I was sick"}
+{"instruction":"Translate from English to Balanda","input":"I was sick","output":"akati ne no ku"}
+{"instruction":"Translate from Balanda to English","input":"akate'e no ku","output":"I was sick"}
+{"instruction":"Translate from English to Balanda","input":"I was sick","output":"akate'e no ku"}
+
+{"instruction":"Translate from Balanda to English","input":"akati ŋo no yini?","output":"What was wrong with you?"}
+{"instruction":"Translate from English to Balanda","input":"What was wrong with you?","output":"akati ŋo no yini?"}
+{"instruction":"Translate from Balanda to English","input":"akato'ŋ no yini?","output":"What was wrong with you?"}
+{"instruction":"Translate from English to Balanda","input":"What was wrong with you?","output":"akato'ŋ no yini?"}
+
